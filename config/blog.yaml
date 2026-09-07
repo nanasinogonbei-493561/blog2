@@ -1,0 +1,82 @@
+blog:
+  name: nanasinogonbei.com
+  language: ja
+  default_status: draft
+  content_strategy: build_in_public
+wordpress:
+  api_base: /wp-json/wp/v2
+  timeout_seconds: 30
+  user_agent: codex-wordpress-blog/1.0
+  verify_ssl: true
+publishing:
+  create_missing_categories: true
+  create_missing_tags: true
+  move_file_after_publish: true
+  published_dir: articles/published
+  comment_status: open
+  ping_status: open
+markdown:
+  extensions:
+  - extra
+  - sane_lists
+  - smarty
+  output_format: html5
+article:
+  default_categories: []
+  default_tags: []
+  recommended_categories:
+  - name: Build in Public
+    purpose: 開発中のWebアプリの進捗、判断、失敗、学び、検証結果を公開する記事
+  - name: 課題と解決
+    purpose: ユーザーの悩み・不便・非効率と、それをどう解決するかを扱う記事
+  - name: 開発の裏側
+    purpose: 設計判断、技術選定、UX、実装方針、トレードオフ、失敗談を扱う記事
+  - name: アプリ比較
+    purpose: 同じ悩みを解決できる既存アプリや代替手段を比較する記事
+  category_rules:
+    max_categories_per_post: 2
+    prefer_single_primary_category: true
+    use_tags_for_technologies_and_product_names: true
+  content_pillars:
+  - 開発中WebアプリのBuild in Public
+  - アプリが解決しようとしている悩み
+  - なぜその悩みを解決したいのかという想い
+  - 設計・実装・検証・失敗など開発の裏側
+  - 同じ悩みを他のアプリでも解決できるかの検証
+  - 解決できる場合は現在の候補からベスト3を比較
+  comparison_policy:
+    when_alternatives_exist: best_3
+    evaluation_criteria:
+    - 悩みへの適合度
+    - 導入しやすさ
+    - 料金・無料枠
+    - 使いやすさ
+    - プライバシー・データの扱い
+    - 継続利用のしやすさ
+    rules:
+    - 比較対象は記事作成時点で実在し利用可能なものを優先する
+    - 最新情報が必要な場合は公式情報を確認する
+    - 自分の開発中アプリを無理に1位にしない
+    - 向いている人・向いていない人を明記する
+    - 他アプリで十分に解決できるなら、その事実を隠さない
+    - 比較できる候補が3つ未満なら無理に3つへ水増ししない
+  audience: 一般ユーザー
+  wordpress_style:
+    avoid_jargon: true
+    explain_if_needed: true
+    prefer_everyday_language: true
+    focus_on:
+    - 日常の悩み
+    - 困っている状況
+    - どう楽になるか
+    - 使うと何が変わるか
+    - 他の方法との違い
+    - 向いている人・向いていない人
+    - 開発者の想い
+    - 開発中に気づいたこと
+    avoid:
+    - 実装詳細の深掘り
+    - コード中心の記事
+    - APIやDBなどの説明を前面に出すこと
+    - 専門用語だけで説明すること
+    - 技術者しか分からない略語の多用
