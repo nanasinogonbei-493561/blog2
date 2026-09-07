@@ -1,252 +1,312 @@
 ---
 categories:
-- 課題と解決
-excerpt: WordPressへの転記作業を減らしたい方へ。Pythonで公開記事を読み取り、テスト用の下書きを1件作る手順を紹介します。必要な準備、連携用パスワードの扱い、接続できないときの確認点、手作業のほうが向いている場合も説明します。
+- Build in Public
+excerpt: ITスキル0から独学を始めた、40歳のエンジニア志望です。タイピング練習、Javaの学習、本や人との出会い、生成AIから得たヒントを振り返ります。読めるのに書けない壁に悩みながら、プログラムの組み立て方が見え始めるまでの記録です。
 featured_image: ''
 featured_image_alt: ''
-slug: wordpress-rest-api-python
+slug: self-introduction-learning-roadmap
 status: publish
 tags:
-- WordPress
-- Python
-- REST API
-title: WordPress REST APIをPythonから使う方法｜記事の取得と下書き作成
-wordpress_post_id: 10
-wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/07/wordpress-rest-api-python/
+- プログラミング学習
+- 独学
+- アプリ開発
+title: 自己紹介とプログラミング学習ロードマップ｜未経験から独学で歩んだ3年間
+wordpress_post_id: 15
+wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-learning-roadmap/
 ---
 
-WordPress REST APIとPythonを使うと、公開記事を読み取ったり、管理画面を開かずに下書きを作ったりできます。毎回同じ形式の文章を貼り付けている人は、その転記作業を減らせます。
+<!-- wp:paragraph -->
 
-使うのは、外部のプログラムからWordPressと情報をやり取りする窓口「WordPress REST API」です。画面上で一つずつ操作する代わりに、プログラムから記事を読んだり送ったりできます。
+はじめまして。ITスキル0から独学でプログラミングを始め、現在はWebアプリやAIアプリの制作に取り組んでいる、40歳のエンジニア志望です。
 
-Pythonは、こうした処理を書くためのプログラミング言語です。この記事では、公開記事の取得からテスト用の下書き1件の作成までを説明します。下書き作成の例に公開処理は含めません。
+<!-- /wp:paragraph -->
 
-## 毎回の転記が多い人ほど、自動化を検討しやすい
+<!-- wp:paragraph -->
 
-たとえば、毎週のお知らせを別の場所で作り、WordPressにタイトルと本文を貼り直しているとします。同じ入力の繰り返しが多ければ、文章を送る部分をプログラムに任せる余地があります。
+3年間学ぶ中で、大きな壁になったのは「本に書いてあるプログラムは読めるのに、自分で作ろうとすると書けない」ことでした。人に相談し、生成AIからヒントをもらい、会社で課題に取り組む中で、ようやくプログラムの組み立て方が見え始めています。
 
-ただし、今回のサンプルがするのは、用意した短い文章を下書きとして送るところまでです。原稿ファイルの読み込み、画像の登録、定期実行は別途準備が必要です。内容の正しさや読みやすさも、自動では確認できません。
+<!-- /wp:paragraph -->
 
-| 方法 | 向いている作業 | 始める手間と続ける負担 |
-| --- | --- | --- |
-| WordPressの編集画面で書く・貼り付ける | 投稿数が少ない、見た目を調整しながら書く | 追加の連携設定が不要です。投稿ごとの入力は残ります。 |
-| Pythonから記事を送る | 同じ形式の文章を繰り返し登録する | 最初に設定とコードの準備が必要です。エラー時の確認も自分で行います。 |
+<!-- wp:paragraph -->
 
-投稿数が少なく、毎回見た目を調整するなら、編集画面だけで十分な場合があります。
+今回は、自己紹介と、そこに至るまでの学習ロードマップをまとめます。同じように「勉強しているのに手が止まる」と悩んでいる方に、学び方を見直すきっかけとして読んでもらえたらうれしいです。
 
-今回の構成では、パソコンから自分のWordPressへ直接通信します。別の自動化サービスに原稿を預ける構成ではありませんが、パソコンとWordPress両方の管理は必要です。
+<!-- /wp:paragraph -->
 
-## 用意するのはWordPressとPythonが動くパソコン
+<!-- wp:heading -->
+<h2 class="wp-block-heading">40歳、世界一のAI開発を目指してアプリを作っています</h2>
+<!-- /wp:heading -->
 
-この記事は、自分で管理するサーバーに設置したWordPressを対象にします。WordPress.comの連携手順は対象外です。
+<!-- wp:paragraph -->
 
-- `https://` でアクセスできるWordPressサイト
-- 下書きを作成できるWordPressユーザー
-- Python 3と、追加の道具を入れる機能「pip」が使えるパソコン
-- テキストを編集して `.py` 形式で保存できるエディター
+世界一のAI開発を目指し、「どんなAIで世界を驚かせるか」を探求しながら、日々の制作に没頭しています。
 
-Pythonが未導入なら、[Python公式サイト](https://www.python.org/downloads/)から利用環境に合うものを入れてください。サーバーにPythonを入れる必要はありません。この記事では手元のパソコンで実行します。
+<!-- /wp:paragraph -->
 
-パソコンのコマンド入力画面を開きます。macOSは「ターミナル」、Windowsは「PowerShell」を使います。以下のコマンドは、その画面に1行ずつ入力してEnterで実行してください。
+<!-- wp:paragraph -->
 
-### macOS・Linuxで作業場所を用意する
+これまでに、PHP、Java、Pythonといったプログラミング言語や、アプリの画面づくりに使うReactとTypeScriptを学んできました。現在は、自分の技術や考え方を伝える作品集「ポートフォリオ」に載せるWebアプリを複数制作中です。
 
-```bash
-mkdir wp-api-practice
-cd wp-api-practice
-python3 -m venv .venv
-.venv/bin/python -m pip install requests
-```
+<!-- /wp:paragraph -->
 
-### WindowsのPowerShellで作業場所を用意する
+<!-- wp:paragraph -->
 
-```powershell
-mkdir wp-api-practice
-cd wp-api-practice
-py -3 -m venv .venv
-.\.venv\Scripts\python.exe -m pip install requests
-```
+学んだ技術が増えても、何でも迷わず作れるわけではありません。知識をどうつなげて一つのアプリにするか、今も試行錯誤しています。
 
-`.venv` は、この練習用に追加の道具を入れる場所です。他の作業と分けるために作ります。このような専用の実行場所は「仮想環境」と呼ばれます。[Python公式の仮想環境の説明](https://docs.python.org/3/library/venv.html)
+<!-- /wp:paragraph -->
 
-`requests` は、Pythonからサイトへ情報を送ったり受け取ったりするための追加の道具です。
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">アクション俳優の養成所で培った感覚を、使いやすさにつなげたい</h3>
+<!-- /wp:heading -->
 
-## Pythonで公開記事を最大3件取得する
+<!-- wp:paragraph -->
 
-公開記事の取得は、標準のWordPressでは通常、パスワードなしで試せます。アクセス制限のあるサイトでは、管理者への確認が必要です。
+過去には、アクション俳優の養成所で厳しい鍛錬を積んだ経験があります。そこで培った身体感覚と、思考力・想像力は、今の自分の強みです。
 
-作成した `wp-api-practice` フォルダーに、次の内容を `read_posts.py` という名前で保存します。文字コードはUTF-8にしてください。
+<!-- /wp:paragraph -->
 
-変更するのは `https://example.com` の部分です。通常は、読者がアクセスするサイトのURLに置き換えます。公開サイトが `/blog` にある場合は、`https://example.com/blog` のように、その部分も含めます。WordPress本体の設置場所と公開サイトのURLが異なる環境では、後述の404エラーの説明を参照してください。
+<!-- wp:paragraph -->
 
-```python
-import html
-import requests
+アプリづくりでは、使う人の立場から、画面の分かりやすさや操作のしやすさを考えています。こうした画面や利用体験の設計は「UI/UX」と呼ばれます。
 
-site_url = "https://example.com"
-response = requests.get(
-    f"{site_url.rstrip('/')}/wp-json/wp/v2/posts",
-    params={"per_page": 3, "status": "publish"},
-    timeout=30,
-)
-response.raise_for_status()
+<!-- /wp:paragraph -->
 
-posts = response.json()
-if not posts:
-    print("公開記事はありません。")
-for post in posts:
-    print(post["id"], html.unescape(post["title"]["rendered"]))
-```
+<!-- wp:paragraph -->
 
-macOS・Linuxでは、次を実行します。
+たとえば、「どこを押せばよいか分かるか」「次の操作を自然に想像できるか」という視点です。身体感覚や想像力を、直感的に使える画面づくりに活かしたいと考えています。同時に、画面の裏側で動く処理も、筋道を立てて組み立てることを大切にしています。
 
-```bash
-.venv/bin/python read_posts.py
-```
+<!-- /wp:paragraph -->
 
-Windowsでは、次を実行します。
+<!-- wp:heading -->
+<h2 class="wp-block-heading">独学3年間の学習ロードマップ</h2>
+<!-- /wp:heading -->
 
-```powershell
-.\.venv\Scripts\python.exe read_posts.py
-```
+<!-- wp:paragraph -->
 
-成功すると、記事の番号とタイトルが最大3件表示されます。次は架空の表示例です。実際の番号とタイトルはサイトによって変わります。
+取り組んだことと、そのときのつまずきを順に並べました。私自身の経験を振り返るロードマップなので、誰もが同じ順番で学ぶ必要はありません。
 
-```text
-123 今週のお知らせ
-120 ブログを始めました
-```
+<!-- /wp:paragraph -->
 
-この番号は、記事を区別するための「投稿ID」です。あとで既存の記事を更新するときにも使います。この取得処理では、記事を書き換えません。
+<!-- wp:table -->
+<figure class="wp-block-table"><table>
+<thead>
+<tr>
+<th>段階</th>
+<th>取り組んだこと</th>
+<th>つまずき・変化</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>e-Typingでタイピングを練習</td>
+<td>キーボード入力の練習から始めました。</td>
+</tr>
+<tr>
+<td>2</td>
+<td>ProgateでJavaを学習</td>
+<td>オブジェクト指向という考え方でつまずきました。</td>
+</tr>
+<tr>
+<td>3</td>
+<td>人に紹介された初心者向けの本を読む</td>
+<td>説明やコードを理解して読めるようになりました。</td>
+</tr>
+<tr>
+<td>4</td>
+<td>自分の成果物を作ろうとする</td>
+<td>自分で書く段階になると手が止まりました。</td>
+</tr>
+<tr>
+<td>5</td>
+<td>多くの人に会って相談</td>
+<td>助言をもらっても、書けない原因は分かりませんでした。</td>
+</tr>
+<tr>
+<td>6</td>
+<td>ある人との出会い</td>
+<td>プログラミングの進め方は人によって違うと学びました。</td>
+</tr>
+<tr>
+<td>7</td>
+<td>生成AIからヒントを得る</td>
+<td>なぜ書けないのかを考える手がかりになりました。</td>
+</tr>
+<tr>
+<td>8</td>
+<td>会社で課題に取り組む</td>
+<td>プログラムの組み立て方を少しずつ学びました。</td>
+</tr>
+<tr>
+<td>9</td>
+<td>論理的思考との関係を考える</td>
+<td>処理をどう組み立てるかが、分かりかけています。</td>
+</tr>
+</tbody>
+</table></figure>
+<!-- /wp:table -->
 
-末尾の `/wp-json/wp/v2/posts` は、通常の記事を扱う窓口の場所です。固定ページは別の窓口になります。取得件数や送信先の仕様は、[WordPress公式の投稿API資料](https://developer.wordpress.org/rest-api/reference/posts/)で確認できます。
+<!-- wp:heading -->
+<h2 class="wp-block-heading">タイピング練習から始め、Javaで最初の壁にぶつかる</h2>
+<!-- /wp:heading -->
 
-## 下書きを作る場合だけ、連携用パスワードを発行する
+<!-- wp:paragraph -->
 
-記事を送るときには、「このユーザーが操作してよい」とWordPressに確認してもらう必要があります。そのために、通常のログイン用とは別の「アプリケーションパスワード」を使います。
+最初に取り組んだのは、e-Typingでのタイピング練習でした。その後、プログラミングの学習サービスであるProgateで、Javaから学び始めました。
 
-WordPress 5.6以降には、この機能が標準で用意されています。通信にはHTTPSを使います。[WordPress公式の認証方法](https://developer.wordpress.org/rest-api/using-the-rest-api/authentication/)
+<!-- /wp:paragraph -->
 
-1. WordPressの管理画面にログインします。
-2. 自分のプロフィール、または対象ユーザーの編集画面を開きます。
-3. 「アプリケーションパスワード」の欄で、用途の名前を `python-practice` などにします。
-4. 新しいアプリケーションパスワードを追加し、表示された値をパスワード管理ツールなどに保管します。
+<!-- wp:paragraph -->
 
-画面の表記や利用可否は環境によって異なります。欄がない場合は、HTTPSで開いているか、管理者が機能を制限していないかを確認してください。
+そこで分からなくなったのが「オブジェクト指向」です。大まかにいうと、扱う情報と、それに関わる処理をひとまとまりにして考える方法です。言葉の説明を聞いても、当時の自分にはうまく理解できませんでした。
 
-このパスワードは、発行したユーザーの権限に基づいて使われます。「下書き専用の鍵」ではありません。必要以上に強い権限のユーザーで発行せず、コードや公開リポジトリ、問い合わせのスクリーンショットに載せないでください。不要になったら、同じ管理画面で失効させます。
+<!-- /wp:paragraph -->
 
-## テスト用の下書きを1件作り、管理画面で確認する
+<!-- wp:paragraph -->
 
-ここからのコードを実行すると、実際にWordPressへ下書きが1件送られます。読み取りだけ試したい場合は、ここで終了して構いません。
+人に会って相談する中で、初心者向けの本を紹介してもらいました。本を読むことで、説明や書かれているコードを理解できるようになっていきました。
 
-同じフォルダーに、次の内容を `create_draft.py` として保存します。`https://example.com` を先ほどと同じURLに置き換えてください。
+<!-- /wp:paragraph -->
 
-```python
-from getpass import getpass
-import requests
+<!-- wp:heading -->
+<h2 class="wp-block-heading">本のコードは読めるのに、自分では書けない</h2>
+<!-- /wp:heading -->
 
-site_url = "https://example.com"
-if not site_url.startswith("https://"):
-    raise SystemExit("サイトのURLは https:// で指定してください。")
+<!-- wp:paragraph -->
 
-username = input("WordPressのユーザー名: ").strip()
-app_password = getpass("アプリケーションパスワード: ")
+いざ自分で成果物を作ろうとすると、手が止まってしまいました。読めるようになったことと、自分で書けることが、そのままつながらなかったのです。
 
-response = requests.post(
-    f"{site_url.rstrip('/')}/wp-json/wp/v2/posts",
-    auth=(username, app_password),
-    json={
-        "title": "Pythonから作ったテスト下書き",
-        "content": "<p>これは送信確認用の文章です。</p>",
-        "status": "draft",
-    },
-    timeout=30,
-    allow_redirects=False,
-)
-if 300 <= response.status_code < 400:
-    raise SystemExit("転送が発生しました。サイトの正式なHTTPS URLを確認してください。")
-response.raise_for_status()
+<!-- /wp:paragraph -->
 
-post = response.json()
-print(f"投稿ID: {post['id']}")
-print(f"保存状態: {post['status']}")
-```
+<!-- wp:paragraph -->
 
-macOS・Linuxでは、次を実行します。
+なぜ書けないのかを知りたくて、多くの人に会い、いろいろな助言をもらいました。それでも、当時は原因が分かりませんでした。
 
-```bash
-.venv/bin/python create_draft.py
-```
+<!-- /wp:paragraph -->
 
-Windowsでは、次を実行します。
+<!-- wp:paragraph -->
 
-```powershell
-.\.venv\Scripts\python.exe create_draft.py
-```
+振り返ると、本から学べたことと、自分が制作で困っていたことには、違いがあったのだと思います。出来上がったプログラムを理解することに加えて、作りたいものに必要な処理を考え、自分で組み立てることにも向き合う必要がありました。
 
-入力を求められたら、WordPressのユーザー名と、発行したアプリケーションパスワードを入力します。普段のログインパスワードは使いません。パスワードは入力しても画面に表示されないのが通常です。
+<!-- /wp:paragraph -->
 
-`title` はタイトル、`content` は本文です。本文の `<p>` と `</p>` は、段落を表すHTMLという記法です。この例では段落を一つだけ送ります。Markdownの見出しなどをそのまま送っても、自動でHTMLに変換されるわけではありません。
+<!-- wp:heading -->
+<h2 class="wp-block-heading">人によってプログラミングの進め方が違うと知る</h2>
+<!-- /wp:heading -->
 
-`status` の `draft` は下書きという意味です。成功時の表示は、たとえば次のようになります。
+<!-- wp:paragraph -->
 
-```text
-投稿ID: 124
-保存状態: draft
-```
+ある人との出会いを通じて学んだのは、プログラミングのやり方は人によって違うということです。
 
-WordPressの管理画面で「投稿」の一覧を開き、同じタイトルが下書きとして保存されているか確認してください。続けて本文のプレビューも確認します。
+<!-- /wp:paragraph -->
 
-**このサンプルは実行するたびに、新しい下書きを作ります。** 同じ記事を修正したいときは、管理画面で編集してください。プログラムから更新する場合は、新規作成用の送信先ではなく、投稿IDを付けた更新用の送信先を使います。[WordPress公式の投稿作成・更新仕様](https://developer.wordpress.org/rest-api/reference/posts/)
+<!-- wp:paragraph -->
 
-## 接続できないときは、エラーの種類から確認する
+助言をもらっても、その進め方がそのまま自分に合うとは限らない。この気づきは、自分の学び方を考えるうえで大切なものになりました。
 
-コードにある `raise_for_status()` は、通信先が400番台・500番台のエラーを返したときに処理を止めます。`timeout=30` は接続待ちとデータを受け取れない待ち時間に上限を設ける指定です。処理全体の制限時間ではありません。[Requests公式のエラー処理とタイムアウト](https://requests.readthedocs.io/en/latest/user/quickstart/#errors-and-exceptions)
+<!-- /wp:paragraph -->
 
-### 401・403なら、ユーザー情報と利用制限を確認する
+<!-- wp:paragraph -->
 
-`401` は本人確認が通っていない場合、`403` は操作が許可されていない場合などに出ます。ただし、サーバー側の防御機能が返すこともあるため、番号だけで原因を断定できません。
+人の話を参考にしながら、自分が理解しやすい進め方を探してよいのだと思います。
 
-- ユーザー名とアプリケーションパスワードの組み合わせは合っていますか。
-- 通常のログインパスワードを入力していませんか。
-- そのユーザーは、管理画面から下書きを作れますか。
-- サーバーやセキュリティ対策が、外部からの記事送信を制限していませんか。
+<!-- /wp:paragraph -->
 
-入力情報と権限が正しければ、サーバー管理者に「WordPress REST APIへの認証情報が届いているか」「アクセスが遮断されていないか」を確認してもらいます。問い合わせにパスワードを添付する必要はありません。
+<!-- wp:heading -->
+<h2 class="wp-block-heading">生成AIと会社の課題から、組み立て方のヒントを得る</h2>
+<!-- /wp:heading -->
 
-### 404・JSONDecodeErrorなら、送信先を確認する
+<!-- wp:paragraph -->
 
-`404` は送信先が見つからない場合に出ます。`JSONDecodeError` は、プログラムが期待するデータ形式ではない返事を受け取った場合などに出ます。ログイン画面やサーバーのエラーページが返っている可能性もあります。
+生成AIの進歩によって、「なぜ自分は書けないのか」を考えるヒントをもらう機会もありました。生成AIは、質問に応じて文章やコードなどを作るAIです。
 
-まず、`site_url` に管理画面の `/wp-admin` を入れていないか、必要な `/blog` などが抜けていないか確認してください。`www` の有無も含め、転送後の正式なURLに合わせます。
+<!-- /wp:paragraph -->
 
-記事のURLの付け方を決める「パーマリンク設定」によっては、`/wp-json/` 形式が使えません。その場合は、両方のコードにある送信先の行を、次の行に置き換える方法があります。記事の既存URLを変える必要はありません。
+<!-- wp:paragraph -->
 
-```python
-    f"{site_url.rstrip('/')}/?rest_route=/wp/v2/posts",
-```
+ただ、そのヒントだけで一度にすべてが解決したわけではありません。
 
-特殊な設置構成では、URLを推測せず管理者にAPIの場所を確認してください。サイトのページソースにある `rel="https://api.w.org/"` のリンクも手がかりになります。[WordPress公式のAPIの場所を確認する方法](https://developer.wordpress.org/rest-api/using-the-rest-api/discovery/)
+<!-- /wp:paragraph -->
 
-### タイムアウトしたら、再送前に投稿一覧を見る
+<!-- wp:paragraph -->
 
-`Timeout` や `ConnectionError` が出た場合は、通信状況とサイトが開けるかを確認します。
+会社で課題をこなす中でも、なんとなくではありますが、プログラムの組み立て方を学んでいきました。説明を読んで理解する学習に、実際の課題を形にする経験が重なっていきました。
 
-下書き送信では、返事を受け取れなくても、WordPress側では保存済みの場合があります。すぐに再実行すると重複する可能性があるため、先に管理画面の投稿一覧を確認してください。
+<!-- /wp:paragraph -->
 
-`SSLError` が出る場合は、サイトのHTTPS証明書やパソコンの日時などを確認します。証明書の確認を無効にして回避すると、接続先の安全確認ができなくなるため、このコードでは無効化しません。
+<!-- wp:heading -->
+<h2 class="wp-block-heading">プログラムを組み立てる順番と、論理的思考の関係</h2>
+<!-- /wp:heading -->
 
-### requestsが見つからない場合は、実行コマンドをそろえる
+<!-- wp:paragraph -->
 
-`ModuleNotFoundError: No module named 'requests'` は、道具を入れた場所と、プログラムを動かした場所が違う場合などに出ます。
+最近は、プログラミングと論理的思考力の関係について考えています。論理的思考とは、物事を筋道立てて考えることです。
 
-作業フォルダーに移動し、この記事にある `.venv` を含むコマンドでインストールと実行を行ってください。`read_posts.py.txt` のように、保存したファイル名に余分な拡張子が付いていないかも確認します。
+<!-- /wp:paragraph -->
 
-## 最初の目標は、下書き1件を確認できること
+<!-- wp:paragraph -->
 
-まず公開記事を読めることを確かめ、必要なら下書きを1件だけ送ってみてください。管理画面でタイトルと本文を確認できたら、次は自分が繰り返し入力している文章に置き換える段階です。
+その関係を考えるうちに、プログラムの組み立て方が少しずつ見え始めています。
 
-文章の確認や見た目の調整は、引き続き編集画面で行えます。
+<!-- /wp:paragraph -->
 
-本記事は2026年9月7日に公式資料を確認して作成しました。表示結果は説明用の例です。実サイトへの送信テストは行っていません。
+<!-- wp:paragraph -->
+
+組み立て方を考える例として、「入力したメモを一覧に追加する」という小さな機能を挙げます。コードを書く前に、必要な動きを普通の言葉で分けると、次のようになります。
+
+<!-- /wp:paragraph -->
+
+<!-- wp:list {"ordered":true} -->
+<ol class="wp-block-list"><!-- wp:list-item -->
+<li>入力された文章を受け取る。</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>文章が空かどうかを確かめる。</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>空なら、入力を促す案内を出す。</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>文章があれば、一覧に追加する。</li>
+<!-- /wp:list-item --></ol>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+
+これは説明用の例ですが、「何を受け取り、何を確かめ、どの順番で動かすか」を考えると、作りたい機能が具体的になります。
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+もし同じように手が止まっているなら、小さな機能を一つ選び、動きの順番を日本語で書き出してみてください。順番を説明するところで止まるのか、それをコードにするところで止まるのか。自分が迷っている場所を探すきっかけになります。
+
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">このブログでは、完成までの試行錯誤も発信します</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+
+これからもWebアプリやAIアプリを作りながら、日々の学習記録と、制作を通じて得た知見を発信していきます。
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+完成した作品だけでなく、何に困ったのか、どんな助言や考え方が手がかりになったのかも残したいです。私自身が、読めるのに書けない時期に悩み、人との出会いやヒントを必要としてきたからです。
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+世界を驚かせるAIを目指しながら、目の前のアプリを一つずつ形にしていきます。
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+学んだ技術の使い道を知りたい方は、前回の[WordPress REST APIをPythonから使う方法｜記事の取得と下書き作成](https://www.nanasinogonbei.com/blog/2026/09/07/wordpress-rest-api-python/)もご覧ください。WordPressへの転記作業を減らすために、Pythonで記事を読み取り、下書きを1件作る手順を紹介しています。
+
+<!-- /wp:paragraph -->
