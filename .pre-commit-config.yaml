@@ -1,0 +1,5 @@
+repos:
+  - repo: https://github.com/betterleaks/betterleaks
+    rev: v1.8.1   # 最新のタグに置き換えてください
+    hooks:
+      - id: betterleaks
