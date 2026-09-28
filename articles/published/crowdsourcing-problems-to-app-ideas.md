@@ -44,7 +44,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 #problem-app-language-switch .language-panel {display:none;}
 #problem-app-ja:checked ~ .panel-ja,#problem-app-en:checked ~ .panel-en {display:block;}
 #problem-app-language-switch a {color:#0000ff;text-decoration:underline;}
-#problem-app-language-switch img {max-width:100%;height:auto;}
+#problem-app-language-switch img {display:block;width:1536px;max-width:calc(100vw - 2rem);height:auto;margin-left:50%;transform:translateX(-50%);}
 #problem-app-language-switch .language-panel {overflow-wrap:anywhere;}
 #problem-app-language-switch .table-scroll {overflow-x:auto;}
 #problem-app-language-switch table {width:100%;border-collapse:collapse;}
@@ -74,7 +74,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- wp:html {"metadata":{"name":"日本語：依頼を「作る機能」ではなく「困っている状況」として読む"}} -->
 <section class="language-panel panel-ja" lang="ja" aria-label="依頼を「作る機能」ではなく「困っている状況」として読む">
 <h2>依頼を「作る機能」ではなく「困っている状況」として読む</h2>
-<p><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/01-overview.png" alt="困っている人の声を集め、分類してアプリ候補へ絞る流れを表したイラスト"></p>
+<p><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/01-overview.png" width="1536" height="1024" alt="困っている人の声を集め、分類してアプリ候補へ絞る流れを表したイラスト"></p>
 <p>クラウドソーシングには、「表計算へ転記してほしい」「毎週の報告をまとめてほしい」といった依頼があります。ここから読むべきなのは、指定された納品物だけではありません。</p>
 <p>架空の例として「請求書の内容を表へ転記してほしい」という依頼を考えます。背景を確認できた場合は、次のように整理できます。依頼文にない項目は、推測で埋めず「未確認」にします。</p>
 <ul>
@@ -110,7 +110,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- wp:html {"metadata":{"name":"日本語：利用条件を確認し、30件を目安に困り事を記録する"}} -->
 <section class="language-panel panel-ja" lang="ja" aria-label="利用条件を確認し、30件を目安に困り事を記録する">
 <h2>利用条件を確認し、30件を目安に困り事を記録する</h2>
-<p><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/02-collect-safely.png" alt="公開依頼やレビューなどから個人情報を除いて困り事を記録する人のイラスト"></p>
+<p><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/02-collect-safely.png" width="1536" height="1024" alt="公開依頼やレビューなどから個人情報を除いて困り事を記録する人のイラスト"></p>
 <p>必要なのは、記録用の表と調査範囲のメモです。「直近3か月・小規模事業者の経理」のように対象と期間を決め、使った検索語も残します。該当する例が少なければ、30件に届かせるために無関係な内容を足す必要はありません。</p>
 </section>
 <!-- /wp:html -->
@@ -170,7 +170,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- wp:html {"metadata":{"name":"日本語：重複を除いて困り事を集計し、候補を採点する"}} -->
 <section class="language-panel panel-ja" lang="ja" aria-label="重複を除いて困り事を集計し、候補を採点する">
 <h2>重複を除いて困り事を集計し、候補を採点する</h2>
-<p><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/03-cluster-score.png" alt="集めた困り事を似た内容ごとにまとめ、点数で候補を比較するイラスト"></p>
+<p><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/03-cluster-score.png" width="1536" height="1024" alt="集めた困り事を似た内容ごとにまとめ、点数で候補を比較するイラスト"></p>
 <p>集めた困り事は「同じ立場の人が、同じ場面で、同じ結果を得たいか」で分類します。「PDF」という単語が共通していても、経理担当者の請求書処理と学生の資料整理は、別の候補として扱います。</p>
 </section>
 <!-- /wp:html -->
@@ -243,7 +243,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- wp:html {"metadata":{"name":"日本語：作る前に5人へ話を聞き、試用への協力を確かめる"}} -->
 <section class="language-panel panel-ja" lang="ja" aria-label="作る前に5人へ話を聞き、試用への協力を確かめる">
 <h2>作る前に5人へ話を聞き、試用への協力を確かめる</h2>
-<p><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/04-validate.png" alt="困り事を持つ人と作り手が簡単な試作品を見ながら話すイラスト"></p>
+<p><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/04-validate.png" width="1536" height="1024" alt="困り事を持つ人と作り手が簡単な試作品を見ながら話すイラスト"></p>
 <p>候補が決まったら、作り込む前に対象者へ話を聞きます。知人や調査への協力者を募れるコミュニティなどで、参加に同意した人を探してください。クラウドソーシングの依頼主へ規約外の営業連絡をする方法は使いません。</p>
 <p>最初の5人では、依頼文から読み取った困り事が実際の作業と合っているかを確かめます。</p>
 <p>聞き取りの目的と記録の扱いを先に伝え、録音や資料の保存は本人の同意を得ます。会社の資料は、その人が共有してよいものかも確認してください。</p>
@@ -284,7 +284,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- wp:html {"metadata":{"name":"日本語：一つの作業だけを最小版にし、続けるかを数字で決める"}} -->
 <section class="language-panel panel-ja" lang="ja" aria-label="一つの作業だけを最小版にし、続けるかを数字で決める">
 <h2>一つの作業だけを最小版にし、続けるかを数字で決める</h2>
-<p><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/05-mvp-measure.png" alt="小さなアプリを利用者に試してもらい、続行・修正・中止を判断するイラスト"></p>
+<p><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/05-mvp-measure.png" width="1536" height="1024" alt="小さなアプリを利用者に試してもらい、続行・修正・中止を判断するイラスト"></p>
 <p>検証で根拠が集まった一つの流れを、価値を確かめる最小版（MVP）にします。請求書の例なら「PDFを入れる → 項目の下書きが出る → 人が確認する → 表へ出す」までです。会計ソフト連携や専用のスマートフォンアプリは後回しにできます。</p>
 <p>最初は架空の請求書で試します。実際の資料を預かる段階では、本人以外にデータを見せない仕組みや保存・削除のルールも必要です。個別の書式に対応できるか、訂正の手間を含めて時間を減らせるかを検証します。この最小版は会計上の判断や内容の正しさを保証するものではありません。</p>
 <p>最小版では、次の数字を見ます。</p>
@@ -337,6 +337,15 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 </section>
 <!-- /wp:html -->
 
+<!-- wp:html {"metadata":{"name":"日本語：関連記事"}} -->
+<section class="language-panel panel-ja" lang="ja" aria-label="関連記事">
+<h3>関連記事</h3>
+<ul>
+<li><a href="https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-learning-roadmap/" style="color: #0000ff; text-decoration: underline;">自己紹介とプログラミング学習ロードマップ｜未経験から独学で歩んだ3年間</a></li>
+</ul>
+</section>
+<!-- /wp:html -->
+
 <!-- wp:html {"metadata":{"name":"English：Introduction and overview"}} -->
 <section class="language-panel panel-en" lang="en" aria-label="Introduction and overview">
 <p><strong>How to Find App Ideas on Crowdsourcing Sites: Collect, Group, and Validate Real Problems</strong></p>
@@ -358,7 +367,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- wp:html {"metadata":{"name":"English：Read a request as a difficult situation, not a feature list"}} -->
 <section class="language-panel panel-en" lang="en" aria-label="Read a request as a difficult situation, not a feature list">
 <h2>Read a request as a difficult situation, not a feature list</h2>
-<p><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/01-overview.png" alt="A flow from collecting people's difficulties to grouping them and selecting an app opportunity"></p>
+<p><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/01-overview.png" width="1536" height="1024" alt="A flow from collecting people's difficulties to grouping them and selecting an app opportunity"></p>
 <p>Crowdsourcing sites contain requests such as entering data into a spreadsheet or compiling a weekly report. The requested deliverable is not the only useful signal.</p>
 <p>Consider a fictional request to enter invoice data into a spreadsheet. Once the background is confirmed, you could organize it as follows. Mark details absent from the request as unconfirmed instead of filling them in by assumption.</p>
 <ul>
@@ -394,7 +403,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- wp:html {"metadata":{"name":"English：Check conditions of use and aim to record thirty problems"}} -->
 <section class="language-panel panel-en" lang="en" aria-label="Check conditions of use and aim to record thirty problems">
 <h2>Check conditions of use and aim to record thirty problems</h2>
-<p><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/02-collect-safely.png" alt="A researcher recording anonymized problems from public requests, reviews, and discussions"></p>
+<p><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/02-collect-safely.png" width="1536" height="1024" alt="A researcher recording anonymized problems from public requests, reviews, and discussions"></p>
 <p>Prepare a table and a note defining your research scope, such as small-business bookkeeping over the last three months. Record your search terms too. If few examples qualify, do not add unrelated entries just to reach thirty.</p>
 </section>
 <!-- /wp:html -->
@@ -454,7 +463,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- wp:html {"metadata":{"name":"English：Remove duplicates, count problems, and score candidates"}} -->
 <section class="language-panel panel-en" lang="en" aria-label="Remove duplicates, count problems, and score candidates">
 <h2>Remove duplicates, count problems, and score candidates</h2>
-<p><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/03-cluster-score.png" alt="People grouping similar problem notes and comparing candidate opportunities with scores"></p>
+<p><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/03-cluster-score.png" width="1536" height="1024" alt="People grouping similar problem notes and comparing candidate opportunities with scores"></p>
 <p>Group problems by whether the same type of person wants the same outcome in the same situation. Even if both involve PDFs, an administrator processing invoices and a student organizing study materials should remain separate candidates.</p>
 </section>
 <!-- /wp:html -->
@@ -527,7 +536,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- wp:html {"metadata":{"name":"English：Interview five people and ask whether they will try a prototype"}} -->
 <section class="language-panel panel-en" lang="en" aria-label="Interview five people and ask whether they will try a prototype">
 <h2>Interview five people and ask whether they will try a prototype</h2>
-<p><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/04-validate.png" alt="A maker and a potential user discussing a simple prototype and the user's real workflow"></p>
+<p><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/04-validate.png" width="1536" height="1024" alt="A maker and a potential user discussing a simple prototype and the user's real workflow"></p>
 <p>Once you have a candidate, interview target users before investing in development. Recruit consenting participants through your network or communities that allow research invitations. Do not send sales messages to crowdsourcing clients outside the platform's rules.</p>
 <p>Use the first five interviews to check whether the problem inferred from requests matches people's actual work.</p>
 <p>Explain the research purpose and how notes will be used. Obtain consent before recording audio or retaining documents, and check that the person is authorized to share any company materials.</p>
@@ -568,7 +577,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- wp:html {"metadata":{"name":"English：Build one end-to-end task, then use evidence to continue, revise, or stop"}} -->
 <section class="language-panel panel-en" lang="en" aria-label="Build one end-to-end task, then use evidence to continue, revise, or stop">
 <h2>Build one end-to-end task, then use evidence to continue, revise, or stop</h2>
-<p><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/05-mvp-measure.png" alt="People testing a small app while the maker decides whether to continue, revise, or stop"></p>
+<p><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/05-mvp-measure.png" width="1536" height="1024" alt="People testing a small app while the maker decides whether to continue, revise, or stop"></p>
 <p>Turn the best-supported workflow into a minimum viable product (MVP): the smallest version that tests its value. In the invoice example, that might be: upload a PDF → receive draft fields → review them → export a table. Accounting integrations and a dedicated mobile app can wait.</p>
 <p>Start with fictional invoices. Before accepting real documents, provide access controls that keep each person's data private and define storage and deletion rules. Test support for individual formats and whether the workflow saves time after corrections. This minimum version does not guarantee accounting judgments or the correctness of the content.</p>
 <p>Measure:</p>
@@ -618,6 +627,15 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 </ul>
 <p>Start by defining an audience and research scope, then record ten examples from sources whose conditions of use you have checked. Remove duplicates, count the cases, and ask target users about difficulties left unresolved by existing tools. Use that evidence to decide whether to build a small app.</p>
 <p><em>The service terms and official materials were checked on September 28, 2026. This article is not legal advice. Check the latest terms, laws, and permissions for the services and information you use. The illustrations were generated with AI and do not depict real service interfaces or people.</em></p>
+</section>
+<!-- /wp:html -->
+
+<!-- wp:html {"metadata":{"name":"English：Related articles"}} -->
+<section class="language-panel panel-en" lang="en" aria-label="Related articles">
+<h3>Related articles</h3>
+<ul>
+<li><a href="https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-learning-roadmap/" style="color: #0000ff; text-decoration: underline;">About Me and My Programming Learning Roadmap: Three Years of Self-Study</a></li>
+</ul>
 </section>
 <!-- /wp:html -->
 </div>
