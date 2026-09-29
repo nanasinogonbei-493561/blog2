@@ -44,7 +44,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 #problem-app-language-switch .language-panel {display:none;}
 #problem-app-ja:checked ~ .panel-ja,#problem-app-en:checked ~ .panel-en {display:block;}
 #problem-app-language-switch a {color:#0000ff;text-decoration:underline;}
-#problem-app-language-switch img {display:block;width:1536px;max-width:calc(100vw - 2rem);height:auto;margin-left:50%;transform:translateX(-50%);}
+#problem-app-language-switch img {display:block;width:100%;max-width:100%;height:auto;margin:1em auto;}
 #problem-app-language-switch .language-panel {overflow-wrap:anywhere;}
 #problem-app-language-switch .table-scroll {overflow-x:auto;}
 #problem-app-language-switch table {width:100%;border-collapse:collapse;}
