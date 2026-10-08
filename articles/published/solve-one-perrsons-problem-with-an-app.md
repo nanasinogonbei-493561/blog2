@@ -35,13 +35,8 @@ wordpress_post_id: 61
 wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-problem-with-an-app/
 ---
 
-<!-- wp:html {"metadata":{"name":"言語切り替え・共通スタイル"}} -->
+<!-- wp:html {"metadata":{"name":"本文・画像の表示スタイル"}} -->
 <style>
-label[for="one-person-app-ja"],label[for="one-person-app-en"] {display:inline-block;margin:0 0.4em 1em 0;padding:0.5em 1em;border:2px solid #174e67;border-radius:6px;cursor:pointer;}
-input[name="one-person-app-language"]:focus-visible + label {outline:3px solid #174e67;outline-offset:3px;}
-input[name="one-person-app-language"]:checked + label {background:#174e67;color:#fff;}
-#one-person-app-ja:checked ~ .one-person-app-panel.panel-en,#one-person-app-en:checked ~ .one-person-app-panel.panel-ja {display:none;}
-#one-person-app-ja:checked ~ .one-person-app-panel.panel-ja,#one-person-app-en:checked ~ .one-person-app-panel.panel-en {display:block;}
 .one-person-app-panel {box-sizing:border-box;min-width:0;max-width:100%;overflow-wrap:anywhere;}
 .one-person-app-panel a {color:#0000ff;text-decoration:underline;}
 .one-person-app-panel .wp-block-image {box-sizing:border-box;width:100%;max-width:100%;margin:1em 0;}
@@ -51,10 +46,18 @@ input[name="one-person-app-language"]:checked + label {background:#174e67;color:
 .one-person-app-panel th,.one-person-app-panel td {padding:0.5em;border:1px solid #cbd5e1;text-align:left;vertical-align:top;}
 .one-person-app-panel pre {max-width:100%;box-sizing:border-box;white-space:pre-wrap;overflow-wrap:anywhere;padding:1em;background:#f3f6f8;}
 </style>
-<input type="radio" name="one-person-app-language" id="one-person-app-ja" checked><label for="one-person-app-ja" lang="ja">日本語</label>
-<input type="radio" name="one-person-app-language" id="one-person-app-en"><label for="one-person-app-en" lang="en">English</label>
 <!-- /wp:html -->
 
+<!-- wp:tabs {"activeTabIndex":0,"metadata":{"name":"日本語・English 切り替え"}} -->
+<div class="wp-block-tabs">
+<!-- wp:tab-list -->
+<div role="tablist" class="wp-block-tab-list"><button type="button" role="tab">日本語</button><button type="button" role="tab">English</button></div>
+<!-- /wp:tab-list -->
+
+<!-- wp:tab-panels -->
+<div class="wp-block-tab-panels">
+<!-- wp:tab-panel {"label":"日本語","metadata":{"name":"日本語本文"}} -->
+<section role="tabpanel" tabindex="0" class="wp-block-tab-panel">
 <!-- wp:group {"metadata":{"name":"日本語：導入"},"className":"one-person-app-panel panel-ja","layout":{"type":"default"}} -->
 <div class="wp-block-group one-person-app-panel panel-ja">
 <!-- wp:paragraph -->
@@ -452,7 +455,11 @@ input[name="one-person-app-language"]:checked + label {background:#174e67;color:
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
+</section>
+<!-- /wp:tab-panel -->
 
+<!-- wp:tab-panel {"label":"English","metadata":{"name":"English body"}} -->
+<section role="tabpanel" tabindex="0" class="wp-block-tab-panel">
 <!-- wp:group {"metadata":{"name":"English：Introduction"},"className":"one-person-app-panel panel-en","layout":{"type":"default"}} -->
 <div class="wp-block-group one-person-app-panel panel-en">
 <!-- wp:paragraph -->
@@ -850,3 +857,9 @@ Do not describe unverified demand or benefits as facts.</code></pre>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
+</section>
+<!-- /wp:tab-panel -->
+</div>
+<!-- /wp:tab-panels -->
+</div>
+<!-- /wp:tabs -->
