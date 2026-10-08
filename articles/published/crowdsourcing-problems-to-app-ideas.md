@@ -34,13 +34,8 @@ wordpress_post_id: 48
 wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-problems-to-app-ideas/
 ---
 
-<!-- wp:html {"metadata":{"name":"言語切り替え・共通スタイル"}} -->
+<!-- wp:html {"metadata":{"name":"本文・画像の表示スタイル"}} -->
 <style>
-label[for="problem-app-ja"],label[for="problem-app-en"] {display:inline-block;margin:0 0.4em 1em 0;padding:0.5em 1em;border:2px solid #174e67;border-radius:6px;cursor:pointer;}
-input[name="problem-app-language"]:focus-visible + label {outline:3px solid #174e67;outline-offset:3px;}
-input[name="problem-app-language"]:checked + label {background:#174e67;color:#fff;}
-#problem-app-ja:checked ~ .crowd-app-panel.panel-en,#problem-app-en:checked ~ .crowd-app-panel.panel-ja {display:none;}
-#problem-app-ja:checked ~ .crowd-app-panel.panel-ja,#problem-app-en:checked ~ .crowd-app-panel.panel-en {display:block;}
 .crowd-app-panel {box-sizing:border-box;min-width:0;overflow-wrap:anywhere;}
 .crowd-app-panel a {color:#0000ff;text-decoration:underline;}
 .crowd-app-panel .wp-block-image {box-sizing:border-box;width:100%;max-width:100%;margin:1em 0;}
@@ -49,10 +44,18 @@ input[name="problem-app-language"]:checked + label {background:#174e67;color:#ff
 .crowd-app-panel table {width:100%;border-collapse:collapse;}
 .crowd-app-panel th,.crowd-app-panel td {padding:0.5em;border:1px solid #cbd5e1;text-align:left;vertical-align:top;}
 </style>
-<input type="radio" name="problem-app-language" id="problem-app-ja" checked><label for="problem-app-ja" lang="ja">日本語</label>
-<input type="radio" name="problem-app-language" id="problem-app-en"><label for="problem-app-en" lang="en">English</label>
 <!-- /wp:html -->
 
+<!-- wp:tabs {"activeTabIndex":0,"metadata":{"name":"日本語・English 切り替え"}} -->
+<div class="wp-block-tabs">
+<!-- wp:tab-list -->
+<div role="tablist" class="wp-block-tab-list"><button type="button" role="tab">日本語</button><button type="button" role="tab">English</button></div>
+<!-- /wp:tab-list -->
+
+<!-- wp:tab-panels -->
+<div class="wp-block-tab-panels">
+<!-- wp:tab-panel {"label":"日本語","metadata":{"name":"日本語本文"}} -->
+<section role="tabpanel" tabindex="0" class="wp-block-tab-panel">
 <!-- wp:group {"metadata":{"name":"日本語：導入・全体の流れ"},"className":"crowd-app-panel panel-ja","layout":{"type":"default"}} -->
 <div class="wp-block-group crowd-app-panel panel-ja">
 <!-- wp:paragraph -->
@@ -640,7 +643,11 @@ input[name="problem-app-language"]:checked + label {background:#174e67;color:#ff
 <!-- /wp:list -->
 </div>
 <!-- /wp:group -->
+</section>
+<!-- /wp:tab-panel -->
 
+<!-- wp:tab-panel {"label":"English","metadata":{"name":"English body"}} -->
+<section role="tabpanel" tabindex="0" class="wp-block-tab-panel">
 <!-- wp:group {"metadata":{"name":"English：Introduction and overview"},"className":"crowd-app-panel panel-en","layout":{"type":"default"}} -->
 <div class="wp-block-group crowd-app-panel panel-en">
 <!-- wp:paragraph -->
@@ -1232,3 +1239,9 @@ input[name="problem-app-language"]:checked + label {background:#174e67;color:#ff
 <!-- /wp:list -->
 </div>
 <!-- /wp:group -->
+</section>
+<!-- /wp:tab-panel -->
+</div>
+<!-- /wp:tab-panels -->
+</div>
+<!-- /wp:tabs -->
