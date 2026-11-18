@@ -1,0 +1,15 @@
+# 画像生成メモ
+
+Codex の ImageGen（内蔵ツール）で生成した画像を WebP に変換しました。本文の日英両版で同じ画像を使っています。
+
+## 共通プロンプト
+
+Wide landscape (3:2) editorial illustration for an elementary-school guide to better web searches. Warm ivory paper, textured cut-paper and colored-pencil style, indigo blue with moss green and coral accents, generously spaced large shapes, legible at mobile width, full-bleed composition. Recurring subject: an elementary-school child with dark bobbed hair and a mustard sweater, researching dandelion seeds for a school project. Use stylized, clearly recognizable fluffy white dandelion seedheads. No words, letters, numbers, pseudo-text, logos, borders, or watermarks.
+
+## 章ごとのプロンプト
+
+- `01-question.webp` — At a desk the child looks closely at a dandelion seedhead in a small vase. A single floating white seed drifting on air is framed in a simple thought bubble. A closed laptop and open blank notebook support the story. Emphasize deciding on one question before looking it up.
+- `02-keywords.webp` — Overhead view of the child's hands arranging a small row of three large paper cards by a simple laptop. Cards contain only icons: a dandelion puff, one airborne seed, and curling wind lines with a question mark. Emphasize picking a few clues from a question.
+- `03-adjust.webp` — The child compares two paths of imaginary search-result picture cards extending from a laptop. In one path a broad mix of flower bouquets, daisy and sunflower pictures becomes focused on dandelion seeds as the child adds a small seed icon card. In the other path a clutter of small filter symbol cards is simplified by sliding one away. Keep the composition uncluttered, with distinct paths and a few objects.
+- `04-check.webp` — At the desk the child compares an open illustrated nature book with a botanical garden information page shown on a laptop. Both depict the same recognizable dandelion seed drifting on air. A magnifying glass over the open book emphasizes checking evidence. The book and laptop contain illustrations and blank space only.
+- `05-practice.webp` — The child traces a dandelion seed blowing past an open notebook with four visual doodles along the page: a question bubble, three clue cards, a curved retry arrow and an open book with a check mark. Comfortable desk scene, pencil in hand, cheerful but calm. Clear learning sequence.
