@@ -1,7 +1,7 @@
 ---
 categories:
 - 開発の裏側
-excerpt: 作りたいアプリが決まらないときは、身近な人の困り事をアンケートで調べてみましょう。Googleフォームで頻度と具体的な体験を聞く質問例、回答の整理、既存の道具との比較、小さな試作品への落とし込みまで紹介します。回答数だけで需要を決めない考え方もまとめます。
+excerpt: 借りた物を返す日に、持っていく物が分からず手が止まった。そんな体験をGoogleフォームで集めるところから、自作アプリの題材は探せます。頻度と体験を分けて聞く質問例、回答を数えるときの注意点、今の道具を試してから試作品を作る流れをまとめました。
 featured_image: articles/images/survey-driven-app-ideas/01-questions.png
 featured_image_alt: 選択式と自由記述の質問を組み合わせ、困り事を調べるアンケートを考える人のイラスト
 slug: survey-driven-app-ideas
@@ -58,7 +58,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <div class="wp-block-tab-panels"><!-- wp:tab-panel {"label":"日本語","metadata":{"name":"日本語本文"}} -->
 <section role="tabpanel" tabindex="0" class="wp-block-tab-panel"><!-- wp:group {"metadata":{"name":"ja: 導入"},"className":"survey-app-panel panel-ja","layout":{"type":"default"}} -->
 <div class="wp-block-group survey-app-panel panel-ja"><!-- wp:paragraph -->
-<p>自作アプリのアイデアを探すなら、<strong>Googleフォームで困る頻度と具体的な体験を聞き、既存の道具で残る不便を、小さな試作品で確かめる</strong>方法があります。この記事では、質問の作り方から、回答の整理、アプリにする機能の絞り込みまで紹介します。</p>
+<p>「どんなアプリが欲しい？」と聞く前に、「最後に困ったとき、何があった？」と聞いてみる。Googleフォームでアイデアを探すなら、<strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">困った回数と、そのときの出来事を両方聞く</mark></strong>ところから始められます。借りた物の返却を例に、回答を読んで、残る不便を試作品で確かめるところまで扱います。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -102,15 +102,15 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>最初から「どんなアプリが欲しいですか」と聞くと、思いついた機能の一覧になりがちです。まずは「最近、本やレンタル品などを借りた人」のように対象を決めます。今回は、借りた物を返すときの不便を調べる例で進めます。</p>
+<p>最初から欲しい機能を聞くと、出てくるのはその場で思いついた案ばかりかもしれません。今回、話を聞きたいのは最近本やレンタル品を借りた人。返すときのことなら、実際にあった場面を思い出して答えてもらえます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>定量調査</strong>は、回数や選択肢で傾向を比べる調査です。「過去3か月に何回困ったか」などを聞きます。<strong>定性調査</strong>は、体験や理由を本人の言葉で知る調査です。「最後に困ったとき、何が起きたか」を聞きます。</p>
+<p>「過去3か月に何回困った？」と、回数や選択肢で傾向を見るのが<strong>定量調査</strong>。「最後に困ったとき、何が起きた？」と尋ねて、体験や理由を本人の言葉で聞くのが<strong>定性調査</strong>です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>数字だけでは理由が分からず、体験談だけでは似た人がどれくらいいるかを比べにくくなります。最初は一つのフォームに両方を入れ、詳しく知りたいことが残ったら聞き取りを追加します。</p>
+<p>回数が分かっても、なぜ困ったかまでは見えてきません。体験談ばかりだと、同じところで困った人がどれくらいいたかを比べづらい。そこで、一つのフォームに両方の質問を入れます。気になる答えがあれば、あとで話を聞く余地もあります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
@@ -138,7 +138,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>このひな形では質問1だけを必須にし、質問2〜8は任意にします。質問1で「いいえ」なら、残りは空欄で送信してよいと説明します。困っていない人も、無理に体験を作らず答えられます。どこまでが必須かは、フォーム内でも明示してください。</p>
+<p>このひな形で必須にするのは質問1だけ。質問2〜8は任意です。質問1で「いいえ」を選んだ人は、残りを空欄のまま送信できます。フォームにもそう書いておけば、困った経験がない人まで、無理に何かを書かずに済みます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -204,7 +204,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>この設定では、同じ人の複数回答を確実には見分けられません。集計は人数ではなく回答件数で示します。ログインの要否はアクセス範囲などにも左右されるため、想定する回答者の環境で確認してください。</p>
+<p>この設定だと、同じ人が二度答えても確実には見分けられません。<mark style="background-color:#fef08a;color:#422006" class="has-inline-color">集計に書くのは「答えた人数」ではなく「届いた回答の件数」です。</mark> ログインが必要かどうかはアクセス範囲にもよるので、配る相手と同じ条件で開けるかも確かめます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -220,7 +220,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><strong>需要を証明できる一律の件数はありません。</strong>最初の10〜20件を質問の見直しの区切りにする方法はありますが、この記事での進め方の一例です。件数だけでなく、対象に合う回答か、具体的な体験が書かれているかを確認します。</p>
+<p>最初の10〜20件は、聞き方を見直す目安にできます。話を聞きたい人に届いたか、困った場面まで書いてもらえたかを見ます。<mark style="background-color:#fee2e2;color:#991b1b" class="has-inline-color">件数だけで「このアプリには需要がある」と決めるのは早計です。</mark></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -234,11 +234,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>フォームの「回答」で概要を確認し、必要ならGoogleスプレッドシートへ保存します。フォームとシートの閲覧権限はそれぞれ確認します。保管期限が来たら、フォーム内の回答とシートに残る回答の両方を確認して削除します。片方の削除では、もう片方のファイルは消えません。<a href="https://support.google.com/docs/answer/2917686?hl=ja" style="color: #0000ff; text-decoration: underline;">Google公式：回答の保存先と削除</a></p>
+<p>回答の概要は、フォームの「回答」から。必要ならGoogleスプレッドシートへ保存できます。フォームとシートはそれぞれ誰が見られるか確認が必要です。保管期限が来たら、回答が残っている場所を両方確認して削除します。片方で消しただけでは、もう片方に残ります。<a href="https://support.google.com/docs/answer/2917686?hl=ja" style="color: #0000ff; text-decoration: underline;">Google公式：回答の保存先と削除</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>最初に対象外の回答、未回答、矛盾する選択などの扱いを決めます。「返却で困った経験がない」という回答は失敗ではなく、アプリを必要としない人を知る材料です。都合のよい回答だけを残さないようにします。</p>
+<p>対象外の回答や空欄、矛盾する選択をどう扱うかは、先に決めておきます。「返却で困ったことがない」という答えも、どんな人なら今の方法で足りるかを考える材料。<mark style="background-color:#fee2e2;color:#991b1b" class="has-inline-color">自分の案に都合のよい答えだけを残すと、傾向を読み違えます。</mark></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
@@ -250,7 +250,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>質問3が空欄なら、その回答を質問3の分母から外し、空欄の件数を別に記録します。空欄を「困っていない」とは数えません。知人中心の募集結果はその回答群の傾向であり、市場全体の割合には広げません。</p>
+<p>質問3が空欄なら、この質問の母数には入れず、空欄の件数を別に記録します。<mark style="background-color:#fef08a;color:#422006" class="has-inline-color">答えが書かれていないことと、「困っていない」と答えたことは別です。</mark> 知人を中心に聞いた結果から言えるのは、その回答の範囲まで。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
@@ -258,11 +258,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>自由記述は、意味が近い体験をまとめます。1件の回答内に同じ困り事が何度出ても、その分類では1件と数えます。別々の困り事は複数の分類に入れて構いませんが、分類間で回答が重なることを記録します。回答者が同一かどうかは、文章の似方だけで決めません。</p>
+<p>自由記述は、似た体験をまとめて読みます。同じ回答に同じ困り事が何度出ても、そのグループでは1件。別々の困り事が書かれていれば、複数のグループに入れて、どこで件数が重なるかを記録します。文章が似ていても、それだけで同じ人の回答だとは判断できません。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>本人が書いた体験と、作り手が考えた原因を分けます。下の表の「困り事の仮説」は、追加の聞き取りで確かめる解釈です。</p>
+<p>本人が書いた出来事は、そのまま体験として残します。「なぜそうなったのか」は、聞き取りで確かめる前の見立て。下の表では「困り事の仮説」に入れています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -277,7 +277,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>候補は「頻度」「負担の大きさ」「今の方法で残る不便」「小さく試せるか」で比べます。回答件数の最多だけで選ばず、具体的な体験があり、困った本人に試してもらえる案を優先します。</p>
+<p>件数の多かったものから順に作る必要はありません。どのくらい困るか、今のやり方で何が残るか、小さく試せるかを見比べます。困った場面が具体的で、その本人に試してもらえる案なら、次に確かめたいことを決めやすくなります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -318,11 +318,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>同じ架空の返却予定を使い、困り事への合い方、始めやすさ、操作の分かりやすさ、費用、データの扱い、続けやすさを比べます。料金は必要な機能と契約内容で確認し、個人情報がどこに保存され、誰から見えるかも見ます。紙でも置き場所によってはほかの人に見える点に注意します。</p>
+<p>架空の返却予定を同じ条件で入れてみると、困り事に合うか、操作で迷わないかを比べられます。始めやすさや続けやすさのほか、必要な機能がどの契約に含まれ、いくらかかるかも確認を。個人情報はどこに残り、誰が見られるでしょうか。紙でも、置き場所によっては他の人の目に触れます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>既存の道具で十分なら、それを使うことが解決です。</strong>「日付・持ち物・場所を毎回別々に確認する手間が残る」など、自作で減らしたい手順が具体的になったときに、アプリ作りへ進みます。</p>
+<p>カレンダーなど、今ある道具で用が済んだら、そこで解決です。何度も別々の画面を開いて日付・持ち物・場所を確認するなど、残った手順が具体的に見えたら、そこを減らせるアプリを考えます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -340,7 +340,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>回答に出てきた要望を全部載せると、何を確かめるためのアプリかがぼやけます。まず、<strong>「誰が、いつ、何をできれば助かるか」</strong>を一文にします。</p>
+<p>フォームに書かれた要望を全部入れると、何を試すアプリなのか見えづらくなります。作り始める前に、<strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">「誰が、いつ、何をできれば助かるか」を一文にする。</mark></strong> 機能に迷ったときは、この一文に戻れます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -348,7 +348,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>この一文から必要な操作を決めます。「物・返却先・日付を保存する」「今日の返却を一覧で見る」「間違いを直す・不要な記録を消す」「返却済みにする」が初回の範囲です。通知、家族共有、返却先の自動検索は、今回の検証から外します。</p>
+<p>その一文から考えると、初回に欲しいのは、物・返却先・日付を残す、今日の返却を一覧で見る、間違いを直すか不要な記録を消す、返却済みにする、という操作。通知、家族との共有、返却先の自動検索はあとに回せます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -367,7 +367,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>まず紙に画面を描き、入力する場所と、今日返す物の見つけ方が伝わるか確かめます。その後、画面を組み合わせる道具、AIによる開発支援、開発が得意な人への相談など、経験に合う方法で動く試作品にします。</p>
+<p>まず紙に画面を描いて、「入力するならどこ？」「今日返す物はどう探す？」と聞いてみます。画面の並びが伝わったら、画面を組み合わせる道具やAIを使う、開発に慣れた人へ頼むなど、手が届く方法で動く試作品にします。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
@@ -415,7 +415,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>アンケートで分かるのは、本人が報告した体験や希望です。アプリで手間が減るかは、動く試作品で確かめます。協力に同意してくれた少人数に、次の作業を説明しすぎず試してもらいます。</p>
+<p>アンケートで聞けたのは、経験したことや欲しいものです。<mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">作業が楽になったかは、動く試作品を使うところを見て確かめます。</mark> 協力してくれる数人に、次の作業を頼み、操作は説明しすぎずに見守ります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
@@ -437,7 +437,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>記録するのは、作業を終えられたか、どこで迷ったか、助けが必要だったか、確認にかかった時間です。時間を比べるなら同じ作業条件にそろえ、初回は操作への慣れも影響することを残します。「便利でしたか」だけで終わらせません。</p>
+<p>「便利でしたか？」と聞く前に、最後までできたか、どこで手が止まったか、助けが要ったか、何分かかったかをメモ。時間を比べる条件はそろえます。初めて画面を触る人は、操作に不慣れな分も時間に出ます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -471,7 +471,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>まずは、調べたい困り事を一つ書き、Googleフォームに選択式と自由記述の質問を入れてみてください。大切なのは回答数を増やすことだけでなく、<strong>数字で傾向を見て、体験で理由を確かめ、小さな試作品で役立つかを試すこと</strong>です。</p>
+<p>最初は困り事を一つ選んで、選択式と自由記述の質問をGoogleフォームに一つずつ入れるところから。集まった回数を手がかりに、どんな場面だったかを読み、今の道具で残る不便を試作で確かめます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -487,7 +487,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>To find an idea for an app you make yourself, <strong>ask about frequency and concrete experiences in Google Forms, then use a small prototype to test a difficulty that existing tools leave unresolved.</strong> This article covers writing questions, organizing answers, and deciding which app functions to build first.</p>
+<p>Before asking “What app would you like?”, try asking “What happened the last time you had trouble?” To look for an idea in Google Forms, <strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">ask both how often it happened and what happened on a particular occasion.</mark></strong> We’ll use the example of returning borrowed items, from reading the answers to testing what a prototype might fix.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -531,7 +531,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>Asking “What app would you like?” can produce a list of imagined features. Start with a defined group, such as people who recently borrowed books or other items. We will investigate difficulties with returning borrowed items.</p>
+<p>Start by asking about features and you may get a list of ideas people just thought of. For this survey, look for people who recently borrowed a book or rented something. They have a real return to think back on.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -539,7 +539,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Counts alone do not explain why something happened. Individual stories alone make it harder to compare how many respondents had similar experiences. Combine both in one form, then follow up with conversations when you need more detail.</p>
+<p>A count won’t tell you why something happened. With stories alone, it’s hard to see how many people got stuck in the same place. Put both kinds of questions in one form and follow up when an answer makes you curious.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
@@ -633,7 +633,7 @@ Estimated time: [time confirmed through a trial response]</code></pre>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>With these settings, you cannot reliably identify repeat submissions from the same person. Report submission counts rather than people. Sign-in also depends on access settings, so test with the intended audience.</p>
+<p>With these settings, you can’t reliably tell if someone answered twice. <mark style="background-color:#fef08a;color:#422006" class="has-inline-color">Report the number of submissions you received.</mark> Whether a sign-in is required also depends on who has access, so try opening the form under the same conditions as your respondents.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -649,7 +649,7 @@ Estimated time: [time confirmed through a trial response]</code></pre>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><strong>No universal response count proves demand.</strong> Reviewing the first 10–20 submissions is one possible checkpoint for revising questions, suggested here as an example workflow. Check whether answers fit your intended group and describe concrete experiences, as well as how many you collect.</p>
+<p>The first 10–20 submissions can be a chance to revise your questions. Look for answers from the people you meant to reach and for details about what happened. <mark style="background-color:#fee2e2;color:#991b1b" class="has-inline-color">Treating the response count alone as proof of demand is a mistake.</mark></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -667,7 +667,7 @@ Estimated time: [time confirmed through a trial response]</code></pre>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Decide how to handle ineligible responses, missing answers, and contradictory choices. “I had no difficulty” helps you understand who may not need an app. Do not keep only the answers that support your idea.</p>
+<p>Decide in advance what to do with ineligible responses, blanks, and conflicting choices. “I had no difficulty” tells you something about who can get by with their current tools. <mark style="background-color:#fee2e2;color:#991b1b" class="has-inline-color">Keeping only answers that suit your idea will skew what you see.</mark></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
@@ -679,7 +679,7 @@ Estimated time: [time confirmed through a trial response]</code></pre>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>If question 3 is blank, exclude that submission from this question’s denominator and record the missing-answer count separately. A blank does not mean “No difficulty.” Results collected mainly through acquaintances describe those submissions, not the entire market.</p>
+<p>If someone leaves question 3 blank, keep that submission out of the count for that question and record it separately. <mark style="background-color:#fef08a;color:#422006" class="has-inline-color">Count “No difficulty” only when someone actually selects it.</mark> If you mainly asked people you know, the results describe the submissions you received.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
@@ -706,7 +706,7 @@ Estimated time: [time confirmed through a trial response]</code></pre>
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>Compare frequency, burden, the difficulty remaining with current methods, and how easily you can test a small solution. Do not choose solely by submission count; favor a concrete experience and a person willing to try a solution.</p>
+<p>The idea with the most responses doesn’t have to be the one you build. Compare the burden, frequency, what remains difficult, and what you could test on a small scale. A concrete situation and someone willing to try a fix give you a place to start.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -751,7 +751,7 @@ Estimated time: [time confirmed through a trial response]</code></pre>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>If an existing tool is sufficient, using it is a valid solution.</strong> Build an app when you can identify a specific step to reduce, such as repeatedly opening separate places to check dates, items, and locations.</p>
+<p>If a calendar already does the job, you have a solution. Consider building when there’s a step you can name and reduce, such as checking separate screens for the date, item, and place every time.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -769,7 +769,7 @@ Estimated time: [time confirmed through a trial response]</code></pre>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>Including every requested feature makes the purpose of a test unclear. Write one sentence explaining <strong>who should be able to do what, and when.</strong></p>
+<p>Try to include every request and it gets hard to tell what the app is meant to test. <strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">Write down who should be able to do what, and when, in one sentence.</mark></strong> Return to it whenever you’re unsure about adding a feature.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -796,7 +796,7 @@ Estimated time: [time confirmed through a trial response]</code></pre>
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>Draw the screens on paper first. Check whether people understand where to enter data and how to find today’s items. Then make a working prototype using a visual app builder, AI development assistance, or help from someone with development experience.</p>
+<p>Sketch a screen and ask where someone would enter an item or find today’s returns. Once the layout makes sense, make something that works using a visual builder, AI development assistance, or help from someone who builds apps.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
@@ -844,7 +844,7 @@ Explain unknowns and the limitations of this storage approach.</code></pre>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>A survey tells you about reported experiences and wishes. Use a working prototype to check whether the app reduces effort. Ask a few consenting participants to try the following tasks without explaining every step.</p>
+<p>A survey gives you people’s accounts and wishes. <mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">To see whether the app saves them work, watch someone try a working prototype.</mark> Ask a few willing participants to do the tasks below and let them find their way through.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
@@ -866,7 +866,7 @@ Explain unknowns and the limitations of this storage approach.</code></pre>
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>Record whether people finish, where they hesitate, whether they need help, and how long checking takes. Compare times under the same task conditions and note that familiarity affects a first trial. Do not stop at “Was it convenient?”</p>
+<p>Before asking “Was it convenient?”, note whether people finished, where they hesitated, whether they needed help, and how long it took. Compare similar tasks under similar conditions. Someone who has never seen the screen may need longer just to get their bearings.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -900,7 +900,7 @@ Explain unknowns and the limitations of this storage approach.</code></pre>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Start by writing down one difficulty and adding choice-based and open questions to Google Forms. The aim is more than collecting responses: <strong>use counts to identify patterns, experiences to understand reasons, and a small prototype to test usefulness.</strong></p>
+<p>Pick one problem and add a multiple-choice question and an open question to Google Forms. Use the answers to see how often it happens and understand why. Then test a small fix for the part people still struggle with.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

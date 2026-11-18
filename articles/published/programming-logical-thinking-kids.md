@@ -58,11 +58,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <div class="wp-block-tab-panels"><!-- wp:tab-panel {"label":"日本語","metadata":{"name":"日本語本文"}} -->
 <section role="tabpanel" tabindex="0" class="wp-block-tab-panel"><!-- wp:group {"metadata":{"name":"ja: 導入"},"className":"logical-thinking-panel","layout":{"type":"default"}} -->
 <div class="wp-block-group logical-thinking-panel"><!-- wp:paragraph -->
-<p><strong>プログラミングと論理的思考力は、目的に合う手順を考え、その理由を確かめるところでつながっています。</strong>ただし、プログラムを書くには、書き方の知識や、実際に動かして確かめることも必要です。</p>
+<p>雨が降っているから、かさを持っていく。プログラミングでも、<strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">何をしたいのかを決め、理由のある順番で手順を組む</mark></strong>ところに、論理的に考える力が役立ちます。コンピューターに伝わる書き方を覚え、動かして確かめるのも、その先の仕事です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>雨の日のかさと忘れ物チェックを例に、二つの関係を説明します。プログラミングの経験は必要ありません。最後は、紙と鉛筆で手順を考えてみましょう。</p>
+<p>かさの次は、筆箱の忘れ物チェック。コードが分からなくても、紙と鉛筆があれば、手順を考えるところから始められます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -80,7 +80,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>「論理的」は「ろんりてき」と読みます。論理的思考力は、分かっていることをもとに、理由がきちんとつながっているか確かめながら考える力です。</p>
+<p>「論理的（ろんりてき）に考える」と聞くと難しそうですが、やることは身近です。いま分かっていることと、そこから出した答えのあいだに筋が通っているかを確かめます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -102,11 +102,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>「なぜ、かさを持つの？」と聞かれて、「外で雨が降っていて、ぬれたくないから」と説明できます。行動と理由がつながっていますね。</p>
+<p>「どうしてかさを持っていくの？」「外で雨が降っていて、ぬれたくないから」。何をするかと、その理由がここでつながります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>ただし、「かさを持っている人がいた。だから、必ず雨が降っている」とは言い切れません。日差しをよけるために使っているのかもしれないからです。<strong>理由らしく聞こえても、それだけで決めてよいかを確かめることが大切です。</strong></p>
+<p>では、かさを持っている人がいたら、雨だと分かるでしょうか。<mark style="background-color:#fee2e2;color:#991b1b" class="has-inline-color">「かさを持っているから、必ず雨だ」と決めつける</mark>のは早そうです。日差しをよけているのかもしれません。</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -124,7 +124,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>ランドセルに持ち物を入れるロボットを想像してください。「忘れ物がないようにして」だけでは、何を調べるのか決まっていません。たとえば、次のように分けます。</p>
+<p>忘れ物をチェックするロボットに「学校の準備、お願い」と言っても、何を調べるのかは伝わりません。ランドセルを前に、何をどんな順で頼めばよいか考えます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
@@ -146,11 +146,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>順番に行うことを「順次処理」、場合によって行動を変えることを「条件分岐」、同じ確認を続けることを「繰り返し」と呼びます。まずは、何をしているかが分かれば十分です。</p>
+<p>順番に行うのが「順次処理」、場合によって行動を変えるのが「条件分岐」、同じ確認を続けるのが「繰り返し」。最初は、ロボットが何をしているかを追えれば十分です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>なぜ、先に中身を調べるのでしょうか。毎回もう一つ入れる指示だと、すでにある物まで追加してしまうからです。この例では、リストの物はそれぞれ一つあればよいので、足りない物だけを入れます。</p>
+<p>中身を先に見るのは、もう入っている物をもう一つ足さないためです。リストの物がそれぞれ一つあればよいなら、入れるのは足りない物だけ。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -168,7 +168,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p><strong>条件と結果の関係を自分で説明しながら試すことで、理由を考える練習にできます。</strong>たとえば、「えんぴつが0本なら『入れてね』と知らせる」手順を、次のように確かめます。</p>
+<p><strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">どんな条件で何が起きるかを予想し、その理由を言葉にする。</mark></strong> それが論理的に考える練習になります。例は、えんぴつが0本なら「入れてね」と知らせる手順です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -190,11 +190,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>1本あるのに知らせたなら、条件や確認のタイミングを見直します。結果が合っていても、別の場合を試します。</p>
+<p>1本あるのに「入れてね」と出たら、条件か、数を確かめるタイミングが違うのかもしれません。予想が当たった場合も、今度は別の本数で試すと、見ていなかったところに気づけます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>ただ写して動かすだけで、どんな問題でも考える力が必ず伸びる、とまでは言えません。</strong>この記事で勧めるのは、自分で理由と結果を確かめる練習です。</p>
+<p>コードを写して動くところまでできたら、今度は「なぜこの結果になった？」と立ち止まる。その答えを自分で確かめるところに、ここでの練習があります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -216,7 +216,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>料理で考えてみましょう。「野菜を切ってから煮る」という順番を説明できても、包丁の使い方や火加減は別に覚えます。プログラミングでも、考えることと書き方を覚えることの両方が必要です。</p>
+<p>料理なら、野菜を切ってから煮る順番を知っていても、包丁の使い方や火加減では迷うことがあります。プログラミングも似ていて、手順が思いついたあとに、書き方で手が止まることがあります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -232,11 +232,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <!-- /wp:table -->
 
 <!-- wp:paragraph -->
-<p>紙で手順を正しくたどれても、実際のプログラムが同じように動くとは限りません。書き間違いなどがないか、動かしたときの入力と表示を確かめます。予想と違ったら、原因の見当を付け、一か所ずつ直して試します。間違いの原因を探して直す作業を「デバッグ」といいます。</p>
+<p>紙の上では合っていたのに、書いたプログラムでは予想と違う。そんなときは、まず実際の入力と表示を見比べます。<mark style="background-color:#fef08a;color:#422006" class="has-inline-color">原因の見当を付けて、一か所ずつ直して試す</mark>と、どの変更が効いたかを追えます。原因を探して直す作業が「デバッグ」です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>また、動きが正しくても使いづらいことはあります。忘れ物を一つずつ別画面で確認するより、一覧で見られるほうが助かるかもしれません。使う人に合うかも考えます。<strong>書けない原因を一つずつ調べるほうが、「自分には考える力がない」と決めつけるより、次の行動が見つかります。</strong></p>
+<p>正しく動いたら、今度は使う人の目で見てみます。忘れ物を一つずつ別の画面で確認するのは大変でも、一覧ならすぐに分かるかもしれません。「自分には考える力がない」と思ったときも、<strong>どこで手が止まったか一つずつ見ていくと、次に何を試すかが見えてきます。</strong></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -250,7 +250,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>ここまでを、短い練習にしてみます。パソコンもアプリも必要ありません。筆箱にえんぴつがあるかを調べ、0本なら入れるように知らせる、というルールにします。</p>
+<p>ここで紙と鉛筆の出番です。筆箱の中を調べ、えんぴつが0本なら入れるように知らせる、という小さなルールから。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
@@ -272,7 +272,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>0本なら知らせ、1本以上なら知らせません。次に、「明日は2本必要だったら？」と考えてください。1本あるのに知らせないままでは足りませんね。</p>
+<p>0本なら知らせ、1本以上なら知らせない。ところが、明日は2本必要だとしたら？ 1本しか入っていないのに、今のルールでは何も知らせてくれません。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -284,7 +284,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <!-- /wp:table -->
 
 <!-- wp:paragraph -->
-<p>2本必要でも、ちょうど2本あれば知らせません。「2本より少ない」と「2本以下」では、結果が変わります。条件の言葉を正確にし、足りる・足りないの境目も試してみましょう。</p>
+<p>2本必要でちょうど2本あるなら、お知らせは要りません。<mark style="background-color:#fef08a;color:#422006" class="has-inline-color">「2本より少ない」と「2本以下」では、ちょうど2本のときの答えが変わります。</mark> 足りるかどうかの境目は、試すときに外せないところです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -300,11 +300,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <!-- wp:tab-panel {"label":"English","metadata":{"name":"English本文"}} -->
 <section role="tabpanel" tabindex="0" class="wp-block-tab-panel"><!-- wp:group {"metadata":{"name":"en: Introduction"},"className":"logical-thinking-panel","layout":{"type":"default"}} -->
 <div class="wp-block-group logical-thinking-panel"><!-- wp:paragraph -->
-<p><strong>Programming and logical thinking connect through planning steps that fit a goal and checking the reasons for those steps.</strong> Writing a program also requires knowing how to write instructions and running them to check what happens.</p>
+<p>It’s raining, so you take an umbrella. Logical thinking helps in programming in much the same way. <strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">Work out what you want to happen, then put the steps in an order you can explain.</mark></strong> From there, learn how to write those instructions and run them to see what happens.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Umbrellas on rainy days and school-supply checks will help explain the connection. You do not need programming experience. At the end, try planning some steps with paper and a pencil.</p>
+<p>After the umbrella, we’ll check what’s in a pencil case. Paper and a pencil are enough to start working out the steps, even if you’ve never written code.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -322,7 +322,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>In Japanese, “logical” is pronounced “ronriteki.” Logical thinking means using what you know and checking that your reasons fit together as you think.</p>
+<p>The Japanese word for “logical,” pronounced “ronriteki,” can sound formal. The idea is familiar. Start with what you know and ask whether it gives you a good reason for your answer.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -344,11 +344,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>If someone asks why you are taking it, you can explain that it is raining and you want to stay dry. Your action has a reason.</p>
+<p>“Why are you taking an umbrella?” “Because it’s raining and I want to stay dry.” That connects what you’ll do to the reason for doing it.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>But seeing someone carry an umbrella does not prove that it is raining. They might be using it for shade. <strong>Even when a reason sounds convincing, check whether it is enough to support the conclusion.</strong></p>
+<p>Now turn it around. <mark style="background-color:#fee2e2;color:#991b1b" class="has-inline-color">If someone’s carrying an umbrella, it must be raining.</mark> Is that enough to tell? They might be using it for shade.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -366,7 +366,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Imagine a robot packing your school bag. “Make sure I have everything” does not yet say what to check. You could break it down like this:</p>
+<p>Tell a robot “Get me ready for school,” and it still won’t know what to check. With the school bag in front of you, work out what you want it to check and in what order.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
@@ -388,11 +388,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>Doing things in order is called sequential processing. Choosing an action based on a situation is called a conditional. Doing the same check again is repetition. Understanding the actions is enough to start.</p>
+<p>Doing things in order is sequential processing. Acting differently depending on what you find is a conditional. Doing the same check again is repetition. For now, it’s enough to follow what the robot does.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Why check the bag first? An instruction to add another item every time could add items you already have. In this example, we need one of each item on the list, so we add only what is missing.</p>
+<p>Checking the bag first keeps the robot from packing a second copy of something you already have. You need one of each item, so add only what’s missing.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -410,7 +410,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p><strong>You can use it to practice reasoning by explaining and checking how conditions lead to results.</strong> For example, check a set of steps that says “Please pack a pencil” when there are zero pencils:</p>
+<p><strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">Predict what will happen under different conditions and say why.</mark></strong> That’s how this becomes practice in reasoning. Start with a rule that says “Please pack a pencil” when there are zero pencils.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -432,11 +432,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>If it gives a reminder when there is already one pencil, review the condition or when it is checked. Try another case even if the result is correct.</p>
+<p>If it reminds you when there’s already one pencil, look at the condition or when the number is checked. If your prediction was right, try a different number and see what happens.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>Copying and running code alone does not guarantee better thinking in every kind of problem.</strong> The practice suggested here is to examine reasons and results yourself.</p>
+<p>Once you’ve copied the code and seen it run, stop and ask why it gave that result. Working out the answer for yourself is the part that gives you practice reasoning.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -458,7 +458,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Think about cooking. Knowing that you should cut vegetables before simmering them does not teach you how to use a knife or adjust the heat. Programming also involves both planning and learning how to write instructions.</p>
+<p>You might know to cut vegetables before simmering them and still be unsure how to use a knife or adjust the heat. In programming, too, you can know the steps and still get stuck on how to write them.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -474,7 +474,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <!-- /wp:table -->
 
 <!-- wp:paragraph -->
-<p>Following the steps correctly on paper does not prove that the actual program will behave the same way. Run it and compare the input and displayed result with your plan; the code may contain a mistake. If the result differs from your prediction, consider a possible cause and change one thing at a time before trying again. Finding and fixing the cause of an error is called debugging.</p>
+<p>The steps worked on paper, but the program did something different. Compare the input and the result you actually saw. <mark style="background-color:#fef08a;color:#422006" class="has-inline-color">Take a guess at the cause and change one thing at a time</mark> so you can tell which change made a difference. Finding and fixing the cause is called debugging.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -492,7 +492,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>Turn these ideas into a short exercise. You do not need a computer or an app. Use this rule: check the pencil case and give a reminder to pack a pencil if there are none.</p>
+<p>Now grab a pencil and some paper. Start with one rule for checking the pencil case and give a reminder to pack a pencil if there are none.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
@@ -514,7 +514,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>Give a reminder with zero pencils, and no reminder with one or more. Now ask: what if you need two pencils tomorrow? Staying silent when there is one would leave you short.</p>
+<p>Remind yourself with zero pencils and stay quiet with one or more. But suppose you need two tomorrow. With one in the case, your rule still says nothing.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -526,7 +526,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <!-- /wp:table -->
 
 <!-- wp:paragraph -->
-<p>If you need two and already have exactly two, give no reminder. “Fewer than two” and “two or fewer” produce different results. Make the condition precise and try cases on either side of the point where you have enough, including that point itself.</p>
+<p>If you need two and already have two, you don’t need a reminder. <mark style="background-color:#fef08a;color:#422006" class="has-inline-color">“Fewer than two” and “two or fewer” give different answers at exactly two.</mark> That dividing line is one of the most useful cases to test.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

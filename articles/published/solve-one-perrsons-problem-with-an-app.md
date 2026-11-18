@@ -61,11 +61,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <!-- wp:group {"metadata":{"name":"日本語：導入"},"className":"one-person-app-panel panel-ja","layout":{"type":"default"}} -->
 <div class="wp-block-group one-person-app-panel panel-ja">
 <!-- wp:paragraph -->
-<p>作りたいアプリが思い浮かばないなら、<strong>身近な1人が繰り返し困っていることを聞き、その人の作業を一つ楽にする</strong>ところから始めてみてください。大きなアイデアを先に決める必要はありません。</p>
+<p>アプリの案が浮かばないときは、身近な人に「最近、何をするのが面倒だった？」と聞くところから。<strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">一人の話を聞いて、その人が繰り返し困る作業を一つ楽にする。</mark></strong> それだけでも、作る題材になります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>困り事からアプリを考え、提供するまでの手順は次の6つです。</strong></p>
+<p>話を聞いてから、実際に使ってもらうまでの流れは次のとおりです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
@@ -110,7 +110,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>「欲しいアプリはありますか」よりも、「最近、何をするのが面倒でしたか」と聞くと、具体的な場面を話してもらえます。家族や友人など、話を聞くことに同意してくれる1人に、次の質問をします。</p>
+<p>「欲しいアプリはある？」と聞かれても、すぐに案は出てこないものです。家族や友人など、話してもよいと言ってくれた一人に、最近面倒だった場面を思い出してもらいます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
@@ -132,7 +132,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>たとえば、借りた本やレンタル品の返却を忘れがちな人なら、「返却日を覚えたい」だけでなく、「返す日に、何を持ってどこへ行けばよいかを一緒に確認したい」という困り事かもしれません。通知が欲しいのか、一覧が欲しいのかは、本人の話を聞いて分けます。</p>
+<p>返却を忘れると聞いても、日付だけが問題とは限りません。「今日、何を持ってどこへ行けばいいんだっけ？」で止まる人なら、通知よりも一覧のほうが役立つかもしれません。ここは本人の話を聞いて考えます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -161,7 +161,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>この段階では「通知機能を作る」と決めません。カレンダーの予定名に持ち物を入れるだけで、解決する可能性もあります。</p>
+<p>通知を作るかは、あとで決められます。カレンダーの予定名に持ち物を入れるだけで困らなくなるかもしれません。</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -177,11 +177,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>AIに相談するときは、「人気が出るアプリを考えて」よりも、誰がどの場面で困っているかを伝えます。知人にアイデア出しを手伝ってもらうときも、同じメモを使えます。</p>
+<p>AIに「人気が出るアプリを考えて」と頼むだけでは、誰に役立つ案なのか見えてきません。相談するときに渡すのは、誰が、どんなときに困ったかを書いたメモ。知り合いと一緒に案を考えるときにも使えます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>次の相談文は、そのままコピーして使えます。角括弧の中を自分のメモに置き換えてください。氏名、連絡先、会社の資料などは入れず、困る状況だけを伝えます。</p>
+<p>下の相談文は、角括弧を自分のメモに置き換えて使えます。<mark style="background-color:#fef08a;color:#422006" class="has-inline-color">氏名や連絡先、会社の資料は入れず、困った場面だけを伝えます。</mark></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -210,7 +210,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>案が出たら、<strong>本人が困っている場面に合うか、本人に試してもらえるか、最初の機能を小さくできるか</strong>で一つ選びます。AIの提案は候補であり、使われることの証明ではありません。紹介されたサービスが実在するか、機能や料金が現在も同じかは、公式情報で確かめます。</p>
+<p>案が並んだら、本人の困る場面に合うか、その人が試せるか、最初に作る範囲を絞れるかを見ます。<mark style="background-color:#fee2e2;color:#991b1b" class="has-inline-color">AIが提案しただけで、使われると判断するのは早計です。</mark> 紹介されたサービスの実在や機能・料金は、公式情報で確認します。</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -226,7 +226,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>返却忘れの例なら、まず「返す物・返却先・日付」を一つにまとめてみます。次の3つは順位ではなく、試す候補です。</p>
+<p>返却の例でまず試したいのは、返す物・返却先・日付を一か所にまとめること。手元の道具なら、次の三つが候補です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
@@ -259,7 +259,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>今ある道具で十分なら、その方法を使ってもらうことも解決です。不便が残るなら、返却専用の画面で入力や確認の手順を減らせるかを試します。自作しただけで入力が続くとは限りません。</p>
+<p>カレンダーなど、今の道具で用が済むなら、それを使えるようにするだけでも解決です。手間が残ったら、返却用の画面で入力や確認を減らせるかが試しどころ。画面を作っただけで、毎回入力してくれるとは限りません。</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -275,11 +275,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>最初は紙に画面を描き、「どこに入力すると思いますか」「今日返す物はどこで分かりますか」と聞く段階でも構いません。画面の並びが合うかを確かめてから、動く試作品を作ります。</p>
+<p>動くものを作る前に、紙に画面を描いて「どこに入力しそう？」「今日返す物はどこにある？」と聞くだけでも、並べ方の合う・合わないが見えてきます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>返却の例なら、最初の役割は「今日返す物を一覧で確認する」ことです。そのために必要な操作を、次の範囲に絞ります。</p>
+<p>初回の試作品に任せるのは、<mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">今日返す物を一覧で確認する</mark>ところまで。そのために必要な操作を選ぶと、次の範囲になります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
@@ -295,7 +295,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>AIや作るのが得意な人には、この流れと「今回は作らないこと」を一緒に渡します。自動通知、家族との共有、返却先の検索は後の候補にします。ただし、本人の主な困り事が「画面を見ること自体を忘れる」なら、この一覧だけでは足りません。機能を削る前に、困り事へ戻ります。</p>
+<p>作るのを手伝ってもらうときに渡すのは、必要な流れと、今回は後回しにするもののリスト。ここでは自動通知、家族との共有、返却先の検索が後回しです。<mark style="background-color:#fef08a;color:#422006" class="has-inline-color">本人が画面を開くこと自体を忘れるなら、一覧だけでは困り事が残ります。</mark> その場合に考えたいのは、開くきっかけをどう作るかです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -311,7 +311,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>まず架空の予定で、本人が説明なしで登録・確認・修正できるかを見ます。次に、保存内容の扱いを説明したうえで、本人が同意した範囲の実際の予定を試します。</p>
+<p>最初は架空の予定で、説明なしに登録・確認・修正できるところまで。実際の予定で試すのは、何が保存され、どう扱われるかを伝えて、本人が同意してからです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
@@ -330,7 +330,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>試用期間は、返却の機会が一度はある期間にします。「次の返却日に一覧を見て持ち物を確認できる」を最初の目標にして、できなければ理由を聞きます。使わなかったときも、責めずに「開くのを忘れた」「入力が面倒」「元のカレンダーで足りた」を分けます。</p>
+<p>試すのは、次に実際の返却がある日まで。「一覧を見て、持っていく物を用意できたか」を聞きます。使わなかったときも、開くのを忘れたのか、入力が面倒だったのか、いつものカレンダーで用が済んだのかで、次に直すところは変わります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -350,7 +350,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>本人への試用で手応えがあれば、同じ場面で困っている別の人にも試してもらいます。たとえば、協力に同意した2〜3人へ試験提供し、一人ずつ困った点を聞きます。この人数は進め方の例で、広い需要を証明する基準ではありません。</p>
+<p>一人が使って助かったなら、同じ場面で困っている人へ少し広げる手もあります。たとえば同意してくれた2〜3人に試してもらい、どこで困ったかを一人ずつ聞きます。この人数は、話を聞きながら進めるための一例です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -384,7 +384,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>公開サービスが発行するURLから始め、必要になったら、サイトの住所を用途別に分ける「サブドメイン」を付ける方法もあります。独自の住所より先に、使えることと直せることを確かめましょう。</p>
+<p>最初は公開サービスからもらったURLで十分です。用途別にサイトの住所を分けたくなったら、あとから「サブドメイン」を付ける方法も。住所を整える前に、まず使えて、困ったときに直せるかを確かめます。</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -396,7 +396,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><strong>アプリの公開はURLから使えるようにすること、外部サービスとの連携は別のサービスと情報をやり取りすることです。</strong>連携を考えるときは、サービス名、使う人、楽にしたい作業を決めます。</p>
+<p>URLからアプリを開けるようにしたら、そこまでが公開です。たとえば返却日をカレンダーに送るように、<strong>別のサービスと情報をやり取りするところが「連携」</strong>。連携を考えるときは、誰のどんな手間を、どのサービスを使って減らしたいかを書き出します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -404,7 +404,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>有料にするなら、使う人の価値だけでなく、公開先の費用、問い合わせ対応、修正に使う時間を見ます。「便利」と言われたことと、提示した金額で継続してもらえることは別なので、具体的な条件を示して確認します。</p>
+<p>「便利」と言ってもらえたら、有料で続けてもらえるかは、具体的な金額や条件を出して聞きます。その金額を考えるときは、使う人の手間がどれくらい減るかに加え、公開先に払う費用や、問い合わせと修正にかかる時間も確認します。</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -424,7 +424,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>一方、公開したら放置したい人や、話を聞かずに多くの人へ広げたい人には向きません。ほかの人へ提供するほど、保存内容の扱い、不具合への対応、費用の管理も続ける必要があります。</p>
+<p>ほかの人に使ってもらうと、その後も記録の扱い、不具合への対応、費用の管理が続きます。そこまで時間が取れないなら、まず一人のための試作品にとどめる手もあります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -447,7 +447,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>今日の一歩は、1人の困る場面と今の対処法をメモすることです。そのメモをAIへの相談文に入れ、試す案を一つ選んでください。</p>
+<p>今日できることは、一人に最近困った場面を聞き、今はどうしているかまでメモすること。そのメモがあれば、下書きの相談文に入れて、試す案を一つ選べます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -463,11 +463,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <!-- wp:group {"metadata":{"name":"English：Introduction"},"className":"one-person-app-panel panel-en","layout":{"type":"default"}} -->
 <div class="wp-block-group one-person-app-panel panel-en">
 <!-- wp:paragraph -->
-<p>If you want to build an app but have no idea what to make, start by <strong>listening to one person who repeatedly faces a problem, then making one of their tasks easier</strong>. You do not need a big idea first.</p>
+<p>If nothing comes to mind when you sit down to plan an app, ask someone you know what felt like a hassle lately. <strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">Listen to one person and make one task they keep struggling with a little easier.</mark></strong> That’s enough to get started.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>Follow these six steps to turn a difficulty into an app and offer it to others.</strong></p>
+<p>Here’s the path from that first conversation to letting someone use the app.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
@@ -512,7 +512,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>Instead of asking “What app would you like?”, ask what recently felt troublesome to encourage discussion of a specific situation. Ask a family member or friend who agrees to talk these questions:</p>
+<p>“What app would you like?” can be hard to answer on the spot. Ask a friend or family member who’s happy to talk about the last time something felt like a hassle.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
@@ -534,7 +534,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>For someone who forgets to return borrowed books or rented items, the problem may go beyond remembering a date. They may want to check what to bring and where to go on the day they return something. Listen before deciding whether they need a notification or a list.</p>
+<p>If someone forgets returns, the date may be only part of the problem. If they get stuck on “What do I take with me, and where am I going?”, a list could do more than a notification. Listen and see which part they need help with.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -563,7 +563,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>Do not decide to build notifications yet. Adding the item to the calendar event title might already solve the problem.</p>
+<p>You can decide about notifications later. Putting the thing they need to bring in the title of a calendar event might be enough.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -583,7 +583,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>You can copy the prompt below. Replace the bracketed parts with your notes. Leave out names, contact information, company documents, and other identifying details; describe only the situation.</p>
+<p>Replace the brackets in the prompt with your notes. <mark style="background-color:#fef08a;color:#422006" class="has-inline-color">Describe the situation and leave out names, contact details, and company documents.</mark></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -612,7 +612,7 @@ Do not describe unverified demand or benefits as facts.</code></pre>
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>Choose one idea by checking <strong>whether it fits the person’s situation, whether they can try it, and whether the first feature can stay small</strong>. An AI suggestion is a candidate, not proof that people will use it. Check official sources to confirm that suggested services exist and that their features and prices are current.</p>
+<p>Pick an idea that fits the person’s situation, that they can try, and that can start small. <mark style="background-color:#fee2e2;color:#991b1b" class="has-inline-color">An AI suggestion by itself doesn’t show that anybody will use it.</mark> Check official sources for whether the services it mentions exist and what they currently offer and charge.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -661,7 +661,7 @@ Do not describe unverified demand or benefits as facts.</code></pre>
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>If existing tools are sufficient, helping the person use them is a solution too. If a difficulty remains, test whether a dedicated return screen can reduce the steps needed to enter and check items. Building a custom app does not ensure that entry will continue.</p>
+<p>If the person can do what they need with a calendar or another tool they have, that’s a solution. If they’re still getting stuck, see whether a screen for returns cuts down on steps. Even with an app of their own, they might not keep entering things.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -677,11 +677,11 @@ Do not describe unverified demand or benefits as facts.</code></pre>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>Start by drawing a screen on paper and asking where they expect to enter information or find today’s returns. Check the layout before making a working prototype.</p>
+<p>Before building anything that runs, sketch a screen and ask “Where would you enter something?” and “Where are today’s returns?” Those answers can tell you whether the layout makes sense.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>In this example, the first purpose is to check a list of items to return today. Limit the supporting actions to:</p>
+<p>Give the first prototype one job. <mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">Let the person see what they have to return today.</mark> Work back from that goal to the actions it needs.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
@@ -697,7 +697,7 @@ Do not describe unverified demand or benefits as facts.</code></pre>
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>Give AI or a person helping you build this sequence together with what you will leave out for now. Automatic notifications, family sharing, and destination search can wait. However, if the main problem is forgetting to open the app at all, a list alone is insufficient. Revisit the problem before removing features.</p>
+<p>Give whoever helps you build the steps you need and the ones you’re putting off: automatic notifications, family sharing, and searching for return locations. <mark style="background-color:#fef08a;color:#422006" class="has-inline-color">If the person forgets to look at the app at all, a list won’t solve that problem on its own.</mark> Go back to the moment they get stuck.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -732,7 +732,7 @@ Do not describe unverified demand or benefits as facts.</code></pre>
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>Allow a trial period that includes at least one opportunity to return something. Set an initial goal such as checking the list and preparing the item on the next return date. If it does not happen, ask why without blame. Distinguish forgetting to open the app, burdensome entry, and finding the existing calendar sufficient.</p>
+<p>Let the trial run through their next actual return. Ask whether they checked the list and got the item ready. If they didn’t use it, the reason matters. They may have forgotten to open it, found entering items a hassle, or got what they needed from their usual calendar.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -752,7 +752,7 @@ Do not describe unverified demand or benefits as facts.</code></pre>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>If the first trial shows promise, ask others with the same difficulty to try it. For example, offer a trial to two or three willing participants and discuss each person’s difficulties. This number is an example of how to proceed, not a criterion establishing broad demand.</p>
+<p>If the app helps the first person, you could try it with two or three others who have the same trouble and are willing to take part. Talk to each about where they got stuck. That number is small enough to follow up with each person.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -786,7 +786,7 @@ Do not describe unverified demand or benefits as facts.</code></pre>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>You can begin with the hosting service’s URL, then add a “subdomain,” a separate address for a particular part of your website, when needed. First confirm that the app works and that you can maintain it.</p>
+<p>Start with the URL from the hosting service. If you later need a separate web address for this part of the site, you can add what’s called a subdomain. First make sure people can use the app and you can keep it working.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -826,7 +826,7 @@ Do not describe unverified demand or benefits as facts.</code></pre>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>It is less suitable if you want to abandon the app after launch or reach many people without speaking to them. Offering it to others means continuing to manage stored information, problems, and costs.</p>
+<p>Once other people use the app, you’ll still have their stored information, bugs, and costs to look after. If you can’t make time for that yet, you can keep it as a prototype for one person.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -849,7 +849,7 @@ Do not describe unverified demand or benefits as facts.</code></pre>
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>Today’s first step is to write down one person’s difficult situation and current workaround. Put those notes into the AI prompt and choose one idea to try.</p>
+<p>Ask one person when they last got stuck, then write down what they do about it now. You can put those notes into the sample AI prompt and pick one thing to try.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

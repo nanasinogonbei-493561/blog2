@@ -1,7 +1,7 @@
 ---
 categories:
 - 開発の裏側
-excerpt: バックエンド・Webフロントエンド・モバイルの違いを、図書室の窓口と裏方にたとえて解説します。情報を共有する仕組み、チームでの分担、古いアプリを壊さない更新の考え方を整理。専用アプリが必要かを判断し、紙で使う流れを確かめられます。
+excerpt: 家のパソコンで保存した本の返却日を、外でスマホから見るには？ 図書室の窓口と裏方にたとえると、Webとスマホで何を分け、どこを共通にするかが見えてきます。チームで先に決めることや、古いアプリを使い続けられるように更新する方法も扱います。
 featured_image: articles/images/multiplatform-team-development/01-three-roles.png
 featured_image_alt: 一つの台帳を管理する係と、本・カレンダーの情報を表示するパソコンとスマホのイラスト
 slug: multiplatform-team-development
@@ -67,11 +67,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- wp:group {"metadata":{"name":"ja: 導入"},"className":"mpt-panel","layout":{"type":"default"}} -->
 <div class="wp-block-group mpt-panel">
 <!-- wp:paragraph -->
-<p><strong>マルチプラットフォーム開発とは、Web版やスマホ向けアプリなど、複数の利用環境に対応したサービスを作ることです。</strong>この記事では、情報を管理するバックエンドと、使う人が触るWeb・モバイルの画面を分ける方法を説明します。</p>
+<p>家のパソコンで借りた本の返却日を登録し、外出先でスマホから確認する。<strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">画面は端末に合わせ、記録を管理する仕組みは共通にする</mark></strong>と、こうした使い方ができます。Web版やスマホアプリなど、複数の環境に対応するサービスを作るのが、マルチプラットフォーム開発です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>図書室の裏方と窓口にたとえ、役割・連携・分担・更新の順に見ていきます。読み終えると、何を共通にし、何を分けるかを紙に描けるようになります。プログラミングの知識は前提にしません。</p>
+<p>図書室なら、窓口と裏方にどんな仕事を任せるでしょうか。役割の決め方から、チームでつないで試すところまで、紙でもたどれる例を使います。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -95,7 +95,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>同じ図書室に、カウンターで聞く方法と、端末で調べる方法がある場面を考えてみてください。入口が違っても、借りている本の記録まで別々になると困ります。アプリでも、<strong>窓口は使う場所に合わせ、必要な情報や決まりはそろえる</strong>と考えます。</p>
+<p>図書室で、カウンターに聞いたときと端末で調べたときとで、借りている本が違っていたら困りますよね。アプリでも、入口は使う場所に合わせつつ、借りた本の記録や貸し出しの決まりはそろえておきたいところ。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -111,7 +111,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>スマホで使うために、必ず専用アプリを作るわけではありません。</strong>スマホのブラウザでもWeb版を開けます。また、iPhoneとAndroidで一部のプログラムを共用する作り方もあります。「役割を分けること」と「全部を別のプログラムで作ること」は区別しましょう。</p>
+<p>「スマホで見たい」なら、ブラウザでWeb版を開く方法もあります。専用アプリを作る場合も、iPhone版とAndroid版でプログラムの一部は共用できます。<mark style="background-color:#fef08a;color:#422006" class="has-inline-color">役割を分けることと、プログラムを全部別々に作ることは別の判断です。</mark></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -131,7 +131,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>パソコンで「星の図鑑を11月20日までに返す」と保存し、あとでスマホから確認する場面を考えます。この例では、次の順に動きます。</p>
+<p>パソコンで「星の図鑑を11月20日までに返す」と登録。あとでスマホを開くと、さっきの記録が見える。この間に、画面と裏方では次のやり取りが起きています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
@@ -155,7 +155,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>このように、プログラム同士が決まった方法でお願いや返事を交わす窓口を<strong>API</strong>と呼びます。図書室で「借りたい本の名前を伝える」「返す日を教えてもらう」という約束を決めるようなものです。</p>
+<p>図書室で本の名前を伝えると、返す日を教えてもらえます。プログラム同士にも、そんな決まったやり方でお願いと返事を交わす窓口があり、それが<strong>API</strong>です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -178,15 +178,15 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>日にちの書き方も、片方が「11/20」、もう片方が「20/11」では迷います。この例では、やり取りする日付を「2026-11-20」のような年-月-日にそろえます。画面では「11月20日」と見せても、同じ日を表せます。</p>
+<p>受け取った「11/20」と「20/11」が同じ日かどうか、書き方が混ざると判断しづらくなります。この例でやり取りする日付は「2026-11-20」のような年-月-日。画面では「11月20日」と読めれば十分です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Webの通信で使うAPIの説明を、共通の形式で書き残すための決まりに「OpenAPI」があります。<a href="https://spec.openapis.org/oas/v3.2.1.html" style="color:#0000ff;text-decoration:underline;">OpenAPIの公式仕様</a>に沿って、渡す情報や返す情報を記述できます。書くだけで保存処理ができるわけではなく、実際のプログラムも約束どおりに作る必要があります。</p>
+<p>Webで使うAPIの説明を、同じ形式で残す方法の一つが「OpenAPI」です。<a href="https://spec.openapis.org/oas/v3.2.1.html" style="color:#0000ff;text-decoration:underline;">OpenAPIの公式仕様</a>に沿って書き残せるのは、何を渡し、何が返るかという約束。保存などの処理は、その約束に合わせて実装します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>返事が届かなくても、裏方では保存が済んでいる場合があります。</strong>通信が戻ったら状態を確かめます。保存し直す場合も、同じお願いを見分けて二重に作らない仕組みが必要です。詳しくは<a href="https://developer.mozilla.org/en-US/docs/Glossary/Idempotent" style="color:#0000ff;text-decoration:underline;">MDNの、同じ要求を繰り返したときの動作の解説</a>が参考になります。</p>
+<p><strong>返事が届かなくても、裏方では保存が済んでいるかもしれません。</strong> 通信が戻ったときに、まず記録があるかを確認。もう一度頼む場合に備え、同じお願いなら二重に作らない仕組みも必要です。詳しくは<a href="https://developer.mozilla.org/en-US/docs/Glossary/Idempotent" style="color:#0000ff;text-decoration:underline;">MDNの、同じ要求を繰り返したときの動作の解説</a>が参考になります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -208,7 +208,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>3人で図書室を作るのに、それぞれが違う貸し出しルールを考えると、最後につながりません。アプリでも、別々に作業する前に「どんな人が、何をできればよいか」を合わせます。</p>
+<p>3人がそれぞれ違う貸し出しルールで図書室の仕組みを作ったら、最後につないだときに食い違います。分担の前にすり合わせたいのは、<mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">誰が何をできればよいかと、画面と裏方が何をやり取りするか</mark>です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
@@ -217,22 +217,22 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <li>目的を一つ決める。例は「外出先で、借りた本の返す日を確認できること」です。</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>保存する情報と、APIでやり取りする内容を決めます。</li>
+<li>保存する情報と、APIでやり取りする内容を決める。</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>裏方・Web・モバイルの担当を決めます。1人が複数を担当しても構いません。</li>
+<li>裏方・Web・モバイルの担当を決める。1人で複数を受け持っても構いません。</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>仮の返事を使って画面を作り、裏方は本当の保存処理を作ります。</li>
+<li>画面の担当は仮の返事で進め、裏方の担当は実際に保存する処理を作る。</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>早い段階でつなぎ、「保存して別の端末で見る」流れを試します。</li>
+<li>早めにつないで、「保存して別の端末で見る」ところまで試す。</li>
 <!-- /wp:list-item -->
 </ol>
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>決めた約束どおりの「仮の返事」を返す練習相手を、モックと呼びます。裏方の完成前でも画面を作れますが、実物同士をつなぐ確認も必要です。</p>
+<p>裏方がまだできていないなら、決めておいた返事を返す代役があると画面を先に作れます。この代役が「モック」。仮の返事で動いたあとには、実物同士をつなぐ番です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"metadata":{"name":"ja: ファイルの置き場所は、役割の分け方と別に選べる"},"className":"mpt-subsection","layout":{"type":"default"}} -->
@@ -253,7 +253,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>人数だけで決めず、一緒に変えることが多いか、別々に管理する必要があるかを見ます。一つの箱でも、Web版だけを先に更新する仕組みは作れます。ファイルの置き場所と、公開・更新の単位は別に考えます。</p>
+<p>ファイルを同じ箱に置くか迷ったら、普段どれくらい一緒に直すか、管理を分ける事情があるかを手がかりに。一つの箱に置いても、Web版だけ先に公開する運用はできます。</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -287,7 +287,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>パソコンの保存ボタンが押せるだけでは、目的を果たせたか分かりません。同じ利用者がスマホから開いて、同じ本と返す日を確認できるところまで試します。</p>
+<p>パソコンで保存ボタンを押したら、確認はもう一歩先へ。<mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">同じ人がスマホで一覧を開いて、同じ本と返す日を見られるところまで</mark>が、この例で試したい流れです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -319,7 +319,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>たとえば、裏方が返す情報の項目を「本の名前」から「タイトル」に変え、前の項目を消したとします。古いアプリは「本の名前」という項目を探すため、表示できなくなる可能性があります。</p>
+<p>裏方が返す「本の名前」を「タイトル」に変えるところを考えてみます。<mark style="background-color:#fee2e2;color:#991b1b" class="has-inline-color">古い項目をすぐ消すと、まだ「本の名前」を探すアプリは本を表示できなくなることがあります。</mark></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
@@ -355,7 +355,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>役割を分けると、画面の見た目だけを変えたいときや、複数の窓口で同じ決まりを使いたいときに整理しやすくなります。一方で、作るものや確認する組み合わせが増えます。</p>
+<p>画面だけ変えたいときに直す場所を見つけやすく、複数の窓口で同じ決まりを使いやすいのが、役割を分ける利点です。作るものが増えれば、組み合わせて試す手間も増えます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -411,7 +411,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p><strong>共通にするのは、保存する情報と、それを扱う決まり。分けるのは、Webやスマホで使いやすくする画面です。</strong>全部を一度に作る前に、一つの操作で役割分担を確かめましょう。</p>
+<p>保存する情報と、扱い方の決まりは共通に。使う人が触る画面は、Webやスマホそれぞれに合わせます。いきなり全部を作る前に、まずは一つの操作を通すところから。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -439,7 +439,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>この紙の練習で分かるのは、役割や約束の抜けです。実際の保存・通信・安全を確かめたことにはなりません。作る段階では、前の章のように実物で確認します。</p>
+<p>紙でたどると、担当が決まっていない作業や、返事の決め忘れに気づけます。<mark style="background-color:#fef08a;color:#422006" class="has-inline-color">保存・通信・安全が本当に機能するかは、組み上がった実物で確認が必要です。</mark></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -493,11 +493,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- wp:group {"metadata":{"name":"en: Introduction"},"className":"mpt-panel","layout":{"type":"default"}} -->
 <div class="wp-block-group mpt-panel">
 <!-- wp:paragraph -->
-<p><strong>Multiplatform development means building a service for more than one environment, such as the web and phone apps.</strong> This article explains how to separate the backend that manages information from the web and mobile screens people use.</p>
+<p>You save a book’s due date on your computer at home and check it on your phone later. <strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">The screens can suit each device while one backend keeps track of the records.</mark></strong> Building a service for several environments, such as the web and phone apps, is called multiplatform development.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>A library counter and its behind-the-scenes work illustrate responsibilities, communication, teamwork, and updates. By the end, you can sketch what to share and what to separate on paper. No programming knowledge is required.</p>
+<p>What would you put at the counter of a library, and what would you leave to the staff behind it? We’ll use that example to work out who does what and test it on paper.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -521,7 +521,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Imagine a library where you can ask at the counter or look something up on a screen. Different entrances would be confusing if they kept separate borrowing records. With software, too, <strong>adapt each entrance to its setting while keeping the necessary information and rules consistent.</strong></p>
+<p>Imagine getting two different lists of borrowed books depending on whether you ask at the library counter or look them up on a screen. The two entrances can work differently, but they need the same records and lending rules.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -537,7 +537,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>Using a service on a phone does not always require a dedicated app.</strong> A phone browser can open a web version, too. Some approaches also share code between iPhone and Android apps. Separating responsibilities and writing every part independently are different choices.</p>
+<p>If you want to use a service on a phone, you can open its web version in a browser. If you do build apps, the iPhone and Android versions can share some code. <mark style="background-color:#fef08a;color:#422006" class="has-inline-color">Separating responsibilities and writing every part independently are two different decisions.</mark></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -557,7 +557,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>Imagine saving “Return the star guide by November 20” on a computer, then checking it on a phone later. In this example, the steps are:</p>
+<p>You save “Return the star guide by November 20” on your computer. Later, the same record shows up on your phone. Here’s what happens between the screens and the backend.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
@@ -581,7 +581,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>An agreed interface where programs exchange requests and responses is called an <strong>API</strong>. Think of agreeing how to ask a librarian for a book and receive its due date.</p>
+<p>Tell a librarian the name of a book and they can tell you when it’s due. Programs have agreed ways to make requests and receive replies, too. One such interface is an <strong>API</strong>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -604,7 +604,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>Dates also need a clear format: “11/20” and “20/11” can cause confusion. This example exchanges dates as year-month-day, such as “2026-11-20.” Screens can display the same date as “November 20.”</p>
+<p>Mix “11/20” with “20/11” and you have to work out whether they mean the same day. Here the programs exchange dates as year-month-day, like “2026-11-20.” The screen can still say “November 20.”</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -634,7 +634,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>If three people set up a library using three different borrowing rules, their work will not fit together. Before working separately on an app, agree on who should be able to do what.</p>
+<p>If three people build parts of a library around different lending rules, the pieces won’t fit. Before splitting up the work, agree on <mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">who needs to do what and how the screens and backend will talk to one another</mark>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
@@ -658,7 +658,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>A practice substitute that returns agreed sample responses is called a mock. It lets people build screens before the backend is ready, but the real parts still need to be tested together.</p>
+<p>If the backend isn’t ready, a substitute that gives the replies you’ve agreed on can let you build the screens. That substitute is called a mock. Once the real parts are ready, connect and test them together.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"metadata":{"name":"en: Choose where files live separately from how responsibilities are divided"},"className":"mpt-subsection","layout":{"type":"default"}} -->
@@ -679,7 +679,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>Consider how often parts change together and whether they need separate management, rather than deciding only by head count. One repository can also support updating only the web version first. File organization and release boundaries are separate decisions.</p>
+<p>To decide where to keep the files, ask how often you’ll change them together and whether you need to manage them separately. One repository can still let you release the web version first.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -713,7 +713,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>A working save button on a computer does not prove the user’s goal is met. Check that the same user can open the list on a phone and see the same book and due date.</p>
+<p>Once the save button works on the computer, go one step further. <mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">Open the list on a phone as the same user and check that the book and due date match.</mark></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -745,7 +745,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Suppose the backend changes a response field from “book name” to “title” and removes the old field. An older app still looking for “book name” may no longer display it.</p>
+<p>Suppose the backend changes “book name” to “title.” <mark style="background-color:#fee2e2;color:#991b1b" class="has-inline-color">Remove the old field right away and apps that still look for “book name” may stop displaying it.</mark></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
@@ -781,7 +781,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>Separate roles can make screen-only changes easier to organize and help different interfaces follow the same rules. They also increase the number of things to build and combinations to check.</p>
+<p>When roles are separate, it’s easier to see where a screen-only change belongs and keep the same rules across interfaces. More pieces also mean more combinations to test.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -837,7 +837,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p><strong>Share stored information and the rules for handling it; adapt the web and phone screens to their respective ways of use.</strong> Before building everything, walk one action through the separate roles.</p>
+<p>Keep the stored information and its rules in common. Give the web and phone their own screens to suit how people use them. Before building the whole thing, follow one action through all three roles.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -865,7 +865,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>This paper exercise can reveal missing responsibilities and agreements. It does not test real storage, networking, or security. Check the actual implementation when you build it, as described earlier.</p>
+<p>Paper can show where no one owns a task or where you never agreed what reply should come back. <mark style="background-color:#fef08a;color:#422006" class="has-inline-color">Test storage, networking, and security on the working system.</mark></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

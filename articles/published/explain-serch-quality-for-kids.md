@@ -1,7 +1,7 @@
 ---
 categories:
 - 課題と解決
-excerpt: 小学生の調べ学習にも使える、インターネット検索のコツを紹介します。「タンポポの綿毛はなぜ飛ぶ？」を例に、検索キーワードの選び方、見つかるページに合わせた言葉の足し方・外し方・言い換え方、別の資料で答えを確かめる方法が分かります。
+excerpt: 綿毛が飛ぶ理由を知りたいのに、「タンポポ」で検索すると花の写真ばかり。そんなとき、どの言葉を変えればいいのでしょう。検索に使う言葉の選び方から、結果に合わせた言い換え、図鑑や大学のページで答えを確かめるところまで、小学生の調べ学習にも使える例で紹介します。
 featured_image: articles/images/search-keywords-for-kids/01-question.webp
 featured_image_alt: 机の上のタンポポを観察し、綿毛が飛ぶ理由を考える子ども
 slug: search-keywords-for-kids
@@ -45,11 +45,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/18/search-keywords-fo
 <div class="wp-block-tab-panels"><!-- wp:tab-panel {"label":"日本語","metadata":{"name":"日本語本文"}} -->
 <section role="tabpanel" tabindex="0" class="wp-block-tab-panel"><!-- wp:group {"metadata":{"name":"ja: 導入"},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:paragraph -->
-<p><strong>インターネットで調べるときは、まず知りたいことを一文にします。大事な言葉を選んで検索（けんさく）し、答えが出なければ言葉を変えます。答えが見つかったら、別の資料でも確かめます。</strong></p>
+<p>「タンポポの綿毛（わたげ）はどうして飛ぶの？」と気になって、まずは「タンポポ」と検索（けんさく）。花の写真ばかり並んでいたら、どのページを開けばいいか迷いますよね。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>「タンポポの綿毛（わたげ）はどうして飛ぶの？」を例に、調べてみましょう。<a href="https://zenn.dev/nanashinogonbei/articles/how-to-improve-search-quality" style="color: #0000ff; text-decoration: underline;">もとになった記事「検索の質を上げるためのキーワード選びと検索の進め方」（Zenn）</a></p>
+<p><strong>そんなときは、<mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">質問の中から大事な言葉を選び、出てきたページを見ながら一つずつ変える</mark>のがコツです。</strong> この質問を例に、言葉を選ぶところから、見つけた答えを別の資料で確かめるところまでたどります。 <a href="https://zenn.dev/nanashinogonbei/articles/how-to-improve-search-quality" style="color: #0000ff; text-decoration: underline;">もとになった記事「検索の質を上げるためのキーワード選びと検索の進め方」（Zenn）</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -63,11 +63,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/18/search-keywords-fo
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>図書室で「タンポポの本が見たい」と言うと、育て方の本も見つかります。「綿毛が飛ぶ理由を知りたい」と伝えれば、どの本を開くか決めやすくなります。インターネットでも、質問を一つ決めると、読むページを選びやすくなります。</p>
+<p>図書室で「タンポポの本が見たい」と言えば、育て方の本も候補に入ります。綿毛が飛ぶ理由を知りたいなら、風でたねが運ばれるしくみを説明した本がよさそうです。ネットで調べるときも、<mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">先に質問を一文にしておく</mark>と、読むページを選ぶ手がかりになります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>この例では、綿毛が何を運ぶか、なぜ風で運ばれるかを、自分の言葉で説明できたら調べ終わりです。</p>
+<p>今回のゴールは、綿毛が何を運ぶのか、どうして風で運ばれるのかを自分の言葉で説明すること。</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -81,15 +81,15 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/18/search-keywords-fo
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>検索に使う言葉を「キーワード」といいます。今回は、調べたいものを表す「タンポポ」「綿毛」と、その動きを表す「飛ぶ」を選びます。</p>
+<p>検索に使う言葉が「キーワード」です。「タンポポの綿毛はどうして飛ぶの？」から拾うなら、<mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">調べたいものを表す「タンポポ」「綿毛」と、動きを表す「飛ぶ」</mark>の三つ。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>言葉の間を空けて <code>タンポポ 綿毛 飛ぶ</code> と入れてみましょう。育て方を調べるなら、<code>タンポポ 育て方</code> が出発点です。</p>
+<p>検索欄には、言葉の間を空けて <code>タンポポ 綿毛 飛ぶ</code> と入力します。同じタンポポでも、育て方が知りたいなら <code>タンポポ 育て方</code> から。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>質問をそのまま入れても検索できます。短い言葉に分けておくと、検索し直すときに一つずつ変えやすくなります。</p>
+<p>もちろん、質問をそのまま入れても大丈夫です。短い言葉に分ける利点は、探し直すときに一つずつ入れ替えやすいこと。</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -103,25 +103,25 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/18/search-keywords-fo
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>検索して出てきたページの一覧を「検索結果」といいます。読みたいページが見つからなければ、結果を見てどの言葉を変えるか決めます。</p>
+<p>検索すると、ページの一覧が出てきます。これが「検索結果」です。目当てのページが見当たらないときは、どんなページが並んでいるかが、次に変える言葉のヒントになります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 <ul class="wp-block-list"><!-- wp:list-item -->
-<li><strong>話が広すぎるときは、言葉を足します。</strong> <code>タンポポ 綿毛</code> で写真や工作のページが多ければ、「飛ぶ」を足して <code>タンポポ 綿毛 飛ぶ</code> にします。</li>
+<li><strong>写真や工作のページが多いなら、言葉を足す。</strong> <code>タンポポ 綿毛</code> に「飛ぶ」を加えると、<code>タンポポ 綿毛 飛ぶ</code> になります。</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><strong>条件が細かすぎるときは、言葉を外します。</strong> <code>タンポポ 綿毛 飛ぶ 春</code> で役立つページが少なければ、今の質問にいらない「春」を外して <code>タンポポ 綿毛 飛ぶ</code> に戻します。</li>
+<li><strong>役立つページが少ないなら、言葉を外す。</strong> <code>タンポポ 綿毛 飛ぶ 春</code> で手がかりが少なければ、「春」を外して <code>タンポポ 綿毛 飛ぶ</code> に。飛ぶ理由を知りたいので、季節までしぼる必要はありません。</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><strong>別の呼び方を見つけたら、その言葉に入れ替えます。</strong> 開いたページで綿毛を「冠毛（かんもう）」と呼んでいたら、<code>タンポポ 冠毛 飛ぶ</code> を試します。</li>
+<li><strong>別の呼び方を見つけたら、入れ替える。</strong> 綿毛を「冠毛（かんもう）」と呼ぶページがあれば、その言葉が次の手がかり。検索欄に入れるのは <code>タンポポ 冠毛 飛ぶ</code> です。</li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>Google検索では、<code>"タンポポの綿毛"</code> のように <code>&quot;</code> で囲むと、その言い方を含むページを探せます。<code>タンポポ 綿毛 site:env.go.jp</code> なら、環境省のサイトにしぼれます。<code>site:</code> と <code>env.go.jp</code> の間は空けません。見つからなければ、サイトの指定を外して探し直します。<a href="https://support.google.com/websearch/answer/2466433?hl=ja" style="color: #0000ff; text-decoration: underline;">Google検索ヘルプ「Google 検索の結果を絞り込む」</a></p>
+<p>Google検索で、ある言い回しをそのまま含むページを探すには、<code>"タンポポの綿毛"</code> のように <code>&quot;</code> で囲みます。環境省のサイトだけを探すなら、<code>タンポポ 綿毛 site:env.go.jp</code>。<mark style="background-color:#fef08a;color:#422006" class="has-inline-color"><code>site:</code> と <code>env.go.jp</code> の間にスペースを入れない</mark>のがポイントです。<mark style="background-color:#fee2e2;color:#991b1b" class="has-inline-color"><code>site: env.go.jp</code> と空けると、サイトをしぼれません。</mark> 目当てのページがなければ、サイトの指定を外して探し直せます。 <a href="https://support.google.com/websearch/answer/2466433?hl=ja" style="color: #0000ff; text-decoration: underline;">Google検索ヘルプ「Google 検索の結果を絞り込む」</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -135,29 +135,29 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/18/search-keywords-fo
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>検索結果に短い説明やAIのまとめが出たときも、元のページを開きます。本文を読み、次の三つを確かめましょう。</p>
+<p><mark style="background-color:#fee2e2;color:#991b1b" class="has-inline-color">検索結果の短い説明やAIのまとめだけで答えを決めないこと。</mark> 元のページを開いたら、次の三つが手がかりです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 <ul class="wp-block-list"><!-- wp:list-item -->
-<li><strong>自分の質問に答えていますか。</strong> 今回なら、綿毛が飛ぶ理由を書いたところを探します。</li>
+<li><strong>知りたいことが書いてある？</strong> 今回なら、本文の中で綿毛が飛ぶ理由を説明しているところ。</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><strong>だれが書き、何をもとに説明していますか。</strong> 書いた人や団体の名前と、観察や実験などの手がかりを見ます。開館時間など、変わる情報は日付も見ます。</li>
+<li><strong>だれが、何をもとに書いた？</strong> 書いた人や団体の名前はどこにあるでしょう。観察や実験の話も手がかりです。<mark style="background-color:#fef08a;color:#422006" class="has-inline-color">開館時間のように変わる情報なら、いつの情報かも確かめておく</mark>と安心です。</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><strong>別の資料でも同じことが分かりますか。</strong> 図書室の図鑑や大学・博物館のページも見ます。説明が違うときは、同じ種類や場所について書いてあるかを確かめます。</li>
+<li><strong>ほかの資料にも同じことが書いてある？</strong> 図書室の図鑑や、大学・博物館のページでも答えを探せます。説明が食い違うときは、同じ種類や場所についての話かどうかも手がかりになります。</li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>九州大学と日本植物生理学会の資料では、どちらもタンポポのたねが風で運ばれることを確かめられます。<a href="https://www.forest.kyushu-u.ac.jp/2024/4105" style="color: #0000ff; text-decoration: underline;">九州大学の演習林「たんぽぽ」</a>、<a href="https://jspp.org/hiroba/q_and_a/detail.html?id=4706" style="color: #0000ff; text-decoration: underline;">日本植物生理学会「たんぽぽの綿毛は飛んでも『綿毛』？」</a></p>
+<p>九州大学と日本植物生理学会の資料を読み比べると、共通しているのは、タンポポのたねが風で運ばれるという説明です。 <a href="https://www.forest.kyushu-u.ac.jp/2024/4105" style="color: #0000ff; text-decoration: underline;">九州大学の演習林「たんぽぽ」</a>、<a href="https://jspp.org/hiroba/q_and_a/detail.html?id=4706" style="color: #0000ff; text-decoration: underline;">日本植物生理学会「たんぽぽの綿毛は飛んでも『綿毛』？」</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>タンポポの綿毛はパラシュートのように空気を受け、下についている小さな実が落ちるのをおそくします。</strong> 実の中にはたねがあります。実がゆっくり落ちる間に、風がそれを運びます。<a href="https://www.mech.utsunomiya-u.ac.jp/fel/tanpopo.html" style="color: #0000ff; text-decoration: underline;">宇都宮大学 流体工学研究室「タンポポ」</a></p>
+<p>では、どうして風で運ばれるのでしょう。綿毛の下には、たねが入った小さな実がついています。<strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">綿毛がパラシュートのように空気を受けるので、実はゆっくり落ち、その間に風で運ばれるのです。</mark></strong> <a href="https://www.mech.utsunomiya-u.ac.jp/fel/tanpopo.html" style="color: #0000ff; text-decoration: underline;">宇都宮大学 流体工学研究室「タンポポ」</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -171,11 +171,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/18/search-keywords-fo
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>「月はどうして形が変わって見えるの？」なら、<code>月 形 変わる</code> で検索してみましょう。開いたページに「満ち欠け（みちかけ）」と書いてあれば、その言葉を使って探し直せます。別の資料で答えを確かめたら、分かったことを自分の言葉で一文にし、見た資料の名前をメモします。次は、最近ふしぎに思ったことを一つ調べてみましょう。</p>
+<p>「月はどうして形が変わって見えるの？」なら、はじめのキーワードは <code>月 形 変わる</code>。開いたページに「満ち欠け（みちかけ）」と出てきたら、次の検索にその言葉が使えます。別の資料でも答えを確かめたら、<mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">分かったことを自分の言葉で一文に。</mark> 見た資料の名前もいっしょにメモしておくと、あとで読み返せます。最近ふしぎに思ったことがあれば、次はその疑問で試してみてください。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>この探し方は、行ける場所や日を手がかりにイベントを探すときにも使えます。<a href="https://www.nanasinogonbei.com/blog/2026/09/20/theater-ticket-search/" style="color: #0000ff; text-decoration: underline;">小劇場の公演をチケット販売サイトから探す方法</a></p>
+<p>行ける場所や日を手がかりにイベントを探すのも、言葉を選んで検索する身近な例です。 <a href="https://www.nanasinogonbei.com/blog/2026/09/20/theater-ticket-search/" style="color: #0000ff; text-decoration: underline;">小劇場の公演をチケット販売サイトから探す方法</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:tab-panel -->
@@ -183,11 +183,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/18/search-keywords-fo
 <!-- wp:tab-panel {"label":"English","metadata":{"name":"English article"}} -->
 <section role="tabpanel" tabindex="0" class="wp-block-tab-panel"><!-- wp:group {"metadata":{"name":"en: Introduction"},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:paragraph -->
-<p><strong>When you look something up online, start by writing your question in one sentence. Search for the important words and change them if you don’t find an answer. When you find one, check it with another source.</strong></p>
+<p>Why does dandelion fluff fly? Search for “dandelion” and you might get a screen full of flower photos, with very little about how the fluff moves.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Let’s try this with one question. Why does dandelion fluff fly? <a href="https://zenn.dev/nanashinogonbei/articles/how-to-improve-search-quality" style="color: #0000ff; text-decoration: underline;">Original article on choosing keywords and improving your searches (Zenn, in Japanese)</a></p>
+<p><strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">Pick the words that matter in your question, then look at what comes up and change one word at a time.</mark></strong> We’ll follow the dandelion question from choosing those first words to checking the answer in another source. <a href="https://zenn.dev/nanashinogonbei/articles/how-to-improve-search-quality" style="color: #0000ff; text-decoration: underline;">Original article on choosing keywords and improving your searches (Zenn, in Japanese)</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -201,7 +201,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/18/search-keywords-fo
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>If you ask for a book about dandelions at the library, you might find one about how to grow them. If you say you want to know why the fluff flies, it’s easier to pick a book. A clear question also helps you choose which web pages to read.</p>
+<p>Ask for a book about dandelions at the library and you might end up with a gardening book. If you want to know why the fluff flies, a book about how wind carries seeds is a better bet. <mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">Writing down your question in one sentence</mark> helps you choose which web pages to read, too.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -219,7 +219,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/18/search-keywords-fo
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>The words you use to search are called keywords. Here, “dandelion” and “fluff” name what you’re looking up, and “fly” tells you what it does.</p>
+<p>The words you use to search are called keywords. Here, <mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">“dandelion” and “fluff” name what you’re looking up, and “fly” tells you what it does.</mark></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -246,11 +246,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/18/search-keywords-fo
 
 <!-- wp:list -->
 <ul class="wp-block-list"><!-- wp:list-item -->
-<li><strong>Add a word if the results cover too many topics.</strong> If <code>dandelion fluff</code> mostly turns up pictures or crafts, add “fly” to get <code>dandelion fluff fly</code>.</li>
+<li><strong>Mostly photos and crafts? Add a word.</strong> Add “fly” to <code>dandelion fluff</code> and you get <code>dandelion fluff fly</code>.</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><strong>Remove a word if your search is too narrow.</strong> If <code>dandelion fluff fly spring</code> turns up few useful pages, drop “spring” and try <code>dandelion fluff fly</code>.</li>
+<li><strong>Too few useful pages? Drop a word.</strong> If <code>dandelion fluff fly spring</code> gives you little to work with, drop “spring” and try <code>dandelion fluff fly</code>. The season doesn’t matter for this question.</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
@@ -259,7 +259,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/18/search-keywords-fo
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>On Google, put double quotation marks around a phrase, as in <code>"dandelion fluff"</code>, to find pages with that exact phrase. For a Japanese example, <code>タンポポ 綿毛 site:env.go.jp</code> looks for dandelion fluff on Japan’s Ministry of the Environment website. Keep <code>site:</code> and <code>env.go.jp</code> together. If you can’t find what you need, search again without the site restriction. <a href="https://support.google.com/websearch/answer/2466433?hl=en" style="color: #0000ff; text-decoration: underline;">Google Search Help on refining searches</a></p>
+<p>On Google, put double quotation marks around a phrase, as in <code>"dandelion fluff"</code>, to find pages with that exact phrase. For a Japanese example, <code>タンポポ 綿毛 site:env.go.jp</code> looks for dandelion fluff on Japan’s Ministry of the Environment website. <mark style="background-color:#fef08a;color:#422006" class="has-inline-color">Keep <code>site:</code> and <code>env.go.jp</code> together, with no space between them.</mark> <mark style="background-color:#fee2e2;color:#991b1b" class="has-inline-color"><code>site: env.go.jp</code> has a space, so it won’t limit the search to that site.</mark> If you can’t find what you need, search again without the site restriction. <a href="https://support.google.com/websearch/answer/2466433?hl=en" style="color: #0000ff; text-decoration: underline;">Google Search Help on refining searches</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -273,7 +273,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/18/search-keywords-fo
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>If the results show a short preview or an AI summary, open the original page too. Read it and ask these three questions.</p>
+<p><mark style="background-color:#fee2e2;color:#991b1b" class="has-inline-color">Avoid settling on an answer from a search preview or AI summary alone.</mark> Open the original page and ask these three questions.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
@@ -282,7 +282,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/18/search-keywords-fo
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><strong>Who wrote it, and how do they know?</strong> Look for the author or group and any observations or experiments they describe. Check the date when the information can change, as with a museum’s opening hours.</li>
+<li><strong>Who wrote it, and how do they know?</strong> Look for the author or group and any observations or experiments they describe. <mark style="background-color:#fef08a;color:#422006" class="has-inline-color">Check the date when the information can change, as with a museum’s opening hours.</mark></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
@@ -295,7 +295,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/18/search-keywords-fo
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>Dandelion fluff acts like a parachute and slows the fall of the tiny fruit underneath.</strong> The fruit holds the seed. As it falls slowly, the wind carries it away. <a href="https://www.mech.utsunomiya-u.ac.jp/fel/tanpopo.html" style="color: #0000ff; text-decoration: underline;">Utsunomiya University Fluid Engineering Laboratory page on dandelions (in Japanese)</a></p>
+<p>So how does the wind carry it? Under the fluff is a tiny fruit with a seed inside. <strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">The fluff catches the air like a parachute, slowing the fruit’s fall and giving the wind time to carry it away.</mark></strong> <a href="https://www.mech.utsunomiya-u.ac.jp/fel/tanpopo.html" style="color: #0000ff; text-decoration: underline;">Utsunomiya University Fluid Engineering Laboratory page on dandelions (in Japanese)</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -309,7 +309,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/18/search-keywords-fo
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>Why does the Moon look like it changes shape? Start with <code>moon shape changes</code>. If a page uses the words “Moon phases,” try searching for those words. After checking the answer with another source, write a sentence in your own words and note the names of the sources you used. Then try the same approach with a question of your own.</p>
+<p>Why does the Moon look like it changes shape? Start with <code>moon shape changes</code>. If a page mentions “Moon phases,” you’ve got words for your next search. Once you’ve checked the answer with another source, <mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">sum it up in one sentence in your own words.</mark> Note the names of the sources so you can find them again. What else have you wondered about lately? Try the same approach with that question.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

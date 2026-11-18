@@ -58,11 +58,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <div class="wp-block-tab-panels"><!-- wp:tab-panel {"label":"日本語","metadata":{"name":"日本語本文"}} -->
 <section role="tabpanel" tabindex="0" class="wp-block-tab-panel"><!-- wp:group {"metadata":{"name":"ja: 導入"},"className":"simple-product-panel","layout":{"type":"default"}} -->
 <div class="wp-block-group simple-product-panel"><!-- wp:paragraph -->
-<p><strong>プログラムやアプリは、必要な働きや安全を守れる範囲で、シンプルにするのがよいと考えます。</strong>余計な複雑さを減らすと、作る人は仕組みを追いやすく、使う人は目的の操作を見つけやすくなるからです。</p>
+<p>筆箱を軽くしたくて、えんぴつまで出してしまったら字が書けません。プログラムやアプリも同じです。<strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">必要な働きや安全を残し、迷うところや余計な手間を減らす。</mark></strong> そのほうが、使う人にも作る人にも扱いやすくなります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>ここでいう「プログラム」は、コンピューターを動かすための指示です。「プロダクト」は、人に使ってもらうために作ったものです。この記事では、スマートフォンやパソコンで使うアプリを例にします。</p>
+<p>「プログラム」はコンピューターを動かす指示。「プロダクト」は人が使うために作ったものです。ここでは、手に取るスマホやパソコンのアプリで考えます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -80,7 +80,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>筆箱を思い浮かべてください。えんぴつや消しゴムに交じって、小さなおもちゃや使わない紙がたくさん入っていると、欲しい物を探しにくくなります。</p>
+<p>えんぴつや消しゴムの間に小さなおもちゃや使わない紙が詰まっている筆箱。いざ書こうとすると、欲しい物がすぐには出てきません。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -88,7 +88,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>シンプルにするとは、目的を果たすために必要なものを残し、余計な迷いや手間を減らすことです。</strong>「数を減らせたか」だけでは、よくなったかどうかは決まりません。</p>
+<p>筆箱を整えるときに見たいのは、何個取り出せたかより、必要な文房具を手に取りやすくなったか。アプリでも、減らした数だけでは使いやすさは分かりません。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:table {"hasFixedLayout":false} -->
@@ -110,11 +110,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>借りた本を返す日が来たら、知らせるロボットを考えます。「本のことを、いい感じにお願い」だけでは、何をするのか分かりません。</p>
+<p>「本のことを、いい感じにお願い」とだけ言われたロボットは、何を見て、いつ知らせればいいのでしょう。借りた本の返却を知らせるなら、もう少し具体的に頼む必要があります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>そこで、<strong>まだ返していない本のうち、返す日が今日か、それより前の本について知らせる</strong>と決めます。本の名前・返す日・返したかどうかを記録しておきます。正しい日付が保存されている前提で、1冊ずつ次を確かめます。</p>
+<p>知らせてほしいのは、<strong>まだ返していない本のうち、返す日が今日か、それより前の本</strong>です。手元に残すのは、本の名前・返す日・返したかどうか。日付が正しく入っていれば、1冊ずつ次の順で確かめられます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
@@ -132,11 +132,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>「返したか調べる」「日付を比べる」「知らせる」と役割を分けると、手順を追いやすくなります。お知らせの文章だけ変えたいときも、直す場所を見つけやすくなります。</p>
+<p>「返したか調べる」「日付を比べる」「知らせる」。三つが分かれていれば、動きを追いやすく、お知らせの文だけ変えたいときも、どこを直せばよいか分かります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>指示を短くしたくて「返したか調べる」を消すと、返した本についても知らせてしまいます。<strong>短さより、必要な約束を守り、あとから読み直せることが大切です。</strong>ここでは、1回確かめたときに知らせるかどうかだけを考えます。知らせる時刻や回数は、別に決める必要があります。</p>
+<p><mark style="background-color:#fee2e2;color:#991b1b" class="has-inline-color">「返したか調べる」を省くと、返却済みの本までお知らせが来ます。</mark> <strong>短く書くことより、必要な条件が読み取れることが大事です。</strong> この例で決めたのは一回の確認で知らせるかどうか。時刻や回数は別に考えます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -154,7 +154,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>今度は、ロボットの裏側ではなく、使う画面を考えます。目的は「借りた本と返す日を、あとで確認できるようにすること」です。</p>
+<p>使う人は、借りた本と返す日をあとで見られればひとまず困りません。そのために、どこまで入力してもらう必要があるでしょうか。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -162,11 +162,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>本の名前と返す日を保存し、一覧で見られれば、この目的を果たせます。お知らせも使うなら、返した本に「返却済み」の印を付けられるようにします。感想は、書きたい人があとで足せる形にできます。<strong>みんなに全部を求めず、その場で必要なことに絞る</strong>考え方です。</p>
+<p>本の名前と返す日を保存して、一覧で見られれば目的は果たせます。お知らせを出すなら「返却済み」の印も用意。感想は、書きたい人があとで足せる形なら、毎回入力せずに済みます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>ただし、返す日まで消してしまうと、「いつ返すか」を確かめられません。また、全部を一つの画面に詰め込むと、かえって見づらくなる場合もあります。画面やボタンの数だけでなく、用事を終えられるかを見ます。</p>
+<p>返す日を消したら、あとから「いつ返せばいい？」に答えられません。何でも一画面に入れれば見やすくなるとも限らないので、<mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">使う人が用事を終えられるか</mark>を手がかりに。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -192,7 +192,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>アプリでも、使う人が見ていないところで必要な仕事があります。たとえば、他の人の記録を勝手に見られないようにすることです。画面をすっきりさせたいからといって、こうした守りまでなくしてよいわけではありません。</p>
+<p>アプリにも、画面には見えない鍵があります。他の人の記録を勝手に見られないようにする仕組みがその一つ。<mark style="background-color:#fef08a;color:#422006" class="has-inline-color">画面をすっきりさせても、記録を守る仕組みは必要です。</mark></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -214,7 +214,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>たとえば、毎回出る確認画面を減らし、削除後に「元に戻す」を用意する方法も考えられます。どちらが合うかは、消す物の大切さや、確実に戻せるかで決めます。</p>
+<p>毎回の確認画面を減らして、消した直後に「元に戻す」を出す方法もあります。どちらが合うかは、消す物の大切さと、本当に元に戻せるかで変わります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -236,7 +236,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>「どこまで減らせばよいの？」と迷ったら、数を決める前に、使う場面を書いてみます。パソコンを使わず、紙とえんぴつから始められます。</p>
+<p>「機能はいくつまで？」と数え始める前に、誰がどんな用事で画面を開くかを紙に書きます。本を一冊記録して、返す日を見つける。まずはその流れだけ。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
@@ -258,7 +258,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>紙では、画面の分かりやすさを考えられます。保存やお知らせが本当に動くかは、アプリを作ってから別に確かめます。入力の確認と、保存した本に知らせる判断を分けて、次の例を試します。</p>
+<p>紙の画面で分かるのは、言葉や操作の分かりやすさです。<mark style="background-color:#fef08a;color:#422006" class="has-inline-color">保存やお知らせが本当に動くかは、アプリを作ってから確かめます。</mark> 入力の確認と、保存した本について知らせるかどうかは分けて試せます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:table {"hasFixedLayout":false} -->
@@ -270,7 +270,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>プログラムやアプリのシンプルさは、「目的を果たせるか」「安全を守れるか」「作る人が仕組みを追えるか」で確かめます。</strong>普段使う道具を一つ選び、「迷った場所」と「なくなると困るもの」を書くところから始めてみてください。</p>
+<p>普段使っている道具を一つ思い浮かべて、「どこで迷ったか」「なくなると何が困るか」を書くところから。<strong>用事が済むこと、安全が守られること、あとから仕組みを追えること</strong>が、整理できたかを判断する手がかりです。</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:tab-panel -->
@@ -278,11 +278,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- wp:tab-panel {"label":"English","metadata":{"name":"English body"}} -->
 <section role="tabpanel" tabindex="0" class="wp-block-tab-panel"><!-- wp:group {"metadata":{"name":"en: Introduction"},"className":"simple-product-panel","layout":{"type":"default"}} -->
 <div class="wp-block-group simple-product-panel"><!-- wp:paragraph -->
-<p><strong>I believe programs and apps should be made simple while keeping the features and protections people need.</strong> Removing unnecessary complexity helps makers follow how things work and users find the actions they need.</p>
+<p>Take the pencil out to lighten your pencil case and you can’t write. The same goes for programs and apps. <strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">Keep the features and protections people need, and remove the places they get stuck or waste time.</mark></strong> That makes things easier for both the people who use them and the people who build them.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>A “program” is a set of instructions that makes a computer do something. A “product” is something made for people to use. Here, we will use apps on phones and computers as examples.</p>
+<p>A “program” is a set of instructions for a computer. A “product” is something made for people to use. Think of the apps you open on a phone or computer.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -300,7 +300,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>Think about a pencil case. If pencils and an eraser are mixed with little toys and scraps of paper, finding what you need becomes harder.</p>
+<p>Picture a pencil case packed with bits of paper and little toys among the pencils and eraser. When you want to write, it takes a while to find what you need.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -308,7 +308,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>Making something simple means keeping what the task needs and removing unnecessary confusion and effort.</strong> Counting how much you removed does not tell you whether you improved it.</p>
+<p>When you tidy a pencil case, what matters is whether you can reach the stationery you need. Counting the things you removed tells you little about how easy an app is to use, either.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:table {"hasFixedLayout":false} -->
@@ -330,7 +330,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>Imagine a robot that reminds you when it is time to return a borrowed book. “Please take care of the books somehow” does not explain what it should do.</p>
+<p>Tell a robot “Please take care of the books somehow,” and it still won’t know what to check or when to speak up. A reminder to return a borrowed book needs a more specific instruction.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -352,11 +352,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>Separating the jobs of checking whether a book was returned, comparing dates, and sending a reminder makes the steps easier to follow. It also helps us find where to change just the reminder's wording.</p>
+<p>Check whether the book was returned, compare dates, then send the reminder. Giving each step one job makes the sequence easier to follow and the reminder easier to edit.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>If we remove the returned-book check just to shorten the instructions, the robot may remind us about books we already returned. <strong>Keeping the necessary rules and making instructions readable later matters more than making them short.</strong> Here we consider only whether to send a reminder during one check. The time and frequency of reminders need separate decisions.</p>
+<p><mark style="background-color:#fee2e2;color:#991b1b" class="has-inline-color">Skip the returned-book check and the robot will send reminders about books you already returned.</mark> <strong>The rules need to be clear enough to read again later.</strong> This example decides whether to send a reminder during one check. When and how often to check are separate decisions.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -374,7 +374,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>Now think about the screen people use, rather than the robot's inner workings. The goal is to record a borrowed book and its return date so you can check them later.</p>
+<p>The person using the app wants to look up a borrowed book and see when it’s due. How much do they really need to fill in for that?</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -382,11 +382,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Saving a book's name and return date and showing them in a list meets this goal. If reminders are included, let people mark books as returned. People who want to add their thoughts can do so later. <strong>Ask for what the task needs now, instead of making everybody provide everything.</strong></p>
+<p>Save the book’s name and return date and show them in a list. If there are reminders, let people mark a book as returned. Anyone who wants to write their thoughts can add them later, without making that a step every time.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>But removing the return date would stop people checking when to return the book. Putting everything on one screen can also make it harder to read. Look at whether people can finish the task, not just how many screens or buttons remain.</p>
+<p>Take away the date and people can’t tell when the book is due. Cramming it all onto one screen can make things harder to read, too. Look at <mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">whether the person can finish the task</mark>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -412,7 +412,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Apps also need to do work that users cannot see, such as stopping someone from viewing another person's private records. Making a screen less crowded does not justify removing those protections.</p>
+<p>Apps have locks you don’t see on the screen, such as protections that stop someone else viewing your records. <mark style="background-color:#fef08a;color:#422006" class="has-inline-color">Keep those protections even as you make the screen less crowded.</mark></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -434,7 +434,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>For example, we could reduce repeated confirmation screens and offer an “Undo” option after deletion. The right choice depends on how important the deleted item is and whether it can reliably be restored.</p>
+<p>One alternative to asking every time is offering “Undo” just after deletion. Which works better depends on what you’re deleting and whether you can reliably bring it back.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -456,7 +456,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>If you are unsure how much to remove, write down the situation before choosing a number of features. You can start with paper and a pencil, without a computer.</p>
+<p>Before you count features, write down who opens the app and what they came to do. Record one book, then find its due date. That’s enough to start sketching on paper.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
@@ -478,7 +478,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>Paper helps you think about whether screens make sense. Check whether saving and reminders actually work once the app exists. Test input checks separately from reminder decisions for saved books, using these examples.</p>
+<p>Paper is good for spotting unclear words or controls. <mark style="background-color:#fef08a;color:#422006" class="has-inline-color">Try saving and reminders in the working app before you count on them.</mark> You can test input checks separately from the decision to send a reminder for a saved book.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:table {"hasFixedLayout":false} -->
@@ -490,7 +490,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>Judge simplicity in programs and apps by asking: “Can people finish the task?”, “Are they protected?”, and “Can makers follow how it works?”</strong> Start with one tool you use regularly. Write down where you get confused and what you could not do without.</p>
+<p>Pick a tool you use regularly. Write down where you hesitate and what you’d miss if it were gone. <strong>Can you finish the task? Are you protected? Could the person maintaining it follow what happens?</strong> Those questions help you judge whether you’ve simplified it.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:tab-panel --></div>

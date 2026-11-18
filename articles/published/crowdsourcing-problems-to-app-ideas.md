@@ -1,7 +1,7 @@
 ---
 categories:
 - 開発の裏側
-excerpt: アプリの題材を探している個人開発者向けに、クラウドソーシングの依頼やアプリレビューから困り事を安全に収集・集計し、対象者への確認を経て小さなアプリで検証する手順を、架空の記入例と7日間の進め方で紹介します。
+excerpt: 「請求書を表に転記してほしい」という依頼から、どんな不便が見えるのでしょう。クラウドソーシングやアプリレビューを手がかりに、利用条件を確かめて困り事だけを記録し、本人に話を聞いてから試作する流れを、架空の例と7日間の進め方でまとめました。
 featured_image: articles/images/crowdsourcing-problems-to-app-ideas/01-overview.png
 featured_image_alt: 複数の困り事を集めて整理し、小さなアプリの形にする流れを表したイラスト
 slug: crowdsourcing-problems-to-app-ideas
@@ -59,15 +59,15 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- wp:group {"metadata":{"name":"日本語：導入・全体の流れ"},"className":"crowd-app-panel panel-ja","layout":{"type":"default"}} -->
 <div class="wp-block-group crowd-app-panel panel-ja">
 <!-- wp:paragraph -->
-<p>クラウドソーシングからアプリのアイデアを見つけるなら、依頼された機能ではなく、<strong>お金や時間をかけてでも解決したい困り事</strong>を読み取ります。公開依頼は、その手がかりの一つです。</p>
+<p>「請求書の内容を表へ転記してほしい」。そんな依頼を見つけたら、頼まれた機能の前に、何に時間がかかっているのかを考えます。<strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">お金や時間をかけてでも片付けたい作業</mark></strong>が見えると、自作アプリの題材を考えやすくなります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>ただし、依頼を一件見つけただけでは需要があるとは言えません。依頼文をそのまま製品仕様にしたり、投稿者の情報を別の目的で利用したりするのも避ける必要があります。</p>
+<p>依頼が一件あっただけでは、同じことで困る人がどれくらいいるかは分かりません。<mark style="background-color:#fee2e2;color:#991b1b" class="has-inline-color">依頼文をそのまま製品の仕様にしたり、投稿者の情報を別の目的に使ったりするのは避けます。</mark></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>結論は、次の5段階で進めることです。</strong></p>
+<p>手がかりを見つけてから、アプリとして試すまでの流れは次の五つです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
@@ -89,7 +89,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>30件や5人は需要を証明する数字ではなく、思い込みを減らすための初回調査の目安です。</p>
+<p>30件や5人は、初回の調査をどこで区切るかの目安です。話を聞くところまで進めたら、最初の思い込みがどこで外れたかも見ておきます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -109,11 +109,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>クラウドソーシングには、「表計算へ転記してほしい」「毎週の報告をまとめてほしい」といった依頼があります。ここから読むべきなのは、指定された納品物だけではありません。</p>
+<p>「表計算へ転記してほしい」「毎週の報告をまとめてほしい」。依頼された作業を読んだら、どんなときに、どの手順で困ったのかに目を向けます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>架空の例として「請求書の内容を表へ転記してほしい」という依頼を考えます。背景を確認できた場合は、次のように整理できます。依頼文にない項目は、推測で埋めず「未確認」にします。</p>
+<p>架空の依頼「請求書の内容を表へ転記してほしい」を使って、背景が分かった場合の書き方を示します。<mark style="background-color:#fef08a;color:#422006" class="has-inline-color">依頼文に書いていないことは、確認できるまで「未確認」にします。</mark></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
@@ -135,7 +135,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>この形に直すと、「転記代行を受注する」という発想から、「確認しやすい下書きを作る道具」など、別の解決方法も考えられます。</p>
+<p>もし時間がかかるのが表へ入力する部分なら、転記を全部引き受けるほかに、下書きだけ作って本人が確かめられる道具も考えられます。</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -161,11 +161,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>Appleは、レビューをアプリの利用体験に関するフィードバックと説明しています。調査では星の数だけでなく、投稿日・対象バージョン・具体的な作業を読みましょう。古い不満が現在も残っているかは、現行版で確認します。<a href="https://developer.apple.com/app-store/ratings-and-reviews/" style="color: #0000ff; text-decoration: underline;">Appleの評価・レビューの案内</a></p>
+<p>Appleは、レビューをアプリの利用体験に関するフィードバックと説明しています。レビューを読む手がかりは、星の数に加えて、投稿日・アプリのバージョン・困った作業。古いレビューに書かれた不便が今も残るかは、現行版で確認できます。<a href="https://developer.apple.com/app-store/ratings-and-reviews/" style="color: #0000ff; text-decoration: underline;">Appleの評価・レビューの案内</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>まずは「経理」「SNS運用」「予約管理」のように対象を一つ決めます。そのうえで二種類以上の場所を見て、同じ状況が別の人からも出てくるかを確かめます。</p>
+<p>最初の題材は、経理、SNS運用、予約管理などから一つ。依頼とレビューのように違う種類の情報源を二つ以上見比べると、別の人にも似た場面があるかを確かめられます。</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -181,7 +181,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>必要なのは、記録用の表と調査範囲のメモです。「直近3か月・小規模事業者の経理」のように対象と期間を決め、使った検索語も残します。該当する例が少なければ、30件に届かせるために無関係な内容を足す必要はありません。</p>
+<p>手元に用意するのは記録用の表と、どこまで調べるかのメモ。「直近3か月・小規模事業者の経理」のように絞り、検索した言葉も残します。条件に合う例が少なければ、その範囲で取れた件数で進めます。</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -235,7 +235,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>そのため、調査表には氏名、会社名、ユーザー名、連絡先、依頼文の長いコピーを保存せず、困り事の要点だけを自分の言葉で残します。非公開の依頼、提案、メッセージ、秘密保持の対象も使いません。</p>
+<p>表に残すのは、自分の言葉で書いた困り事の要点だけ。氏名、会社名、ユーザー名、連絡先、依頼文の長い引用は入れません。非公開の依頼や提案、メッセージ、秘密保持の対象も外します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -247,7 +247,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>公開ページを閲覧できることと、その内容を製品調査に使ってよいことは同じではありません。利用目的が規約上明確でなければ、運営へ確認するか、そのサービスを調査元から外します。</p>
+<p><mark style="background-color:#fef08a;color:#422006" class="has-inline-color">公開ページでも、製品調査に使ってよいかは利用条件を確かめます。</mark> 規約を読んでも分からなければ、運営に尋ねるか、調査元から外します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -291,7 +291,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>集めた困り事は「同じ立場の人が、同じ場面で、同じ結果を得たいか」で分類します。「PDF」という単語が共通していても、経理担当者の請求書処理と学生の資料整理は、別の候補として扱います。</p>
+<p>同じ「PDF」が出てきても、経理担当者が請求書を処理する場面と、学生が資料を整理する場面は別です。<mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">誰が、どんな場面で、どんな結果を得たいか</mark>がそろうものをまとめます。</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -333,7 +333,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>この24件は調べた範囲の事例数で、24人の利用者や市場全体の需要を意味しません。投稿していない人や、そのサービスを使わない人の困り事は含まれないためです。</p>
+<p>この表の24件は、調査の範囲で拾った事例の数。24人の利用者が見つかったわけではありません。投稿しない人や、そもそもそのサービスを使わない人は、ここには入っていません。</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -360,15 +360,15 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>2〜4点は両端の基準の中間として、理由を一行添えます。根拠のない項目は1点ではなく「未確認」とし、合計を出さず追加調査へ回します。全項目を確認できた候補の満点は25点ですが、これは本記事で提案する比較用の目安です。</p>
+<p>2〜4点を付けるときは、両端の基準を見ながら理由を一行。まだ根拠がない項目は「未確認」として、合計を出す前に調べ直します。全項目を埋めた候補は25点満点で比べられます。この表はあくまで候補を見比べるための目安です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>依頼に書かれた予算は希望額であり、実際の支出とは限りません。</strong>実際に外注費を払っていても、アプリへ払う意思とは別です。募集予算・支払実績・有料試用への反応を分けて記録します。</p>
+<p><mark style="background-color:#fef08a;color:#422006" class="has-inline-color">依頼に書かれた予算は、その金額を実際に払った記録ではありません。</mark> 外注費を払ったことがあっても、アプリにも払うかは別の話。募集時の予算、実際に払った額、有料の試用への反応は、それぞれ記録します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>個人情報や専門判断を扱うリスクは点数と分けて確認します。安全な試用ができる体制を用意できなければ、高得点でも開発候補から外します。</p>
+<p>個人情報や専門的な判断が関わるなら、点数を付けたあとも、安全に試せるかを確認します。その体制を用意できなければ、いくら点が高くても候補から外します。</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -397,7 +397,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>候補への検索上の関心は、Google Trendsでも補助的に確認できます。「検索語」は入力語を含む検索などを対象とし、「トピック」は言語をまたぐ関連語をまとめます。比較時は地域・期間・検索の種類をそろえます。<a href="https://support.google.com/trends/answer/4359550?hl=ja" style="color: #0000ff; text-decoration: underline;">Google Trendsの検索キーワード比較ガイド</a></p>
+<p>検索でどの程度関心を集めているかを見る補助には、Google Trendsも使えます。「検索語」は入力した語句を含む検索などが対象。「トピック」なら、言語が違う関連語もまとまります。比べるときは、地域・期間・検索の種類を同じ条件に。<a href="https://support.google.com/trends/answer/4359550?hl=ja" style="color: #0000ff; text-decoration: underline;">Google Trendsの検索キーワード比較ガイド</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -417,7 +417,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>候補が決まったら、作り込む前に対象者へ話を聞きます。知人や調査への協力者を募れるコミュニティなどで、参加に同意した人を探してください。クラウドソーシングの依頼主へ規約外の営業連絡をする方法は使いません。</p>
+<p>候補ができたら、作り込む前に、その仕事をしている人に話を聞きます。知り合いや、調査協力を募ってよい場で、参加に同意してくれる人を探します。依頼主に規約外の営業連絡は送りません。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -458,7 +458,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>「こんなアプリがあれば使いますか」は、相手が好意で「使う」と答えやすい質問です。未来の希望より、直近に実際に起きた行動を確認します。</p>
+<p>「このアプリがあれば使いますか？」と聞かれると、相手は好意で「使う」と答えるかもしれません。<mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">「前回は何をしましたか？」と、最近実際に起きたことを聞く</mark>と、困った手順が見えてきます。</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -493,7 +493,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>既存の表計算テンプレートや自動化サービスで十分なら、それも結果です。まず手作業で一回だけ代行する、画面をクリックできる見本を見せる、利用希望者を募るなど、完成品より小さい方法で確かめます。申込者数を装ったり、完成していない機能を完成済みと見せたりしてはいけません。</p>
+<p>表計算のひな形や既存の自動化サービスで用が済んだなら、それも調べた結果です。まだ不便が残るなら、まず手作業で一度だけ代行する、押せる画面見本を見せる、試用したい人を募るといった方法があります。<mark style="background-color:#fee2e2;color:#991b1b" class="has-inline-color">申込者数を装ったり、できていない機能を完成済みと見せたりしてはいけません。</mark></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -513,7 +513,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>検証で根拠が集まった一つの流れを、価値を確かめる最小版（MVP）にします。請求書の例なら「PDFを入れる → 項目の下書きが出る → 人が確認する → 表へ出す」までです。会計ソフト連携や専用のスマートフォンアプリは後回しにできます。</p>
+<p>試す根拠が集まったら、一つの作業が最後までできる最小版（MVP）を作ります。請求書なら「PDFを入れる → 項目の下書きが出る → 人が確認する → 表へ出す」まで。会計ソフトとの連携やスマホ専用アプリは後回しです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -543,7 +543,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>利用者が戻ってこない場合は、画面の使いにくさだけでなく、問題の頻度が低い、既存手段で十分、対象者が違う、といった可能性も見ます。数字が弱ければ機能を増やす前に、対象と問題の選び方へ戻ります。</p>
+<p>使った人が戻ってこなければ、画面のどこで迷ったかに加え、その作業がめったにない、今の方法で足りている、対象にした人が違う、といった理由も見ます。機能を足す前に、誰のどの作業を助けたかったのかへ戻ります。</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -621,7 +621,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>まずは対象と調査範囲を決め、利用条件を確認できた情報源から10件を記録してみてください。重複を除いて集計し、既存手段で残る不便を対象者へ確かめる。それが、小さなアプリを作り始める判断材料になります。</p>
+<p>始めるなら、対象と期間を決め、利用条件が確認できた場所からまず10件をメモします。重複を除いたあと、似た場面で困った人に、今もどの手順が面倒かを聞く。その答えが、何を試作するかの手がかりです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -655,15 +655,15 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>To find an app idea on crowdsourcing sites, read the underlying <strong>problem that someone wants to solve enough to commit time or money</strong>, rather than copying the requested feature. Public requests are one possible source of evidence.</p>
+<p>“Please enter these invoices into a spreadsheet.” When you see a request like that, ask what takes so long before you think about what to build. <strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">Work someone would spend time or money to get done</mark></strong> can give you a place to look for an app idea.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>One request does not prove demand. You should also avoid treating a request as a ready-made product specification or using a poster's information for another purpose.</p>
+<p>One request can’t tell you how many other people have the same trouble. <mark style="background-color:#fee2e2;color:#991b1b" class="has-inline-color">Avoid turning the request straight into a product specification or putting the poster’s information to another use.</mark></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>Use this five-step process:</strong></p>
+<p>Here are five steps from spotting a problem to trying a small app.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
@@ -685,7 +685,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>Thirty examples and five interviews do not prove demand. They are starting points for reducing assumptions.</p>
+<p>Thirty examples and five interviews are places to pause after the first round of research. Once you’ve spoken to people, look back at which of your first assumptions didn’t hold.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -705,11 +705,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>Crowdsourcing sites contain requests such as entering data into a spreadsheet or compiling a weekly report. The requested deliverable is not the only useful signal.</p>
+<p>“Enter this in a spreadsheet.” “Put together my weekly report.” After reading what someone asked for, look for when they get stuck and what part of the work causes trouble.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Consider a fictional request to enter invoice data into a spreadsheet. Once the background is confirmed, you could organize it as follows. Mark details absent from the request as unconfirmed instead of filling them in by assumption.</p>
+<p>Take a made-up request to enter invoice data into a spreadsheet. The example below shows what you can record once you know the background. <mark style="background-color:#fef08a;color:#422006" class="has-inline-color">Leave out guesses about anything the request doesn’t say and mark those details as unconfirmed.</mark></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
@@ -731,7 +731,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>This framing moves you beyond “offer a data-entry service” and opens other possibilities, such as a tool that prepares a draft for human review.</p>
+<p>If the slow part is getting the data into the table, you could do the entry for people or give them a tool that drafts the table so they can check it themselves.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -777,7 +777,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>Prepare a table and a note defining your research scope, such as small-business bookkeeping over the last three months. Record your search terms too. If few examples qualify, do not add unrelated entries just to reach thirty.</p>
+<p>Set up a table and a note about what you’ll look at, such as small-business bookkeeping in the past three months. Keep the search terms you used. If only a few cases meet the criteria, work with that number.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -831,7 +831,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Do not save names, company names, usernames, contact details, or long copies of request text in your research table. Write only the core problem in your own words. Do not use private requests, proposals, messages, or information covered by confidentiality obligations.</p>
+<p>Keep the core problem in your own words. Leave out names, company names, usernames, contact details, and long quotes. Leave out private requests, proposals, messages, and anything covered by a confidentiality obligation.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -843,7 +843,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Being able to view a public page does not automatically mean its content may be used for product research. If that purpose is not clearly permitted, ask the operator or exclude the service from your research sources.</p>
+<p><mark style="background-color:#fef08a;color:#422006" class="has-inline-color">For a public page, check whether its terms allow product research.</mark> If you can’t tell, ask the operator or leave that service out.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -887,7 +887,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>Group problems by whether the same type of person wants the same outcome in the same situation. Even if both involve PDFs, an administrator processing invoices and a student organizing study materials should remain separate candidates.</p>
+<p>An accountant processing invoices and a student sorting study materials might both mention PDFs. Group cases when <mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">the same kind of person wants the same result in the same situation</mark>.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -929,7 +929,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>These twenty-four cases describe only the material examined. They do not establish twenty-four distinct users or market-wide demand. People who do not post or use these services are missing from the sample.</p>
+<p>The twenty-four cases count what you found, not twenty-four distinct users. People who didn’t post or don’t use those services aren’t represented.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -960,7 +960,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>A listed budget is a proposed amount, not proof of actual spending.</strong> Even a verified outsourcing payment does not prove willingness to pay for an app. Record proposed budgets, actual payments, and responses to paid trials separately.</p>
+<p><mark style="background-color:#fef08a;color:#422006" class="has-inline-color">A budget in a listing doesn’t show what someone actually spent.</mark> Paying for outsourcing also leaves open whether they’ll pay for an app. Keep listed budgets, actual spending, and responses to paid trials separate.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -1013,7 +1013,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>Once you have a candidate, interview target users before investing in development. Recruit consenting participants through your network or communities that allow research invitations. Do not send sales messages to crowdsourcing clients outside the platform's rules.</p>
+<p>Once a candidate stands out, talk to people doing the work before you spend time building. Ask for volunteers through people you know or places that allow research invitations. Don’t send sales messages to a client outside a platform’s rules.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -1054,7 +1054,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>“Would you use this app?” invites a polite yes. Evidence from a recent real event is more useful than a hopeful statement about the future.</p>
+<p>“Would you use this app?” can bring out a polite yes. <mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">Ask what they did last time</mark> to learn which steps actually caused trouble.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -1089,7 +1089,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>If a spreadsheet template or existing automation service already solves the problem well, that is a valid result. Test something smaller than a finished product: perform the service manually once, show a clickable mockup, or collect genuine trial sign-ups. Do not fabricate sign-ups or present unfinished capabilities as complete.</p>
+<p>If a spreadsheet template or an existing automation service gets the job done, that’s a finding. If there’s still a gap, try doing the task by hand once, showing a clickable mockup, or inviting genuine trial sign-ups. <mark style="background-color:#fee2e2;color:#991b1b" class="has-inline-color">Don’t invent sign-ups or pass off features that aren’t ready as finished.</mark></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -1109,7 +1109,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>Turn the best-supported workflow into a minimum viable product (MVP): the smallest version that tests its value. In the invoice example, that might be: upload a PDF → receive draft fields → review them → export a table. Accounting integrations and a dedicated mobile app can wait.</p>
+<p>Once there’s evidence to work from, build the smallest version that lets someone finish one task. This is a minimum viable product, or MVP. For invoices, upload a PDF, get a draft, review it by hand, and export a table. The accounting integration and mobile app can wait.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -1139,7 +1139,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>If people do not return, the interface may not be the only problem. The task may happen too rarely, the current method may be good enough, or you may be targeting the wrong users. Return to your problem choice before adding features.</p>
+<p>If people don’t come back, ask where they got stuck and look at how often the work comes up, whether their usual method is enough, and whether you’re asking the right people. Revisit whose task you meant to help with before adding features.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -1217,7 +1217,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>Start by defining an audience and research scope, then record ten examples from sources whose conditions of use you have checked. Remove duplicates, count the cases, and ask target users about difficulties left unresolved by existing tools. Use that evidence to decide whether to build a small app.</p>
+<p>Pick the audience and time period, check the conditions of use, and make a note of ten cases to start. Remove duplicates and ask someone who’s been in a similar situation which steps still take work. Their answer gives you something to build and test.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

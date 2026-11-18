@@ -43,15 +43,15 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/13/small-theater-perf
 <input type="radio" name="theater-language" id="theater-en"><label for="theater-en" lang="en">English</label>
 <section class="language-panel panel-ja" lang="ja" aria-label="日本語の記事">
 
-<p>まだ広く知られていない劇団の舞台を観たいのに、検索しても目当ての情報が出てこない。そもそも、どのサイトを見ればよいのか分からない。</p>
+<p>週末に小劇場へ行きたい。でも、劇団の名前が分からないので、どこから探せばよいか迷います。</p>
 
 
 
-<p>そんなときは、<strong>CoRich舞台芸術！などの公演情報サイトか、行ける地域の劇場の公式サイトから探してみてください。</strong> 気になる公演が見つかったら、劇団や主催者の最新案内で日程と予約先を確認します。</p>
+<p>まずは、<strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">CoRich舞台芸術！などの公演情報サイトか、行ける地域にある劇場の予定表</mark></strong>へ。気になる一本が見つかったら、劇団や主催者の最新案内に進むと、日程や予約先を確認できます。</p>
 
 
 
-<p>この記事では、劇団名を知らなくても、小劇場の公演を地域や日程から探す方法を紹介します。</p>
+<p>探し始めるときの手がかりは、行ける場所と日程。劇団名は、候補を見つけたあとで分かれば十分です。</p>
 
 
 
@@ -67,11 +67,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/13/small-theater-perf
 
 
 
-<p>「演劇」「舞台」だけで検索すると、自分が探したい規模や地域とは違う公演が並び、困ることがあります。</p>
+<p>「演劇」や「舞台」だけで検索すると、行けない地域や、探している規模とは違う公演まで並びます。</p>
 
 
 
-<p>「まだ知らない劇団の舞台に出会いたい」という段階では、劇団名で絞ることもできません。そんなときは、行ける地域を手がかりにします。</p>
+<p>まだ劇団名を知らないなら、まず入れたい言葉は、行ける地域の名前です。</p>
 
 
 
@@ -79,7 +79,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/13/small-theater-perf
 
 
 
-<p><strong>一つのサイトに載っていないだけで、公演がないとは判断できません。</strong> まずは次のうち、分かっているものを一つ選んでください。</p>
+<p><mark style="background-color:#fee2e2;color:#991b1b" class="has-inline-color">一つのサイトに載っていないだけで「公演がない」と決めるのは早計です。</mark> 次のうち、すでに分かっているものを一つ手がかりに。</p>
 
 
 
@@ -97,7 +97,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/13/small-theater-perf
 
 
 
-<p>知名度や検索結果の多さだけで、自分に合う舞台かどうかは決められません。最初は「行ける場所で、気になる内容の公演があるか」を目安にすると、候補を選びやすくなります。</p>
+<p>有名かどうかより、「行ける場所で、観てみたい内容か」。候補が多すぎるときは、まずその二つを見ます。</p>
 
 
 
@@ -129,7 +129,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/13/small-theater-perf
 
 
 
-<p>候補を見つけたら、あらすじ、公演日、会場を確認しましょう。クチコミは好みを考える参考になりますが、件数や評価だけで決めず、自分が観たい内容かを先に見てください。</p>
+<p>気になる作品が出てきたら、まずあらすじと公演日、会場へ。クチコミは好みに合いそうかを考える手がかりですが、件数と評価だけで見る一本を決める必要はありません。</p>
 
 
 
@@ -149,7 +149,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/13/small-theater-perf
 
 
 
-<p>知らない劇団でも、会場と日程を先に確認できるのが、この探し方のよいところです。一方で、その劇場を使わない公演までは拾えません。通いやすい劇場を二、三か所見つけると、探す範囲を広げられます。</p>
+<p>劇団を知らなくても、先に会場と日程を押さえられるのが、劇場から探す利点です。その劇場の外までは分からないので、通いやすい劇場を二、三か所見つけておくと、次に探す場所が増えます。</p>
 
 
 
@@ -161,11 +161,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/13/small-theater-perf
 
 
 
-<p>公式サイトが見つからない場合は、「劇団名 公演」「劇団名 公式」で検索し、公式SNSの告知も確認します。名前だけで判断せず、公演名や会場が一致するかを見ましょう。</p>
+<p>公式サイトが見当たらないときの検索語は、「劇団名 公演」や「劇団名 公式」。公式SNSで告知を見つけたら、劇団名に加えて公演名と会場も見ておくと、同じ公演か判断しやすくなります。</p>
 
 
 
-<p>この方法は、気になる劇団を続けて追いたい人に向いています。出演者の告知から探す場合も、予約前には主催者の公演案内と照らし合わせましょう。</p>
+<p>気に入った劇団の次回公演も知りたいなら、公式の案内を追っておくと見つけやすくなります。出演者の告知で知った公演も、予約する前に主催者の案内と照らし合わせると安心です。</p>
 
 
 
@@ -185,7 +185,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/13/small-theater-perf
 
 
 
-<p>たとえば「来月、近くで知らない劇団の舞台を観たい」なら、次の順番で探してみてください。</p>
+<p>「来月、近くで、まだ知らない劇団を観たい」。そう決まっているなら、次の順で探せます。</p>
 
 
 
@@ -207,11 +207,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/13/small-theater-perf
 
 
 
-<p>検索欄に入れる言葉は、「地域名 小劇場 観たい年と月 公演」の組み合わせです。たとえば「横浜 小劇場 2026年10月 公演」のように、自分の予定を入れてください。</p>
+<p>たとえば「横浜 小劇場 2026年10月 公演」。<mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">地域名と観たい年・月を、自分の予定に置き換え</mark>て検索します。</p>
 
 
 
-<p>結果が少なければ月を外して劇場を探し、そこから予定表を見ます。条件を増やしすぎて、候補を見落とさないためです。</p>
+<p>候補が少なければ、いったん月を外して劇場を探し、各劇場の予定表へ。検索の条件を減らすだけで、別の候補にたどり着けることがあります。</p>
 
 
 
@@ -219,7 +219,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/13/small-theater-perf
 
 
 
-<p>検索で出てきたページが、すでに終わった公演の案内ということもあります。予約へ進む前に、次を確認しましょう。</p>
+<p>検索結果に残っていても、すでに終わった公演かもしれません。<mark style="background-color:#fef08a;color:#422006" class="has-inline-color">予約に進む前に、年・日時と今の予約先を確認します。</mark> 見る項目は次のとおりです。</p>
 
 
 
@@ -249,7 +249,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/13/small-theater-perf
 
 
 
-<p>古いチラシの画像だけで判断せず、公演ページや最新のお知らせも見てください。情報が食い違う場合は、公演の問い合わせ先に確認します。</p>
+<p><mark style="background-color:#fef08a;color:#422006" class="has-inline-color">古いチラシを見つけたら、公演ページや最新のお知らせと照らし合わせます。</mark> 日時や会場などが食い違うときは、公演の問い合わせ先へ。</p>
 
 
 
@@ -269,11 +269,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/13/small-theater-perf
 
 
 
-<p>観たい公演が見つかったら、スマートフォンのメモやカレンダーに、公演名・日時・会場・公式ページのリンクを残しましょう。観劇後に気に入った劇団のページも保存しておけば、次回は最初から探し直さずに済みます。</p>
+<p>観たい公演が見つかったら、公演名・日時・会場・公式ページのリンクをスマホのメモかカレンダーに。観に行って気に入った劇団なら、その公式ページも残しておくと、次の公演を探す入口になります。</p>
 
 
 
-<p>まずは、行ける地域の劇場を一つ見つけて、公演予定を開いてみてください。劇団の名前を知らなくても、そこが次の舞台に出会う入口になります。</p>
+<p>まずは行ける劇場を一つ選んで、予定表を開くところから。劇団の名前を一つも知らなくても、候補は探せます。</p>
 
 
 
@@ -298,21 +298,21 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/13/small-theater-perf
 </section>
 <section class="language-panel panel-en" lang="en" aria-label="Article in English">
 <p><strong>Where to Find Small-Theater Performances and Discover Unfamiliar Companies</strong></p>
-<p>You want to see a production by a lesser-known theater company, but searches do not turn up what you need. You may not even know which websites to start with.</p>
-<p><strong>Try a performance information site such as CoRich Stage Arts, or the official websites of theaters in an area you can visit.</strong> Once you find an interesting production, check the company’s or organizer’s latest information for dates and booking links.</p>
-<p>This article explains how to find small-theater performances by area and date, even when you do not know a company’s name.</p>
+<p>You’d like to see a small-theater production this weekend. Where do you start if you don’t know any of the companies yet?</p>
+<p>Start with <strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">a performance site such as CoRich Stage Arts or the schedule of a theater you can get to</mark>.</strong> If you spot a show you like, follow it to the company’s or organizer’s latest announcement for dates and booking details.</p>
+<p>Begin with a time and place that work for you. You can learn the company’s name once you find a show.</p>
 <h2>Change your starting point when performance information is hard to find</h2>
 <p><img alt="A theatergoer using flyers and a laptop to look for small-theater performances" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/chapter-1.png" /></p>
-<p>Searching only for broad terms such as “theater” or “stage” may produce shows in areas or at a scale that do not suit you.</p>
-<p>If your goal is to discover an unfamiliar company, you cannot yet filter by its name. Use an area you can visit as your starting point instead.</p>
+<p>Search for “theater” or “stage” on its own and you’ll get shows far from where you can go or at a scale you weren’t looking for.</p>
+<p>If you don’t know the company’s name yet, the area you can reach is a good first search term.</p>
 <p>Information may also be spread across theater schedules, company websites, and individual booking pages rather than collected in one place.</p>
-<p><strong>A production’s absence from one website does not mean it does not exist.</strong> Start with whichever clue you already have:</p>
+<p><mark style="background-color:#fee2e2;color:#991b1b" class="has-inline-color">It’s too soon to assume there’s no show just because it’s missing from one website.</mark> Start with one clue you already have.</p>
 <ul>
 <li>If you know the company’s name, search for it together with “次回公演” (next production).</li>
 <li>If you know only a performer’s name, search for it with “出演” (appearing in) and “舞台” (stage).</li>
 <li>If you know neither, search for an area you can visit with “小劇場” (small theater) and “公演” (performance).</li>
 </ul>
-<p>Fame or the number of search results alone cannot tell you whether a play will suit you. Start by looking for something that interests you in a place you can reach.</p>
+<p>A long list of results or a famous name won’t tell you whether you’ll enjoy a play. Start with two questions. Can you get there, and does the show interest you?</p>
 <h2>Choose among three starting points according to what you already know</h2>
 <p><img alt="Three ways to find performances: listings, a theater noticeboard, and a company announcement" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/chapter-2.png" /></p>
 <p>Choose where to begin based on the information you have.</p>
@@ -344,30 +344,30 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/13/small-theater-perf
 </table>
 <h3>Start with CoRich Stage Arts to browse performances</h3>
 <p><a href="https://stage.corich.jp/" style="color: #0000ff; text-decoration: underline;">CoRich Stage Arts</a> provides performance information and audience reviews. Its official FAQ directs users to the <a href="https://stage.corich.jp/stage/search" style="color: #0000ff; text-decoration: underline;">performance search page</a>. Source: <a href="https://stage-faq.corich.jp/%E3%82%AF%E3%83%81%E3%82%B3%E3%83%9F%E3%81%97%E3%81%9F%E3%81%84%E5%85%AC%E6%BC%94%E3%81%8C%E7%84%A1%E3%81%84%EF%BC%88%E5%85%AC%E6%BC%94%E3%81%AE%E6%A4%9C%E7%B4%A2%E3%81%AE%E4%BB%95%E6%96%B9%E3%81%AF/" style="color: #0000ff; text-decoration: underline;">CoRich’s official search FAQ</a>.</p>
-<p>When you find an option, check the synopsis, dates, and venue. Reviews may help you assess your preferences, but do not decide solely on ratings or the number of reviews. First ask whether the content interests you.</p>
+<p>When something catches your eye, open the synopsis and look up the venue and dates. Reviews can help you judge whether it’s for you, but the star rating and review count won’t tell you what you want to see.</p>
 <h3>If you do not know a company’s name, check theater schedules</h3>
 <p>Searching by theater works well when you know which area you can visit.</p>
 <p>For example, the <a href="https://www.honda-geki.com/" style="color: #0000ff; text-decoration: underline;">Honda Theater Group’s official website</a> lists productions at its theaters around Shimokitazawa in Tokyo. The <a href="https://www.honda-geki.com/gekisho/" style="color: #0000ff; text-decoration: underline;">Geki Shogekijo performance page</a> includes dates, production descriptions, prices, and ticket outlets.</p>
 <p>This is one example in Tokyo. For another area, try searches such as “大阪 小劇場 公演” (Osaka small-theater performances) or “福岡 劇場 公演予定” (Fukuoka theater schedules), then open the official websites you find.</p>
-<p>The advantage is that you can check the venue and dates before knowing the company. However, this will not cover productions elsewhere. Finding two or three accessible theaters can broaden your options.</p>
+<p>Starting with a theater lets you check the venue and dates before you know the company. You’ll only see what’s on there, so keep two or three reachable theaters in mind for the next search.</p>
 <h3>Once a company interests you, follow its official information</h3>
 <p>When you learn a company’s name, look for an official website link on the performance listing or venue’s page. For example, the Geki Shogekijo page provides links to companies’ websites and booking information. Source: <a href="https://www.honda-geki.com/gekisho/" style="color: #0000ff; text-decoration: underline;">Geki Shogekijo’s performance listings</a>.</p>
-<p>If you cannot find an official website, search for the company name with “公演” (performance) or “公式” (official), and check official social media announcements too. Confirm the production and venue match instead of relying only on the name.</p>
+<p>If there’s no obvious official website, retry the company name with “公演” (performance) or “公式” (official) and check official social posts, too. Look for a match on the show title and venue as well as the company name.</p>
 <p>This approach suits people who want to keep following a company they like. If you discover a production through a performer’s announcement, compare it with the organizer’s information before booking.</p>
 <h2>Confirm the date and booking link, then save the performance</h2>
 <p><img alt="A theatergoer checking a calendar, ticket, and saved performance page" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/chapter-3.png" /></p>
 <h3>Combine an area with the time you want to attend</h3>
-<p>If you want to see an unfamiliar company nearby next month, try this sequence:</p>
+<p>Say you want to see a company you don’t know, somewhere nearby next month. Here’s one order you can search in.</p>
 <ol>
 <li>Decide which area and month work for you.</li>
 <li>Check a performance information site or local theater schedule.</li>
 <li>Pick two or three productions whose synopses interest you.</li>
 <li>Confirm dates and booking links in the company’s or organizer’s information.</li>
 </ol>
-<p>Combine the area, “小劇場,” your intended year and month, and “公演.” For example, adapt “横浜 小劇場 2026年10月 公演” to your own plans.</p>
-<p>If there are few results, remove the month, find theaters, and look at their schedules. Too many conditions can hide potential options.</p>
+<p>For example, try “横浜 小劇場 2026年10月 公演” for Yokohama small-theater performances in October 2026. <mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">Replace the area, year, and month with your own plans.</mark></p>
+<p>If you’re getting few results, drop the month, find some theaters, and open their schedules. With fewer search terms you may turn up something you missed.</p>
 <h3>Check the year as well as the date before booking</h3>
-<p>Search results may lead to a production that has already ended. Before booking, check:</p>
+<p>A show can still come up in search after it’s over. <mark style="background-color:#fef08a;color:#422006" class="has-inline-color">Before booking, check the year, date, time, and current booking link.</mark> Here’s what to look for.</p>
 <ul>
 <li>Does the year, month, and day match when you want to attend?</li>
 <li>Have you checked the performance start time rather than just the doors-opening time?</li>
@@ -376,13 +376,13 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/13/small-theater-perf
 <li>Is this a booking destination recommended by the company or organizer?</li>
 <li>Have any changes or cancellations been announced?</li>
 </ul>
-<p>Do not rely only on an old flyer image. Check the event page and latest announcements too. If information conflicts, contact the production’s listed inquiry point.</p>
+<p><mark style="background-color:#fef08a;color:#422006" class="has-inline-color">If you find an old flyer, compare it with the event page and the latest announcement.</mark> If details such as the date or venue disagree, contact the show’s listed point of inquiry.</p>
 <h3>Sometimes you need to wait for an announcement</h3>
 <p>Even if you change where you search, you cannot find dates for a next production that has not been announced. A lack of updates also does not prove that the company has stopped operating.</p>
 <p>Bookmark the official page of a company you like, and follow its official account if you use social media. This gives you a clear place to check next time. If no information is available, you can ask the official contact where future production announcements will appear.</p>
 <h3>Keep one place to return to next time</h3>
-<p>Once you find a production, save its title, date, time, venue, and official page in your phone’s notes or calendar. After attending, save the company’s page if you enjoyed it, so you do not need to start from scratch next time.</p>
-<p>Start by finding one theater you can reach and opening its schedule. Even without knowing a company’s name, that can be your starting point for discovering another production.</p>
+<p>Save the show’s title, time, venue, and official link in your phone’s notes or calendar. If you enjoy the performance, keep the company’s official page, too. You’ll have somewhere to look next time.</p>
+<p>Open the schedule for one theater you can get to. That’s enough to start looking, even if you don’t know a single company by name.</p>
 <p><em>The service information refers to official sources as of September 13, 2026. The link to CoRich’s search page was confirmed through a search result for its official FAQ; the search interface and booking process were not tested. Check each organizer’s announcements for current details. The illustrations are AI-generated concepts and do not depict actual companies, theaters, or website screens.</em></p>
 <h3>About the author</h3>
 <p>My background is described in <a href="https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-learning-roadmap/" style="color: #0000ff; text-decoration: underline;">About Me and My Programming Learning Roadmap: Three Years of Self-Study</a>.</p><h3>Related articles</h3>
