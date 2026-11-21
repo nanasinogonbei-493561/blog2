@@ -1,9 +1,9 @@
 ---
 categories:
 - 開発の裏側
-excerpt: プログラミングに論理的思考力が役立つ理由を、雨の日のかさや忘れ物チェックで説明します。小学生でも読める言葉で、手順の分け方、条件の考え方、うまく動かないときの確かめ方を紹介。紙と鉛筆でできる練習を通して、何から考えればよいかが分かります。
-featured_image: articles/images/programming-logical-thinking-kids/01-reasons.png
-featured_image_alt: 窓の外の雨を見て、出かける前にかさを選ぶ子どものイラスト
+excerpt: プログラミングに論理的思考力が役立つ理由を、外出時の傘の判断や日用品の在庫チェックを例に説明します。手順の分け方、条件の考え方、うまく動かないときの切り分け方を整理しました。コードを書く前に紙とペンで試せる練習を通して、何から考えればよいかが分かります。
+featured_image: articles/images/programming-logical-thinking-kids/01-umbrella-decision-v2.png
+featured_image_alt: 玄関の窓から外の雨を見て、通勤バッグのそばの折りたたみ傘を手に取る大人のイラスト
 slug: programming-logical-thinking-kids
 status: publish
 tags:
@@ -11,33 +11,33 @@ tags:
 - 論理的思考
 - 初心者向け
 title: プログラミングと論理的思考力の関係性について
-wordpress_featured_media_id: 88
+wordpress_featured_media_id: 132
 wordpress_inline_media:
-  01-reasons.png:
-    alt: 窓の外の雨を見て、出かける前にかさを選ぶ子どものイラスト
-    id: 88
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/01-reasons.png
-  02-backpack.png:
-    alt: 子どもとロボットが、持ち物リストとランドセルの中身を比べているイラスト
-    id: 89
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/02-backpack.png
-  03-practice.png:
-    alt: 絵の指示カードとロボットの動きを比べ、予想を確かめる子どものイラスト
-    id: 90
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/03-practice.png
-  04-test.png:
-    alt: 空・1本入り・複数本入りの筆箱を並べ、違いをノートに記録する子どものイラスト
-    id: 91
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/04-test.png
-  05-first-step.png:
-    alt: 明日の持ち物を確認する手順を、子どもが紙と鉛筆で書き出すイラスト
-    id: 92
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/05-first-step.png
+  01-umbrella-decision-v2.png:
+    alt: 玄関の窓から外の雨を見て、通勤バッグのそばの折りたたみ傘を手に取る大人のイラスト
+    id: 132
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-umbrella-decision-v2.png
+  02-packing-steps-v2.png:
+    alt: 通勤や出張の持ち物リストとバッグの中身を机の上で照らし合わせる大人のイラスト
+    id: 147
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-packing-steps-v2.png
+  03-predict-check-v2.png:
+    alt: 机に並べた3枚の手順カードとパソコン画面の動作を見比べて確かめる大人のイラスト
+    id: 133
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-predict-check-v2.png
+  04-debug-cases-v2.jpg:
+    alt: 空・1個・2個の日用品ストックを並べて違いをノートに記録する大人のイラスト
+    id: 148
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-debug-cases-v2.jpg
+  05-paper-rule-v2.png:
+    alt: 在庫確認の条件表を紙とペンで描き、指でたどって確かめる大人のイラスト
+    id: 149
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-paper-rule-v2.png
 wordpress_post_id: 93
 wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logical-thinking-kids/
 ---
 
-<!-- wp:html {"metadata":{"name":"本文・画像・青色リンクの表示スタイル"}} -->
+<!-- wp:html {"metadata":{"name":"本文・画像・表・青色リンクの表示スタイル"}} -->
 <style>
 .logical-thinking-panel {box-sizing:border-box;min-width:0;max-width:100%;overflow-wrap:anywhere;}
 .logical-thinking-panel a {color:#0000ff;text-decoration:underline;}
@@ -49,7 +49,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 </style>
 <!-- /wp:html -->
 
-<!-- wp:tabs {"metadata":{"name":"日本語・English 切り替え"}} -->
+<!-- wp:tabs {"activeTabIndex":0,"metadata":{"name":"日本語・English 切り替え"}} -->
 <div class="wp-block-tabs"><!-- wp:tab-list -->
 <div role="tablist" class="wp-block-tab-list"><button type="button" role="tab">日本語</button><button type="button" role="tab">English</button></div>
 <!-- /wp:tab-list -->
@@ -58,15 +58,15 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <div class="wp-block-tab-panels"><!-- wp:tab-panel {"label":"日本語","metadata":{"name":"日本語本文"}} -->
 <section role="tabpanel" tabindex="0" class="wp-block-tab-panel"><!-- wp:group {"metadata":{"name":"ja: 導入"},"className":"logical-thinking-panel","layout":{"type":"default"}} -->
 <div class="wp-block-group logical-thinking-panel"><!-- wp:paragraph -->
-<p>雨が降っているから、かさを持っていく。プログラミングでも、<strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">何をしたいのかを決め、理由のある順番で手順を組む</mark></strong>ところに、論理的に考える力が役立ちます。コンピューターに伝わる書き方を覚え、動かして確かめるのも、その先の仕事です。</p>
+<p>雨が降っているから、かさを持っていく。プログラミングでも、<strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">何をしたいのかを決め、理由のある順番で手順を組む</mark></strong>ところに、論理的に考える力が役立ちます。コンピュータに伝わる書き方を覚え、動かして確かめるのも、その先の仕事です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>かさの次は、筆箱の忘れ物チェック。コードが分からなくても、紙と鉛筆があれば、手順を考えるところから始められます。</p>
+<p>かさの次は、外出前の持ち物チェックや日用品の在庫管理です。コードが分からなくても、紙とペンがあれば、手順を考えるところから始められます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>以前書いた<a href="https://zenn.dev/nanashinogonbei/articles/programming-and-logical-thinking" style="color: #0000ff; text-decoration: underline;">Zennの記事「プログラミングと論理的思考力の関係性について」</a>をもとに、専門的なコードの説明を身近な例へ置き換えています。登場する道具や場面は説明用の例です。</p>
+<p>以前書いた<a href="https://zenn.dev/nanashinogonbei/articles/programming-and-logical-thinking" style="color: #0000ff; text-decoration: underline;">Zennの記事「プログラミングと論理的思考力の関係性について」</a>をもとに、専門的なコードの説明を身近な日常の例へ置き換えて整理しました。</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -75,16 +75,16 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <h2 class="wp-block-heading">論理的思考力とは、理由がつながるか確かめる力</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":88,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/01-reasons.png" alt="窓の外の雨を見て、出かける前にかさを選ぶ子どものイラスト" class="wp-image-88" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":132,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-umbrella-decision-v2.png" alt="玄関の窓から外の雨を見て、通勤バッグのそばの折りたたみ傘を手に取る大人のイラスト" class="wp-image-132" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>「論理的（ろんりてき）に考える」と聞くと難しそうですが、やることは身近です。いま分かっていることと、そこから出した答えのあいだに筋が通っているかを確かめます。</p>
+<p>「論理的に考える」と聞くと身構えがちですが、やっていることは身近です。いま分かっていることと、そこから選んだ答えのあいだに筋が通っているかを確かめます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>たとえば、歩いて学校へ行く前に、窓の外を見ると雨が降っています。雨にぬれたくないので、かさを持っていくことにしました。</p>
+<p>たとえば、通勤で出かける前に玄関から外を見ると雨が降っています。服やバッグをぬらしたくないので、折りたたみ傘を持っていくことにしました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
@@ -93,7 +93,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>かなえたいこと：歩くときに、できるだけ雨にぬれたくありません。</li>
+<li>かなえたいこと：駅まで歩くときに、できるだけ雨にぬれたくありません。</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
@@ -106,7 +106,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>では、かさを持っている人がいたら、雨だと分かるでしょうか。<mark style="background-color:#fee2e2;color:#991b1b" class="has-inline-color">「かさを持っているから、必ず雨だ」と決めつける</mark>のは早そうです。日差しをよけているのかもしれません。</p>
+<p>では、かさを持っている人がいたら、雨だと分かるでしょうか。<mark style="background-color:#fee2e2;color:#991b1b" class="has-inline-color">「かさを持っているから、必ず雨だ」と決めつける</mark>のは早そうです。強い日差しをよけるための日傘かもしれません。</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -115,46 +115,46 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <h2 class="wp-block-heading">プログラミングでは、お願いを小さな手順に分ける</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":89,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/02-backpack.png" alt="子どもとロボットが、持ち物リストとランドセルの中身を比べているイラスト" class="wp-image-89" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":147,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-packing-steps-v2.png" alt="通勤や出張の持ち物リストとバッグの中身を机の上で照らし合わせる大人のイラスト" class="wp-image-147" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>プログラミングは、コンピューターにしてほしいことを、決まった書き方で手順にする作業です。ここでは、その手順を「指示」と呼びます。</p>
+<p>プログラミングは、コンピュータにしてほしいことを、決まった書き方で手順にする作業です。ここでは、その手順を「指示」と呼びます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>忘れ物をチェックするロボットに「学校の準備、お願い」と言っても、何を調べるのかは伝わりません。ランドセルを前に、何をどんな順で頼めばよいか考えます。</p>
+<p>外出前の忘れ物をチェックする仕組みに「仕事の準備、お願い」と頼んでも、何を調べればよいかは伝わりません。通勤バッグを前に、何をどんな順で確認すればよいかへ分けます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
 <ol class="wp-block-list"><!-- wp:list-item -->
-<li>明日の持ち物リストから、物を一つ選びます。</li>
+<li>外出用の持ち物リスト（パソコン、充電器、財布など）から、項目を1つ選びます。</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>その物がランドセルに入っているか調べます。</li>
+<li>その物がすでにバッグに入っているか調べます。</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>入っていなければ入れます。入っていれば、そのままにします。</li>
+<li>入っていなければ「不足」として知らせます。入っていれば、そのまま次へ進みます。</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>リストの残りの物も、同じように調べます。</li>
+<li>リストの残りの物も、同じように順番に調べます。</li>
 <!-- /wp:list-item --></ol>
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>順番に行うのが「順次処理」、場合によって行動を変えるのが「条件分岐」、同じ確認を続けるのが「繰り返し」。最初は、ロボットが何をしているかを追えれば十分です。</p>
+<p>順番に1つずつ進めるのが「順次処理」、条件によって行動を変えるのが「条件分岐」、同じ確認を繰り返すのが「繰り返し」です。最初は難しい言葉にとらわれず、処理の流れを追えれば十分です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>中身を先に見るのは、もう入っている物をもう一つ足さないためです。リストの物がそれぞれ一つあればよいなら、入れるのは足りない物だけ。</p>
+<p>バッグの中身を先に確認するのは、もう入っている物を重複して用意しないためです。1つずつあれば足りるなら、準備するのは足りない物だけにします。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>目的に合うように、確認することと動く順番を決める。</strong>ここに、論理的に考える力が役立ちます。なお、本物のロボットを動かすには、物を見分けたり、つかんだりする仕組みも必要です。この例は、手順を考える部分に絞っています。</p>
+<p><strong>目的に合うように、確認することと動く順番を決める。</strong>ここに、論理的に考える力が役立ちます。</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -163,42 +163,42 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <h2 class="wp-block-heading">プログラミングは論理的思考力の練習になる？</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":90,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/03-practice.png" alt="絵の指示カードとロボットの動きを比べ、予想を確かめる子どものイラスト" class="wp-image-90" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":133,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-predict-check-v2.png" alt="机に並べた3枚の手順カードとパソコン画面の動作を見比べて確かめる大人のイラスト" class="wp-image-133" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p><strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">どんな条件で何が起きるかを予想し、その理由を言葉にする。</mark></strong> それが論理的に考える練習になります。例は、えんぴつが0本なら「入れてね」と知らせる手順です。</p>
+<p><strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">どんな条件で何が起きるかを予想し、その理由を言葉にする。</mark></strong> それが論理的に考える練習になります。例として、家のコーヒー豆の在庫が0個なら「買い物リストへ追加して」と知らせる手順を考えます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>ここでは紙の上で手順をたどれます。プログラムを書いたら、実際に動かして比べます。</p>
+<p>まずは紙の上で手順をたどり、プログラムを書いたら実際に動かして予想と比べます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
 <ol class="wp-block-list"><!-- wp:list-item -->
-<li>予想する：0本なら知らせるはず。1本なら知らせないはず。</li>
+<li>予想する：在庫が0個なら通知が出るはず。1個なら通知は出ないはず。</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>試す：えんぴつの本数を変えて、結果を確かめます。</li>
+<li>試す：在庫の数を変えて、結果を確かめます。</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>説明する：「0本という条件に当てはまったので知らせた」のように、結果の理由を話します。</li>
+<li>説明する：「0個という条件に当てはまったので通知が出た」のように、結果の理由を言葉にします。</li>
 <!-- /wp:list-item --></ol>
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>1本あるのに「入れてね」と出たら、条件か、数を確かめるタイミングが違うのかもしれません。予想が当たった場合も、今度は別の本数で試すと、見ていなかったところに気づけます。</p>
+<p>1個あるのに「買い物リストへ追加して」と出たら、条件の書き方か、数を確かめるタイミングがずれているのかもしれません。予想が当たった場合も、別の数字で試すと見落としに気づけます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>コードを写して動くところまでできたら、今度は「なぜこの結果になった？」と立ち止まる。その答えを自分で確かめるところに、ここでの練習があります。</p>
+<p>参考コードを写して動くところまでできたら、今度は「なぜこの結果になったのか」と立ち止まってみます。その答えを自分で確かめる過程が、筋道を立てて考える練習になります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>逆に、手順の理由を説明できると、プログラムを読むときにも「この確認は何のため？」と、動きのまとまりを捉える手がかりになります。ただし、知らない書き方まで分かるようになるわけではありません。</p>
+<p>逆に、手順の理由を説明できるようになると、他人のプログラムを読むときにも「この確認は何のためか」と処理のまとまりを捉えやすくなります。ただし、文法など知らない書き方まで自動で分かるようになるわけではありません。</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -207,59 +207,59 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <h2 class="wp-block-heading">うまく書けないときは、知識と実際の結果も確かめる</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":91,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/04-test.png" alt="空・1本入り・複数本入りの筆箱を並べ、違いをノートに記録する子どものイラスト" class="wp-image-91" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":148,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-debug-cases-v2.jpg" alt="空・1個・2個の日用品ストックを並べて違いをノートに記録する大人のイラスト" class="wp-image-148" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>「手順を考えられるのに、プログラムが書けない」ということもあります。コンピューターに伝わる書き方や、道具の使い方が分からないのかもしれません。</p>
+<p>「手順を考えられるのに、プログラムが書けない」ということもあります。コンピュータに伝わる書き方や、道具の使い方がまだ分からないのかもしれません。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>料理なら、野菜を切ってから煮る順番を知っていても、包丁の使い方や火加減では迷うことがあります。プログラミングも似ていて、手順が思いついたあとに、書き方で手が止まることがあります。</p>
+<p>料理なら、野菜を切ってから煮る順番を知っていても、包丁の扱い方や火加減で迷うことがあります。プログラミングも似ていて、手順が思いついたあとに、書き方で手が止まることがあります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>私自身も、本のコードは読めるのに、自分で作ろうとすると止まった経験があります。その経緯は、<a href="https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-learning-roadmap/" style="color: #0000ff; text-decoration: underline;">自己紹介とプログラミング学習ロードマップ</a>にまとめています。</p>
+<p>私自身も、本のコードは読めるのに、自分で作ろうとすると手が止まった経験があります。その流れは、<a href="https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-learning-roadmap/" style="color: #0000ff; text-decoration: underline;">自己紹介とプログラミング学習ロードマップ｜未経験から独学で歩んだ3年間</a>にまとめています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>今どこで止まるかを、次のように分けてみてください。</p>
+<p>今どこで止まっているかを、次のように切り分けてみてください。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:table {"hasFixedLayout":false} -->
-<figure class="wp-block-table"><table><thead><tr><th>止まるところ</th><th>次にすること</th></tr></thead><tbody><tr><td>何を作りたいかが曖昧です。</td><td>「えんぴつが0本なら知らせる」のように、してほしい動きを一つ決めます。</td></tr><tr><td>動く順番を説明できません。</td><td>画面や物の状態を紙に描き、一つずつ手順を書きます。</td></tr><tr><td>説明はできても、コードにできません。</td><td>使っている言語で「もし〜なら」をどう書くか、小さな例で調べます。</td></tr><tr><td>動きますが、結果が違います。</td><td>予想と実際の違いが最初に現れる場所を探します。</td></tr></tbody></table></figure>
+<figure class="wp-block-table"><table><thead><tr><th>止まっている段階</th><th>次にすること</th></tr></thead><tbody><tr><td>何を作りたいかがはっきりしない。</td><td>「在庫が0個なら知らせる」のように、してほしい動きを1つ決めます。</td></tr><tr><td>動く順番を説明できない。</td><td>画面やデータの状態を紙に描き、1つずつ手順を書きます。</td></tr><tr><td>説明はできても、コードにできない。</td><td>使っている言語で「もし〜なら」をどう書くか、小さな例で調べます。</td></tr><tr><td>動くが、期待と違う結果になる。</td><td>予想と実際の違いが最初に現れる場所を探します。</td></tr></tbody></table></figure>
 <!-- /wp:table -->
 
 <!-- wp:paragraph -->
-<p>紙の上では合っていたのに、書いたプログラムでは予想と違う。そんなときは、まず実際の入力と表示を見比べます。<mark style="background-color:#fef08a;color:#422006" class="has-inline-color">原因の見当を付けて、一か所ずつ直して試す</mark>と、どの変更が効いたかを追えます。原因を探して直す作業が「デバッグ」です。</p>
+<p>紙の上では合っていたのに、書いたプログラムでは予想と違う結果になることがあります。そんなときは、まず実際の入力と表示を見比べます。<mark style="background-color:#fef08a;color:#422006" class="has-inline-color">原因の見当を付けて、1か所ずつ直して試す</mark>と、どの変更が効いたかを追えます。原因を探して直す作業が「デバッグ」です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>正しく動いたら、今度は使う人の目で見てみます。忘れ物を一つずつ別の画面で確認するのは大変でも、一覧ならすぐに分かるかもしれません。「自分には考える力がない」と思ったときも、<strong>どこで手が止まったか一つずつ見ていくと、次に何を試すかが見えてきます。</strong></p>
+<p>正しく動いたら、今度は使う人の目線で見てみます。足りない日用品を品目ごとに別画面で確認するより、一覧で見られるほうが使いやすいかもしれません。「自分には考える力がない」と感じたときも、<strong>どこで手が止まったか1つずつ見ていくと、次に何を試すかが見えてきます。</strong></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"metadata":{"name":"ja: まずは「えんぴつがあるか」を紙で確かめてみる"},"className":"logical-thinking-panel","layout":{"type":"default"}} -->
+<!-- wp:group {"metadata":{"name":"ja: まずは「在庫が足りているか」を紙で確かめてみる"},"className":"logical-thinking-panel","layout":{"type":"default"}} -->
 <div class="wp-block-group logical-thinking-panel"><!-- wp:heading -->
-<h2 class="wp-block-heading">まずは「えんぴつがあるか」を紙で確かめてみる</h2>
+<h2 class="wp-block-heading">まずは「在庫が足りているか」を紙で確かめてみる</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":92,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/05-first-step.png" alt="明日の持ち物を確認する手順を、子どもが紙と鉛筆で書き出すイラスト" class="wp-image-92" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":149,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-paper-rule-v2.png" alt="在庫確認の条件表を紙とペンで描き、指でたどって確かめる大人のイラスト" class="wp-image-149" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>ここで紙と鉛筆の出番です。筆箱の中を調べ、えんぴつが0本なら入れるように知らせる、という小さなルールから。</p>
+<p>ここで紙とペンの出番です。日用品のストックを確認し、在庫が0個なら買い足すように知らせる、という小さなルールから試してみます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
 <ol class="wp-block-list"><!-- wp:list-item -->
-<li>紙に「えんぴつが0本なら、入れるように知らせる。1本以上あるなら、何も知らせない」と書きます。</li>
+<li>紙に「在庫が0個なら、買うように知らせる。1個以上あるなら、何も知らせない」と書きます。</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>「0本」「1本」「2本」「3本」の四つの場合で、何が起きるか予想します。</li>
+<li>「0個」「1個」「2個」「3個」の4つの場合で、何が起きるか予想します。</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
@@ -267,28 +267,28 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>なぜその結果になるか、一文で説明します。</li>
+<li>なぜその結果になるか、1文で説明します。</li>
 <!-- /wp:list-item --></ol>
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>0本なら知らせ、1本以上なら知らせない。ところが、明日は2本必要だとしたら？ 1本しか入っていないのに、今のルールでは何も知らせてくれません。</p>
+<p>0個なら知らせ、1個以上なら知らせないルールができました。ところが、予備を含めて常に2個キープしたいとしたらどうでしょう。1個しか残っていないのに、今のルールでは何も知らせてくれません。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>ルールを「2本より少なければ、足りない分を入れるように知らせる」に変えて、同じ四つの場合を確かめます。結果は次のとおりです。</p>
+<p>ルールを「2個より少なければ、足りない分を買うように知らせる」に変えて、同じ4つの場合を確かめます。結果は次のとおりです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:table {"hasFixedLayout":false} -->
-<figure class="wp-block-table"><table><thead><tr><th>今ある本数</th><th>1本あればよいとき</th><th>2本必要なとき</th></tr></thead><tbody><tr><td>0本</td><td>知らせる</td><td>知らせる</td></tr><tr><td>1本</td><td>知らせない</td><td>知らせる</td></tr><tr><td>2本</td><td>知らせない</td><td>知らせない</td></tr><tr><td>3本</td><td>知らせない</td><td>知らせない</td></tr></tbody></table></figure>
+<figure class="wp-block-table"><table><thead><tr><th>今ある在庫</th><th>1個あればよいとき</th><th>2個必要なとき</th></tr></thead><tbody><tr><td>0個</td><td>知らせる</td><td>知らせる</td></tr><tr><td>1個</td><td>知らせない</td><td>知らせる</td></tr><tr><td>2個</td><td>知らせない</td><td>知らせない</td></tr><tr><td>3個</td><td>知らせない</td><td>知らせない</td></tr></tbody></table></figure>
 <!-- /wp:table -->
 
 <!-- wp:paragraph -->
-<p>2本必要でちょうど2本あるなら、お知らせは要りません。<mark style="background-color:#fef08a;color:#422006" class="has-inline-color">「2本より少ない」と「2本以下」では、ちょうど2本のときの答えが変わります。</mark> 足りるかどうかの境目は、試すときに外せないところです。</p>
+<p>2個必要でちょうど2個あるなら、お知らせは要りません。<mark style="background-color:#fef08a;color:#422006" class="has-inline-color">「2個より少ない」と「2個以下」では、ちょうど2個のときの答えが変わります。</mark> 足りるかどうかの境目は、動作確認で外せないポイントです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>まずは今日の持ち物確認を一つ選び、「何を確かめる？」「どんなときに動く？」「結果はどうなる？」を書いてみてください。手順を実際の道具へ広げたいときは、<a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color: #0000ff; text-decoration: underline;">自分の悩み・困り事を自作アプリにする方法</a>も参考になります。</p>
+<p>まずは身近な確認作業を1つ選び、「何を確かめる？」「どんなときに動く？」「結果はどうなる？」を紙に書いてみてください。整理した手順を実際の道具へ広げたいときは、<a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color: #0000ff; text-decoration: underline;">自分の悩み・困り事を自作アプリにする方法｜題材の見つけ方から小さな試作まで</a>も参考になります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -297,18 +297,22 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <!-- /wp:group --></section>
 <!-- /wp:tab-panel -->
 
-<!-- wp:tab-panel {"label":"English","metadata":{"name":"English本文"}} -->
+<!-- wp:tab-panel {"label":"English","metadata":{"name":"English body"}} -->
 <section role="tabpanel" tabindex="0" class="wp-block-tab-panel"><!-- wp:group {"metadata":{"name":"en: Introduction"},"className":"logical-thinking-panel","layout":{"type":"default"}} -->
 <div class="wp-block-group logical-thinking-panel"><!-- wp:paragraph -->
-<p>It’s raining, so you take an umbrella. Logical thinking helps in programming in much the same way. <strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">Work out what you want to happen, then put the steps in an order you can explain.</mark></strong> From there, learn how to write those instructions and run them to see what happens.</p>
+<p><strong>How Programming Connects to Logical Thinking</strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>After the umbrella, we’ll check what’s in a pencil case. Paper and a pencil are enough to start working out the steps, even if you’ve never written code.</p>
+<p>It’s raining, so you take an umbrella. Logical thinking helps in programming in much the same way. <strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">Work out what you want to happen, then put the steps in an order you can explain.</mark></strong> From there, learn how to write those instructions in a form a computer understands and run them to see what happens.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>This article builds on my <a href="https://zenn.dev/nanashinogonbei/articles/programming-and-logical-thinking" style="color: #0000ff; text-decoration: underline;">Zenn article about programming and logical thinking</a>, replacing technical code explanations with familiar examples. The tools and situations here are examples for explanation.</p>
+<p>After the umbrella example, we’ll walk through a pre-commute packing checklist and household inventory tracking. Paper and a pen are enough to start working out the steps, even if you’ve never written code.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>This article builds on my <a href="https://zenn.dev/nanashinogonbei/articles/programming-and-logical-thinking" style="color: #0000ff; text-decoration: underline;">Zenn article on programming and logical thinking (in Japanese)</a>, replacing technical code explanations with familiar everyday examples.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -317,16 +321,16 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <h2 class="wp-block-heading">Logical thinking means checking that reasons fit together</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":88,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/01-reasons.png" alt="A child sees rain through a window and chooses an umbrella before going out" class="wp-image-88" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":132,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-umbrella-decision-v2.png" alt="An adult looks out an entryway window at steady rain and picks up a folding umbrella beside a commuter bag" class="wp-image-132" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>The Japanese word for “logical,” pronounced “ronriteki,” can sound formal. The idea is familiar. Start with what you know and ask whether it gives you a good reason for your answer.</p>
+<p>“Thinking logically” can sound formal, yet the core habit is familiar: start with what you know and check whether it gives you a sound reason for the action you choose.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Imagine looking out the window before walking to school. It is raining. You do not want to get wet, so you decide to take an umbrella.</p>
+<p>Imagine looking out the window before leaving for work. It is raining. You do not want your clothes or bag to get soaked, so you pick up a folding umbrella.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
@@ -335,7 +339,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>What you want: To stay as dry as possible while walking.</li>
+<li>What you want: To stay as dry as possible on the walk to the station.</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
@@ -344,11 +348,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>“Why are you taking an umbrella?” “Because it’s raining and I want to stay dry.” That connects what you’ll do to the reason for doing it.</p>
+<p>“Why are you taking an umbrella?” “Because it’s raining and I want to stay dry.” That connects what you do to the reason for doing it.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Now turn it around. <mark style="background-color:#fee2e2;color:#991b1b" class="has-inline-color">If someone’s carrying an umbrella, it must be raining.</mark> Is that enough to tell? They might be using it for shade.</p>
+<p>Now turn it around. <mark style="background-color:#fee2e2;color:#991b1b" class="has-inline-color">If someone is carrying an umbrella, it must be raining.</mark> Jumping to that conclusion goes too far: they might be using a parasol for shade.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -357,8 +361,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <h2 class="wp-block-heading">Programming breaks a request into small steps</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":89,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/02-backpack.png" alt="A child and a robot compare a school-supply checklist with the contents of a backpack" class="wp-image-89" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":147,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-packing-steps-v2.png" alt="An adult checks a work-trip checklist against the items inside a commuter bag on a desk" class="wp-image-147" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -366,37 +370,37 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Tell a robot “Get me ready for school,” and it still won’t know what to check. With the school bag in front of you, work out what you want it to check and in what order.</p>
+<p>Telling a system “Get me ready for work” doesn’t tell it what to verify. Looking at your commuter bag, break the request into concrete checks in order.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
 <ol class="wp-block-list"><!-- wp:list-item -->
-<li>Choose one item from tomorrow’s supply list.</li>
+<li>Pick one item from your daily essentials list (such as laptop, charger, or wallet).</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>Check whether it is already in the bag.</li>
+<li>Check whether it is already inside the bag.</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>If it is missing, put it in. If it is already there, leave it there.</li>
+<li>If it is missing, flag it as missing. If it is already there, move on to the next item.</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>Check each remaining item in the same way.</li>
+<li>Check each remaining item on the list in the same way.</li>
 <!-- /wp:list-item --></ol>
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>Doing things in order is sequential processing. Acting differently depending on what you find is a conditional. Doing the same check again is repetition. For now, it’s enough to follow what the robot does.</p>
+<p>Doing steps one after another is sequential processing, acting differently depending on a check is branching, and doing the same check across items is repetition. You don’t need to memorize labels first—following the flow is enough.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Checking the bag first keeps the robot from packing a second copy of something you already have. You need one of each item, so add only what’s missing.</p>
+<p>Checking the bag first prevents packing duplicates of items you already have. When one of each is enough, you only add what is missing.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>Choose the checks and the order of actions to match the goal.</strong> This is where logical thinking helps. A real robot would also need ways to recognize and pick up objects. Our example focuses on planning the steps.</p>
+<p><strong>Choose the checks and the order of actions to match the goal.</strong> This is where logical thinking helps.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -405,42 +409,42 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <h2 class="wp-block-heading">Can programming help you practice logical thinking?</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":90,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/03-practice.png" alt="A child compares picture instruction cards with a robot’s movement to check a prediction" class="wp-image-90" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":133,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-predict-check-v2.png" alt="An adult compares three pictorial workflow cards with visual results on a laptop screen" class="wp-image-133" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p><strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">Predict what will happen under different conditions and say why.</mark></strong> That’s how this becomes practice in reasoning. Start with a rule that says “Please pack a pencil” when there are zero pencils.</p>
+<p><strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">Predict what will happen under different conditions and say why.</mark></strong> That’s how this becomes practice in reasoning. Take a rule that prompts “Add coffee beans to the shopping list” when your stock reaches zero.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>You can follow these steps on paper. Once you write a program, run it and compare the results.</p>
+<p>Trace the rule on paper first, then run your program and compare the actual output with your prediction.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
 <ol class="wp-block-list"><!-- wp:list-item -->
-<li>Predict: With zero pencils, it should give a reminder. With one pencil, it should not.</li>
+<li>Predict: With zero left, it should send a reminder. With one left, it should stay quiet.</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>Try: Change the number of pencils and check the result.</li>
+<li>Try: Change the stock count and check the result.</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>Explain: Give the reason for the result, such as “It gave a reminder because there were zero pencils.”</li>
+<li>Explain: State the reason for the result, such as “It sent a reminder because the count matched zero.”</li>
 <!-- /wp:list-item --></ol>
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>If it reminds you when there’s already one pencil, look at the condition or when the number is checked. If your prediction was right, try a different number and see what happens.</p>
+<p>If it reminds you when one is still in stock, look at how the condition is written or when the count is checked. Even when your prediction is right, testing another number can reveal cases you overlooked.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Once you’ve copied the code and seen it run, stop and ask why it gave that result. Working out the answer for yourself is the part that gives you practice reasoning.</p>
+<p>Once you’ve copied sample code and seen it run, stop and ask why it produced that result. Working out the explanation yourself is what builds reasoning skill.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>In the other direction, explaining the reason for a step can help you read a program by asking what a check is for and recognizing groups of actions. It does not automatically teach you unfamiliar code.</p>
+<p>In the other direction, explaining the reason for each step makes it easier to read someone else’s code by asking what each check does and spotting blocks of logic. It won’t automatically teach unfamiliar syntax, which you still look up separately.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -449,63 +453,63 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <h2 class="wp-block-heading">When you get stuck, check your knowledge and actual results</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":91,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/04-test.png" alt="A child records differences between an empty pencil case, one with one pencil, and one with several pencils" class="wp-image-91" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":148,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-debug-cases-v2.jpg" alt="An adult compares empty, single-item, and two-item pantry stock trays beside a laptop and notebook" class="wp-image-148" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>You might be able to explain the steps but still be unable to write the program. You may need to learn the computer’s required notation or how to use a particular tool.</p>
+<p>You might be able to explain the steps clearly and still be unable to write the program. That often means you need to look up the language syntax or how a particular tool works.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>You might know to cut vegetables before simmering them and still be unsure how to use a knife or adjust the heat. In programming, too, you can know the steps and still get stuck on how to write them.</p>
+<p>Just as you can know to chop vegetables before simmering them while still being unsure about knife technique or heat control, you can understand the logic and still stall on how to express it in code.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>I have also struggled to create something myself even when I could read code in a book. I describe that experience in <a href="https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-learning-roadmap/" style="color: #0000ff; text-decoration: underline;">my introduction and programming learning roadmap</a>.</p>
+<p>I have also struggled to build something myself even when I could read code in a book. I describe that path in <a href="https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-learning-roadmap/" style="color: #0000ff; text-decoration: underline;">About Me and My Programming Learning Roadmap: Three Years of Self-Study</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Try separating the point where you get stuck:</p>
+<p>Try isolating where you get stuck:</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:table {"hasFixedLayout":false} -->
-<figure class="wp-block-table"><table><thead><tr><th>Where you get stuck</th><th>What to do next</th></tr></thead><tbody><tr><td>You are unsure what to make.</td><td>Choose one behavior, such as giving a reminder when there are zero pencils.</td></tr><tr><td>You cannot explain the order of actions.</td><td>Draw the screen or objects on paper and write one step at a time.</td></tr><tr><td>You can explain it but cannot write the code.</td><td>Look up a small example of how your language expresses “if this, then that.”</td></tr><tr><td>It runs, but the result is wrong.</td><td>Find the first point where the actual result differs from your prediction.</td></tr></tbody></table></figure>
+<figure class="wp-block-table"><table><thead><tr><th>Where you get stuck</th><th>What to do next</th></tr></thead><tbody><tr><td>You are unsure what to build.</td><td>Choose one behavior, such as sending a reminder when stock reaches zero.</td></tr><tr><td>You cannot explain the order of actions.</td><td>Sketch the screen or data state on paper and write one step at a time.</td></tr><tr><td>You can explain it but cannot write the code.</td><td>Look up a small example of how your language expresses “if this, then that.”</td></tr><tr><td>It runs, but the result is wrong.</td><td>Find the first place where the actual result differs from your prediction.</td></tr></tbody></table></figure>
 <!-- /wp:table -->
 
 <!-- wp:paragraph -->
-<p>The steps worked on paper, but the program did something different. Compare the input and the result you actually saw. <mark style="background-color:#fef08a;color:#422006" class="has-inline-color">Take a guess at the cause and change one thing at a time</mark> so you can tell which change made a difference. Finding and fixing the cause is called debugging.</p>
+<p>The steps worked on paper, yet the program behaved differently. Start by comparing the actual input and output. <mark style="background-color:#fef08a;color:#422006" class="has-inline-color">Form a hypothesis about the cause and change one thing at a time</mark> so you know which change made the difference. Finding and fixing the cause is called debugging.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>A program can also work correctly and still be awkward to use. Seeing every missing item in one list may be more helpful than checking a separate screen for each item. Think about the person using it, too. <strong>Checking specific reasons for getting stuck gives you a next step, instead of assuming you lack the ability to think.</strong></p>
+<p>Once it works correctly, check it from a user’s perspective too. Checking missing household items on one combined list may be far easier than opening a separate screen per item. <strong>Looking at the exact point where you stalled gives you a next step, rather than assuming you lack thinking ability.</strong></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"metadata":{"name":"en: Start by checking for a pencil on paper"},"className":"logical-thinking-panel","layout":{"type":"default"}} -->
+<!-- wp:group {"metadata":{"name":"en: Start by checking inventory levels on paper"},"className":"logical-thinking-panel","layout":{"type":"default"}} -->
 <div class="wp-block-group logical-thinking-panel"><!-- wp:heading -->
-<h2 class="wp-block-heading">Start by checking for a pencil on paper</h2>
+<h2 class="wp-block-heading">Start by checking inventory levels on paper</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":92,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/05-first-step.png" alt="A child uses paper and a pencil to plan the steps for checking tomorrow’s school supplies" class="wp-image-92" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":149,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-paper-rule-v2.png" alt="An adult traces a boundary-condition table on paper with a pen beside a cup of coffee" class="wp-image-149" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>Now grab a pencil and some paper. Start with one rule for checking the pencil case and give a reminder to pack a pencil if there are none.</p>
+<p>Now grab a pen and paper. Start with a small rule that checks an everyday stock level and reminds you to restock when it hits zero.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
 <ol class="wp-block-list"><!-- wp:list-item -->
-<li>Write: “If there are zero pencils, give a reminder to pack one. If there is at least one, give no reminder.”</li>
+<li>Write: “If stock is zero, send a restock reminder. If there is at least one, send no reminder.”</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>Predict what happens with zero, one, two, and three pencils.</li>
+<li>Predict what happens with zero, one, two, and three items.</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>Follow the written rule with your finger and check your predictions.</li>
+<li>Trace the written rule with your finger and verify your predictions.</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
@@ -514,27 +518,27 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>Remind yourself with zero pencils and stay quiet with one or more. But suppose you need two tomorrow. With one in the case, your rule still says nothing.</p>
+<p>That works when one item is enough. But suppose you want to keep a spare and always maintain two in stock: when one remains, the old rule stays silent.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Change the rule to: “If there are fewer than two, give a reminder to pack the missing pencils.” Check the same four cases. Here are the results:</p>
+<p>Update the rule to: “If stock is fewer than two, send a reminder to buy the missing amount.” Test the same four cases again:</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:table {"hasFixedLayout":false} -->
-<figure class="wp-block-table"><table><thead><tr><th>Pencils you have</th><th>When one is enough</th><th>When you need two</th></tr></thead><tbody><tr><td>0</td><td>Reminder</td><td>Reminder</td></tr><tr><td>1</td><td>No reminder</td><td>Reminder</td></tr><tr><td>2</td><td>No reminder</td><td>No reminder</td></tr><tr><td>3</td><td>No reminder</td><td>No reminder</td></tr></tbody></table></figure>
+<figure class="wp-block-table"><table><thead><tr><th>Items in stock</th><th>When one is enough</th><th>When two are needed</th></tr></thead><tbody><tr><td>0</td><td>Reminder</td><td>Reminder</td></tr><tr><td>1</td><td>No reminder</td><td>Reminder</td></tr><tr><td>2</td><td>No reminder</td><td>No reminder</td></tr><tr><td>3</td><td>No reminder</td><td>No reminder</td></tr></tbody></table></figure>
 <!-- /wp:table -->
 
 <!-- wp:paragraph -->
-<p>If you need two and already have two, you don’t need a reminder. <mark style="background-color:#fef08a;color:#422006" class="has-inline-color">“Fewer than two” and “two or fewer” give different answers at exactly two.</mark> That dividing line is one of the most useful cases to test.</p>
+<p>If you need two and already have two, you don’t need a reminder. <mark style="background-color:#fef08a;color:#422006" class="has-inline-color">“Fewer than two” and “two or fewer” give different answers at exactly two.</mark> Boundary values like that are essential cases to test.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Start with one school-supply check today and write: “What do I check?”, “When do I act?”, and “What should happen?” When you want to turn your steps into a tool, see <a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color: #0000ff; text-decoration: underline;">how to turn an everyday problem into a small homemade app</a>.</p>
+<p>Pick one everyday check and write down “What do I check?”, “When should it trigger?”, and “What should happen?” When you want to turn those steps into a working tool, see <a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color: #0000ff; text-decoration: underline;">How to Turn a Personal Problem into a Homemade App: From Finding an Idea to a Small Prototype</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>References: the <a href="https://zenn.dev/nanashinogonbei/articles/programming-and-logical-thinking" style="color: #0000ff; text-decoration: underline;">original Zenn article</a> behind this explanation, and the <a href="https://docs.python.org/ja/3/tutorial/controlflow.html" style="color: #0000ff; text-decoration: underline;">official Python tutorial</a> showing how conditionals and repetition appear in code. The official tutorial is further reading; you do not need to understand it all now.</p>
+<p>References: the <a href="https://zenn.dev/nanashinogonbei/articles/programming-and-logical-thinking" style="color: #0000ff; text-decoration: underline;">original Zenn article (in Japanese)</a> behind this explanation, and the <a href="https://docs.python.org/3/tutorial/controlflow.html" style="color: #0000ff; text-decoration: underline;">official Python tutorial</a> showing how conditionals and loops appear in code. The official tutorial is further reading; you do not need to learn all of it right now.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:tab-panel --></div>

@@ -64,7 +64,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-t
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>「何を作ればいい？」と考え続けるより、まずは今日どこで手が止まったかを思い出すところから。コードの知識がなくても、題材を選んで紙に描くところまでは進められます。</p>
+<p>「何を作ればいい？」と考え続けるより、まずは今日どこで手が止まったかを思い出すところから始めてみましょう。コードの知識がなくても、題材を選んで紙に描くところまでは進められます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
@@ -85,7 +85,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-t
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>以下の記録・アプリ案・試す期間は、説明用の架空の例です。筆者が完成させたアプリや、実測した成果を示すものではありません。</p>
+<p>以下の記録・アプリ案・試す期間は、流れを説明するために用意した架空の例です。</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -139,7 +139,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-t
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>「通知があったらいいな」と思いついたら、その案はメモの端へ。今のうちに書いておきたいのは、何を思い出せず、どんなときに困ったかです。</p>
+<p>「通知があったらいいな」と思いついたら、その案はメモの端へ書き留めておきます。今のうちに書いておきたいのは、何を思い出せず、どんなときに困ったかです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -182,7 +182,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-t
 <!-- wp:html -->
 <div class="table-scroll"><table><caption>既存の方法で試せることと確認する点</caption><thead><tr><th scope="col">方法</th><th scope="col">まず試すこと</th><th scope="col">合う場面・確かめたい点</th></tr></thead><tbody>
 <tr><td>今使っているメモ</td><td>記事名とURLを一か所へまとめ、読んだら印を付ける</td><td>件数が少なく、手作業で整理できる人向け。増えたときも探せるかを見る</td></tr>
-<tr><td>ブラウザのブックマーク</td><td>未読用のフォルダーを作り、読んだら移動する</td><td>普段のブラウザで完結したい人向け。移動する手間が気にならないかを見る</td></tr>
+<tr><td>ブラウザのブックマーク</td><td>未読用のフォルダを作り、読んだら移動する</td><td>普段のブラウザで完結したい人向け。移動する手間が気にならないかを見る</td></tr>
 <tr><td>表に記録する方法</td><td>記事名・URL・読んだかどうかを列に分ける</td><td>一覧で管理したい人向け。利用する道具で絞り込みができるか、入力を続けられるかを見る</td></tr>
 </tbody></table></div>
 <!-- /wp:html -->
@@ -192,7 +192,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-t
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>未読用のフォルダーなど、手元にある道具で困らなくなったら、それでひとまず解決。自作の練習もしたいなら、「作り方を覚えたか」と「手間が減ったか」は別々に振り返れます。</p>
+<p>未読用のフォルダなど、手元にある道具で困らなくなったら、それでひとまず解決です。自作の練習もしたいなら、「作り方を覚えたか」と「手間が減ったか」は別々に振り返れます。</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -212,8 +212,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-t
 <!-- wp:html -->
 <div class="table-scroll"><table><caption>困り事から小さなアプリへ落とし込む架空の設計例</caption><thead><tr><th scope="col">項目</th><th scope="col">決める内容</th></tr></thead><tbody>
 <tr><td>悩みそのもの</td><td>未読の記事が埋もれ、読みたいときに探し直してしまう</td></tr>
-<tr><td>現在の対処法</td><td>ブックマークへ保存し、フォルダーで分ける</td></tr>
-<tr><td>試しても残った不便という想定</td><td>自分には、読んだ記事を別のフォルダーへ動かす操作が続かなかった</td></tr>
+<tr><td>現在の対処法</td><td>ブックマークへ保存し、フォルダで分ける</td></tr>
+<tr><td>試しても残った不便という想定</td><td>自分には、読んだ記事を別のフォルダへ動かす操作が続かなかった</td></tr>
 <tr><td>入力</td><td>記事の名前とURL</td></tr>
 <tr><td>操作</td><td>追加する、未読だけを見る、記事を開く、読んだ印を付ける</td></tr>
 <tr><td>得られる結果</td><td>次に読む記事を同じ画面で選べる</td></tr>
@@ -234,7 +234,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-t
 <h3 class="wp-block-heading">最初は一つの作業が終わる範囲に絞る</h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p><mark style="background-color:#fee2e2;color:#991b1b" class="has-inline-color">最初から通知も検索も共有も入れると、どの機能が役に立ったか見えにくくなります。</mark> 初回は、未読の記事を選んで開けるところまで。</p>
+<p><mark style="background-color:#fee2e2;color:#991b1b" class="has-inline-color">最初から通知も検索も共有も入れると、どの機能が役に立ったか見えにくくなります。</mark> 初回は、未読の記事を選んで開けるところまでにとどめます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -285,7 +285,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-t
 プログラミングは未経験です。
 
 困る場面：休憩中、保存した記事から未読のものを探し直してしまう。
-今の方法：ブックマークのフォルダーで分けている。
+今の方法：ブックマークのフォルダで分けている。
 残る不便：読んだ記事を移す操作が続かなかった、という想定です。
 目的：未読の記事を選び、そのページを開けるようにする。
 使う端末：［普段使う端末とブラウザを書く］
@@ -297,7 +297,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-t
 
 まず不足している情報を質問し、回答を待ってください。
 その後、画面の案と、動く試作品の作り方を提案してください。
-可能なら、ブラウザで開ける1つのHTMLファイル
+可能なら、ブラウザで開ける一つのHTMLファイル
 （画面の見た目と動きをまとめたファイル）にしてください。
 保存して開く手順も、初めての人向けに説明してください。
 その方式が使う端末で画面表示と記録の保存に対応できるかを分けて説明してください。
@@ -350,7 +350,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-t
 <figure class="wp-block-image size-full is-resized"><img class="wp-image-83" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/05-test.png" alt="普段の休憩中にスマートフォンで保存記事を開き、使った時間や不便をノートに記録するイラスト" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 <!-- wp:paragraph -->
-<p>試作品が動いたら、次はいつもの休憩で使ってみます。一週間を区切りにするなら、その間に未読の記事を探した回数もメモ。そもそも使う場面が来なければ、良し悪しを決めるのは次の機会で十分です。</p>
+<p>試作品が動いたら、次はいつもの休憩で使ってみます。1週間を区切りにするなら、その間に未読の記事を探した回数もメモしておきます。そもそも使う場面が来なければ、良し悪しを決めるのは次の機会で十分です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -364,7 +364,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-t
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>今までの方法とは、なるべく同じ場面で比べます。探すのが速くても、保存が面倒になって開かなくなったなら、何が減って何が増えたかを見直すところ。自分で数回使った結果から分かるのは、自分の場合の手応えまでです。</p>
+<p>今までの方法とは、なるべく同じ場面で比べます。探すのが速くても、保存が面倒になって開かなくなったなら、何が減って何が増えたかを見直すところです。自分で数回使った結果から分かるのは、自分の場合の手応えまでです。</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -406,11 +406,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-t
 <figure class="wp-block-image size-full is-resized"><img class="wp-image-84" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/06-next.png" alt="困り事を一つ選び、観察する、形にする、試すという次の行動を決める人のイラスト" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 <!-- wp:paragraph -->
-<p>今日の出来事なら、<mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">「困った場面／今の対処法／残った手間」</mark>を一行で。「休憩中、未読の記事が見つからない／ブックマークへ保存している／読んだ記事と混ざる」と書けたら、次の休憩では未読用のフォルダーを試せます。</p>
+<p>今日の出来事なら、<mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">「困った場面／今の対処法／残った手間」</mark>を一行で書き出してみます。「休憩中、未読の記事が見つからない／ブックマークへ保存している／読んだ記事と混ざる」と書けたら、次の休憩では未読用のフォルダを試せます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>自分の道具として使い続けられそうなら、同じ悩みを持つ人にも、最近困った場面を聞く手があります。一人に話を聞くところから始めるなら、<a href="https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-problem-with-an-app/" style="color: #0000ff; text-decoration: underline;">1人の困り事を自作アプリで解決する方法</a>へ。複数の人へ質問を広げるなら、<a href="https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-ideas/" style="color: #0000ff; text-decoration: underline;">Googleフォームで自作アプリを考える方法</a>も参考になります。</p>
+<p>自分の道具として使い続けられそうなら、同じ悩みを持つ人にも、最近困った場面を聞く手があります。1人に話を聞くところから始めるなら、<a href="https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-problem-with-an-app/" style="color: #0000ff; text-decoration: underline;">1人の困り事を自作アプリで解決する方法</a>が役立ちます。複数の人へ質問を広げるなら、<a href="https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-ideas/" style="color: #0000ff; text-decoration: underline;">Googleフォームで自作アプリを考える方法</a>も参考になります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -429,6 +429,10 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-t
 <section role="tabpanel" tabindex="0" class="wp-block-tab-panel">
 <!-- wp:group {"metadata":{"name":"en: Introduction"},"className":"personal-app-panel","layout":{"type":"default"}} -->
 <div class="wp-block-group personal-app-panel">
+<!-- wp:paragraph -->
+<p><strong>How to Turn a Personal Problem into a Homemade App: From Finding an Idea to a Small Prototype</strong></p>
+<!-- /wp:paragraph -->
+
 <!-- wp:paragraph -->
 <p>You saved something to read during a break, and now you can’t find it. That small annoyance is enough for an app idea. <strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">Pick one bit of work your current tools leave you with and see whether a small prototype can cut it out.</mark></strong> We’ll follow that process with unread articles.</p>
 <!-- /wp:paragraph -->
@@ -455,7 +459,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-t
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>The records, app idea, and trial periods below are fictional examples for explanation. They do not describe an app the author has completed or measured results.</p>
+<p>The records, app idea, and trial periods below are fictional examples created to illustrate the steps.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -781,7 +785,7 @@ Do not describe untested behavior as verified.</code></pre>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>If the tool seems worth continuing for yourself, ask someone with a similar problem about a recent difficult moment. See <a href="https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-problem-with-an-app/" style="color: #0000ff; text-decoration: underline;">How to Solve One Person’s Problem With a Homemade App</a> for an interview-based approach. To ask a wider group, <a href="https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-ideas/" style="color: #0000ff; text-decoration: underline;">How to Develop App Ideas With Google Forms</a> covers the next step.</p>
+<p>If the tool seems worth continuing for yourself, ask someone with a similar problem about a recent difficult moment. See <a href="https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-problem-with-an-app/" style="color: #0000ff; text-decoration: underline;">How to Solve One Person’s Problem With a Homemade App: From Idea to Sharing</a> for an interview-based approach. To ask a wider group, <a href="https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-ideas/" style="color: #0000ff; text-decoration: underline;">Plan Your Own App With Google Forms: From Survey Questions to a Prototype</a> covers the next step.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

@@ -93,7 +93,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>本記事は調査手順の提案です。以下の依頼例・集計値・点数はすべて架空で、実際に案件収集や利用者テストを行った結果ではありません。調査に使える範囲はサービスごとに異なるため、収集前に利用目的を含めて規約を確認してください。</p>
+<p>なお、以下の依頼例・集計値・点数は手順を説明するための架空の例です。調査に使える範囲はサービスごとに異なるため、収集前に利用目的を含めて規約を確認してください。</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -165,7 +165,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>最初の題材は、経理、SNS運用、予約管理などから一つ。依頼とレビューのように違う種類の情報源を二つ以上見比べると、別の人にも似た場面があるかを確かめられます。</p>
+<p>最初の題材は、経理、SNS運用、予約管理などから一つ選びます。依頼とレビューのように違う種類の情報源を二つ以上見比べると、別の人にも似た場面があるかを確かめられます。</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -181,7 +181,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>手元に用意するのは記録用の表と、どこまで調べるかのメモ。「直近3か月・小規模事業者の経理」のように絞り、検索した言葉も残します。条件に合う例が少なければ、その範囲で取れた件数で進めます。</p>
+<p>手元に用意するのは記録用の表と、どこまで調べるかを書いたメモです。「直近3か月・小規模事業者の経理」のように絞り、検索した言葉も残します。条件に合う例が少なければ、その範囲で取れた件数で進めます。</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -235,7 +235,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>表に残すのは、自分の言葉で書いた困り事の要点だけ。氏名、会社名、ユーザー名、連絡先、依頼文の長い引用は入れません。非公開の依頼や提案、メッセージ、秘密保持の対象も外します。</p>
+<p>表に残すのは、自分の言葉で書いた困り事の要点だけです。氏名、会社名、ユーザー名、連絡先、依頼文の長い引用は入れません。非公開の依頼や提案、メッセージ、秘密保持の対象も外します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -333,7 +333,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>この表の24件は、調査の範囲で拾った事例の数。24人の利用者が見つかったわけではありません。投稿しない人や、そもそもそのサービスを使わない人は、ここには入っていません。</p>
+<p>この表の24件は、調査の範囲で拾った事例の数であり、24人の利用者が見つかったわけではありません。投稿しない人や、そもそもそのサービスを使わない人は、ここには入っていません。</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -360,11 +360,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>2〜4点を付けるときは、両端の基準を見ながら理由を一行。まだ根拠がない項目は「未確認」として、合計を出す前に調べ直します。全項目を埋めた候補は25点満点で比べられます。この表はあくまで候補を見比べるための目安です。</p>
+<p>2〜4点を付けるときは、両端の基準を見ながら理由を一行で書きます。まだ根拠がない項目は「未確認」として、合計を出す前に調べ直します。全項目を埋めた候補は25点満点で比べられます。この表はあくまで候補を見比べるための目安です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><mark style="background-color:#fef08a;color:#422006" class="has-inline-color">依頼に書かれた予算は、その金額を実際に払った記録ではありません。</mark> 外注費を払ったことがあっても、アプリにも払うかは別の話。募集時の予算、実際に払った額、有料の試用への反応は、それぞれ記録します。</p>
+<p><mark style="background-color:#fef08a;color:#422006" class="has-inline-color">依頼に書かれた予算は、その金額を実際に払った記録ではありません。</mark> 外注費を払ったことがあっても、アプリにも払うかは別の話です。募集時の予算、実際に払った額、有料の試用への反応は、それぞれ分けて記録します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -397,7 +397,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>検索でどの程度関心を集めているかを見る補助には、Google Trendsも使えます。「検索語」は入力した語句を含む検索などが対象。「トピック」なら、言語が違う関連語もまとまります。比べるときは、地域・期間・検索の種類を同じ条件に。<a href="https://support.google.com/trends/answer/4359550?hl=ja" style="color: #0000ff; text-decoration: underline;">Google Trendsの検索キーワード比較ガイド</a></p>
+<p>検索でどの程度関心を集めているかを見る補助には、Google Trendsも使えます。「検索語」は入力した語句を含む検索などが対象で、「トピック」なら言語が違う関連語もまとまります。比べるときは、地域・期間・検索の種類を同じ条件にそろえます。<a href="https://support.google.com/trends/answer/4359550?hl=ja" style="color: #0000ff; text-decoration: underline;">Google Trendsの検索キーワード比較ガイド</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -513,7 +513,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>試す根拠が集まったら、一つの作業が最後までできる最小版（MVP）を作ります。請求書なら「PDFを入れる → 項目の下書きが出る → 人が確認する → 表へ出す」まで。会計ソフトとの連携やスマホ専用アプリは後回しです。</p>
+<p>試す根拠が集まったら、一つの作業が最後までできる最小版（MVP）を作ります。請求書なら「PDFを入れる → 項目の下書きが出る → 人が確認する → 表へ出す」という一連の流れだけを用意します。会計ソフトとの連携やスマホ専用アプリは後回しです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -625,7 +625,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><em>サービスの規約・公式資料は2026年9月28日に確認しました。この記事は法的助言ではありません。利用するサービスと情報の扱いに応じて、最新の規約や法令、必要な許可を確認してください。挿絵はAIで生成したイメージで、実在のサービス画面や人物を表すものではありません。</em></p>
+<p><em>サービスの規約・公式資料は2026年9月28日時点の内容をもとにしています。この記事は法的助言ではありません。利用するサービスと情報の扱いに応じて、最新の規約や法令、必要な許可を確認してください。</em></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -689,7 +689,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>This article proposes a research process. All request examples, counts, and scores below are fictional, not results from collecting real listings or running user tests. Before collecting information, check whether each service permits your intended research use.</p>
+<p>The request examples, counts, and scores below are fictional examples created to illustrate the process. Before collecting information, check whether each service permits your intended research use.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -823,11 +823,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Public text is not automatically free to copy and redistribute. Japan's Agency for Cultural Affairs explains that attribution alone does not make every use permissible and that quotation has conditions, including prior publication and a scope justified by the purpose. See the <a href="https://www.bunka.go.jp/seisaku/bunka_gyosei/kibankyoka/faq/index.html" style="color: #0000ff; text-decoration: underline;">Agency for Cultural Affairs' FAQ on legal issues in cultural and artistic activity</a>.</p>
+<p>Public text is not automatically free to copy and redistribute. Japan's Agency for Cultural Affairs explains that attribution alone does not make every use permissible and that quotation has conditions, including prior publication and a scope justified by the purpose. See the <a href="https://www.bunka.go.jp/seisaku/bunka_gyosei/kibankyoka/faq/index.html" style="color: #0000ff; text-decoration: underline;">Agency for Cultural Affairs' FAQ on legal issues in cultural and artistic activity (in Japanese)</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Japan's Personal Information Protection Commission explains that personal information already published online remains protected. Removing a name does not make a record anonymous if a reference URL or specific circumstances still identify the person. See the <a href="https://www.ppc.go.jp/all_faq_index/faq1-q1-5/" style="color: #0000ff; text-decoration: underline;">PPC's FAQ on protection of published personal information</a>.</p>
+<p>Japan's Personal Information Protection Commission explains that personal information already published online remains protected. Removing a name does not make a record anonymous if a reference URL or specific circumstances still identify the person. See the <a href="https://www.ppc.go.jp/all_faq_index/faq1-q1-5/" style="color: #0000ff; text-decoration: underline;">PPC's FAQ on protection of published personal information (in Japanese)</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -835,11 +835,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Article 23(15) of CrowdWorks' terms restricts use for commercial activities, or preparation for them, outside work contracted through the service unless approved in writing beforehand. Do not assume this research is permitted; confirm your intended use with the operator. See the <a href="https://crowdworks.jp/pages/agreement" style="color: #0000ff; text-decoration: underline;">CrowdWorks Terms of Use</a>.</p>
+<p>Article 23(15) of CrowdWorks' terms restricts use for commercial activities, or preparation for them, outside work contracted through the service unless approved in writing beforehand. Do not assume this research is permitted; confirm your intended use with the operator. See the <a href="https://crowdworks.jp/pages/agreement" style="color: #0000ff; text-decoration: underline;">CrowdWorks Terms of Use (in Japanese)</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Lancers offers non-public requests and keeps project-format proposals private. Check visibility and reuse conditions separately. See <a href="https://www.lancers.jp/faq/C1006/189" style="color: #0000ff; text-decoration: underline;">Lancers' guidance on public and private content</a>.</p>
+<p>Lancers offers non-public requests and keeps project-format proposals private. Check visibility and reuse conditions separately. See <a href="https://www.lancers.jp/faq/C1006/189" style="color: #0000ff; text-decoration: underline;">Lancers' guidance on public and private content (in Japanese)</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -993,7 +993,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Google Trends can provide supporting evidence of search interest. Search terms cover searches containing the entered words, among other matching rules; topics group related terms across languages. Keep the region, period, and search type consistent when comparing. See <a href="https://support.google.com/trends/answer/4359550?hl=ja" style="color: #0000ff; text-decoration: underline;">Google Trends' guide to comparing search terms</a>.</p>
+<p>Google Trends can provide supporting evidence of search interest. Search terms cover searches containing the entered words, among other matching rules; topics group related terms across languages. Keep the region, period, and search type consistent when comparing. See <a href="https://support.google.com/trends/answer/4359550?hl=en" style="color: #0000ff; text-decoration: underline;">Google Trends' guide to comparing search terms</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -1221,7 +1221,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><em>The service terms and official materials were checked on September 28, 2026. This article is not legal advice. Check the latest terms, laws, and permissions for the services and information you use. The illustrations were generated with AI and do not depict real service interfaces or people.</em></p>
+<p><em>Service terms and official materials reflect information checked on September 28, 2026. This article is not legal advice. Check the latest terms, laws, and permissions for the services and information you use.</em></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
