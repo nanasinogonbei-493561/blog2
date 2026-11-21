@@ -49,7 +49,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 </style>
 <!-- /wp:html -->
 
-<!-- wp:tabs {"metadata":{"name":"日本語・English 切り替え"}} -->
+<!-- wp:tabs {"activeTabIndex":0,"metadata":{"name":"日本語・English 切り替え"}} -->
 <div class="wp-block-tabs"><!-- wp:tab-list -->
 <div role="tablist" class="wp-block-tab-list"><button type="button" role="tab">日本語</button><button type="button" role="tab">English</button></div>
 <!-- /wp:tab-list -->
@@ -62,7 +62,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>前回の<a href="https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-problem-with-an-app/" style="color: #0000ff; text-decoration: underline;">1人の困り事を自作アプリで解決する方法</a>では、身近な人への聞き取りから始めました。今回は、同じような悩みを持つ人へアンケートを広げ、答えを比べながら作るものを決めます。</p>
+<p>前回の<a href="https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-problem-with-an-app/" style="color: #0000ff; text-decoration: underline;">1人の困り事を自作アプリで解決する方法</a>では、身近な人への聞き取りから始めました。今回は同じ「借りた物の返却」を題材に、アンケートへ広げるとどう見方が変わるかをたどります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
@@ -75,7 +75,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>件数と体験を整理し、確かめたいアイデアを一つ選ぶ。</li>
+<li>件数と体験を整理し、確かめたいアイデアを1つ選ぶ。</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
@@ -88,7 +88,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>この記事の質問例・回答例・集計値・アプリ案は、すべて説明用の架空の例です。アンケートを実施した成果や、完成したアプリの紹介ではありません。</p>
+<p>この記事の質問例・回答例・集計値・アプリ案は、流れを説明するために用意した架空の例です。</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -110,7 +110,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>回数が分かっても、なぜ困ったかまでは見えてきません。体験談ばかりだと、同じところで困った人がどれくらいいたかを比べづらい。そこで、一つのフォームに両方の質問を入れます。気になる答えがあれば、あとで話を聞く余地もあります。</p>
+<p>回数が分かっても、なぜ困ったかまでは見えてきません。体験談ばかりだと、同じところで困った人がどれくらいいたかを比べづらい。そこで、1つのフォームに両方の質問を入れます。気になる答えがあれば、あとで話を聞く余地もあります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
@@ -138,7 +138,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>このひな形で必須にするのは質問1だけ。質問2〜8は任意です。質問1で「いいえ」を選んだ人は、残りを空欄のまま送信できます。フォームにもそう書いておけば、困った経験がない人まで、無理に何かを書かずに済みます。</p>
+<p>このひな形で必須にするのは質問1だけにします。質問2〜8は任意です。質問1で「いいえ」を選んだ人は、残りを空欄のまま送信できます。フォームにもそう書いておけば、困った経験がない人まで、無理に何かを書かずに済みます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -224,17 +224,17 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"metadata":{"name":"ja: 回答の件数と体験を整理し、アイデアを一つに絞る"},"className":"survey-app-panel panel-ja","layout":{"type":"default"}} -->
+<!-- wp:group {"metadata":{"name":"ja: 回答の件数と体験を整理し、アイデアを1つに絞る"},"className":"survey-app-panel panel-ja","layout":{"type":"default"}} -->
 <div class="wp-block-group survey-app-panel panel-ja"><!-- wp:heading -->
-<h2 class="wp-block-heading">回答の件数と体験を整理し、アイデアを一つに絞る</h2>
+<h2 class="wp-block-heading">回答の件数と体験を整理し、アイデアを1つに絞る</h2>
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":72,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/03-sort-ideas.png" alt="アンケートの件数と体験談を並べ、似た困り事ごとにまとめて一つの案を選ぶ人のイラスト" class="wp-image-72" style="width:100%;height:auto"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/03-sort-ideas.png" alt="アンケートの件数と体験談を並べ、似た困り事ごとにまとめて1つの案を選ぶ人のイラスト" class="wp-image-72" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>回答の概要は、フォームの「回答」から。必要ならGoogleスプレッドシートへ保存できます。フォームとシートはそれぞれ誰が見られるか確認が必要です。保管期限が来たら、回答が残っている場所を両方確認して削除します。片方で消しただけでは、もう片方に残ります。<a href="https://support.google.com/docs/answer/2917686?hl=ja" style="color: #0000ff; text-decoration: underline;">Google公式：回答の保存先と削除</a></p>
+<p>回答の概要は、フォームの「回答」タブで確認できます。必要ならGoogleスプレッドシートへ保存できます。フォームとシートはそれぞれ誰が見られるか確認が必要です。保管期限が来たら、回答が残っている場所を両方確認して削除します。片方で消しただけでは、もう片方に残ります。<a href="https://support.google.com/docs/answer/2917686?hl=ja" style="color: #0000ff; text-decoration: underline;">Google公式：回答の保存先と削除</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -250,7 +250,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>質問3が空欄なら、この質問の母数には入れず、空欄の件数を別に記録します。<mark style="background-color:#fef08a;color:#422006" class="has-inline-color">答えが書かれていないことと、「困っていない」と答えたことは別です。</mark> 知人を中心に聞いた結果から言えるのは、その回答の範囲まで。</p>
+<p>質問3が空欄なら、この質問の母数には入れず、空欄の件数を別に記録します。<mark style="background-color:#fef08a;color:#422006" class="has-inline-color">答えが書かれていないことと、「困っていない」と答えたことは区別します。</mark> 知人を中心に聞いた結果から言えるのは、その回答の範囲に限られます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
@@ -318,7 +318,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>架空の返却予定を同じ条件で入れてみると、困り事に合うか、操作で迷わないかを比べられます。始めやすさや続けやすさのほか、必要な機能がどの契約に含まれ、いくらかかるかも確認を。個人情報はどこに残り、誰が見られるでしょうか。紙でも、置き場所によっては他の人の目に触れます。</p>
+<p>架空の返却予定を同じ条件で入れてみると、困り事に合うか、操作で迷わないかを比べられます。始めやすさや続けやすさのほか、必要な機能がどの契約に含まれ、いくらかかるかも確認してください。個人情報はどこに残り、誰が見られるでしょうか。紙でも、置き場所によっては他の人の目に触れます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -330,9 +330,9 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"metadata":{"name":"ja: 選んだアイデアを、一つの作業ができるアプリにする"},"className":"survey-app-panel panel-ja","layout":{"type":"default"}} -->
+<!-- wp:group {"metadata":{"name":"ja: 選んだアイデアを、1つの作業ができるアプリにする"},"className":"survey-app-panel panel-ja","layout":{"type":"default"}} -->
 <div class="wp-block-group survey-app-panel panel-ja"><!-- wp:heading -->
-<h2 class="wp-block-heading">選んだアイデアを、一つの作業ができるアプリにする</h2>
+<h2 class="wp-block-heading">選んだアイデアを、1つの作業ができるアプリにする</h2>
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":74,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
@@ -361,7 +361,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <tr><td>アプリの役割</td><td>今日返す物・返却先・日付をまとめて確認する</td></tr>
 <tr><td>画面</td><td>入力・編集の画面と、今日返す物の一覧</td></tr>
 <tr><td>初回の試用</td><td>実名を使わない架空の記録を、本人のスマートフォンで操作してもらう</td></tr>
-<tr><td>最初の保存範囲</td><td>試用端末のブラウザー内だけ。端末間の同期や共有はしない</td></tr>
+<tr><td>最初の保存範囲</td><td>試用端末のブラウザ内だけ。端末間の同期や共有はしない</td></tr>
 <tr><td>解決できないこと</td><td>記入していない物の把握、返却の代行、画面を見ること自体の忘れ</td></tr>
 </tbody></table></div>
 <!-- /wp:html -->
@@ -385,8 +385,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 ・入力を修正し、不要な記録を削除する。
 ・返却済みにして、未返却の一覧から外す。
 
-初回は架空のデータだけを使います。
-データは試用端末のブラウザー内だけに保存してください。
+初回の試用では架空のデータだけを使います。
+データは試用端末のブラウザ内だけに保存してください。
 保存場所と削除方法を画面に説明し、全件削除もできるようにしてください。
 今回は通知・アカウント登録・共有・外部サービスとの自動連携は作りません。
 予算：[作成費と月額費用の上限]
@@ -397,7 +397,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>この保存方法では、別の端末で同じ記録を使えず、ブラウザーのデータを消すと記録も失う場合があります。初回の操作確認用として選ぶ案です。作った人と一緒に、保存・修正・削除が意図どおり動くかを確認します。</p>
+<p>この保存方法では、別の端末で同じ記録を使えず、ブラウザのデータを消すと記録も失う場合があります。初回の操作確認用として選ぶ案です。作った人と一緒に、保存・修正・削除が意図どおり動くかを確認します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -437,7 +437,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>「便利でしたか？」と聞く前に、最後までできたか、どこで手が止まったか、助けが要ったか、何分かかったかをメモ。時間を比べる条件はそろえます。初めて画面を触る人は、操作に不慣れな分も時間に出ます。</p>
+<p>「便利でしたか？」と聞く前に、最後までできたか、どこで手が止まったか、助けが要ったか、何分かかったかをメモしておきます。時間を比べる条件はそろえます。初めて画面を触る人は、操作に不慣れな分も時間に出ます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -467,15 +467,15 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>次に選ぶのは、操作を一つ直す、対象を絞り直す、既存の道具を使う、いったん作るのをやめる、といった行動です。好意的な感想だけでなく、実際の行動を根拠に決めます。</p>
+<p>次に選ぶのは、操作を1つ直す、対象を絞り直す、既存の道具を使う、いったん作るのをやめる、といった行動です。好意的な感想だけでなく、実際の行動を根拠に決めます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>最初は困り事を一つ選んで、選択式と自由記述の質問をGoogleフォームに一つずつ入れるところから。集まった回数を手がかりに、どんな場面だったかを読み、今の道具で残る不便を試作で確かめます。</p>
+<p>最初は困り事を1つ選んで、選択式と自由記述の質問をGoogleフォームに1つずつ入れるところから始めてみてください。集まった回数を手がかりに、どんな場面だったかを読み、今の道具で残る不便を試作で確かめます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><small>Googleの機能・操作の記述は、2026年10月12日に公式ヘルプで確認しました。実際のフォーム作成・配布・試用は実施していません。画像はAIで生成した概念イラストで、実在するサービスの画面ではありません。</small></p>
+<p><small>GoogleフォームとGoogle ToDo リストの仕様は2026年10月12日時点の公式ヘルプをもとにしています。最新の機能や仕様は各サービスの案内で確認してください。</small></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:tab-panel -->
@@ -491,7 +491,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>The previous article, <a href="https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-problem-with-an-app/" style="color: #0000ff; text-decoration: underline;">How to Solve One Person’s Problem With an App You Make Yourself</a>, started with a conversation with someone you know. This article extends that approach to a survey of people with similar experiences, so you can compare their answers.</p>
+<p>The previous article, <a href="https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-problem-with-an-app/" style="color: #0000ff; text-decoration: underline;">How to Solve One Person’s Problem With a Homemade App: From Idea to Sharing</a>, started with a conversation with someone you know. This article carries the same borrowed-item return example over to a survey so you can see how comparing wider responses changes what to build.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
@@ -517,7 +517,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>All questions, responses, counts, and app ideas below are fictional examples. This is not a report of a completed survey or a finished app.</p>
+<p>The questions, responses, counts, and app ideas below are fictional examples created to walk through the steps.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -547,7 +547,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Google Forms offers multiple choice for one answer, checkboxes for several answers, and paragraph fields for written responses. Select the appropriate type and enter the questions and options below. See <a href="https://support.google.com/docs/answer/7322334?hl=ja" style="color: #0000ff; text-decoration: underline;">Google’s official guide to question types</a>.</p>
+<p>Google Forms offers multiple choice for one answer, checkboxes for several answers, and paragraph fields for written responses. Select the appropriate type and enter the questions and options below. See <a href="https://support.google.com/docs/answer/7322334?hl=en" style="color: #0000ff; text-decoration: underline;">Google’s official guide to question types</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -629,7 +629,7 @@ Estimated time: [time confirmed through a trial response]</code></pre>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>For this example, turn off email collection and “Limit to 1 response.” Enabling the limit requires Google sign-in. Keep “View results summary” off because it exposes full written answers to people who can respond. See <a href="https://support.google.com/docs/answer/2839588?hl=ja" style="color: #0000ff; text-decoration: underline;">Google’s official publishing and sharing guide</a>.</p>
+<p>For this example, turn off email collection and “Limit to 1 response.” Enabling the limit requires Google sign-in. Keep “View results summary” off because it exposes full written answers to people who can respond. See <a href="https://support.google.com/docs/answer/2839588?hl=en" style="color: #0000ff; text-decoration: underline;">Google’s official publishing and sharing guide</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -663,7 +663,7 @@ Estimated time: [time confirmed through a trial response]</code></pre>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>Review the summary under “Responses” and save answers to Google Sheets if useful. Check permissions separately for the form and sheet. At the end of the retention period, check and delete retained answers in both places: deleting one file does not delete the other. See <a href="https://support.google.com/docs/answer/2917686?hl=ja" style="color: #0000ff; text-decoration: underline;">Google’s official guide to response storage and deletion</a>.</p>
+<p>Review the summary under “Responses” and save answers to Google Sheets if useful. Check permissions separately for the form and sheet. At the end of the retention period, check and delete retained answers in both places: deleting one file does not delete the other. See <a href="https://support.google.com/docs/answer/2917686?hl=en" style="color: #0000ff; text-decoration: underline;">Google’s official guide to response storage and deletion</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -743,7 +743,7 @@ Estimated time: [time confirmed through a trial response]</code></pre>
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>Google Tasks supports adding details and dates or times. See <a href="https://support.google.com/tasks/answer/7675838?hl=ja" style="color: #0000ff; text-decoration: underline;">Google’s official guide to adding and editing tasks</a>.</p>
+<p>Google Tasks supports adding details and dates or times. See <a href="https://support.google.com/tasks/answer/7675838?hl=en" style="color: #0000ff; text-decoration: underline;">Google’s official guide to adding and editing tasks</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -809,10 +809,10 @@ Users: People who know the return date but leave without the items.
 Purpose: Show today’s items and return locations on one screen before leaving.
 
 Required actions:
-・Enter and save the item name, return location, and return date.
-・View items due today.
-・Edit entries and delete unwanted records.
-・Mark an item returned and remove it from the outstanding list.
+- Enter and save the item name, return location, and return date.
+- View items due today.
+- Edit entries and delete unwanted records.
+- Mark an item returned and remove it from the outstanding list.
 
 Use fictional data only for the initial trial.
 Store data only in the trial device’s browser.
@@ -904,7 +904,7 @@ Explain unknowns and the limitations of this storage approach.</code></pre>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><small>Google feature and workflow descriptions were checked against official help pages on October 12, 2026. No form was created or distributed, and no user trial was conducted. Images are AI-generated conceptual illustrations, not actual service interfaces.</small></p>
+<p><small>Google Forms and Google Tasks details reflect official help pages checked on October 12, 2026. Please check Google’s current documentation for the latest features.</small></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:tab-panel --></div>

@@ -34,3 +34,18 @@ Use case: illustration-story. Asset type: chapter illustration for a Japanese/En
 ```text
 Use case: illustration-story. Asset type: chapter illustration for a Japanese/English beginner blog about simple software. Primary request: Two children sitting side by side at a desk testing paper phone screens for a book-return reminder. One follows the screens without guidance while the other notes observations with a pencil. On the desk: one library book, a calendar with abstract marks, three simple paper cards, a pencil. Convey observing a real person to improve a small prototype. Style: warm editorial picture-book illustration, hand-painted gouache and subtle pencil texture, uncluttered warm ivory background, muted teal and golden-yellow accents, respectful school-age characters. Composition: wide landscape 3:2 with clear central objects. No text, letters, numerals, logos or watermark. The visual must be understandable in either language.
 ```
+
+
+## Phase 1–2 差し替え記録（一般向け・社会人例への刷新）
+
+- 対象記事：`articles/published/simple-programs-products-for-kids.md`（WordPress投稿ID: 100）
+- 小学生・筆箱の例から、デスク引き出し・貸出書籍メモ・ロッカー施錠・成人2人でのペーパーテスト等の一般向け `v2` イラストへ順次差し替え中。
+
+### Phase 1 アップロード済み
+- `01-desk-bag-v2.jpg`（Media ID: 134）：`sips` 変換 PNG のアップロード時に SiteGuard Lite WAF が HTTP 403 を返したため、元の `.jpg` をそのままアップロードして採用。
+- `02-clear-steps-v2.png`（Media ID: 135）：Phase 1 で生成・PNG変換・アップロード済み。
+- `03-simple-screen-v2.png`（Media ID: 136）：Phase 1 で生成・PNG変換・アップロード済み。
+
+### Phase 2a 完了（全5枚差し替え完了）
+- `04-locker-safety-v2.jpg`（Media ID: 150）：`sips` 変換 PNG が SiteGuard Lite WAF 403 を返したため、元の `.jpg` を採用してアップロード済み。
+- `05-paper-test-v2.png`（Media ID: 151）：生成・PNG変換・アップロード済み。

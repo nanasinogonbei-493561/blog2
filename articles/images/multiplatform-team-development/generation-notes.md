@@ -43,3 +43,19 @@ Use case: illustration-story. Asset type: chapter illustration for a Japanese/En
 ```text
 Use case: illustration-story. Asset type: chapter illustration for a Japanese/English beginner blog explaining backend, web frontend and mobile roles. Style: warm editorial picture-book illustration in hand-painted gouache and subtle pencil texture, muted teal and warm gold accents on an uncluttered ivory background; respectful, calm school-age characters and adult makers. Composition: wide landscape 3:2, clear large objects, generous breathing room. No text, letters, numerals, logos or watermark; understandable in either language. Primary request: An adult and a school-age reader at a desk draw three large picture cards: a laptop screen with a borrowed-book icon, a librarian's shared ledger, and a phone screen with the matching book icon. They pass a small book-and-calendar message card between roles while checking the ledger. Convey a paper rehearsal of saving on one device and retrieving on another. A real book and pencil rest nearby; no actual text on any card.
 ```
+
+
+## Phase 1–2 差し替え記録（一般向け表記・イラスト差し替え）
+
+- 対象記事：`articles/published/multiplatform-team-development.md`（WordPress投稿ID: 109）
+- 本文の `図書室`→`図書館`、`星の図鑑`→`旅行ガイド`、`紙とえんぴつ`→`紙とペン` 等に合わせてイラストを更新。既存の社会人向け2枚（`03` Media ID: 105、`04` Media ID: 106）はそのまま継続利用し、子ども向けイラスト4枚のみ `v2` へ差し替える。
+
+### Phase 1 アップロード／継続利用
+- `01-three-roles-v2.png`（Media ID: 137）：Phase 1 で生成・PNG変換・アップロード済み。
+- `02-message-cards-v2.png`（Media ID: 138）：Phase 1 で生成・PNG変換・アップロード済み。
+- `03-team-workbench.png`（Media ID: 105、既存画像を継続利用）
+- `04-test-and-update.png`（Media ID: 106、既存画像を継続利用）
+
+### Phase 2a 完了（全6枚差し替え完了）
+- `05-choose-small-v2.png`（Media ID: 152）：生成・PNG変換・アップロード済み。
+- `06-paper-first-step-v2.png`（Media ID: 153）：生成・PNG変換・アップロード済み。

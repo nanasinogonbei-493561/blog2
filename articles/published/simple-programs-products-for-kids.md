@@ -1,38 +1,38 @@
 ---
 categories:
 - 開発の裏側
-excerpt: プログラムは短ければよく、アプリは機能が少なければよいのでしょうか。筆箱や借りた本の返却メモを例に、作る人と使う人、それぞれの分かりやすさを説明します。必要な働きや安全を守りながら、余計な手間を減らす考え方を学び、紙で試せます。
-featured_image: articles/images/simple-programs-products-for-kids/01-pencil-case.png
-featured_image_alt: 必要な文房具が取り出しやすい筆箱と、物を詰め込みすぎた筆箱を比べるイラスト
+excerpt: プログラムは短ければよく、アプリは機能が少なければよいのでしょうか。仕事用デスクの引き出し整理や図書館で借りた本の返却メモを例に、作る人と使う人、それぞれの分かりやすさを説明します。必要な働きや安全を守りながら、余計な手間を減らす考え方を紙で確かめられます。
+featured_image: articles/images/simple-programs-products-for-kids/01-desk-bag-v2.jpg
+featured_image_alt: 必要な道具が取り出しやすい整理された引き出しと、物が詰め込まれた引き出しを比べるイラスト
 slug: simple-programs-products-for-kids
 status: publish
 tags:
 - 個人開発
 - アプリ設計
 - 初心者向け
-title: プログラム・プロダクトは、出来ればシンプルであるべきか？
-wordpress_featured_media_id: 95
+title: プログラム・プロダクトは、できればシンプルであるべきか？
+wordpress_featured_media_id: 134
 wordpress_inline_media:
-  01-pencil-case.png:
-    alt: 必要な文房具が取り出しやすい筆箱と、物を詰め込みすぎた筆箱を比べるイラスト
-    id: 95
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-pencil-case.png
-  02-clear-instructions.png:
-    alt: 子どもとロボットが、本・カレンダー・お知らせの絵カードを順番に並べるイラスト
-    id: 96
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-clear-instructions.png
-  03-easy-to-use.png:
-    alt: 借りた本と返す日を記録する画面を、入力欄の多い画面と比べる子どものイラスト
-    id: 97
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-easy-to-use.png
-  04-keep-safety.png:
+  01-desk-bag-v2.jpg:
+    alt: 必要な道具が取り出しやすい整理された引き出しと、物が詰め込まれた引き出しを比べるイラスト
+    id: 134
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-desk-bag-v2.jpg
+  02-clear-steps-v2.png:
+    alt: 返却確認・日付比較・通知を表す3枚のカードを矢印で順番に並べる大人のイラスト
+    id: 135
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-clear-steps-v2.png
+  03-simple-screen-v2.png:
+    alt: 必要な情報だけのシンプルな画面案と、入力項目が多すぎる画面案を見比べる大人のイラスト
+    id: 136
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-simple-screen-v2.png
+  04-locker-safety-v2.jpg:
     alt: 使いやすい取っ手のあるロッカーと、内側で安全を守る鍵の仕組みを描いたイラスト
-    id: 98
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-keep-safety.png
-  05-paper-test.png:
-    alt: 二人の子どもが、本の返却メモを紙に描き、説明なしで使えるか試すイラスト
-    id: 99
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-paper-test.png
+    id: 150
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-locker-safety-v2.jpg
+  05-paper-test-v2.png:
+    alt: 2人の大人が本の返却メモの紙画面モックを試し、操作と反応を確認するイラスト
+    id: 151
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-paper-test-v2.png
 wordpress_post_id: 100
 wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-products-for-kids/
 ---
@@ -49,7 +49,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 </style>
 <!-- /wp:html -->
 
-<!-- wp:tabs {"metadata":{"name":"日本語・English 切り替え"}} -->
+<!-- wp:tabs {"activeTabIndex":0,"metadata":{"name":"日本語・English 切り替え"}} -->
 <div class="wp-block-tabs"><!-- wp:tab-list -->
 <div role="tablist" class="wp-block-tab-list"><button type="button" role="tab">日本語</button><button type="button" role="tab">English</button></div>
 <!-- /wp:tab-list -->
@@ -58,15 +58,15 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <div class="wp-block-tab-panels"><!-- wp:tab-panel {"label":"日本語","metadata":{"name":"日本語本文"}} -->
 <section role="tabpanel" tabindex="0" class="wp-block-tab-panel"><!-- wp:group {"metadata":{"name":"ja: 導入"},"className":"simple-product-panel","layout":{"type":"default"}} -->
 <div class="wp-block-group simple-product-panel"><!-- wp:paragraph -->
-<p>筆箱を軽くしたくて、えんぴつまで出してしまったら字が書けません。プログラムやアプリも同じです。<strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">必要な働きや安全を残し、迷うところや余計な手間を減らす。</mark></strong> そのほうが、使う人にも作る人にも扱いやすくなります。</p>
+<p>引き出しを軽くしたくて、仕事で使うノートやペンまで出してしまったら作業が進みません。プログラムやアプリも同じです。<strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">必要な働きや安全を残し、迷うところや余計な手間を減らす。</mark></strong> そのほうが、使う人にも作る人にも扱いやすくなります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>「プログラム」はコンピューターを動かす指示。「プロダクト」は人が使うために作ったものです。ここでは、手に取るスマホやパソコンのアプリで考えます。</p>
+<p>「プログラム」はコンピュータを動かす指示、「プロダクト」は人が使うために作ったものです。ここでは、普段使うスマホやパソコンのアプリを例に考えます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>もとになったのは、<a href="https://zenn.dev/nanashinogonbei/articles/should-programs-and-products-be-simple" style="color:#0000ff;text-decoration:underline;">Zennの記事「プログラム・プロダクトは、出来ればシンプルであるべきか？」</a>です。筆箱や借りた本を例に、作る側と使う側のシンプルさを説明します。以下のアプリや場面は説明用の架空の例です。</p>
+<p>もとになったのは、<a href="https://zenn.dev/nanashinogonbei/articles/should-programs-and-products-be-simple" style="color:#0000ff;text-decoration:underline;">Zennの記事「プログラム・プロダクトは、出来ればシンプルであるべきか？」</a>です。このブログの別記事でも取り上げた「借りた本の返却メモ」を題材に、作る側と使う側それぞれのシンプルさを整理します。</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -75,20 +75,20 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <h2 class="wp-block-heading">プログラムやアプリのシンプルさは、数だけでは決まりません</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":95,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-pencil-case.png" alt="必要な文房具が取り出しやすい筆箱と、物を詰め込みすぎた筆箱を比べるイラスト" class="wp-image-95"/></figure>
+<!-- wp:image {"id":134,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-desk-bag-v2.jpg" alt="必要な道具が取り出しやすい整理された引き出しと、物が詰め込まれた引き出しを比べるイラスト" class="wp-image-134" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>えんぴつや消しゴムの間に小さなおもちゃや使わない紙が詰まっている筆箱。いざ書こうとすると、欲しい物がすぐには出てきません。</p>
+<p>ノートやペンの間に、古いレシートや使わない鍵、絡まったケーブルが詰まっている机の引き出しを想像してみてください。いざメモを取りたいとき、欲しい物がすぐに出てきません。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>使わない物を出し、必要な文房具を取り出しやすく並べる。これなら、勉強に使いやすい筆箱になります。でも、中身を全部出して空っぽにしたら、字を書けません。</p>
+<p>不要な物を出し、よく使うノートとペンと充電ケーブルだけを取り出しやすく並べる。これなら仕事が進めやすい引き出しになります。でも、中身をすべて出して空っぽにしたら、メモも書けません。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>筆箱を整えるときに見たいのは、何個取り出せたかより、必要な文房具を手に取りやすくなったか。アプリでも、減らした数だけでは使いやすさは分かりません。</p>
+<p>引き出しを整えるときに見たいのは、何個減らせたかより、必要な道具を迷わず手に取れるかです。アプリでも、画面から減らした項目の数だけでは使いやすさは分かりません。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:table {"hasFixedLayout":false} -->
@@ -105,16 +105,16 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <h2 class="wp-block-heading">プログラムは「何をする手順か」が分かるようにします</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":96,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-clear-instructions.png" alt="子どもとロボットが、本・カレンダー・お知らせの絵カードを順番に並べるイラスト" class="wp-image-96"/></figure>
+<!-- wp:image {"id":135,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-clear-steps-v2.png" alt="返却確認・日付比較・通知を表す3枚のカードを矢印で順番に並べる大人のイラスト" class="wp-image-135" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>「本のことを、いい感じにお願い」とだけ言われたロボットは、何を見て、いつ知らせればいいのでしょう。借りた本の返却を知らせるなら、もう少し具体的に頼む必要があります。</p>
+<p>プログラムに「本の返却を、いい感じにお知らせして」と曖昧に頼むことはできません。何を見て、どの条件のときに知らせるのかを、順番が追える形にする必要があります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>知らせてほしいのは、<strong>まだ返していない本のうち、返す日が今日か、それより前の本</strong>です。手元に残すのは、本の名前・返す日・返したかどうか。日付が正しく入っていれば、1冊ずつ次の順で確かめられます。</p>
+<p>知らせてほしいのは、<strong>まだ返していない本のうち、返す日が今日か、それより前の本</strong>です。手元に残すのは、本の名前・返す日・返したかどうかの3項目です。日付が正しく入っていれば、1冊ずつ次の順で確かめられます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
@@ -127,20 +127,20 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>返す日が今日か、それより前なら「返す日を確認してね」と知らせる。未来の日なら、まだ知らせない。</li>
+<li>返す日が今日か、それより前なら「返す日を確認してください」と知らせる。未来の日なら、まだ知らせない。</li>
 <!-- /wp:list-item --></ol>
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>「返したか調べる」「日付を比べる」「知らせる」。三つが分かれていれば、動きを追いやすく、お知らせの文だけ変えたいときも、どこを直せばよいか分かります。</p>
+<p>「返したか調べる」「日付を比べる」「知らせる」の3つが分かれていれば、動きを追いやすく、お知らせの文だけ変えたいときも、どこを直せばよいかすぐに分かります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><mark style="background-color:#fee2e2;color:#991b1b" class="has-inline-color">「返したか調べる」を省くと、返却済みの本までお知らせが来ます。</mark> <strong>短く書くことより、必要な条件が読み取れることが大事です。</strong> この例で決めたのは一回の確認で知らせるかどうか。時刻や回数は別に考えます。</p>
+<p><mark style="background-color:#fee2e2;color:#991b1b" class="has-inline-color">「返したか調べる」を省くと、返却済みの本までお知らせが来ます。</mark> <strong>短く書くことより、必要な条件が読み取れることが大事です。</strong> この例で決めたのは1回の確認で知らせるかどうかであり、通知する時刻や回数は別に考えます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>手順を順番に考える練習は、<a href="https://www.nanasinogonbei.com/blog/2026/10/27/programming-logical-thinking-kids/" style="color:#0000ff;text-decoration:underline;">プログラミングと論理的思考力の関係性について</a>でも、身近な例を使って説明しています。</p>
+<p>手順を順番に考える練習は、<a href="https://www.nanasinogonbei.com/blog/2026/10/27/programming-logical-thinking-kids/" style="color:#0000ff;text-decoration:underline;">プログラミングと論理的思考力の関係性について</a>でも、日常の例を使って説明しています。</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -149,8 +149,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <h2 class="wp-block-heading">アプリは「用事が済むまでの迷い」を減らします</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":97,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-easy-to-use.png" alt="借りた本と返す日を記録する画面を、入力欄の多い画面と比べる子どものイラスト" class="wp-image-97"/></figure>
+<!-- wp:image {"id":136,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-simple-screen-v2.png" alt="必要な情報だけのシンプルな画面案と、入力項目が多すぎる画面案を見比べる大人のイラスト" class="wp-image-136" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -158,23 +158,23 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>記録するたびに、本の名前、返す日、表紙の写真、感想、好きな登場人物まで必ず入力するとしたらどうでしょう。返す日を覚えておきたいだけなのに、読書感想文を始めるような手間がかかります。</p>
+<p>記録するたびに、本の名前、返す日、出版社、ISBNコード、表紙の写真、星評価、読書メモまで毎回必須で入力するとしたらどうでしょう。返却日を控えたいだけなのに、書評を書き始めるような手間がかかります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>本の名前と返す日を保存して、一覧で見られれば目的は果たせます。お知らせを出すなら「返却済み」の印も用意。感想は、書きたい人があとで足せる形なら、毎回入力せずに済みます。</p>
+<p>本の名前と返す日を保存して、一覧で見られれば目的は果たせます。お知らせを出すなら「返却済み」の印も用意します。読書メモは書きたい人があとから足せる形にすれば、毎回入力せずに済みます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>返す日を消したら、あとから「いつ返せばいい？」に答えられません。何でも一画面に入れれば見やすくなるとも限らないので、<mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">使う人が用事を終えられるか</mark>を手がかりに。</p>
+<p>反対に、返す日を削ったら「いつ返せばいい？」に答えられません。何でも1画面に詰め込めば見やすくなるとも限らないので、<mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">使う人が用事を終えられるか</mark>を手がかりに判断します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>必要な情報は、使う人によって変わります。自分が借りた本だけを管理するなら借りた人の名前は省けても、図書室全体で使うなら「誰に貸したか」も必要です。</p>
+<p>必要な情報は、使う人によって変わります。自分が借りた本だけを管理するなら借りた人の名前は省けても、図書館全体や家族で共有するなら「誰が借りたか」も必要です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>そもそも、紙のメモで忘れず返せているなら、それで十分です。家族と同じ一覧を見たいなど、今の方法で困ることが残ったらアプリを考えます。題材の絞り方は、<a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color:#0000ff;text-decoration:underline;">自分の悩み・困り事を自作アプリにする方法</a>につながります。</p>
+<p>そもそも、紙のメモや普段のカレンダーで忘れず返せているなら、それで十分です。家族と同じ一覧を見たいなど、今の方法で困ることが残ったらアプリを考えます。題材の絞り方は、<a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color:#0000ff;text-decoration:underline;">自分の悩み・困り事を自作アプリにする方法｜題材の見つけ方から小さな試作まで</a>につながります。</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -183,16 +183,16 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <h2 class="wp-block-heading">アプリの安全を守る仕組みや、間違いを取り消す方法は残します</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":98,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-keep-safety.png" alt="使いやすい取っ手のあるロッカーと、内側で安全を守る鍵の仕組みを描いたイラスト" class="wp-image-98"/></figure>
+<!-- wp:image {"id":150,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-locker-safety-v2.jpg" alt="使いやすい取っ手のあるロッカーと、内側で安全を守る鍵の仕組みを描いたイラスト" class="wp-image-150" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>ロッカーの扉は、取っ手を動かすだけで開くと使いやすいですね。でも、「部品を減らそう」と鍵まで外したら、大事な物を守れなくなります。</p>
+<p>ロッカーの扉は、取っ手を引くだけで開くと使いやすいですね。でも、「部品を減らそう」と鍵まで外したら、大事な荷物を守れなくなります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>アプリにも、画面には見えない鍵があります。他の人の記録を勝手に見られないようにする仕組みがその一つ。<mark style="background-color:#fef08a;color:#422006" class="has-inline-color">画面をすっきりさせても、記録を守る仕組みは必要です。</mark></p>
+<p>アプリにも、画面には見えない鍵があります。他の人の記録を勝手に見られないようにする仕組みがその1つです。<mark style="background-color:#fef08a;color:#422006" class="has-inline-color">画面をすっきりさせても、記録を守る仕組みは必要です。</mark></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -214,7 +214,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>毎回の確認画面を減らして、消した直後に「元に戻す」を出す方法もあります。どちらが合うかは、消す物の大切さと、本当に元に戻せるかで変わります。</p>
+<p>毎回の確認画面を減らして、消した直後に「元に戻す」を出す方法もあります。どちらが合うかは、消すデータの大切さと、本当に元に戻せるかで変わります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -231,12 +231,12 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <h2 class="wp-block-heading">シンプルにできたかは、紙の画面と実際の動きで確かめます</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":99,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-paper-test.png" alt="二人の子どもが、本の返却メモを紙に描き、説明なしで使えるか試すイラスト" class="wp-image-99"/></figure>
+<!-- wp:image {"id":151,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-paper-test-v2.png" alt="2人の大人が本の返却メモの紙画面モックを試し、操作と反応を確認するイラスト" class="wp-image-151" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>「機能はいくつまで？」と数え始める前に、誰がどんな用事で画面を開くかを紙に書きます。本を一冊記録して、返す日を見つける。まずはその流れだけ。</p>
+<p>「機能はいくつまで？」と数え始める前に、誰がどんな用事で画面を開くかを紙に書きます。本を1冊記録して、返す日を見つける流れだけを描けば始められます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
@@ -253,7 +253,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><strong>止まった理由を一つずつ直す。</strong>ボタンの意味が不明なら名前を変えます。必要な情報がないなら足します。</li>
+<li><strong>止まった理由を1つずつ直す。</strong>ボタンの意味が不明なら名前を変えます。必要な情報がないなら足します。</li>
 <!-- /wp:list-item --></ol>
 <!-- /wp:list -->
 
@@ -270,7 +270,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>普段使っている道具を一つ思い浮かべて、「どこで迷ったか」「なくなると何が困るか」を書くところから。<strong>用事が済むこと、安全が守られること、あとから仕組みを追えること</strong>が、整理できたかを判断する手がかりです。</p>
+<p>普段使っている道具を1つ思い浮かべて、「どこで迷ったか」「なくなると何が困るか」を書き出すところから始めてみてください。<strong>用事が済むこと、安全が守られること、あとから仕組みを追えること</strong>が、整理できたかを判断する基準になります。</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:tab-panel -->
@@ -278,15 +278,19 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- wp:tab-panel {"label":"English","metadata":{"name":"English body"}} -->
 <section role="tabpanel" tabindex="0" class="wp-block-tab-panel"><!-- wp:group {"metadata":{"name":"en: Introduction"},"className":"simple-product-panel","layout":{"type":"default"}} -->
 <div class="wp-block-group simple-product-panel"><!-- wp:paragraph -->
-<p>Take the pencil out to lighten your pencil case and you can’t write. The same goes for programs and apps. <strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">Keep the features and protections people need, and remove the places they get stuck or waste time.</mark></strong> That makes things easier for both the people who use them and the people who build them.</p>
+<p><strong>Should Programs and Products Be Simple When Possible?</strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>A “program” is a set of instructions for a computer. A “product” is something made for people to use. Think of the apps you open on a phone or computer.</p>
+<p>Empty your desk drawer of the notebook and pen you actually work with, and you won’t be able to get anything done. The same goes for programs and apps. <strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">Keep the features and protections people need, and remove the places they get stuck or waste time.</mark></strong> That makes things easier for both the people who use them and the people who build them.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>This article builds on <a href="https://zenn.dev/nanashinogonbei/articles/should-programs-and-products-be-simple" style="color:#0000ff;text-decoration:underline;">the Zenn article “Should Programs and Products Be Simple When Possible?”</a> Pencil cases and borrowed books help explain simplicity for makers and users. The apps and situations below are fictional examples.</p>
+<p>A “program” is a set of instructions for a computer. A “product” is something made for people to use. Here we look at the phone and computer apps people use every day.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>This article builds on <a href="https://zenn.dev/nanashinogonbei/articles/should-programs-and-products-be-simple" style="color:#0000ff;text-decoration:underline;">the Zenn article “Should Programs and Products Be Simple When Possible?” (in Japanese)</a>. Using the borrowed-book return memo explored elsewhere on this blog, it explains simplicity from both the maker’s and the user’s side.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -295,20 +299,20 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <h2 class="wp-block-heading">Simplicity in programs and apps is not just about quantity</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":95,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-pencil-case.png" alt="An organized pencil case with the stationery needed for school beside an overfilled pencil case" class="wp-image-95"/></figure>
+<!-- wp:image {"id":134,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-desk-bag-v2.jpg" alt="A neatly organized desk drawer holding a notebook, pen, and coiled cable beside an overstuffed drawer tangled with cords, keys, and old receipts" class="wp-image-134" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>Picture a pencil case packed with bits of paper and little toys among the pencils and eraser. When you want to write, it takes a while to find what you need.</p>
+<p>Picture a desk drawer crammed with old receipts, spare keys, and tangled cables wedged around your notebook and pen. When you need to jot something down, finding what you need takes effort.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Taking out unused things and arranging your stationery makes the case easier to use. But if you empty it completely, you cannot write.</p>
+<p>Taking out unused clutter and arranging just your notebook, pen, and charger makes the drawer practical for work. Emptying it completely, however, leaves you without tools.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>When you tidy a pencil case, what matters is whether you can reach the stationery you need. Counting the things you removed tells you little about how easy an app is to use, either.</p>
+<p>When tidying a drawer, what matters is whether you can reach the tools you need without hesitation. Counting how many items you removed from an app tells you little about how easy it is to use, either.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:table {"hasFixedLayout":false} -->
@@ -325,16 +329,16 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <h2 class="wp-block-heading">Make it clear what each step in a program does</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":96,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-clear-instructions.png" alt="A child and a robot arranging picture cards of a book, a calendar, and a reminder in order" class="wp-image-96"/></figure>
+<!-- wp:image {"id":135,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-clear-steps-v2.png" alt="An adult arranging three workflow cards connected by arrows for return check, calendar comparison, and reminder" class="wp-image-135" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>Tell a robot “Please take care of the books somehow,” and it still won’t know what to check or when to speak up. A reminder to return a borrowed book needs a more specific instruction.</p>
+<p>You cannot tell a program, “Please handle book returns nicely.” You need clear steps that specify what to check and when to send a reminder.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Instead, we decide to <strong>send a reminder for books that have not been returned and whose return date is today or earlier.</strong> Record each book's name, return date, and whether it has been returned. Assuming a valid date has been saved, check each book as follows.</p>
+<p>Instead, we decide to <strong>send a reminder for books that have not been returned and whose return date is today or earlier.</strong> We store three items for each book: its title, return date, and whether it has been returned. Assuming valid dates are saved, check each book in order.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
@@ -343,7 +347,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>If it has not been returned, compare its return date with today's date.</li>
+<li>If it has not been returned, compare its return date with today’s date.</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
@@ -352,15 +356,15 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>Check whether the book was returned, compare dates, then send the reminder. Giving each step one job makes the sequence easier to follow and the reminder easier to edit.</p>
+<p>Check whether the book was returned, compare dates, then send the reminder. Separating those three roles makes the flow easy to trace and the reminder wording easy to update.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><mark style="background-color:#fee2e2;color:#991b1b" class="has-inline-color">Skip the returned-book check and the robot will send reminders about books you already returned.</mark> <strong>The rules need to be clear enough to read again later.</strong> This example decides whether to send a reminder during one check. When and how often to check are separate decisions.</p>
+<p><mark style="background-color:#fee2e2;color:#991b1b" class="has-inline-color">Skip the returned-book check and the system will send reminders about books you already returned.</mark> <strong>The rules need to be clear enough to read again later.</strong> This example decides whether to send a reminder during one check; when and how often checks run are separate decisions.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>For more practice planning steps, <a href="https://www.nanasinogonbei.com/blog/2026/10/27/programming-logical-thinking-kids/" style="color:#0000ff;text-decoration:underline;">The Connection Between Programming and Logical Thinking</a> uses everyday examples too.</p>
+<p>For more practice planning steps, <a href="https://www.nanasinogonbei.com/blog/2026/10/27/programming-logical-thinking-kids/" style="color:#0000ff;text-decoration:underline;">How Programming Connects to Logical Thinking</a> uses everyday examples too.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -369,32 +373,32 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <h2 class="wp-block-heading">Help people finish their task with less confusion</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":97,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-easy-to-use.png" alt="A child comparing a screen for recording a borrowed book and its return date with a screen full of input boxes" class="wp-image-97"/></figure>
+<!-- wp:image {"id":136,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-simple-screen-v2.png" alt="An adult comparing a clean phone mockup showing book, date, and save icons against an overloaded form screen" class="wp-image-136" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>The person using the app wants to look up a borrowed book and see when it’s due. How much do they really need to fill in for that?</p>
+<p>Someone using the app just wants to check a borrowed book and see when it’s due. How much do they really need to fill in for that?</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>What if every entry required the book's name, return date, a cover photo, your thoughts, and your favorite character? You only wanted to remember the date, but entering it would feel like starting a book report.</p>
+<p>What if every entry required the title, return date, publisher, ISBN, cover photo, star rating, and reading notes? You only wanted to track the due date, yet adding a book would feel like writing a full review.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Save the book’s name and return date and show them in a list. If there are reminders, let people mark a book as returned. Anyone who wants to write their thoughts can add them later, without making that a step every time.</p>
+<p>Save the title and return date and show them in a list. If reminders exist, let people mark a book as returned. Anyone who wants to jot down reading notes can add them optionally later, without making it a required step every time.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Take away the date and people can’t tell when the book is due. Cramming it all onto one screen can make things harder to read, too. Look at <mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">whether the person can finish the task</mark>.</p>
+<p>Remove the due date and people can’t tell when the book must go back. Cramming everything onto one screen can make things harder to read, too. Look at <mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">whether the person can finish the task</mark>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>The information needed depends on who uses the app. A list of books you have borrowed may not need a borrower's name, but a school library needs to know who borrowed each book.</p>
+<p>The information needed depends on who uses the app. A personal list may not need a borrower’s name, whereas a shared household or library list needs to track who borrowed each book.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>If a paper note already helps you return books on time, that is enough. Consider an app when a problem remains, such as needing the same list to be available to your family. For choosing a small problem to work on, see <a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color:#0000ff;text-decoration:underline;">How to Turn a Personal Problem into a Small App</a>.</p>
+<p>If a paper note or calendar already helps you return books on time, that is enough. Consider an app when a gap remains, such as sharing the same list with family. For narrowing down a problem to solve, see <a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color:#0000ff;text-decoration:underline;">How to Turn a Personal Problem into a Homemade App: From Finding an Idea to a Small Prototype</a>.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -403,16 +407,16 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <h2 class="wp-block-heading">Keep app protections and ways to undo mistakes</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":98,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-keep-safety.png" alt="A locker with an easy-to-use handle and an inner lock mechanism that protects what is inside" class="wp-image-98"/></figure>
+<!-- wp:image {"id":150,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-locker-safety-v2.jpg" alt="A storage locker with a simple handle and an internal lock mechanism inspected by a maker" class="wp-image-150" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>A locker is easy to use when you can open the door by moving its handle. But removing its lock to reduce the number of parts would leave your belongings unprotected.</p>
+<p>A locker is easy to use when you can open the door by pulling a single handle. Yet removing its lock just to reduce the number of parts would leave your belongings unprotected.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Apps have locks you don’t see on the screen, such as protections that stop someone else viewing your records. <mark style="background-color:#fef08a;color:#422006" class="has-inline-color">Keep those protections even as you make the screen less crowded.</mark></p>
+<p>Apps have locks you don’t see on the screen, such as protections that stop someone else from viewing your records. <mark style="background-color:#fef08a;color:#422006" class="has-inline-color">Keep those protections even as you make the screen less crowded.</mark></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -421,7 +425,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 
 <!-- wp:list -->
 <ul class="wp-block-list"><!-- wp:list-item -->
-<li>Does the app ask for a missing book name or return date before saving? Does it also catch dates that do not exist, such as February 30?</li>
+<li>Does the app ask for a missing book title or return date before saving? Does it also catch dates that do not exist, such as February 30?</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
@@ -429,12 +433,12 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>Can an accidental deletion be undone? If it cannot, can the user check before deleting?</li>
+<li>Can an accidental deletion be undone? If it cannot, can the user confirm before deleting?</li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>One alternative to asking every time is offering “Undo” just after deletion. Which works better depends on what you’re deleting and whether you can reliably bring it back.</p>
+<p>One alternative to asking for confirmation every time is offering “Undo” right after deletion. Which fits better depends on what you’re deleting and whether you can reliably restore it.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -442,7 +446,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Simplicity does not guarantee that there will be no mistakes. We still need to run the app and check that its required features work.</p>
+<p>Simplicity does not guarantee zero mistakes. You still need to run the app and verify that its required protections and features work.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -451,12 +455,12 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <h2 class="wp-block-heading">Check simplicity with paper screens and the working app</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":99,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-paper-test.png" alt="Two children testing paper screens for a book-return list to see whether they make sense without guidance" class="wp-image-99"/></figure>
+<!-- wp:image {"id":151,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-paper-test-v2.png" alt="Two adults testing paper smartphone mockups for a book-return list and recording notes" class="wp-image-151" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>Before you count features, write down who opens the app and what they came to do. Record one book, then find its due date. That’s enough to start sketching on paper.</p>
+<p>Before counting features, write down who opens the app and what they came to do. Recording one book and finding its due date is enough to start sketching on paper.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
@@ -465,11 +469,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><strong>Draw the information and screens needed.</strong> Include the book's name, return date, a save button, and a list of saved books.</li>
+<li><strong>Draw the information and screens needed.</strong> Include the book’s title, return date, a save button, and a list of saved books.</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><strong>Ask a user to try it.</strong> Say “Please record one book and find its return date,” then watch where they get stuck.</li>
+<li><strong>Ask someone to try it.</strong> Say “Please record one book and find its return date,” then watch where they get stuck.</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
@@ -478,19 +482,19 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>Paper is good for spotting unclear words or controls. <mark style="background-color:#fef08a;color:#422006" class="has-inline-color">Try saving and reminders in the working app before you count on them.</mark> You can test input checks separately from the decision to send a reminder for a saved book.</p>
+<p>Paper is good for spotting unclear words or controls. <mark style="background-color:#fef08a;color:#422006" class="has-inline-color">Try saving and reminders in the working app before you count on them.</mark> You can test input validation separately from the rule that sends reminders for saved books.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:table {"hasFixedLayout":false} -->
-<figure class="wp-block-table"><table><thead><tr><th scope="col">Stage being checked</th><th scope="col">Input or book's state</th><th scope="col">Expected result</th></tr></thead><tbody><tr><td>Before saving</td><td>The book's name or return date is missing, or the date does not exist</td><td>Ask for corrected input and do not save it as is.</td></tr><tr><td>Checking a saved book</td><td>Not returned; return date is today</td><td>Ask the user to check the return date.</td></tr><tr><td>Checking a saved book</td><td>Not returned; return date was yesterday</td><td>Ask the user to check the return date.</td></tr><tr><td>Checking a saved book</td><td>Not returned; return date is tomorrow</td><td>Do not send a reminder yet.</td></tr><tr><td>Checking a saved book</td><td>Already returned; return date is today</td><td>Do not send a reminder.</td></tr></tbody></table></figure>
+<figure class="wp-block-table"><table><thead><tr><th scope="col">Stage being checked</th><th scope="col">Input or book’s state</th><th scope="col">Expected result</th></tr></thead><tbody><tr><td>Before saving</td><td>The book’s title or return date is missing, or the date does not exist</td><td>Ask for corrected input and do not save it as is.</td></tr><tr><td>Checking a saved book</td><td>Not returned; return date is today</td><td>Ask the user to check the return date.</td></tr><tr><td>Checking a saved book</td><td>Not returned; return date was yesterday</td><td>Ask the user to check the return date.</td></tr><tr><td>Checking a saved book</td><td>Not returned; return date is tomorrow</td><td>Do not send a reminder yet.</td></tr><tr><td>Checking a saved book</td><td>Already returned; return date is today</td><td>Do not send a reminder.</td></tr></tbody></table></figure>
 <!-- /wp:table -->
 
 <!-- wp:paragraph -->
-<p>If nobody is available to try it, take a break and then follow the paper screens yourself. This does not replace watching another person use them, but it may help you notice unclear words or missing information.</p>
+<p>If nobody is available to try it, step away for a bit and walk through the paper screens yourself. It won’t replace watching another person try it, yet it helps catch unclear wording or missing fields.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Pick a tool you use regularly. Write down where you hesitate and what you’d miss if it were gone. <strong>Can you finish the task? Are you protected? Could the person maintaining it follow what happens?</strong> Those questions help you judge whether you’ve simplified it.</p>
+<p>Pick a tool you use regularly and write down where you hesitate and what you’d miss if it disappeared. <strong>Can you finish the task? Are you protected? Could the person maintaining it follow what happens?</strong> Those questions help you judge whether you’ve simplified well.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:tab-panel --></div>

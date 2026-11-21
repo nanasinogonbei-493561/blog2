@@ -61,7 +61,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <!-- wp:group {"metadata":{"name":"日本語：導入"},"className":"one-person-app-panel panel-ja","layout":{"type":"default"}} -->
 <div class="wp-block-group one-person-app-panel panel-ja">
 <!-- wp:paragraph -->
-<p>アプリの案が浮かばないときは、身近な人に「最近、何をするのが面倒だった？」と聞くところから。<strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">一人の話を聞いて、その人が繰り返し困る作業を一つ楽にする。</mark></strong> それだけでも、作る題材になります。</p>
+<p>アプリの案が浮かばないときは、身近な人に「最近、何をするのが面倒だった？」と聞くところから始めます。<strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">1人の話を聞いて、その人が繰り返し困る作業を1つ楽にする。</mark></strong> それだけでも、作る題材になります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -79,7 +79,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <li>既存の道具で解決できるか試す。</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>不便が残るなら、一つの作業だけできるアプリを作る。</li>
+<li>不便が残るなら、1つの作業だけできるアプリを作る。</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
 <li>本人に使ってもらい、手間が減るか確かめる。</li>
@@ -94,7 +94,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>以下の人物・アプリ案・試用条件は説明用の架空の例です。実際に完成したアプリや、利用者テストの成果を報告する記事ではありません。</p>
+<p>以下の人物・アプリ案・試用条件は、手順を分かりやすくするために用意した架空の例です。</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -110,7 +110,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>「欲しいアプリはある？」と聞かれても、すぐに案は出てこないものです。家族や友人など、話してもよいと言ってくれた一人に、最近面倒だった場面を思い出してもらいます。</p>
+<p>「欲しいアプリはある？」と聞かれても、すぐに案は出てこないものです。家族や友人など、話してもよいと言ってくれた1人に、最近面倒だった場面を思い出してもらいます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
@@ -136,7 +136,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>身近に相談できる相手がいなければ、まず自分が直近で困った作業を一つ書きます。広く題材を探したい場合は、前回の<a href="https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-problems-to-app-ideas/" style="color: #0000ff; text-decoration: underline;">クラウドソーシングからアプリのアイデアを見つける方法</a>も参考になります。</p>
+<p>身近に相談できる相手がいなければ、まず自分が直近で困った作業を1つ書きます。広く題材を探したい場合は、前回の<a href="https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-problems-to-app-ideas/" style="color: #0000ff; text-decoration: underline;">クラウドソーシングからアプリのアイデアを見つける方法</a>も参考になります。</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -177,7 +177,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>AIに「人気が出るアプリを考えて」と頼むだけでは、誰に役立つ案なのか見えてきません。相談するときに渡すのは、誰が、どんなときに困ったかを書いたメモ。知り合いと一緒に案を考えるときにも使えます。</p>
+<p>AIに「人気が出るアプリを考えて」と頼むだけでは、誰に役立つ案なのか見えてきません。相談するときに渡すのは、誰が、どんなときに困ったかを書いたメモです。知り合いと一緒に案を考えるときにも使えます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -226,7 +226,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>返却の例でまず試したいのは、返す物・返却先・日付を一か所にまとめること。手元の道具なら、次の三つが候補です。</p>
+<p>返却の例でまず試したいのは、返す物・返却先・日付を一か所にまとめることです。手元の道具なら、次の3つが候補になります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
@@ -264,10 +264,10 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 </div>
 <!-- /wp:group -->
 
-<!-- wp:group {"metadata":{"name":"日本語：一つの作業だけできるアプリを作り、本人に試してもらう"},"className":"one-person-app-panel panel-ja","layout":{"type":"default"}} -->
+<!-- wp:group {"metadata":{"name":"日本語：1つの作業だけできるアプリを作り、本人に試してもらう"},"className":"one-person-app-panel panel-ja","layout":{"type":"default"}} -->
 <div class="wp-block-group one-person-app-panel panel-ja">
 <!-- wp:heading -->
-<h2 class="wp-block-heading">一つの作業だけできるアプリを作り、本人に試してもらう</h2>
+<h2 class="wp-block-heading">1つの作業だけできるアプリを作り、本人に試してもらう</h2>
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":58,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
@@ -279,7 +279,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>初回の試作品に任せるのは、<mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">今日返す物を一覧で確認する</mark>ところまで。そのために必要な操作を選ぶと、次の範囲になります。</p>
+<p>初回の試作品に任せるのは、<mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">今日返す物を一覧で確認する</mark>機能にとどめます。そのために必要な操作を選ぶと、次の範囲になります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
@@ -311,7 +311,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>最初は架空の予定で、説明なしに登録・確認・修正できるところまで。実際の予定で試すのは、何が保存され、どう扱われるかを伝えて、本人が同意してからです。</p>
+<p>最初は架空の予定を使い、説明なしに登録・確認・修正できるかを確かめます。実際の予定で試すのは、何が保存され、どう扱われるかを伝えて、本人が同意してからです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
@@ -330,7 +330,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>試すのは、次に実際の返却がある日まで。「一覧を見て、持っていく物を用意できたか」を聞きます。使わなかったときも、開くのを忘れたのか、入力が面倒だったのか、いつものカレンダーで用が済んだのかで、次に直すところは変わります。</p>
+<p>試用は、次に実際の返却がある日まで続けます。「一覧を見て、持っていく物を用意できたか」を聞きます。使わなかったときも、開くのを忘れたのか、入力が面倒だったのか、いつものカレンダーで用が済んだのかで、次に直すところは変わります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -350,11 +350,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>一人が使って助かったなら、同じ場面で困っている人へ少し広げる手もあります。たとえば同意してくれた2〜3人に試してもらい、どこで困ったかを一人ずつ聞きます。この人数は、話を聞きながら進めるための一例です。</p>
+<p>1人が使って助かったなら、同じ場面で困っている人へ少し広げる手もあります。たとえば同意してくれた2〜3人に試してもらい、どこで困ったかを1人ずつ聞きます。この人数は、話を聞きながら進めるための一例です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>ブラウザーで使えるアプリは、インターネット上で動かす外部の公開サービスに置き、URLから使ってもらう方法があります。自分のパソコンで作った試作品なら、ほかの人もアクセスできる場所へ移す段階です。</p>
+<p>ブラウザで使えるアプリは、インターネット上で動かす外部の公開サービスに置き、URLから使ってもらう方法があります。自分のパソコンで作った試作品なら、ほかの人もアクセスできる場所へ移す段階です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
@@ -409,10 +409,10 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 </div>
 <!-- /wp:group -->
 
-<!-- wp:group {"metadata":{"name":"日本語：最初の行動は、1人に一つの場面を聞くこと"},"className":"one-person-app-panel panel-ja","layout":{"type":"default"}} -->
+<!-- wp:group {"metadata":{"name":"日本語：最初の行動は、1人に1つの場面を聞くこと"},"className":"one-person-app-panel panel-ja","layout":{"type":"default"}} -->
 <div class="wp-block-group one-person-app-panel panel-ja">
 <!-- wp:heading -->
-<h2 class="wp-block-heading">最初の行動は、1人に一つの場面を聞くこと</h2>
+<h2 class="wp-block-heading">最初の行動は、1人に1つの場面を聞くこと</h2>
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":60,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
@@ -424,7 +424,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>ほかの人に使ってもらうと、その後も記録の扱い、不具合への対応、費用の管理が続きます。そこまで時間が取れないなら、まず一人のための試作品にとどめる手もあります。</p>
+<p>ほかの人に使ってもらうと、その後も記録の扱い、不具合への対応、費用の管理が続きます。そこまで時間が取れないなら、まず1人のための試作品にとどめる手もあります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -436,7 +436,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <li><strong>アイデアが出ない：</strong>「便利なアプリ」ではなく、最近の具体的な場面を聞き直します。</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li><strong>機能が増える：</strong>「今日返す物を確認する」のように、一つの結果へ戻ります。</li>
+<li><strong>機能が増える：</strong>「今日返す物を確認する」のように、1つの結果へ戻ります。</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
 <li><strong>試作品が使われない：</strong>困る頻度、入力の負担、今の道具で十分かを確かめます。</li>
@@ -447,11 +447,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>今日できることは、一人に最近困った場面を聞き、今はどうしているかまでメモすること。そのメモがあれば、下書きの相談文に入れて、試す案を一つ選べます。</p>
+<p>今日できることは、1人に最近困った場面を聞き、今はどうしているかまでメモすることです。そのメモがあれば、下書きの相談文に入れて、試す案を1つ選べます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><em>既存サービスの機能・プランは2026年10月4日に公式情報を確認しました。登録・操作・返却忘れへの効果を実機で比較した結果ではありません。挿絵はAIで生成したイメージで、実在のアプリ画面や人物を表すものではありません。</em></p>
+<p><em>既存サービスの機能・プランは2026年10月4日時点の公式情報をもとにしています。最新の料金や仕様は各サービスの案内で確認してください。</em></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -462,6 +462,10 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <section role="tabpanel" tabindex="0" class="wp-block-tab-panel">
 <!-- wp:group {"metadata":{"name":"English：Introduction"},"className":"one-person-app-panel panel-en","layout":{"type":"default"}} -->
 <div class="wp-block-group one-person-app-panel panel-en">
+<!-- wp:paragraph -->
+<p><strong>How to Solve One Person’s Problem With a Homemade App: From Idea to Sharing</strong></p>
+<!-- /wp:paragraph -->
+
 <!-- wp:paragraph -->
 <p>If nothing comes to mind when you sit down to plan an app, ask someone you know what felt like a hassle lately. <strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">Listen to one person and make one task they keep struggling with a little easier.</mark></strong> That’s enough to get started.</p>
 <!-- /wp:paragraph -->
@@ -496,7 +500,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>The people, app ideas, and trial conditions below are fictional examples. This article does not report a completed app or actual user-test results.</p>
+<p>The people, app ideas, and trial conditions below are fictional examples created to illustrate the steps.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -538,7 +542,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>If you have nobody to ask, write down one task that recently troubled you. For broader research, the previous article, <a href="https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-problems-to-app-ideas/" style="color: #0000ff; text-decoration: underline;">How to Find App Ideas on Crowdsourcing Sites</a>, offers another starting point.</p>
+<p>If you have nobody to ask, write down one task that recently troubled you. For broader research, the previous article, <a href="https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-problems-to-app-ideas/" style="color: #0000ff; text-decoration: underline;">How to Find App Ideas on Crowdsourcing Sites: Collect, Group, and Validate Real Problems</a>, offers another starting point.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -602,12 +606,12 @@ Budget: [Enter the budget for building and the monthly operating cost limit]
 First, ask three questions about missing information.
 Wait for my answers, then suggest no more than three solutions.
 For each solution, separate:
-・Effort it could reduce
-・How existing tools could substitute for it
-・One essential feature to build first if making an app
-・What it cannot solve
-・How the person could try it
-・Where human review is needed when building or publishing it
+- Effort it could reduce
+- How existing tools could substitute for it
+- One essential feature to build first if making an app
+- What it cannot solve
+- How the person could try it
+- Where human review is needed when building or publishing it
 Do not describe unverified demand or benefits as facts.</code></pre>
 <!-- /wp:html -->
 
@@ -636,7 +640,7 @@ Do not describe unverified demand or benefits as facts.</code></pre>
 <li><strong>Existing notes and calendar:</strong> Change an event title to something like “Return book — library by the station.” Ask the person to try it and see whether they can avoid learning a new app.</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li><strong>Google Tasks:</strong> Tasks can include details and dates or times. Try putting the item in the title, the return location in the details, and scheduling a notification. Check device and app notification settings if you need reminders. See <a href="https://support.google.com/tasks/answer/7675838?hl=ja" style="color: #0000ff; text-decoration: underline;">Google’s official guide to adding and editing tasks</a>.</li>
+<li><strong>Google Tasks:</strong> Tasks can include details and dates or times. Try putting the item in the title, the return location in the details, and scheduling a notification. Check device and app notification settings if you need reminders. See <a href="https://support.google.com/tasks/answer/7675838?hl=en" style="color: #0000ff; text-decoration: underline;">Google’s official guide to adding and editing tasks</a>.</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
 <li><strong>Todoist:</strong> Filters can narrow tasks by criteria such as dates and labels. It is a candidate for creating separate views for different uses. At the time of checking, the free Beginner plan includes three filter views. Check the <a href="https://www.todoist.com/help/todoist/features/introduction-to-filters-V98wIH" style="color: #0000ff; text-decoration: underline;">official filter guide</a> and <a href="https://www.todoist.com/pricing" style="color: #0000ff; text-decoration: underline;">pricing and plans</a> for needed features and limits.</li>
@@ -853,7 +857,7 @@ Do not describe unverified demand or benefits as facts.</code></pre>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><em>Existing-service features and plans were checked against official sources on October 4, 2026. This article does not report hands-on comparisons of registration, operation, or effects on forgotten returns. The AI-generated illustrations depict concepts, not real app screens or people.</em></p>
+<p><em>Existing-service features and plans reflect official sources checked on October 4, 2026. Please check each service’s latest documentation for current pricing and specifications.</em></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->

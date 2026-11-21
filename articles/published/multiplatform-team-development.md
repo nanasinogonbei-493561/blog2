@@ -1,9 +1,9 @@
 ---
 categories:
 - 開発の裏側
-excerpt: 家のパソコンで保存した本の返却日を、外でスマホから見るには？ 図書室の窓口と裏方にたとえると、Webとスマホで何を分け、どこを共通にするかが見えてきます。チームで先に決めることや、古いアプリを使い続けられるように更新する方法も扱います。
-featured_image: articles/images/multiplatform-team-development/01-three-roles.png
-featured_image_alt: 一つの台帳を管理する係と、本・カレンダーの情報を表示するパソコンとスマホのイラスト
+excerpt: 家のパソコンで保存した本の返却日を、外でスマホから見るには？ 図書館の窓口と裏方にたとえると、Webとスマホで何を分け、どこを共通にするかが見えてきます。チームで先に決めることや、古いアプリを使い続けられるように更新する方法も扱います。
+featured_image: articles/images/multiplatform-team-development/01-three-roles-v2.png
+featured_image_alt: 1つの台帳を管理する図書館の司書と、パソコン・スマートフォンで同じ本の記録を見る2人の大人のイラスト
 slug: multiplatform-team-development
 status: publish
 tags:
@@ -11,16 +11,16 @@ tags:
 - アプリ設計
 - チーム開発
 title: バックエンド・フロントエンド・モバイルを分けるマルチプラットフォーム開発
-wordpress_featured_media_id: 103
+wordpress_featured_media_id: 137
 wordpress_inline_media:
-  01-three-roles.png:
-    alt: 一つの台帳を管理する係と、本・カレンダーの情報を表示するパソコンとスマホのイラスト
-    id: 103
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/multiplatform-team-development-01-three-roles.png
-  02-message-cards.png:
-    alt: 本と返す日を描いたカードをスマホ側から係へ渡し、パソコン側でも同じ記録を確認するイラスト
-    id: 104
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/multiplatform-team-development-02-message-cards.png
+  01-three-roles-v2.png:
+    alt: 1つの台帳を管理する図書館の司書と、パソコン・スマートフォンで同じ本の記録を見る2人の大人のイラスト
+    id: 137
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-three-roles-v2.png
+  02-message-cards-v2.png:
+    alt: スマートフォンを持つ大人が窓口越しに司書へ本とカレンダーのカードを渡し、別の大人がパソコンで同じ記録を見るイラスト
+    id: 138
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-message-cards-v2.png
   03-team-workbench.png:
     alt: 台帳・パソコン・スマホを担当する3人が、共通の絵カードを囲んで作業を進めるイラスト
     id: 105
@@ -29,14 +29,14 @@ wordpress_inline_media:
     alt: パソコン・古いスマホ・新しいスマホの表示を、台帳とチェック用の紙で確かめるイラスト
     id: 106
     url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/multiplatform-team-development-04-test-and-update.png
-  05-choose-small.png:
-    alt: Webだけの小さな構成と、裏方・Web・モバイルが連携する構成を見比べる人のイラスト
-    id: 107
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/multiplatform-team-development-05-choose-small.png
-  06-paper-first-step.png:
-    alt: パソコン・台帳・スマホを描いた紙の間で、本と返す日のカードを渡して流れを確かめるイラスト
-    id: 108
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/multiplatform-team-development-06-paper-first-step.png
+  05-choose-small-v2.png:
+    alt: Webだけの小さな構成と、裏方・Web・モバイルが連携する構成を見比べる大人開発者のイラスト
+    id: 152
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-choose-small-v2.png
+  06-paper-first-step-v2.png:
+    alt: パソコン・台帳・スマホを描いた3枚の紙を机に並べてカードを渡す2人の大人のイラスト
+    id: 153
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/06-paper-first-step-v2.png
 wordpress_post_id: 109
 wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team-development/
 ---
@@ -71,23 +71,23 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>図書室なら、窓口と裏方にどんな仕事を任せるでしょうか。役割の決め方から、チームでつないで試すところまで、紙でもたどれる例を使います。</p>
+<p>図書館なら、窓口と裏方にどんな仕事を任せるでしょうか。役割の決め方から、チームでつないで試すところまで、紙でもたどれる例を使います。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><a href="https://zenn.dev/nanashinogonbei/articles/multiplatform-team-development" style="color:#0000ff;text-decoration:underline;">Zennのマルチプラットフォーム開発の記事</a>で扱う役割分担や連携の考え方を、身近な例で説明し直します。以下の「本の返却メモ」は説明用の架空のアプリです。筆者がこの構成で開発・公開したという報告ではありません。</p>
+<p><a href="https://zenn.dev/nanashinogonbei/articles/multiplatform-team-development" style="color:#0000ff;text-decoration:underline;">Zennのマルチプラットフォーム開発の記事</a>で扱う役割分担や連携の考え方を、別の記事でも使ってきた「本の返却メモ」を架空のアプリ例として説明し直します。</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
 
-<!-- wp:group {"metadata":{"name":"ja: バックエンド・Webフロントエンド・モバイルの役割を図書室で考える"},"className":"mpt-panel","layout":{"type":"default"}} -->
+<!-- wp:group {"metadata":{"name":"ja: バックエンド・Webフロントエンド・モバイルの役割を図書館で考える"},"className":"mpt-panel","layout":{"type":"default"}} -->
 <div class="wp-block-group mpt-panel">
 <!-- wp:heading -->
-<h2 class="wp-block-heading">バックエンド・Webフロントエンド・モバイルの役割を図書室で考える</h2>
+<h2 class="wp-block-heading">バックエンド・Webフロントエンド・モバイルの役割を図書館で考える</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"sizeSlug":"full","linkDestination":"none","id":103} -->
-<figure class="wp-block-image size-full"><img class="wp-image-103" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/multiplatform-team-development-01-three-roles.png" alt="一つの台帳を管理する係と、本・カレンダーの情報を表示するパソコンとスマホのイラスト"/></figure>
+<!-- wp:image {"id":137,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-three-roles-v2.png" alt="1つの台帳を管理する図書館の司書と、パソコン・スマートフォンで同じ本の記録を見る2人の大人のイラスト" class="wp-image-137" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -95,11 +95,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>図書室で、カウンターに聞いたときと端末で調べたときとで、借りている本が違っていたら困りますよね。アプリでも、入口は使う場所に合わせつつ、借りた本の記録や貸し出しの決まりはそろえておきたいところ。</p>
+<p>図書館で、カウンターに聞いたときと検索端末で調べたときとで、借りている本が違っていたら困りますよね。アプリでも、入口は使う場所に合わせつつ、借りた本の記録や貸し出しの決まりはそろえておきたいところです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<div class="mpt-table-scroll"><table><caption>3つの役割を、図書室の仕事に置き換える</caption><thead><tr><th scope="col">役割</th><th scope="col">身近なたとえ</th><th scope="col">本の返却メモで担当すること</th></tr></thead><tbody>
+<div class="mpt-table-scroll"><table><caption>3つの役割を、図書館の仕事に置き換える</caption><thead><tr><th scope="col">役割</th><th scope="col">身近なたとえ</th><th scope="col">本の返却メモで担当すること</th></tr></thead><tbody>
 <tr><td>バックエンド</td><td>記録を管理する裏方</td><td>本の名前や返す日を保存し、誰の記録か確かめる。</td></tr>
 <tr><td>Webフロントエンド</td><td>ブラウザで使う窓口</td><td>入力欄や一覧を表示する。広い画面にも狭い画面にも合わせる。</td></tr>
 <tr><td>モバイル</td><td>スマホに入れて使う窓口</td><td>指で押しやすい画面を作り、必要ならカメラなど端末の機能とつなぐ。</td></tr>
@@ -126,12 +126,12 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <h2 class="wp-block-heading">Webとモバイルは、APIという共通の窓口で裏方とつながる</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"sizeSlug":"full","linkDestination":"none","id":104} -->
-<figure class="wp-block-image size-full"><img class="wp-image-104" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/multiplatform-team-development-02-message-cards.png" alt="本と返す日を描いたカードをスマホ側から係へ渡し、パソコン側でも同じ記録を確認するイラスト"/></figure>
+<!-- wp:image {"id":138,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-message-cards-v2.png" alt="スマートフォンを持つ大人が窓口越しに司書へ本とカレンダーのカードを渡し、別の大人がパソコンで同じ記録を見るイラスト" class="wp-image-138" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>パソコンで「星の図鑑を11月20日までに返す」と登録。あとでスマホを開くと、さっきの記録が見える。この間に、画面と裏方では次のやり取りが起きています。</p>
+<p>パソコンで「旅行ガイドを11月20日までに返す」と登録すると、あとでスマホを開いたときにもさっきの記録が見えます。この間に、画面と裏方では次のやり取りが起きています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
@@ -155,11 +155,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>図書室で本の名前を伝えると、返す日を教えてもらえます。プログラム同士にも、そんな決まったやり方でお願いと返事を交わす窓口があり、それが<strong>API</strong>です。</p>
+<p>図書館で本の名前を伝えると、返す日を教えてもらえます。プログラム同士にも、そんな決まったやり方でお願いと返事を交わす窓口があり、それが<strong>API</strong>です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>ブラウザがお願いを送り、サーバーが返事をする基本的な流れは、<a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Client-Server_overview" style="color:#0000ff;text-decoration:underline;">MDNのクライアントとサーバーの解説</a>でも確認できます。サーバーは、ここでは裏方のプログラムを動かすコンピューターです。</p>
+<p>ブラウザがお願いを送り、サーバーが返事をする基本的な流れは、<a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Client-Server_overview" style="color:#0000ff;text-decoration:underline;">MDNのクライアントとサーバーの解説</a>でも確認できます。サーバーは、ここでは裏方のプログラムを動かすコンピュータです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"metadata":{"name":"ja: 「何を渡すと、何が返るか」を先にそろえる"},"className":"mpt-subsection","layout":{"type":"default"}} -->
@@ -178,15 +178,15 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>受け取った「11/20」と「20/11」が同じ日かどうか、書き方が混ざると判断しづらくなります。この例でやり取りする日付は「2026-11-20」のような年-月-日。画面では「11月20日」と読めれば十分です。</p>
+<p>受け取った「11/20」と「20/11」が同じ日かどうか、書き方が混ざると判断しづらくなります。この例でやり取りする日付は「2026-11-20」のような年-月-日にそろえます。画面には「11月20日」と読みやすく表示すれば十分です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Webで使うAPIの説明を、同じ形式で残す方法の一つが「OpenAPI」です。<a href="https://spec.openapis.org/oas/v3.2.1.html" style="color:#0000ff;text-decoration:underline;">OpenAPIの公式仕様</a>に沿って書き残せるのは、何を渡し、何が返るかという約束。保存などの処理は、その約束に合わせて実装します。</p>
+<p>Webで使うAPIの説明を、同じ形式で残す方法の1つが「OpenAPI」です。<a href="https://spec.openapis.org/oas/v3.2.1.html" style="color:#0000ff;text-decoration:underline;">OpenAPIの公式仕様</a>に沿って書き残せるのは、何を渡し、何が返るかという約束です。保存などの処理は、その約束に合わせて実装します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>返事が届かなくても、裏方では保存が済んでいるかもしれません。</strong> 通信が戻ったときに、まず記録があるかを確認。もう一度頼む場合に備え、同じお願いなら二重に作らない仕組みも必要です。詳しくは<a href="https://developer.mozilla.org/en-US/docs/Glossary/Idempotent" style="color:#0000ff;text-decoration:underline;">MDNの、同じ要求を繰り返したときの動作の解説</a>が参考になります。</p>
+<p><strong>返事が届かなくても、裏方では保存が済んでいるかもしれません。</strong> 通信が戻ったときに、まず記録があるかを確認する必要があります。もう一度頼む場合に備え、同じお願いなら二重に作らない仕組みも欠かせません。詳しくは<a href="https://developer.mozilla.org/en-US/docs/Glossary/Idempotent" style="color:#0000ff;text-decoration:underline;">MDNの、同じ要求を繰り返したときの動作の解説</a>が参考になります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -208,13 +208,13 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>3人がそれぞれ違う貸し出しルールで図書室の仕組みを作ったら、最後につないだときに食い違います。分担の前にすり合わせたいのは、<mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">誰が何をできればよいかと、画面と裏方が何をやり取りするか</mark>です。</p>
+<p>3人がそれぞれ違う貸し出しルールで図書館の仕組みを作ったら、最後につないだときに食い違います。分担の前にすり合わせたいのは、<mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">誰が何をできればよいかと、画面と裏方が何をやり取りするか</mark>です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
 <ol class="wp-block-list">
 <!-- wp:list-item -->
-<li>目的を一つ決める。例は「外出先で、借りた本の返す日を確認できること」です。</li>
+<li>目的を1つ決める。例は「外出先で、借りた本の返す日を確認できること」です。</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
 <li>保存する情報と、APIでやり取りする内容を決める。</li>
@@ -232,7 +232,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>裏方がまだできていないなら、決めておいた返事を返す代役があると画面を先に作れます。この代役が「モック」。仮の返事で動いたあとには、実物同士をつなぐ番です。</p>
+<p>裏方がまだできていないなら、決めておいた返事を返す代役があると画面を先に作れます。この代役が「モック」です。仮の返事で動いたあとには、実物同士をつなぐ番になります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"metadata":{"name":"ja: ファイルの置き場所は、役割の分け方と別に選べる"},"className":"mpt-subsection","layout":{"type":"default"}} -->
@@ -247,13 +247,13 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 
 <!-- wp:html -->
 <div class="mpt-table-scroll"><table><caption>ファイルをまとめる方法と、分ける方法</caption><thead><tr><th scope="col">方法</th><th scope="col">イメージ</th><th scope="col">判断するポイント</th></tr></thead><tbody>
-<tr><td>一つにまとめる（モノレポ）</td><td>一つの箱の中を、裏方・Web・モバイルの棚に分ける。</td><td>一度の変更をまとめて確認しやすい。同じ箱でも担当は分けられる。</td></tr>
+<tr><td>1つにまとめる（モノレポ）</td><td>1つの箱の中を、裏方・Web・モバイルの棚に分ける。</td><td>一度の変更をまとめて確認しやすい。同じ箱でも担当は分けられる。</td></tr>
 <tr><td>別々に置く（マルチレポ）</td><td>役割ごとに別の箱を使う。</td><td>見られる人を箱ごとに分けやすい。共通の約束を変えるときは、複数の箱で調整が要る。</td></tr>
 </tbody></table></div>
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>ファイルを同じ箱に置くか迷ったら、普段どれくらい一緒に直すか、管理を分ける事情があるかを手がかりに。一つの箱に置いても、Web版だけ先に公開する運用はできます。</p>
+<p>ファイルを同じ箱に置くか迷ったら、普段どれくらい一緒に直すか、管理を分ける事情があるかを手がかりに決めます。1つの箱に置いても、Web版だけ先に公開する運用はできます。</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -265,7 +265,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>変更履歴の本流から作業を分ける仕組みを「ブランチ」と呼びます。「本の名前を検索できるようにする」など、一つの目的ごとに枝を作り、動きを確かめてから本流へ戻す進め方ができます。</p>
+<p>変更履歴の本流から作業を分ける仕組みを「ブランチ」と呼びます。「本の名前を検索できるようにする」など、1つの目的ごとに枝を作り、動きを確かめてから本流へ戻す進め方ができます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -287,7 +287,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>パソコンで保存ボタンを押したら、確認はもう一歩先へ。<mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">同じ人がスマホで一覧を開いて、同じ本と返す日を見られるところまで</mark>が、この例で試したい流れです。</p>
+<p>パソコンで保存ボタンを押したら、確認はもう一歩先まで見ます。<mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">同じ人がスマホで一覧を開いて、同じ本と返す日を見られるところまで</mark>が、この例で試したい流れです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -325,7 +325,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- wp:list {"ordered":true} -->
 <ol class="wp-block-list">
 <!-- wp:list-item -->
-<li>裏方が、しばらく「本の名前」と「タイトル」の両方を返すようにします。二つの項目には同じ値を入れます。</li>
+<li>裏方が、しばらく「本の名前」と「タイトル」の両方を返すようにします。2つの項目には同じ値を入れます。</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
 <li>Web版とモバイル版を、「タイトル」の項目を読むように更新します。</li>
@@ -350,8 +350,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <h2 class="wp-block-heading">最初から3つに分けるかは、使う場面と増える手間で決める</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"sizeSlug":"full","linkDestination":"none","id":107} -->
-<figure class="wp-block-image size-full"><img class="wp-image-107" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/multiplatform-team-development-05-choose-small.png" alt="Webだけの小さな構成と、裏方・Web・モバイルが連携する構成を見比べる人のイラスト"/></figure>
+<!-- wp:image {"id":152,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-choose-small-v2.png" alt="Webだけの小さな構成と、裏方・Web・モバイルが連携する構成を見比べる大人開発者のイラスト" class="wp-image-152" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -375,7 +375,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>どこまで減らしてよいか迷うときは、<a href="https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-products-for-kids/" style="color:#0000ff;text-decoration:underline;">プログラム・プロダクトは、出来ればシンプルであるべきか？</a>でも、必要な働きと安全を残して整理する考え方を説明しています。</p>
+<p>どこまで減らしてよいか迷うときは、<a href="https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-products-for-kids/" style="color:#0000ff;text-decoration:underline;">プログラム・プロダクトは、できればシンプルであるべきか？</a>でも、必要な働きと安全を残して整理する考え方を説明しています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"metadata":{"name":"ja: 裏方を共通にしても、安全や通信の問題は残る"},"className":"mpt-subsection","layout":{"type":"default"}} -->
@@ -400,22 +400,22 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 </div>
 <!-- /wp:group -->
 
-<!-- wp:group {"metadata":{"name":"ja: まず紙に3つの役割を描き、一つの操作を通してみる"},"className":"mpt-panel","layout":{"type":"default"}} -->
+<!-- wp:group {"metadata":{"name":"ja: まず紙に3つの役割を描き、1つの操作を通してみる"},"className":"mpt-panel","layout":{"type":"default"}} -->
 <div class="wp-block-group mpt-panel">
 <!-- wp:heading -->
-<h2 class="wp-block-heading">まず紙に3つの役割を描き、一つの操作を通してみる</h2>
+<h2 class="wp-block-heading">まず紙に3つの役割を描き、1つの操作を通してみる</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"sizeSlug":"full","linkDestination":"none","id":108} -->
-<figure class="wp-block-image size-full"><img class="wp-image-108" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/multiplatform-team-development-06-paper-first-step.png" alt="パソコン・台帳・スマホを描いた紙の間で、本と返す日のカードを渡して流れを確かめるイラスト"/></figure>
+<!-- wp:image {"id":153,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/06-paper-first-step-v2.png" alt="パソコン・台帳・スマホを描いた3枚の紙を机に並べてカードを渡す2人の大人のイラスト" class="wp-image-153" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>保存する情報と、扱い方の決まりは共通に。使う人が触る画面は、Webやスマホそれぞれに合わせます。いきなり全部を作る前に、まずは一つの操作を通すところから。</p>
+<p>保存する情報と扱い方の決まりは共通にし、使う人が触る画面はWebやスマホそれぞれに合わせます。いきなり全部を作る前に、まずは1つの操作を通すところから始めます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>最初はプログラムを書かず、紙とえんぴつで次を試せます。</p>
+<p>最初はプログラムを書かず、紙とペンで次を試せます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
@@ -424,7 +424,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <li>「パソコンの画面」「裏方の台帳」「スマホの画面」の3枚を描きます。</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>「星の図鑑・11月20日まで」というカードを、パソコン側から裏方へ渡します。</li>
+<li>「旅行ガイド・11月20日まで」というカードを、パソコン側から裏方へ渡します。</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
 <li>裏方役は、利用者と内容を確かめたつもりで台帳へ書き、保存できたと返事をします。</li>
@@ -443,7 +443,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>題材がまだ決まっていなければ、<a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color:#0000ff;text-decoration:underline;">自分の悩み・困り事を自作アプリにする方法</a>から、日常の一つの不便を選んでみてください。<strong>まずは「誰が、どの窓口で、何を一つできればよいか」を書くことが、次の一歩です。</strong></p>
+<p>題材がまだ決まっていなければ、<a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color:#0000ff;text-decoration:underline;">自分の悩み・困り事を自作アプリにする方法｜題材の見つけ方から小さな試作まで</a>から、日常の1つの不便を選んでみてください。<strong>まずは「誰が、どの窓口で、何を1つできればよいか」を書くことが、次の一歩です。</strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"metadata":{"name":"ja: 出典と、もう少し詳しく知るための資料"},"className":"mpt-subsection","layout":{"type":"default"}} -->
@@ -453,7 +453,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>仕様に関する資料は2026年11月11日に確認しました。この記事の構成例や進め方は、資料を踏まえた説明用の提案です。</p>
+<p>仕様に関する資料は2026年11月11日時点の公式情報をもとにしています。この記事の構成例や進め方は、資料を踏まえた説明用の提案です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
@@ -493,15 +493,19 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- wp:group {"metadata":{"name":"en: Introduction"},"className":"mpt-panel","layout":{"type":"default"}} -->
 <div class="wp-block-group mpt-panel">
 <!-- wp:paragraph -->
+<p><strong>Multiplatform Development: Separating Backend, Web Frontend, and Mobile</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
 <p>You save a book’s due date on your computer at home and check it on your phone later. <strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">The screens can suit each device while one backend keeps track of the records.</mark></strong> Building a service for several environments, such as the web and phone apps, is called multiplatform development.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>What would you put at the counter of a library, and what would you leave to the staff behind it? We’ll use that example to work out who does what and test it on paper.</p>
+<p>What would you put at the counter of a public library, and what would you leave to the staff behind it? We’ll use that example to work out who does what and test it on paper.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>It retells the ideas about responsibilities and coordination in <a href="https://zenn.dev/nanashinogonbei/articles/multiplatform-team-development" style="color:#0000ff;text-decoration:underline;">the original Zenn article on multiplatform development</a> through an everyday example. The book-return memo below is a fictional app for explanation. It is not a report of an app I built or released with this architecture.</p>
+<p>This article builds on <a href="https://zenn.dev/nanashinogonbei/articles/multiplatform-team-development" style="color:#0000ff;text-decoration:underline;">the original Zenn article on multiplatform development (in Japanese)</a>, walking through responsibilities and coordination using the fictional book-return memo explored elsewhere on this blog.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -512,8 +516,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <h2 class="wp-block-heading">Backend, web frontend, and mobile: three roles in a library example</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"sizeSlug":"full","linkDestination":"none","id":103} -->
-<figure class="wp-block-image size-full"><img class="wp-image-103" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/multiplatform-team-development-01-three-roles.png" alt="A librarian maintains one ledger while a computer and phone display matching book and calendar information"/></figure>
+<!-- wp:image {"id":137,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-three-roles-v2.png" alt="An adult librarian maintains one ledger while two adults view matching book and calendar information on a computer and a smartphone" class="wp-image-137" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -521,7 +525,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Imagine getting two different lists of borrowed books depending on whether you ask at the library counter or look them up on a screen. The two entrances can work differently, but they need the same records and lending rules.</p>
+<p>Imagine getting two different lists of borrowed books depending on whether you ask at the library counter or look them up on a catalog terminal. The two entrances can work differently, but they need the same records and lending rules.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -552,12 +556,12 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <h2 class="wp-block-heading">Web and mobile communicate with the backend through an API</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"sizeSlug":"full","linkDestination":"none","id":104} -->
-<figure class="wp-block-image size-full"><img class="wp-image-104" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/multiplatform-team-development-02-message-cards.png" alt="A book and due-date card travels from a phone to a librarian while a computer user checks the same record"/></figure>
+<!-- wp:image {"id":138,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-message-cards-v2.png" alt="An adult holding a smartphone passes a book-and-calendar card through a library window to a librarian while another adult checks the same record on a laptop" class="wp-image-138" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>You save “Return the star guide by November 20” on your computer. Later, the same record shows up on your phone. Here’s what happens between the screens and the backend.</p>
+<p>You save “Return the travel guide by November 20” on your computer. Later, the same record shows up on your phone. Here’s what happens between the screens and the backend.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
@@ -604,7 +608,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>Mix “11/20” with “20/11” and you have to work out whether they mean the same day. Here the programs exchange dates as year-month-day, like “2026-11-20.” The screen can still say “November 20.”</p>
+<p>Mix “11/20” with “20/11” and you have to work out whether they mean the same day. Here the programs exchange dates as year-month-day, like “2026-11-20.” The screen can still display “November 20.”</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -776,8 +780,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <h2 class="wp-block-heading">Decide how far to separate things by the use case and the extra work</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"sizeSlug":"full","linkDestination":"none","id":107} -->
-<figure class="wp-block-image size-full"><img class="wp-image-107" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/multiplatform-team-development-05-choose-small.png" alt="A maker compares a small web-only setup with a coordinated backend, web, and mobile setup"/></figure>
+<!-- wp:image {"id":152,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-choose-small-v2.png" alt="An adult developer compares a small web-only setup with a coordinated backend, web, and mobile setup" class="wp-image-152" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -801,7 +805,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>For another perspective on keeping necessary behavior and safety while reducing complexity, see <a href="https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-products-for-kids/" style="color:#0000ff;text-decoration:underline;">Should Programs and Products Be as Simple as Possible?</a>.</p>
+<p>For another perspective on keeping necessary behavior and safety while reducing complexity, see <a href="https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-products-for-kids/" style="color:#0000ff;text-decoration:underline;">Should Programs and Products Be Simple When Possible?</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"metadata":{"name":"en: A shared backend still needs access controls and a plan for lost connections"},"className":"mpt-subsection","layout":{"type":"default"}} -->
@@ -832,16 +836,16 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <h2 class="wp-block-heading">Start with three paper roles and walk one action through them</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"sizeSlug":"full","linkDestination":"none","id":108} -->
-<figure class="wp-block-image size-full"><img class="wp-image-108" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/multiplatform-team-development-06-paper-first-step.png" alt="An adult and a reader pass a book and due-date card between paper computer, ledger, and phone roles"/></figure>
+<!-- wp:image {"id":153,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/06-paper-first-step-v2.png" alt="Two adults pass a book-and-calendar card across three paper sheets for computer, ledger, and phone roles" class="wp-image-153" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>Keep the stored information and its rules in common. Give the web and phone their own screens to suit how people use them. Before building the whole thing, follow one action through all three roles.</p>
+<p>Keep the stored information and its rules in common, and tailor the web and phone screens to how people use each device. Before building everything, walk one action through all three roles.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>You can start with paper and a pencil before writing any code:</p>
+<p>You can start with paper and a pen before writing any code:</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
@@ -850,7 +854,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <li>Draw three sheets: a computer screen, the backend ledger, and a phone screen.</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>Pass a card saying “Star guide — due November 20” from the computer role to the backend role.</li>
+<li>Pass a card saying “Travel guide — due November 20” from the computer role to the backend role.</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
 <li>The backend role pretends to check the user and input, records it in the ledger, and confirms that it was saved.</li>
@@ -869,7 +873,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>If you have not chosen a problem yet, <a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color:#0000ff;text-decoration:underline;">How to Turn an Everyday Problem into a Small Homemade App</a> can help you choose one inconvenience. <strong>Your next step is to write who needs to do one thing, through which interface.</strong></p>
+<p>If you have not chosen a problem yet, <a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color:#0000ff;text-decoration:underline;">How to Turn a Personal Problem into a Homemade App: From Finding an Idea to a Small Prototype</a> can help you choose one inconvenience. <strong>Your next step is to write who needs to do one thing, through which interface.</strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"metadata":{"name":"en: Sources and further reading"},"className":"mpt-subsection","layout":{"type":"default"}} -->
@@ -879,13 +883,13 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Specification-related sources were checked on November 11, 2026. The architecture examples and workflow in this article are explanatory suggestions informed by those sources.</p>
+<p>Specification-related sources reflect official documentation checked on November 11, 2026. The architecture examples and workflow in this article are explanatory suggestions informed by those sources.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 <ul class="wp-block-list">
 <!-- wp:list-item -->
-<li><a href="https://zenn.dev/nanashinogonbei/articles/multiplatform-team-development" style="color:#0000ff;text-decoration:underline;">Original article: Separating Backend, Frontend, and Mobile in Multiplatform Development</a></li>
+<li><a href="https://zenn.dev/nanashinogonbei/articles/multiplatform-team-development" style="color:#0000ff;text-decoration:underline;">Original article: Separating Backend, Frontend, and Mobile in Multiplatform Development (in Japanese)</a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
 <li><a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Client-Server_overview" style="color:#0000ff;text-decoration:underline;">MDN: Client–server interactions</a></li>
