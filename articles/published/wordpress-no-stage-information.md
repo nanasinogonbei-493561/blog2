@@ -2,7 +2,7 @@
 categories:
 - 課題と解決
 excerpt: まだ広く知られていない劇団の舞台を観たいのに、どこで情報を探せばよいか分からない。そんなときに使える公演情報サイト、劇場の公式ページ、劇団の発信のたどり方を紹介します。検索例から予約前の確認、次回公演を見逃さない工夫までまとめました。
-featured_image: articles/images/wordpress-no-stage-information/chapter-1.png
+featured_image: articles/images/wordpress-no-stage-information/optimized/chapter-1.jpg
 featured_image_alt: チラシとパソコンを見ながら小劇場の公演を探す人のイラスト
 slug: small-theater-performance-info
 status: publish
@@ -11,17 +11,20 @@ tags:
 - 小劇場
 - 公演情報
 title: 小劇場の公演情報はどこで探す？まだ知らない劇団の舞台を見つける方法
-wordpress_featured_media_id: 21
+wordpress_featured_media_id: 277
 wordpress_inline_media:
-  chapter-1.png:
-    id: 21
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/chapter-1.png
-  chapter-2.png:
-    id: 22
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/chapter-2.png
-  chapter-3.png:
-    id: 23
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/chapter-3.png
+  chapter-1.jpg:
+    alt: チラシとパソコンを見ながら小劇場の公演を探す人のイラスト
+    id: 277
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/chapter-1.jpg
+  chapter-2.jpg:
+    alt: 公演情報の一覧、劇場の掲示板、劇団の告知という3つの探し方を表すイラスト
+    id: 278
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/chapter-2.jpg
+  chapter-3.jpg:
+    alt: カレンダーとチケット、保存した公演ページを確認する観客のイラスト
+    id: 279
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/chapter-3.jpg
 wordpress_post_id: 24
 wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/13/small-theater-performance-info/
 ---
@@ -47,7 +50,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/13/small-theater-perf
 <!-- wp:tab-panels -->
 <div class="wp-block-tab-panels">
 <!-- wp:tab-panel {"label":"日本語","metadata":{"name":"日本語本文"}} -->
-<section role="tabpanel" tabindex="0" class="wp-block-tab-panel">
+<section role="tabpanel" tabindex="0" class="wp-block-tab-panel" lang="ja">
 <!-- wp:group {"metadata":{"name":"ja: 導入"},"className":"stage-info-panel","layout":{"type":"default"}} -->
 <div class="wp-block-group stage-info-panel">
 <!-- wp:paragraph -->
@@ -70,8 +73,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/13/small-theater-perf
 <h2 class="wp-block-heading">公演情報が見つからないときは、探す手がかりを変える</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":21,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/chapter-1.png" alt="チラシとパソコンを見ながら小劇場の公演を探す人のイラスト" class="wp-image-21" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":277,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/chapter-1.jpg" alt="チラシとパソコンを見ながら小劇場の公演を探す人のイラスト" class="wp-image-277" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -116,8 +119,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/13/small-theater-perf
 <h2 class="wp-block-heading">どのサイトを見るか迷ったら、3つの入口を使い分ける</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":22,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/chapter-2.png" alt="公演情報の一覧、劇場の掲示板、劇団の告知という3つの探し方を表すイラスト" class="wp-image-22" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":278,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/chapter-2.jpg" alt="公演情報の一覧、劇場の掲示板、劇団の告知という3つの探し方を表すイラスト" class="wp-image-278" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -184,8 +187,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/13/small-theater-perf
 <h2 class="wp-block-heading">観たい舞台を見つけたら、日程と予約先を確認して保存する</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":23,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/chapter-3.png" alt="カレンダーとチケット、保存した公演ページを確認する観客のイラスト" class="wp-image-23" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":279,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/chapter-3.jpg" alt="カレンダーとチケット、保存した公演ページを確認する観客のイラスト" class="wp-image-279" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
@@ -295,10 +298,10 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/13/small-theater-perf
 <!-- wp:list -->
 <ul class="wp-block-list">
 <!-- wp:list-item -->
-<li><a href="https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-learning-roadmap/" style="color: #0000ff; text-decoration: underline;">プログラミング独学ロードマップ｜40歳未経験から3年間でつまずいた壁と対処法</a></li>
+<li><a href="https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-learning-roadmap/" style="color: #0000ff; text-decoration: underline;">プログラミング独学ロードマップ｜未経験40歳・3年間の壁と対処法</a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li><a href="https://www.nanasinogonbei.com/blog/2026/09/20/theater-ticket-search/" style="color: #0000ff; text-decoration: underline;">小劇場の公演をチケット販売サイトから探す方法｜予約フォームとの違いも紹介</a></li>
+<li><a href="https://www.nanasinogonbei.com/blog/2026/09/20/theater-ticket-search/" style="color: #0000ff; text-decoration: underline;">小劇場の公演をチケットサイトで探す方法｜予約フォームとの違い</a></li>
 <!-- /wp:list-item -->
 </ul>
 <!-- /wp:list -->
@@ -308,7 +311,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/13/small-theater-perf
 <!-- /wp:tab-panel -->
 
 <!-- wp:tab-panel {"label":"English","metadata":{"name":"English body"}} -->
-<section role="tabpanel" tabindex="0" class="wp-block-tab-panel">
+<section role="tabpanel" tabindex="0" class="wp-block-tab-panel" lang="en">
 <!-- wp:group {"metadata":{"name":"en: Introduction"},"className":"stage-info-panel","layout":{"type":"default"}} -->
 <div class="wp-block-group stage-info-panel">
 <!-- wp:paragraph -->
@@ -335,8 +338,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/13/small-theater-perf
 <h2 class="wp-block-heading">Change your starting point when performance information is hard to find</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":21,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/chapter-1.png" alt="A theatergoer using flyers and a laptop to look for small-theater performances" class="wp-image-21" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":277,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/chapter-1.jpg" alt="A theatergoer using flyers and a laptop to look for small-theater performances" class="wp-image-277" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -381,8 +384,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/13/small-theater-perf
 <h2 class="wp-block-heading">Choose among three starting points according to what you already know</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":22,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/chapter-2.png" alt="Three ways to find performances: listings, a theater noticeboard, and a company announcement" class="wp-image-22" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":278,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/chapter-2.jpg" alt="Three ways to find performances: listings, a theater noticeboard, and a company announcement" class="wp-image-278" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -449,8 +452,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/13/small-theater-perf
 <h2 class="wp-block-heading">Confirm the date and booking link, then save the performance</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":23,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/chapter-3.png" alt="A theatergoer checking a calendar, ticket, and saved performance page" class="wp-image-23" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":279,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/chapter-3.jpg" alt="A theatergoer checking a calendar, ticket, and saved performance page" class="wp-image-279" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->

@@ -2,37 +2,36 @@
 categories:
 - 開発の裏側
 excerpt: プログラミングに論理的思考力は本当に必要？ 外出時の傘の判断や日用品の在庫チェックなど身近な例で、手順の分け方・条件の考え方・バグの切り分け方を整理しました。コードを書く前に紙とペンで試せる練習法を通して、初心者でも考え方を身につけられます。
-featured_image: articles/images/programming-logical-thinking-kids/01-umbrella-decision-v2.png
+featured_image: articles/images/programming-logical-thinking-kids/optimized/01-umbrella-decision-v2.jpg
 featured_image_alt: 玄関の窓から外の雨を見て、通勤バッグのそばの折りたたみ傘を手に取る大人のイラスト
 slug: programming-logical-thinking
 status: publish
 tags:
 - プログラミング学習
-- 論理的思考
 - 初心者向け
 title: プログラミングに論理的思考力は必要？日常の例と紙でできる練習法を解説
-wordpress_featured_media_id: 132
+wordpress_featured_media_id: 225
 wordpress_inline_media:
-  01-umbrella-decision-v2.png:
+  01-umbrella-decision-v2.jpg:
     alt: 玄関の窓から外の雨を見て、通勤バッグのそばの折りたたみ傘を手に取る大人のイラスト
-    id: 132
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-umbrella-decision-v2.png
-  02-packing-steps-v2.png:
+    id: 225
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-umbrella-decision-v2.jpg
+  02-packing-steps-v2.jpg:
     alt: 通勤や出張の持ち物リストとバッグの中身を机の上で照らし合わせる大人のイラスト
-    id: 147
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-packing-steps-v2.png
-  03-predict-check-v2.png:
+    id: 226
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-packing-steps-v2.jpg
+  03-predict-check-v2.jpg:
     alt: 机に並べた3枚の手順カードとパソコン画面の動作を見比べて確かめる大人のイラスト
-    id: 133
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-predict-check-v2.png
+    id: 227
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-predict-check-v2.jpg
   04-debug-cases-v2.jpg:
     alt: 空・1個・2個の日用品ストックを並べて違いをノートに記録する大人のイラスト
-    id: 148
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-debug-cases-v2.jpg
-  05-paper-rule-v2.png:
+    id: 228
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-debug-cases-v2-1.jpg
+  05-paper-rule-v2.jpg:
     alt: 在庫確認の条件表を紙とペンで描き、指でたどって確かめる大人のイラスト
-    id: 149
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-paper-rule-v2.png
+    id: 229
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-paper-rule-v2.jpg
 wordpress_post_id: 93
 wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logical-thinking/
 ---
@@ -71,8 +70,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <h2 class="wp-block-heading">論理的思考力とは、理由がつながるか確かめる力</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":132,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-umbrella-decision-v2.png" alt="玄関の窓から外の雨を見て、通勤バッグのそばの折りたたみ傘を手に取る大人のイラスト" class="wp-image-132" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":225,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-umbrella-decision-v2.jpg" alt="玄関の窓から外の雨を見て、通勤バッグのそばの折りたたみ傘を手に取る大人のイラスト" class="wp-image-225" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -111,8 +110,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <h2 class="wp-block-heading">プログラミングでは、お願いを小さな手順に分ける</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":147,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-packing-steps-v2.png" alt="通勤や出張の持ち物リストとバッグの中身を机の上で照らし合わせる大人のイラスト" class="wp-image-147" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":226,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-packing-steps-v2.jpg" alt="通勤や出張の持ち物リストとバッグの中身を机の上で照らし合わせる大人のイラスト" class="wp-image-226" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -163,8 +162,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <h2 class="wp-block-heading">プログラミングは論理的思考力の練習になる？</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":133,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-predict-check-v2.png" alt="机に並べた3枚の手順カードとパソコン画面の動作を見比べて確かめる大人のイラスト" class="wp-image-133" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":227,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-predict-check-v2.jpg" alt="机に並べた3枚の手順カードとパソコン画面の動作を見比べて確かめる大人のイラスト" class="wp-image-227" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -207,8 +206,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <h2 class="wp-block-heading">うまく書けないときは、知識と実際の結果も確かめる</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":148,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-debug-cases-v2.jpg" alt="空・1個・2個の日用品ストックを並べて違いをノートに記録する大人のイラスト" class="wp-image-148" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":228,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-debug-cases-v2-1.jpg" alt="空・1個・2個の日用品ストックを並べて違いをノートに記録する大人のイラスト" class="wp-image-228" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -220,7 +219,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>私自身も、本のコードは読めるのに、自分で作ろうとすると手が止まった経験があります。その流れは、<a href="https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-learning-roadmap/" style="color: #0000ff; text-decoration: underline;">プログラミング独学ロードマップ｜40歳未経験から3年間でつまずいた壁と対処法</a>にまとめています。</p>
+<p>私自身も、本のコードは読めるのに、自分で作ろうとすると手が止まった経験があります。その流れは、<a href="https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-learning-roadmap/" style="color: #0000ff; text-decoration: underline;">プログラミング独学ロードマップ｜未経験40歳・3年間の壁と対処法</a>にまとめています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
@@ -249,8 +248,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <h2 class="wp-block-heading">まずは「在庫が足りているか」を紙で確かめてみる</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":149,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-paper-rule-v2.png" alt="在庫確認の条件表を紙とペンで描き、指でたどって確かめる大人のイラスト" class="wp-image-149" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":229,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-paper-rule-v2.jpg" alt="在庫確認の条件表を紙とペンで描き、指でたどって確かめる大人のイラスト" class="wp-image-229" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -296,7 +295,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>まずは身近な確認作業を1つ選び、「何を確かめる？」「どんなときに動く？」「結果はどうなる？」を紙に書いてみてください。整理した手順を実際の道具へ広げたいときは、<a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color: #0000ff; text-decoration: underline;">自分の悩み・困り事を自作アプリにする方法｜題材の見つけ方から小さな試作まで</a>も参考になります。</p>
+<p>まずは身近な確認作業を1つ選び、「何を確かめる？」「どんなときに動く？」「結果はどうなる？」を紙に書いてみてください。整理した手順を実際の道具へ広げたいときは、<a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color: #0000ff; text-decoration: underline;">自分の悩みから自作アプリを作る方法｜題材選びから小さな試作まで</a>も参考になります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -311,13 +310,13 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 
 <!-- wp:list -->
 <ul class="wp-block-list"><!-- wp:list-item -->
-<li><a href="https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-learning-roadmap/" style="color: #0000ff; text-decoration: underline;">プログラミング独学ロードマップ｜40歳未経験から3年間でつまずいた壁と対処法</a></li>
+<li><a href="https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-learning-roadmap/" style="color: #0000ff; text-decoration: underline;">プログラミング独学ロードマップ｜未経験40歳・3年間の壁と対処法</a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
 <li><a href="https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-products/" style="color: #0000ff; text-decoration: underline;">アプリ設計はシンプルが正解？使いやすさと安全を両立する機能の絞り方</a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li><a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color: #0000ff; text-decoration: underline;">自分の悩み・困り事を自作アプリにする方法｜題材の見つけ方から小さな試作まで</a></li>
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color: #0000ff; text-decoration: underline;">自分の悩みから自作アプリを作る方法｜題材選びから小さな試作まで</a></li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list --></div>
 <!-- /wp:group --></section>
@@ -343,8 +342,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <h2 class="wp-block-heading">Logical thinking means checking that reasons fit together</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":132,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-umbrella-decision-v2.png" alt="An adult looks out an entryway window at steady rain and picks up a folding umbrella beside a commuter bag" class="wp-image-132" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":225,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-umbrella-decision-v2.jpg" alt="An adult looks out an entryway window at steady rain and picks up a folding umbrella beside a commuter bag" class="wp-image-225" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -383,8 +382,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <h2 class="wp-block-heading">Programming breaks a request into small steps</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":147,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-packing-steps-v2.png" alt="An adult checks a work-trip checklist against the items inside a commuter bag on a desk" class="wp-image-147" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":226,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-packing-steps-v2.jpg" alt="An adult checks a work-trip checklist against the items inside a commuter bag on a desk" class="wp-image-226" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -435,8 +434,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <h2 class="wp-block-heading">Can programming help you practice logical thinking?</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":133,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-predict-check-v2.png" alt="An adult compares three pictorial workflow cards with visual results on a laptop screen" class="wp-image-133" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":227,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-predict-check-v2.jpg" alt="An adult compares three pictorial workflow cards with visual results on a laptop screen" class="wp-image-227" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -479,8 +478,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <h2 class="wp-block-heading">When you get stuck, check your knowledge and actual results</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":148,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-debug-cases-v2.jpg" alt="An adult compares empty, single-item, and two-item pantry stock trays beside a laptop and notebook" class="wp-image-148" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":228,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-debug-cases-v2-1.jpg" alt="An adult compares empty, single-item, and two-item pantry stock trays beside a laptop and notebook" class="wp-image-228" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -521,8 +520,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <h2 class="wp-block-heading">Start by checking inventory levels on paper</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":149,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-paper-rule-v2.png" alt="An adult traces a boundary-condition table on paper with a pen beside a cup of coffee" class="wp-image-149" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":229,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-paper-rule-v2.jpg" alt="An adult traces a boundary-condition table on paper with a pen beside a cup of coffee" class="wp-image-229" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->

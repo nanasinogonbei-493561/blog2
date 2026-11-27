@@ -2,7 +2,7 @@
 categories:
 - 開発の裏側
 excerpt: アプリやプログラムは機能が少ないほどよいのでしょうか。机の引き出し整理や本の返却メモを例に、使う人の迷いを減らしつつ安全や取り消し機能を守る設計の基準を整理しました。削ってよい項目と残すべき仕組みを、紙の画面と確認表で見分けられます。
-featured_image: articles/images/simple-programs-products-for-kids/01-desk-bag-v2.jpg
+featured_image: articles/images/simple-programs-products-for-kids/optimized/01-desk-bag-v2.jpg
 featured_image_alt: 必要な道具が取り出しやすい整理された引き出しと、物が詰め込まれた引き出しを比べるイラスト
 slug: simple-programs-products
 status: publish
@@ -11,28 +11,28 @@ tags:
 - アプリ設計
 - 初心者向け
 title: アプリ設計はシンプルが正解？使いやすさと安全を両立する機能の絞り方
-wordpress_featured_media_id: 134
+wordpress_featured_media_id: 253
 wordpress_inline_media:
   01-desk-bag-v2.jpg:
     alt: 必要な道具が取り出しやすい整理された引き出しと、物が詰め込まれた引き出しを比べるイラスト
-    id: 134
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-desk-bag-v2.jpg
-  02-clear-steps-v2.png:
+    id: 253
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-desk-bag-v2-1.jpg
+  02-clear-steps-v2.jpg:
     alt: 返却確認・日付比較・通知を表す3枚のカードを矢印で順番に並べる大人のイラスト
-    id: 135
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-clear-steps-v2.png
-  03-simple-screen-v2.png:
+    id: 254
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-clear-steps-v2.jpg
+  03-simple-screen-v2.jpg:
     alt: 必要な情報だけのシンプルな画面案と、入力項目が多すぎる画面案を見比べる大人のイラスト
-    id: 136
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-simple-screen-v2.png
+    id: 255
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-simple-screen-v2.jpg
   04-locker-safety-v2.jpg:
     alt: 使いやすい取っ手のあるロッカーと、内側で安全を守る鍵の仕組みを描いたイラスト
-    id: 150
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-locker-safety-v2.jpg
-  05-paper-test-v2.png:
+    id: 256
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-locker-safety-v2-1.jpg
+  05-paper-test-v2.jpg:
     alt: 2人の大人が本の返却メモの紙画面モックを試し、操作と反応を確認するイラスト
-    id: 151
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-paper-test-v2.png
+    id: 257
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-paper-test-v2.jpg
 wordpress_post_id: 100
 wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-products/
 ---
@@ -71,8 +71,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <h2 class="wp-block-heading">プログラムやアプリのシンプルさは、数だけでは決まりません</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":134,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-desk-bag-v2.jpg" alt="必要な道具が取り出しやすい整理された引き出しと、物が詰め込まれた引き出しを比べるイラスト" class="wp-image-134" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":253,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-desk-bag-v2-1.jpg" alt="必要な道具が取り出しやすい整理された引き出しと、物が詰め込まれた引き出しを比べるイラスト" class="wp-image-253" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -101,8 +101,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <h2 class="wp-block-heading">プログラムは「何をする手順か」が分かるようにします</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":135,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-clear-steps-v2.png" alt="返却確認・日付比較・通知を表す3枚のカードを矢印で順番に並べる大人のイラスト" class="wp-image-135" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":254,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-clear-steps-v2.jpg" alt="返却確認・日付比較・通知を表す3枚のカードを矢印で順番に並べる大人のイラスト" class="wp-image-254" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -145,8 +145,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <h2 class="wp-block-heading">アプリは「用事が済むまでの迷い」を減らします</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":136,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-simple-screen-v2.png" alt="必要な情報だけのシンプルな画面案と、入力項目が多すぎる画面案を見比べる大人のイラスト" class="wp-image-136" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":255,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-simple-screen-v2.jpg" alt="必要な情報だけのシンプルな画面案と、入力項目が多すぎる画面案を見比べる大人のイラスト" class="wp-image-255" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -174,7 +174,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>そもそも、紙のメモや普段のカレンダーで忘れず返せているなら、それで十分です。家族と同じ一覧を見たいなど、今の方法で困ることが残ったらアプリを考えます。題材の絞り方は、<a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color:#0000ff;text-decoration:underline;">自分の悩み・困り事を自作アプリにする方法｜題材の見つけ方から小さな試作まで</a>につながります。</p>
+<p>そもそも、紙のメモや普段のカレンダーで忘れず返せているなら、それで十分です。家族と同じ一覧を見たいなど、今の方法で困ることが残ったらアプリを考えます。題材の絞り方は、<a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color:#0000ff;text-decoration:underline;">自分の悩みから自作アプリを作る方法｜題材選びから小さな試作まで</a>につながります。</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -183,8 +183,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <h2 class="wp-block-heading">アプリの安全を守る仕組みや、間違いを取り消す方法は残します</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":150,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-locker-safety-v2.jpg" alt="使いやすい取っ手のあるロッカーと、内側で安全を守る鍵の仕組みを描いたイラスト" class="wp-image-150" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":256,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-locker-safety-v2-1.jpg" alt="使いやすい取っ手のあるロッカーと、内側で安全を守る鍵の仕組みを描いたイラスト" class="wp-image-256" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -239,8 +239,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <h2 class="wp-block-heading">シンプルにできたかは、紙の画面と実際の動きで確かめます</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":151,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-paper-test-v2.png" alt="2人の大人が本の返却メモの紙画面モックを試し、操作と反応を確認するイラスト" class="wp-image-151" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":257,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-paper-test-v2.jpg" alt="2人の大人が本の返却メモの紙画面モックを試し、操作と反応を確認するイラスト" class="wp-image-257" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -313,7 +313,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <li><a href="https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team-development/" style="color:#0000ff;text-decoration:underline;">Webとスマホアプリはどうつながる？バックエンド・画面の役割分担を図解</a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li><a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color:#0000ff;text-decoration:underline;">自分の悩み・困り事を自作アプリにする方法｜題材の見つけ方から小さな試作まで</a></li>
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color:#0000ff;text-decoration:underline;">自分の悩みから自作アプリを作る方法｜題材選びから小さな試作まで</a></li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list --></div>
 <!-- /wp:group --></section>
@@ -339,8 +339,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <h2 class="wp-block-heading">Simplicity in programs and apps is not just about quantity</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":134,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-desk-bag-v2.jpg" alt="A neatly organized desk drawer holding a notebook, pen, and coiled cable beside an overstuffed drawer tangled with cords, keys, and old receipts" class="wp-image-134" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":253,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-desk-bag-v2-1.jpg" alt="A neatly organized desk drawer holding a notebook, pen, and coiled cable beside an overstuffed drawer tangled with cords, keys, and old receipts" class="wp-image-253" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -369,8 +369,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <h2 class="wp-block-heading">Make it clear what each step in a program does</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":135,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-clear-steps-v2.png" alt="An adult arranging three workflow cards connected by arrows for return check, calendar comparison, and reminder" class="wp-image-135" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":254,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-clear-steps-v2.jpg" alt="An adult arranging three workflow cards connected by arrows for return check, calendar comparison, and reminder" class="wp-image-254" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -413,8 +413,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <h2 class="wp-block-heading">Help people finish their task with less confusion</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":136,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-simple-screen-v2.png" alt="An adult comparing a clean phone mockup showing book, date, and save icons against an overloaded form screen" class="wp-image-136" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":255,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-simple-screen-v2.jpg" alt="An adult comparing a clean phone mockup showing book, date, and save icons against an overloaded form screen" class="wp-image-255" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -451,8 +451,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <h2 class="wp-block-heading">Keep app protections and ways to undo mistakes</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":150,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-locker-safety-v2.jpg" alt="A storage locker with a simple handle and an internal lock mechanism inspected by a maker" class="wp-image-150" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":256,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-locker-safety-v2-1.jpg" alt="A storage locker with a simple handle and an internal lock mechanism inspected by a maker" class="wp-image-256" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -507,8 +507,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <h2 class="wp-block-heading">Check simplicity with paper screens and the working app</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":151,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-paper-test-v2.png" alt="Two adults testing paper smartphone mockups for a book-return list and recording notes" class="wp-image-151" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":257,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-paper-test-v2.jpg" alt="Two adults testing paper smartphone mockups for a book-return list and recording notes" class="wp-image-257" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->

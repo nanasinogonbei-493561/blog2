@@ -2,7 +2,7 @@
 categories:
 - 課題と解決
 excerpt: 自分の悩み・困り事から自作アプリを考える手順を紹介します。困った場面の記録、既存の道具との比較、最初に作る機能の決め方、AIへの依頼文、試作品の確かめ方を具体例で整理。プログラミング未経験でも、何を作り、何から試すかを決められます。
-featured_image: articles/images/personal-problem-to-app/01-notice.png
+featured_image: articles/images/personal-problem-to-app/optimized/01-notice.jpg
 featured_image_alt: 日常の困り事を振り返り、自作アプリの題材をノートへ書き留める人のイラスト
 slug: personal-problem-to-app
 status: publish
@@ -10,27 +10,33 @@ tags:
 - 個人開発
 - アプリ開発
 - アイデア検証
-title: 自分の悩み・困り事を自作アプリにする方法｜題材の見つけ方から小さな試作まで
-wordpress_featured_media_id: 79
+title: 自分の悩みから自作アプリを作る方法｜題材選びから小さな試作まで
+wordpress_featured_media_id: 218
 wordpress_inline_media:
-  01-notice.png:
-    id: 79
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/01-notice.png
-  02-choose.png:
-    id: 80
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/02-choose.png
-  03-define.png:
-    id: 81
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/03-define.png
-  04-build.png:
-    id: 82
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/04-build.png
-  05-test.png:
-    id: 83
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/05-test.png
-  06-next.png:
-    id: 84
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/06-next.png
+  01-notice.jpg:
+    alt: 日常で探し直すことや忘れたことを振り返り、ノートへ困り事を書き留める人のイラスト
+    id: 218
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-notice.jpg
+  02-choose.jpg:
+    alt: 紙のノート、スマートフォン、表形式の道具を比べ、取り組む困り事を一つ選ぶ人のイラスト
+    id: 219
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-choose.jpg
+  03-define.jpg:
+    alt: 保存する記事の入力、一覧で確認する操作、読んだ印を付ける結果を紙に整理するイラスト
+    id: 220
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-define.jpg
+  04-build.jpg:
+    alt: 紙に描いた画面を見ながら、パソコンで小さな記事整理アプリを試作する人のイラスト
+    id: 221
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-build.jpg
+  05-test.jpg:
+    alt: 普段の休憩中にスマートフォンで保存記事を開き、使った時間や不便をノートに記録するイラスト
+    id: 222
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-test.jpg
+  06-next.jpg:
+    alt: 困り事を一つ選び、観察する、形にする、試すという次の行動を決める人のイラスト
+    id: 223
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/06-next.jpg
 wordpress_post_id: 85
 wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/
 ---
@@ -56,7 +62,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-t
 <!-- wp:tab-panels -->
 <div class="wp-block-tab-panels">
 <!-- wp:tab-panel {"label":"日本語","metadata":{"name":"日本語本文"}} -->
-<section role="tabpanel" tabindex="0" class="wp-block-tab-panel">
+<section role="tabpanel" tabindex="0" class="wp-block-tab-panel" lang="ja">
 <!-- wp:group {"metadata":{"name":"ja: 導入"},"className":"personal-app-panel","layout":{"type":"default"}} -->
 <div class="wp-block-group personal-app-panel">
 <!-- wp:paragraph -->
@@ -95,8 +101,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-t
 <!-- wp:heading -->
 <h2 class="wp-block-heading">自分の困り事は「面倒だった瞬間」から見つける</h2>
 <!-- /wp:heading -->
-<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":79} -->
-<figure class="wp-block-image size-full is-resized"><img class="wp-image-79" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/01-notice.png" alt="日常で探し直すことや忘れたことを振り返り、ノートへ困り事を書き留める人のイラスト" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":218} -->
+<figure class="wp-block-image size-full is-resized"><img class="wp-image-218" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-notice.jpg" alt="日常で探し直すことや忘れたことを振り返り、ノートへ困り事を書き留める人のイラスト" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 <!-- wp:paragraph -->
 <p>大きな悩みが思い浮かばないなら、少し面倒だった瞬間を拾うだけで十分です。たとえば3日間。週に一度の家事が気になるなら、その日もメモを取る期間に入れます。</p>
@@ -153,8 +159,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-t
 <!-- wp:heading -->
 <h2 class="wp-block-heading">題材は「負担・頻度・試しやすさ」で一つ選ぶ</h2>
 <!-- /wp:heading -->
-<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":80} -->
-<figure class="wp-block-image size-full is-resized"><img class="wp-image-80" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/02-choose.png" alt="紙のノート、スマートフォン、表形式の道具を比べ、取り組む困り事を一つ選ぶ人のイラスト" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":219} -->
+<figure class="wp-block-image size-full is-resized"><img class="wp-image-219" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-choose.jpg" alt="紙のノート、スマートフォン、表形式の道具を比べ、取り組む困り事を一つ選ぶ人のイラスト" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 <!-- wp:paragraph -->
 <p>候補がいくつかあれば、<strong>どのくらい負担か、何度起きるか、次に自分で試せるか</strong>を見比べます。毎日の小さな手間も、たまにしかない重い作業も候補。次に使う場面を思い浮かべやすいものから選びます。</p>
@@ -202,8 +208,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-t
 <!-- wp:heading -->
 <h2 class="wp-block-heading">悩みを「入力・操作・結果」に置き換える</h2>
 <!-- /wp:heading -->
-<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":81} -->
-<figure class="wp-block-image size-full is-resized"><img class="wp-image-81" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/03-define.png" alt="保存する記事の入力、一覧で確認する操作、読んだ印を付ける結果を紙に整理するイラスト" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":220} -->
+<figure class="wp-block-image size-full is-resized"><img class="wp-image-220" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-define.jpg" alt="保存する記事の入力、一覧で確認する操作、読んだ印を付ける結果を紙に整理するイラスト" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 <!-- wp:paragraph -->
 <p>自作する理由が残ったら、画面の名前を考えるより先に、何を入れ、何をすると、何が分かるかを書き出します。この例でできるようにしたいのは、<mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">休憩中に未読の記事を一つ開くこと</mark>です。</p>
@@ -258,8 +264,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-t
 <!-- wp:heading -->
 <h2 class="wp-block-heading">紙の画面を描いてから、動く試作品を作る</h2>
 <!-- /wp:heading -->
-<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":82} -->
-<figure class="wp-block-image size-full is-resized"><img class="wp-image-82" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/04-build.png" alt="紙に描いた画面を見ながら、パソコンで小さな記事整理アプリを試作する人のイラスト" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":221} -->
+<figure class="wp-block-image size-full is-resized"><img class="wp-image-221" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-build.jpg" alt="紙に描いた画面を見ながら、パソコンで小さな記事整理アプリを試作する人のイラスト" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 <!-- wp:paragraph -->
 <p>紙に描くのは、記事名とURLの入力欄、未読の一覧、それに「読んだ」ボタン。架空の記事を3件用意して、追加してから読んだ印を付けるまで、指でたどります。見た目を整えるのはあとで十分です。</p>
@@ -346,8 +352,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-t
 <!-- wp:heading -->
 <h2 class="wp-block-heading">実際に困る場面で使い、手間が減ったか確かめる</h2>
 <!-- /wp:heading -->
-<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":83} -->
-<figure class="wp-block-image size-full is-resized"><img class="wp-image-83" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/05-test.png" alt="普段の休憩中にスマートフォンで保存記事を開き、使った時間や不便をノートに記録するイラスト" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":222} -->
+<figure class="wp-block-image size-full is-resized"><img class="wp-image-222" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-test.jpg" alt="普段の休憩中にスマートフォンで保存記事を開き、使った時間や不便をノートに記録するイラスト" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 <!-- wp:paragraph -->
 <p>試作品が動いたら、次はいつもの休憩で使ってみます。1週間を区切りにするなら、その間に未読の記事を探した回数もメモしておきます。そもそも使う場面が来なければ、良し悪しを決めるのは次の機会で十分です。</p>
@@ -402,15 +408,15 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-t
 <!-- wp:heading -->
 <h2 class="wp-block-heading">今日困ったことを一つ書き、小さく試す</h2>
 <!-- /wp:heading -->
-<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":84} -->
-<figure class="wp-block-image size-full is-resized"><img class="wp-image-84" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/06-next.png" alt="困り事を一つ選び、観察する、形にする、試すという次の行動を決める人のイラスト" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":223} -->
+<figure class="wp-block-image size-full is-resized"><img class="wp-image-223" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/06-next.jpg" alt="困り事を一つ選び、観察する、形にする、試すという次の行動を決める人のイラスト" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 <!-- wp:paragraph -->
 <p>今日の出来事なら、<mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">「困った場面／今の対処法／残った手間」</mark>を一行で書き出してみます。「休憩中、未読の記事が見つからない／ブックマークへ保存している／読んだ記事と混ざる」と書けたら、次の休憩では未読用のフォルダを試せます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>自分の道具として使い続けられそうなら、同じ悩みを持つ人にも、最近困った場面を聞く手があります。1人に話を聞くところから始めるなら、<a href="https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-problem-with-an-app/" style="color: #0000ff; text-decoration: underline;">1人の困り事を自作アプリで解決する方法</a>が役立ちます。複数の人へ質問を広げるなら、<a href="https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-ideas/" style="color: #0000ff; text-decoration: underline;">Googleフォームで自作アプリを考える方法</a>も参考になります。</p>
+<p>自分の道具として使い続けられそうなら、同じ悩みを持つ人にも、最近困った場面を聞く手があります。1人に話を聞くところから始めるなら、<a href="https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-problem-with-an-app/" style="color: #0000ff; text-decoration: underline;">作りたいアプリがない人へ｜1人の困り事から自作アプリを作る方法</a>が役立ちます。複数の人へ質問を広げるなら、<a href="https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-ideas/" style="color: #0000ff; text-decoration: underline;">アンケートでアプリのアイデアを検証する方法｜Googleフォーム質問例</a>も参考になります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -421,12 +427,48 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-t
 <p>自作が向くのは、今の道具で残る不便が具体的にあり、使いながら直す時間を取れる人です。すぐに解決したい人や、管理の手間を増やしたくない人は、既存の道具を使うほうが合う場合があります。</p>
 <!-- /wp:paragraph -->
 
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">4つの題材探し記事の使い分け</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>このブログでは、誰の困り事を出発点にするかに応じて4つのアプローチを分けて整理しています。自分の状況に合う入口から選んでみてください。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div class="table-scroll"><table><caption>アプリ題材の見つけ方・検証記事の役割分担</caption><thead><tr><th scope="col">今の状況</th><th scope="col">向いている進め方</th><th scope="col">読む記事</th></tr></thead><tbody><tr><td>自分自身の不便をすぐ形にしたい</td><td>日常の「面倒だった瞬間」を1つ選んで試作する</td><td>本記事（自分の悩みから自作アプリを作る方法）</td></tr><tr><td>身近な誰か1人の困り事を助けたい</td><td>1人に最近の困った場面を聞き取り、試用してもらう</td><td><a href="https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-problem-with-an-app/" style="color: #0000ff; text-decoration: underline;">作りたいアプリがない人へ｜1人の困り事から自作アプリを作る方法</a></td></tr><tr><td>複数の人の頻度と体験を比べたい</td><td>Googleフォームで定性・定量アンケートを集める</td><td><a href="https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-ideas/" style="color: #0000ff; text-decoration: underline;">アンケートでアプリのアイデアを検証する方法｜Googleフォーム質問例</a></td></tr><tr><td>公開依頼やレビューから広く探したい</td><td>公開情報から30件を集計・採点し、聞き取りへ進む</td><td><a href="https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-problems-to-app-ideas/" style="color: #0000ff; text-decoration: underline;">クラウドソーシングでアプリのアイデアを探す方法｜収集から検証まで</a></td></tr></tbody></table></div>
+<!-- /wp:html -->
+
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"ja: 関連記事"},"className":"personal-app-panel","layout":{"type":"default"}} -->
+<div class="wp-block-group personal-app-panel">
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">関連記事</h3>
+<!-- /wp:heading -->
+<!-- wp:list -->
+<ul class="wp-block-list">
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-problem-with-an-app/" style="color: #0000ff; text-decoration: underline;">作りたいアプリがない人へ｜1人の困り事から自作アプリを作る方法</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-ideas/" style="color: #0000ff; text-decoration: underline;">アンケートでアプリのアイデアを検証する方法｜Googleフォーム質問例</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-problems-to-app-ideas/" style="color: #0000ff; text-decoration: underline;">クラウドソーシングでアプリのアイデアを探す方法｜収集から検証まで</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-products/" style="color: #0000ff; text-decoration: underline;">アプリ設計はシンプルが正解？使いやすさと安全を両立する機能の絞り方</a></li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
 </div>
 <!-- /wp:group -->
 </section>
 <!-- /wp:tab-panel -->
 <!-- wp:tab-panel {"label":"English","metadata":{"name":"English本文"}} -->
-<section role="tabpanel" tabindex="0" class="wp-block-tab-panel">
+<section role="tabpanel" tabindex="0" class="wp-block-tab-panel" lang="en">
 <!-- wp:group {"metadata":{"name":"en: Introduction"},"className":"personal-app-panel","layout":{"type":"default"}} -->
 <div class="wp-block-group personal-app-panel">
 <!-- wp:paragraph -->
@@ -469,8 +511,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-t
 <!-- wp:heading -->
 <h2 class="wp-block-heading">Find personal problems in moments that felt inconvenient</h2>
 <!-- /wp:heading -->
-<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":79} -->
-<figure class="wp-block-image size-full is-resized"><img class="wp-image-79" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/01-notice.png" alt="A person reviewing everyday moments of searching or forgetting and noting the difficulties in a notebook" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":218} -->
+<figure class="wp-block-image size-full is-resized"><img class="wp-image-218" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-notice.jpg" alt="A person reviewing everyday moments of searching or forgetting and noting the difficulties in a notebook" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 <!-- wp:paragraph -->
 <p>If no big problem comes to mind, pick up on the moments that felt a little harder than they should have. Three days is one option. For a weekly chore, include a day when you actually do it.</p>
@@ -527,8 +569,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-t
 <!-- wp:heading -->
 <h2 class="wp-block-heading">Choose one problem by burden, frequency, and ease of testing</h2>
 <!-- /wp:heading -->
-<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":80} -->
-<figure class="wp-block-image size-full is-resized"><img class="wp-image-80" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/02-choose.png" alt="A person comparing a notebook, a smartphone, and a table-based tool before choosing one problem to address" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":219} -->
+<figure class="wp-block-image size-full is-resized"><img class="wp-image-219" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-choose.jpg" alt="A person comparing a notebook, a smartphone, and a table-based tool before choosing one problem to address" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 <!-- wp:paragraph -->
 <p>If several problems come to mind, compare how much work they cost you, how often they occur, and whether you can try a fix. Small daily hassles count, and so do rare but demanding tasks. Start with one whose next use you can picture.</p>
@@ -576,8 +618,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-t
 <!-- wp:heading -->
 <h2 class="wp-block-heading">Translate the problem into input, actions, and a result</h2>
 <!-- /wp:heading -->
-<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":81} -->
-<figure class="wp-block-image size-full is-resized"><img class="wp-image-81" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/03-define.png" alt="A person planning the input, list actions, and read status of a small saved-article app on paper" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":220} -->
+<figure class="wp-block-image size-full is-resized"><img class="wp-image-220" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-define.jpg" alt="A person planning the input, list actions, and read status of a small saved-article app on paper" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 <!-- wp:paragraph -->
 <p>If you still have a reason to build, write down what you enter, what you do, and what comes out. What would count as success here? <mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">You can open one unread article during a break.</mark></p>
@@ -632,8 +674,8 @@ I will use it during [real situation] and record [what to check].</code></pre>
 <!-- wp:heading -->
 <h2 class="wp-block-heading">Sketch the screen before making a working prototype</h2>
 <!-- /wp:heading -->
-<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":82} -->
-<figure class="wp-block-image size-full is-resized"><img class="wp-image-82" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/04-build.png" alt="A person using a paper sketch to build a small saved-article app prototype on a laptop" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":221} -->
+<figure class="wp-block-image size-full is-resized"><img class="wp-image-221" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-build.jpg" alt="A person using a paper sketch to build a small saved-article app prototype on a laptop" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 <!-- wp:paragraph -->
 <p>On paper, draw fields for the title and URL, an unread list, and a “Read” button. Make up three articles and trace the steps with your finger, from adding an article to marking it read. The design can wait.</p>
@@ -721,8 +763,8 @@ Do not describe untested behavior as verified.</code></pre>
 <!-- wp:heading -->
 <h2 class="wp-block-heading">Use it when the problem occurs and check whether effort falls</h2>
 <!-- /wp:heading -->
-<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":83} -->
-<figure class="wp-block-image size-full is-resized"><img class="wp-image-83" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/05-test.png" alt="A person opening saved articles during an ordinary break and recording time and difficulties in a notebook" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":222} -->
+<figure class="wp-block-image size-full is-resized"><img class="wp-image-222" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-test.jpg" alt="A person opening saved articles during an ordinary break and recording time and difficulties in a notebook" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 <!-- wp:paragraph -->
 <p>Once it works, take it into an ordinary break. If you give the trial a week, note how often you actually look for an unread article. If the situation never comes up, wait until it does before deciding.</p>
@@ -777,15 +819,15 @@ Do not describe untested behavior as verified.</code></pre>
 <!-- wp:heading -->
 <h2 class="wp-block-heading">Write down one problem from today and try a small solution</h2>
 <!-- /wp:heading -->
-<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":84} -->
-<figure class="wp-block-image size-full is-resized"><img class="wp-image-84" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/06-next.png" alt="A person choosing one difficulty and deciding the next steps of observing, shaping a solution, and trying it" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":223} -->
+<figure class="wp-block-image size-full is-resized"><img class="wp-image-223" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/06-next.jpg" alt="A person choosing one difficulty and deciding the next steps of observing, shaping a solution, and trying it" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 <!-- wp:paragraph -->
 <p>Write down <mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">“what happened today / what I do now / what’s still a hassle.”</mark> For example, “Couldn’t find an unread article on my break / save links in bookmarks / read and unread articles get mixed together.” Try an unread folder on your next break.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>If the tool seems worth continuing for yourself, ask someone with a similar problem about a recent difficult moment. See <a href="https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-problem-with-an-app/" style="color: #0000ff; text-decoration: underline;">How to Solve One Person’s Problem With a Homemade App: From Idea to Sharing</a> for an interview-based approach. To ask a wider group, <a href="https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-ideas/" style="color: #0000ff; text-decoration: underline;">Plan Your Own App With Google Forms: From Survey Questions to a Prototype</a> covers the next step.</p>
+<p>If the tool seems worth continuing for yourself, ask someone with a similar problem about a recent difficult moment. See <a href="https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-problem-with-an-app/" style="color: #0000ff; text-decoration: underline;">No App Idea Yet? How to Build a Homemade App From One Person’s Problem</a> for an interview-based approach. To ask a wider group, <a href="https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-ideas/" style="color: #0000ff; text-decoration: underline;">How to Validate App Ideas With Surveys: Google Forms Questions to a Prototype</a> covers the next step.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -796,6 +838,42 @@ Do not describe untested behavior as verified.</code></pre>
 <p>Building your own tool may fit if a specific inconvenience remains and you have time to improve it as you use it. Existing tools may be a better fit if you need a solution immediately or do not want more maintenance work.</p>
 <!-- /wp:paragraph -->
 
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Choosing among the four app-idea guides</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>This blog organizes four ways to find and validate an app idea depending on whose problem you start from. Pick the guide that matches your current situation.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div class="table-scroll"><table><caption>How the four app-idea guides divide roles</caption><thead><tr><th scope="col">Your situation</th><th scope="col">Best starting approach</th><th scope="col">Guide to read</th></tr></thead><tbody><tr><td>You want to turn your own annoyance into a quick prototype</td><td>Pick one moment of friction in your daily routine and test a minimal fix</td><td>This article (How to Turn a Personal Problem into a Homemade App)</td></tr><tr><td>You want to help one person you know</td><td>Interview one person about a recent hassle and test with them</td><td><a href="https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-problem-with-an-app/" style="color: #0000ff; text-decoration: underline;">No App Idea Yet? How to Build a Homemade App From One Person’s Problem</a></td></tr><tr><td>You want to compare patterns across multiple people</td><td>Combine count and open-ended questions in Google Forms</td><td><a href="https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-ideas/" style="color: #0000ff; text-decoration: underline;">How to Validate App Ideas With Surveys: Google Forms Questions to a Prototype</a></td></tr><tr><td>You want to research public requests and reviews broadly</td><td>Collect 30 public problems, score candidates, and interview five people</td><td><a href="https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-problems-to-app-ideas/" style="color: #0000ff; text-decoration: underline;">How to Find App Ideas on Crowdsourcing Sites: Collect, Group, and Validate Real Problems</a></td></tr></tbody></table></div>
+<!-- /wp:html -->
+
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"en: Related articles"},"className":"personal-app-panel","layout":{"type":"default"}} -->
+<div class="wp-block-group personal-app-panel">
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Related articles</h3>
+<!-- /wp:heading -->
+<!-- wp:list -->
+<ul class="wp-block-list">
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-problem-with-an-app/" style="color: #0000ff; text-decoration: underline;">No App Idea Yet? How to Build a Homemade App From One Person’s Problem</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-ideas/" style="color: #0000ff; text-decoration: underline;">How to Validate App Ideas With Surveys: Google Forms Questions to a Prototype</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-problems-to-app-ideas/" style="color: #0000ff; text-decoration: underline;">How to Find App Ideas on Crowdsourcing Sites: Collect, Group, and Validate Real Problems</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-products/" style="color: #0000ff; text-decoration: underline;">Should App Design Always Be Simple? Balancing Usability, Safety, and Feature Scope</a></li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
 </div>
 <!-- /wp:group -->
 </section>

@@ -2,7 +2,7 @@
 categories:
 - 課題と解決
 excerpt: 作りたいアプリがない人向けに、1人の困り事から題材を見つける方法を紹介します。聞き取りの質問、コピーして使えるAIへの相談文、既存ツールとの比べ方、試作品の確かめ方を掲載。外部サービスで少人数へ提供する手順と注意点も、架空の例で説明します。
-featured_image: articles/images/solve-one-persons-problem-with-an-app/01-listen.png
+featured_image: articles/images/solve-one-persons-problem-with-an-app/optimized/01-listen.jpg
 featured_image_alt: 身近な1人の困り事を聞き、今の作業をメモする様子のイラスト
 slug: solve-one-persons-problem-with-an-app
 status: publish
@@ -10,27 +10,33 @@ tags:
 - 個人開発
 - アプリ開発
 - アイデア検証
-title: 1人の困り事を自作アプリで解決する方法｜アイデア出しから提供まで
-wordpress_featured_media_id: 55
+title: 作りたいアプリがない人へ｜1人の困り事から自作アプリを作る方法
+wordpress_featured_media_id: 259
 wordpress_inline_media:
-  01-listen.png:
-    id: 55
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/01-listen.png
-  02-ideas.png:
-    id: 56
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/02-ideas.png
-  03-alternatives.png:
-    id: 57
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/03-alternatives.png
-  04-prototype.png:
-    id: 58
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/04-prototype.png
-  05-share.png:
-    id: 59
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/05-share.png
-  06-next-step.png:
-    id: 60
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/06-next-step.png
+  01-listen.jpg:
+    alt: 身近な1人の困り事を聞き、今の作業をメモする様子のイラスト
+    id: 259
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-listen.jpg
+  02-ideas.jpg:
+    alt: 困る場面をAIに相談し、通知や一覧などの小さな解決案を比べるイラスト
+    id: 260
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-ideas.jpg
+  03-alternatives.jpg:
+    alt: 紙のメモ、スマートフォンのToDoリスト、表のような既存の道具を比べるイラスト
+    id: 261
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-alternatives.jpg
+  04-prototype.jpg:
+    alt: 返す物を管理する小さなアプリの試作品を、本人と一緒に確認するイラスト
+    id: 262
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-prototype.jpg
+  05-share.jpg:
+    alt: 外部の公開サービスを介して、少人数が自分のスマートフォンでアプリを試すイラスト
+    id: 263
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-share.jpg
+  06-next-step.jpg:
+    alt: 聞く・小さく試す・共有する流れを確認し、最初の行動をメモするイラスト
+    id: 264
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/06-next-step-1.jpg
 wordpress_post_id: 61
 wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-problem-with-an-app/
 ---
@@ -57,7 +63,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <!-- wp:tab-panels -->
 <div class="wp-block-tab-panels">
 <!-- wp:tab-panel {"label":"日本語","metadata":{"name":"日本語本文"}} -->
-<section role="tabpanel" tabindex="0" class="wp-block-tab-panel">
+<section role="tabpanel" tabindex="0" class="wp-block-tab-panel" lang="ja">
 <!-- wp:group {"metadata":{"name":"日本語：導入"},"className":"one-person-app-panel panel-ja","layout":{"type":"default"}} -->
 <div class="wp-block-group one-person-app-panel panel-ja">
 <!-- wp:paragraph -->
@@ -105,8 +111,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <h2 class="wp-block-heading">1人の「最近困った場面」から題材を見つける</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":55,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/01-listen.png" alt="身近な1人の困り事を聞き、今の作業をメモする様子のイラスト" class="wp-image-55" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":259,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-listen.jpg" alt="身近な1人の困り事を聞き、今の作業をメモする様子のイラスト" class="wp-image-259" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -136,7 +142,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>身近に相談できる相手がいなければ、まず自分が直近で困った作業を1つ書きます。広く題材を探したい場合は、前回の<a href="https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-problems-to-app-ideas/" style="color: #0000ff; text-decoration: underline;">クラウドソーシングからアプリのアイデアを見つける方法</a>も参考になります。</p>
+<p>身近に相談できる相手がいなければ、まず自分が直近で困った作業を1つ書きます。広く題材を探したい場合は、前回の<a href="https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-problems-to-app-ideas/" style="color: #0000ff; text-decoration: underline;">クラウドソーシングでアプリのアイデアを探す方法｜収集から検証まで</a>も参考になります。</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -172,8 +178,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <h2 class="wp-block-heading">作りたいものがないときは、困る場面をAIに渡す</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":56,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/02-ideas.png" alt="困る場面をAIに相談し、通知や一覧などの小さな解決案を比べるイラスト" class="wp-image-56" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":260,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-ideas.jpg" alt="困る場面をAIに相談し、通知や一覧などの小さな解決案を比べるイラスト" class="wp-image-260" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -221,8 +227,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <h2 class="wp-block-heading">既存の方法で解決できるなら、先に試す</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":57,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/03-alternatives.png" alt="紙のメモ、スマートフォンのToDoリスト、表のような既存の道具を比べるイラスト" class="wp-image-57" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":261,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-alternatives.jpg" alt="紙のメモ、スマートフォンのToDoリスト、表のような既存の道具を比べるイラスト" class="wp-image-261" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -270,8 +276,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <h2 class="wp-block-heading">1つの作業だけできるアプリを作り、本人に試してもらう</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":58,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/04-prototype.png" alt="返す物を管理する小さなアプリの試作品を、本人と一緒に確認するイラスト" class="wp-image-58" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":262,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-prototype.jpg" alt="返す物を管理する小さなアプリの試作品を、本人と一緒に確認するイラスト" class="wp-image-262" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -345,8 +351,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <h2 class="wp-block-heading">外部サービスを使い、少人数へアプリを提供する</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":59,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/05-share.png" alt="外部の公開サービスを介して、少人数が自分のスマートフォンでアプリを試すイラスト" class="wp-image-59" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":263,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-share.jpg" alt="外部の公開サービスを介して、少人数が自分のスマートフォンでアプリを試すイラスト" class="wp-image-263" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -415,8 +421,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <h2 class="wp-block-heading">最初の行動は、1人に1つの場面を聞くこと</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":60,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/06-next-step.png" alt="聞く・小さく試す・共有する流れを確認し、最初の行動をメモするイラスト" class="wp-image-60" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":264,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/06-next-step-1.jpg" alt="聞く・小さく試す・共有する流れを確認し、最初の行動をメモするイラスト" class="wp-image-264" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -455,15 +461,35 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"日本語：関連記事"},"className":"one-person-app-panel panel-ja","layout":{"type":"default"}} -->
+<div class="wp-block-group one-person-app-panel panel-ja">
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">関連記事</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color: #0000ff; text-decoration: underline;">自分の悩みから自作アプリを作る方法｜題材選びから小さな試作まで</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-ideas/" style="color: #0000ff; text-decoration: underline;">アンケートでアプリのアイデアを検証する方法｜Googleフォーム質問例</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-problems-to-app-ideas/" style="color: #0000ff; text-decoration: underline;">クラウドソーシングでアプリのアイデアを探す方法｜収集から検証まで</a></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+</div>
+<!-- /wp:group -->
 </section>
 <!-- /wp:tab-panel -->
 
 <!-- wp:tab-panel {"label":"English","metadata":{"name":"English body"}} -->
-<section role="tabpanel" tabindex="0" class="wp-block-tab-panel">
+<section role="tabpanel" tabindex="0" class="wp-block-tab-panel" lang="en">
 <!-- wp:group {"metadata":{"name":"English：Introduction"},"className":"one-person-app-panel panel-en","layout":{"type":"default"}} -->
 <div class="wp-block-group one-person-app-panel panel-en">
 <!-- wp:paragraph -->
-<p><strong>How to Solve One Person’s Problem With a Homemade App: From Idea to Sharing</strong></p>
+<p><strong>No App Idea Yet? How to Build a Homemade App From One Person’s Problem</strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -511,8 +537,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <h2 class="wp-block-heading">Find a starting point in one person’s recent difficulty</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":55,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/01-listen.png" alt="One person listening to another’s everyday difficulty and taking notes about their current process" class="wp-image-55" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":259,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-listen.jpg" alt="One person listening to another’s everyday difficulty and taking notes about their current process" class="wp-image-259" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -578,8 +604,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-
 <h2 class="wp-block-heading">Give AI a specific situation when you have no app idea</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":56,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/02-ideas.png" alt="A person asking AI about a concrete difficulty and comparing small solutions such as reminders and lists" class="wp-image-56" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":260,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-ideas.jpg" alt="A person asking AI about a concrete difficulty and comparing small solutions such as reminders and lists" class="wp-image-260" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -627,8 +653,8 @@ Do not describe unverified demand or benefits as facts.</code></pre>
 <h2 class="wp-block-heading">Try existing methods before building</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":57,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/03-alternatives.png" alt="A person comparing existing tools such as paper notes, a smartphone task list, and a table" class="wp-image-57" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":261,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-alternatives.jpg" alt="A person comparing existing tools such as paper notes, a smartphone task list, and a table" class="wp-image-261" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -676,8 +702,8 @@ Do not describe unverified demand or benefits as facts.</code></pre>
 <h2 class="wp-block-heading">Build an app for one task and let the person try it</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":58,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/04-prototype.png" alt="A maker and intended user reviewing a small prototype for managing items to return" class="wp-image-58" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":262,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-prototype.jpg" alt="A maker and intended user reviewing a small prototype for managing items to return" class="wp-image-262" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -751,8 +777,8 @@ Do not describe unverified demand or benefits as facts.</code></pre>
 <h2 class="wp-block-heading">Use an external service to offer the app to a few people</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":59,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/05-share.png" alt="A small group trying an app on their own phones through an external hosting service" class="wp-image-59" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":263,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-share.jpg" alt="A small group trying an app on their own phones through an external hosting service" class="wp-image-263" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -821,8 +847,8 @@ Do not describe unverified demand or benefits as facts.</code></pre>
 <h2 class="wp-block-heading">Start by asking one person about one situation</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":60,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/06-next-step.png" alt="A person reviewing the steps of listening, trying something small, and sharing, then writing their first action" class="wp-image-60" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":264,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/06-next-step-1.jpg" alt="A person reviewing the steps of listening, trying something small, and sharing, then writing their first action" class="wp-image-264" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -859,6 +885,26 @@ Do not describe unverified demand or benefits as facts.</code></pre>
 <!-- wp:paragraph -->
 <p><em>Existing-service features and plans reflect official sources checked on October 4, 2026. Please check each service’s latest documentation for current pricing and specifications.</em></p>
 <!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"English：Related articles"},"className":"one-person-app-panel panel-en","layout":{"type":"default"}} -->
+<div class="wp-block-group one-person-app-panel panel-en">
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Related articles</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color: #0000ff; text-decoration: underline;">How to Turn a Personal Problem into a Homemade App: From Finding an Idea to a Small Prototype</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-ideas/" style="color: #0000ff; text-decoration: underline;">How to Validate App Ideas With Surveys: Google Forms Questions to a Prototype</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-problems-to-app-ideas/" style="color: #0000ff; text-decoration: underline;">How to Find App Ideas on Crowdsourcing Sites: Collect, Group, and Validate Real Problems</a></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
 </div>
 <!-- /wp:group -->
 </section>

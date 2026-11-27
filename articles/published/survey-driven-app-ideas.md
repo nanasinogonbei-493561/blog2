@@ -2,35 +2,41 @@
 categories:
 - 開発の裏側
 excerpt: 借りた物を返す日に、持っていく物が分からず手が止まった。そんな体験をGoogleフォームで集めるところから、自作アプリの題材は探せます。頻度と体験を分けて聞く質問例、回答を数えるときの注意点、今の道具を試してから試作品を作る流れをまとめました。
-featured_image: articles/images/survey-driven-app-ideas/01-questions.png
+featured_image: articles/images/survey-driven-app-ideas/optimized/01-questions.jpg
 featured_image_alt: 選択式と自由記述の質問を組み合わせ、困り事を調べるアンケートを考える人のイラスト
 slug: survey-driven-app-ideas
 status: publish
 tags:
-- Googleフォーム
 - 個人開発
+- アプリ開発
 - アイデア検証
-title: Googleフォームで自作アプリを考える方法｜アンケートの質問例から試作まで
-wordpress_featured_media_id: 70
+title: アンケートでアプリのアイデアを検証する方法｜Googleフォーム質問例
+wordpress_featured_media_id: 266
 wordpress_inline_media:
-  01-questions.png:
-    id: 70
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/01-questions.png
-  02-form-settings.png:
-    id: 71
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/02-form-settings.png
-  03-sort-ideas.png:
-    id: 72
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/03-sort-ideas.png
-  04-existing-tools.png:
-    id: 73
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/04-existing-tools.png
-  05-small-app.png:
-    id: 74
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/05-small-app.png
-  06-try-improve.png:
-    id: 75
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/06-try-improve.png
+  01-questions.jpg:
+    alt: 選択式と自由記述の質問を組み合わせ、困り事を調べるアンケートを考える人のイラスト
+    id: 266
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-questions.jpg
+  02-form-settings.jpg:
+    alt: パソコンとスマートフォンでアンケートを確認し、回答の共有範囲を見直す人のイラスト
+    id: 267
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-form-settings.jpg
+  03-sort-ideas.jpg:
+    alt: アンケートの件数と体験談を並べ、似た困り事ごとにまとめて1つの案を選ぶ人のイラスト
+    id: 268
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-sort-ideas.jpg
+  04-existing-tools.jpg:
+    alt: 借りた本を前に、紙のメモ、カレンダー、スマートフォンのToDoリストを比べる人のイラスト
+    id: 269
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-existing-tools-1.jpg
+  05-small-app.jpg:
+    alt: 返す物、返却先、日付、完了の操作に絞った小さなアプリを紙とスマートフォンで考える人のイラスト
+    id: 270
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-small-app.jpg
+  06-try-improve.jpg:
+    alt: 借りた物の一覧をスマートフォンで試す人と、迷った操作をメモして改善につなげる人のイラスト
+    id: 271
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/06-try-improve.jpg
 wordpress_post_id: 76
 wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-ideas/
 ---
@@ -56,13 +62,13 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 
 <!-- wp:tab-panels -->
 <div class="wp-block-tab-panels"><!-- wp:tab-panel {"label":"日本語","metadata":{"name":"日本語本文"}} -->
-<section role="tabpanel" tabindex="0" class="wp-block-tab-panel"><!-- wp:group {"metadata":{"name":"ja: 導入"},"className":"survey-app-panel panel-ja","layout":{"type":"default"}} -->
+<section role="tabpanel" tabindex="0" class="wp-block-tab-panel" lang="ja"><!-- wp:group {"metadata":{"name":"ja: 導入"},"className":"survey-app-panel panel-ja","layout":{"type":"default"}} -->
 <div class="wp-block-group survey-app-panel panel-ja"><!-- wp:paragraph -->
 <p>「どんなアプリが欲しい？」と聞く前に、「最後に困ったとき、何があった？」と聞いてみる。Googleフォームでアイデアを探すなら、<strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">困った回数と、そのときの出来事を両方聞く</mark></strong>ところから始められます。借りた物の返却を例に、回答を読んで、残る不便を試作品で確かめるところまで扱います。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>前回の<a href="https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-problem-with-an-app/" style="color: #0000ff; text-decoration: underline;">1人の困り事を自作アプリで解決する方法</a>では、身近な人への聞き取りから始めました。今回は同じ「借りた物の返却」を題材に、アンケートへ広げるとどう見方が変わるかをたどります。</p>
+<p>前回の<a href="https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-problem-with-an-app/" style="color: #0000ff; text-decoration: underline;">作りたいアプリがない人へ｜1人の困り事から自作アプリを作る方法</a>では、身近な人への聞き取りから始めました。今回は同じ「借りた物の返却」を題材に、アンケートへ広げるとどう見方が変わるかをたどります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
@@ -97,8 +103,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <h2 class="wp-block-heading">誰の困り事を調べるか決め、数字と体験を分けて聞く</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":70,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/01-questions.png" alt="選択式と自由記述の質問を組み合わせ、困り事を調べるアンケートを考える人のイラスト" class="wp-image-70" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":266,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-questions.jpg" alt="選択式と自由記述の質問を組み合わせ、困り事を調べるアンケートを考える人のイラスト" class="wp-image-266" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -151,8 +157,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <h2 class="wp-block-heading">Googleフォームを作り、回答しやすい設定で配る</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":71,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/02-form-settings.png" alt="パソコンとスマートフォンでアンケートを確認し、回答の共有範囲を見直す人のイラスト" class="wp-image-71" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":267,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-form-settings.jpg" alt="パソコンとスマートフォンでアンケートを確認し、回答の共有範囲を見直す人のイラスト" class="wp-image-267" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -229,8 +235,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <h2 class="wp-block-heading">回答の件数と体験を整理し、アイデアを1つに絞る</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":72,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/03-sort-ideas.png" alt="アンケートの件数と体験談を並べ、似た困り事ごとにまとめて1つの案を選ぶ人のイラスト" class="wp-image-72" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":268,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-sort-ideas.jpg" alt="アンケートの件数と体験談を並べ、似た困り事ごとにまとめて1つの案を選ぶ人のイラスト" class="wp-image-268" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -294,8 +300,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <h2 class="wp-block-heading">既存の道具で足りるか試し、自作する理由を確かめる</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":73,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/04-existing-tools.png" alt="借りた本を前に、紙のメモ、カレンダー、スマートフォンのToDoリストを比べる人のイラスト" class="wp-image-73" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":269,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-existing-tools-1.jpg" alt="借りた本を前に、紙のメモ、カレンダー、スマートフォンのToDoリストを比べる人のイラスト" class="wp-image-269" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -335,8 +341,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <h2 class="wp-block-heading">選んだアイデアを、1つの作業ができるアプリにする</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":74,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/05-small-app.png" alt="返す物、返却先、日付、完了の操作に絞った小さなアプリを紙とスマートフォンで考える人のイラスト" class="wp-image-74" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":270,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-small-app.jpg" alt="返す物、返却先、日付、完了の操作に絞った小さなアプリを紙とスマートフォンで考える人のイラスト" class="wp-image-270" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -410,8 +416,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <h2 class="wp-block-heading">試作品を使ってもらい、手間が減るかを確かめる</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":75,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/06-try-improve.png" alt="借りた物の一覧をスマートフォンで試す人と、迷った操作をメモして改善につなげる人のイラスト" class="wp-image-75" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":271,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/06-try-improve.jpg" alt="借りた物の一覧をスマートフォンで試す人と、迷った操作をメモして改善につなげる人のイラスト" class="wp-image-271" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -477,13 +483,31 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <!-- wp:paragraph -->
 <p><small>GoogleフォームとGoogle ToDo リストの仕様は2026年10月12日時点の公式ヘルプをもとにしています。最新の機能や仕様は各サービスの案内で確認してください。</small></p>
 <!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"ja: 関連記事"},"className":"survey-app-panel panel-ja","layout":{"type":"default"}} -->
+<div class="wp-block-group survey-app-panel panel-ja"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">関連記事</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-problem-with-an-app/" style="color: #0000ff; text-decoration: underline;">作りたいアプリがない人へ｜1人の困り事から自作アプリを作る方法</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color: #0000ff; text-decoration: underline;">自分の悩みから自作アプリを作る方法｜題材選びから小さな試作まで</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-problems-to-app-ideas/" style="color: #0000ff; text-decoration: underline;">クラウドソーシングでアプリのアイデアを探す方法｜収集から検証まで</a></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
 <!-- /wp:group --></section>
 <!-- /wp:tab-panel -->
 
 <!-- wp:tab-panel {"label":"English","metadata":{"name":"English body"}} -->
-<section role="tabpanel" tabindex="0" class="wp-block-tab-panel"><!-- wp:group {"metadata":{"name":"en: Introduction"},"className":"survey-app-panel panel-en","layout":{"type":"default"}} -->
+<section role="tabpanel" tabindex="0" class="wp-block-tab-panel" lang="en"><!-- wp:group {"metadata":{"name":"en: Introduction"},"className":"survey-app-panel panel-en","layout":{"type":"default"}} -->
 <div class="wp-block-group survey-app-panel panel-en"><!-- wp:paragraph -->
-<p><strong>Plan Your Own App With Google Forms: From Survey Questions to a Prototype</strong></p>
+<p><strong>How to Validate App Ideas With Surveys: Google Forms Questions to a Prototype</strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -491,7 +515,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>The previous article, <a href="https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-problem-with-an-app/" style="color: #0000ff; text-decoration: underline;">How to Solve One Person’s Problem With a Homemade App: From Idea to Sharing</a>, started with a conversation with someone you know. This article carries the same borrowed-item return example over to a survey so you can see how comparing wider responses changes what to build.</p>
+<p>The previous article, <a href="https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-problem-with-an-app/" style="color: #0000ff; text-decoration: underline;">No App Idea Yet? How to Build a Homemade App From One Person’s Problem</a>, started with a conversation with someone you know. This article carries the same borrowed-item return example over to a survey so you can see how comparing wider responses changes what to build.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
@@ -526,8 +550,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <h2 class="wp-block-heading">Choose whose problem to investigate, then ask about both counts and experiences</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":70,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/01-questions.png" alt="A person planning a survey that combines multiple-choice questions and written accounts of everyday difficulties" class="wp-image-70" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":266,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-questions.jpg" alt="A person planning a survey that combines multiple-choice questions and written accounts of everyday difficulties" class="wp-image-266" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -580,8 +604,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-
 <h2 class="wp-block-heading">Create the Google Form and share it with settings that suit respondents</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":71,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/02-form-settings.png" alt="A person reviewing a survey on a laptop and phone while checking who can access responses" class="wp-image-71" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":267,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-form-settings.jpg" alt="A person reviewing a survey on a laptop and phone while checking who can access responses" class="wp-image-267" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -658,8 +682,8 @@ Estimated time: [time confirmed through a trial response]</code></pre>
 <h2 class="wp-block-heading">Organize counts and stories, then choose one app idea</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":72,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/03-sort-ideas.png" alt="A person grouping survey counts and experience cards by similar difficulties and choosing one idea" class="wp-image-72" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":268,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-sort-ideas.jpg" alt="A person grouping survey counts and experience cards by similar difficulties and choosing one idea" class="wp-image-268" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -723,8 +747,8 @@ Estimated time: [time confirmed through a trial response]</code></pre>
 <h2 class="wp-block-heading">Try existing tools and establish a reason to build your own</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":73,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/04-existing-tools.png" alt="A person comparing a paper note, calendar, and phone task list beside borrowed books" class="wp-image-73" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":269,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-existing-tools-1.jpg" alt="A person comparing a paper note, calendar, and phone task list beside borrowed books" class="wp-image-269" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -764,8 +788,8 @@ Estimated time: [time confirmed through a trial response]</code></pre>
 <h2 class="wp-block-heading">Turn the selected idea into an app that supports one task</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":74,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/05-small-app.png" alt="A person sketching a small app limited to an item, return location, date, and completion action" class="wp-image-74" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":270,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-small-app.jpg" alt="A person sketching a small app limited to an item, return location, date, and completion action" class="wp-image-270" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -839,8 +863,8 @@ Explain unknowns and the limitations of this storage approach.</code></pre>
 <h2 class="wp-block-heading">Let people try the prototype and check whether it reduces effort</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":75,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/10/06-try-improve.png" alt="One person testing a borrowed-item list on a phone while another notes confusing steps for improvement" class="wp-image-75" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":271,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/06-try-improve.jpg" alt="One person testing a borrowed-item list on a phone while another notes confusing steps for improvement" class="wp-image-271" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -906,6 +930,24 @@ Explain unknowns and the limitations of this storage approach.</code></pre>
 <!-- wp:paragraph -->
 <p><small>Google Forms and Google Tasks details reflect official help pages checked on October 12, 2026. Please check Google’s current documentation for the latest features.</small></p>
 <!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"en: Related articles"},"className":"survey-app-panel panel-en","layout":{"type":"default"}} -->
+<div class="wp-block-group survey-app-panel panel-en"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Related articles</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-problem-with-an-app/" style="color: #0000ff; text-decoration: underline;">No App Idea Yet? How to Build a Homemade App From One Person’s Problem</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color: #0000ff; text-decoration: underline;">How to Turn a Personal Problem into a Homemade App: From Finding an Idea to a Small Prototype</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-problems-to-app-ideas/" style="color: #0000ff; text-decoration: underline;">How to Find App Ideas on Crowdsourcing Sites: Collect, Group, and Validate Real Problems</a></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
 <!-- /wp:group --></section>
 <!-- /wp:tab-panel --></div>
 <!-- /wp:tab-panels --></div>
