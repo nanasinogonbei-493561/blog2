@@ -2,7 +2,7 @@
 categories:
 - 開発の裏側
 excerpt: 「請求書を表に転記してほしい」という依頼から、どんな不便が見えるのでしょう。クラウドソーシングやアプリレビューを手がかりに、利用条件を確かめて困り事だけを記録し、本人に話を聞いてから試作する流れを、架空の例と7日間の進め方でまとめました。
-featured_image: articles/images/crowdsourcing-problems-to-app-ideas/01-overview.png
+featured_image: articles/images/crowdsourcing-problems-to-app-ideas/optimized/01-overview.jpg
 featured_image_alt: 複数の困り事を集めて整理し、小さなアプリの形にする流れを表したイラスト
 slug: crowdsourcing-problems-to-app-ideas
 status: publish
@@ -10,26 +10,29 @@ tags:
 - 個人開発
 - アプリ開発
 - アイデア検証
-- クラウドソーシング
-- MVP
-title: クラウドソーシングからアプリのアイデアを見つける方法｜困り事の収集・集計・検証
-wordpress_featured_media_id: 43
+title: クラウドソーシングでアプリのアイデアを探す方法｜収集から検証まで
+wordpress_featured_media_id: 205
 wordpress_inline_media:
-  01-overview.png:
-    id: 43
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/01-overview.png
-  02-collect-safely.png:
-    id: 44
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/02-collect-safely.png
-  03-cluster-score.png:
-    id: 45
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/03-cluster-score.png
-  04-validate.png:
-    id: 46
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/04-validate.png
-  05-mvp-measure.png:
-    id: 47
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/05-mvp-measure.png
+  01-overview.jpg:
+    alt: 困っている人の声を集め、分類してアプリ候補へ絞る流れを表したイラスト
+    id: 205
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-overview-1.jpg
+  02-collect-safely.jpg:
+    alt: 公開依頼やレビューなどから個人情報を除いて困り事を記録する人のイラスト
+    id: 206
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-collect-safely-1.jpg
+  03-cluster-score.jpg:
+    alt: 集めた困り事を似た内容ごとにまとめ、点数で候補を比較するイラスト
+    id: 207
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-cluster-score-1.jpg
+  04-validate.jpg:
+    alt: 困り事を持つ人と作り手が簡単な試作品を見ながら話すイラスト
+    id: 208
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-validate-1.jpg
+  05-mvp-measure.jpg:
+    alt: 小さなアプリを利用者に試してもらい、続行・修正・中止を判断するイラスト
+    id: 209
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-mvp-measure.jpg
 wordpress_post_id: 48
 wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-problems-to-app-ideas/
 ---
@@ -55,7 +58,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- wp:tab-panels -->
 <div class="wp-block-tab-panels">
 <!-- wp:tab-panel {"label":"日本語","metadata":{"name":"日本語本文"}} -->
-<section role="tabpanel" tabindex="0" class="wp-block-tab-panel">
+<section role="tabpanel" tabindex="0" class="wp-block-tab-panel" lang="ja">
 <!-- wp:group {"metadata":{"name":"日本語：導入・全体の流れ"},"className":"crowd-app-panel panel-ja","layout":{"type":"default"}} -->
 <div class="wp-block-group crowd-app-panel panel-ja">
 <!-- wp:paragraph -->
@@ -104,8 +107,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <h2 class="wp-block-heading">依頼を「作る機能」ではなく「困っている状況」として読む</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":43,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/01-overview.png" alt="困っている人の声を集め、分類してアプリ候補へ絞る流れを表したイラスト" class="wp-image-43" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":205,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-overview-1.jpg" alt="困っている人の声を集め、分類してアプリ候補へ絞る流れを表したイラスト" class="wp-image-205" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -176,8 +179,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <h2 class="wp-block-heading">利用条件を確認し、30件を目安に困り事を記録する</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":44,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/02-collect-safely.png" alt="公開依頼やレビューなどから個人情報を除いて困り事を記録する人のイラスト" class="wp-image-44" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":206,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-collect-safely-1.jpg" alt="公開依頼やレビューなどから個人情報を除いて困り事を記録する人のイラスト" class="wp-image-206" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -286,8 +289,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <h2 class="wp-block-heading">重複を除いて困り事を集計し、候補を採点する</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":45,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/03-cluster-score.png" alt="集めた困り事を似た内容ごとにまとめ、点数で候補を比較するイラスト" class="wp-image-45" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":207,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-cluster-score-1.jpg" alt="集めた困り事を似た内容ごとにまとめ、点数で候補を比較するイラスト" class="wp-image-207" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -412,8 +415,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <h2 class="wp-block-heading">作る前に5人へ話を聞き、試用への協力を確かめる</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":46,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/04-validate.png" alt="困り事を持つ人と作り手が簡単な試作品を見ながら話すイラスト" class="wp-image-46" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":208,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-validate-1.jpg" alt="困り事を持つ人と作り手が簡単な試作品を見ながら話すイラスト" class="wp-image-208" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -508,8 +511,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <h2 class="wp-block-heading">一つの作業だけを最小版にし、続けるかを数字で決める</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":47,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/05-mvp-measure.png" alt="小さなアプリを利用者に試してもらい、続行・修正・中止を判断するイラスト" class="wp-image-47" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":209,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-mvp-measure.jpg" alt="小さなアプリを利用者に試してもらい、続行・修正・中止を判断するイラスト" class="wp-image-209" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -638,7 +641,16 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 
 <!-- wp:list -->
 <ul class="wp-block-list"><!-- wp:list-item -->
-<li><a href="https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-learning-roadmap/" style="color: #0000ff; text-decoration: underline;">プログラミング独学ロードマップ｜40歳未経験から3年間でつまずいた壁と対処法</a></li>
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color: #0000ff; text-decoration: underline;">自分の悩みから自作アプリを作る方法｜題材選びから小さな試作まで</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-problem-with-an-app/" style="color: #0000ff; text-decoration: underline;">作りたいアプリがない人へ｜1人の困り事から自作アプリを作る方法</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-ideas/" style="color: #0000ff; text-decoration: underline;">アンケートでアプリのアイデアを検証する方法｜Googleフォーム質問例</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-learning-roadmap/" style="color: #0000ff; text-decoration: underline;">プログラミング独学ロードマップ｜未経験40歳・3年間の壁と対処法</a></li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list -->
 </div>
@@ -647,7 +659,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <!-- /wp:tab-panel -->
 
 <!-- wp:tab-panel {"label":"English","metadata":{"name":"English body"}} -->
-<section role="tabpanel" tabindex="0" class="wp-block-tab-panel">
+<section role="tabpanel" tabindex="0" class="wp-block-tab-panel" lang="en">
 <!-- wp:group {"metadata":{"name":"English：Introduction and overview"},"className":"crowd-app-panel panel-en","layout":{"type":"default"}} -->
 <div class="wp-block-group crowd-app-panel panel-en">
 <!-- wp:paragraph -->
@@ -700,8 +712,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <h2 class="wp-block-heading">Read a request as a difficult situation, not a feature list</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":43,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/01-overview.png" alt="A flow from collecting people's difficulties to grouping them and selecting an app opportunity" class="wp-image-43" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":205,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-overview-1.jpg" alt="A flow from collecting people's difficulties to grouping them and selecting an app opportunity" class="wp-image-205" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -772,8 +784,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <h2 class="wp-block-heading">Check conditions of use and aim to record thirty problems</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":44,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/02-collect-safely.png" alt="A researcher recording anonymized problems from public requests, reviews, and discussions" class="wp-image-44" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":206,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-collect-safely-1.jpg" alt="A researcher recording anonymized problems from public requests, reviews, and discussions" class="wp-image-206" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -882,8 +894,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <h2 class="wp-block-heading">Remove duplicates, count problems, and score candidates</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":45,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/03-cluster-score.png" alt="People grouping similar problem notes and comparing candidate opportunities with scores" class="wp-image-45" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":207,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-cluster-score-1.jpg" alt="People grouping similar problem notes and comparing candidate opportunities with scores" class="wp-image-207" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -1008,8 +1020,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <h2 class="wp-block-heading">Interview five people and ask whether they will try a prototype</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":46,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/04-validate.png" alt="A maker and a potential user discussing a simple prototype and the user's real workflow" class="wp-image-46" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":208,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-validate-1.jpg" alt="A maker and a potential user discussing a simple prototype and the user's real workflow" class="wp-image-208" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -1104,8 +1116,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 <h2 class="wp-block-heading">Build one end-to-end task, then use evidence to continue, revise, or stop</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":47,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/05-mvp-measure.png" alt="People testing a small app while the maker decides whether to continue, revise, or stop" class="wp-image-47" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":209,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-mvp-measure.jpg" alt="People testing a small app while the maker decides whether to continue, revise, or stop" class="wp-image-209" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -1234,6 +1246,15 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-prob
 
 <!-- wp:list -->
 <ul class="wp-block-list"><!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color: #0000ff; text-decoration: underline;">How to Turn a Personal Problem into a Homemade App: From Finding an Idea to a Small Prototype</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-problem-with-an-app/" style="color: #0000ff; text-decoration: underline;">No App Idea Yet? How to Build a Homemade App From One Person’s Problem</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/12/survey-driven-app-ideas/" style="color: #0000ff; text-decoration: underline;">How to Validate App Ideas With Surveys: Google Forms Questions to a Prototype</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
 <li><a href="https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-learning-roadmap/" style="color: #0000ff; text-decoration: underline;">Self-Taught Programming Roadmap: Three Years of Roadblocks and Lessons Starting at 40</a></li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list -->

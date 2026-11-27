@@ -3,7 +3,7 @@ categories:
 - Build in Public
 - 課題と解決
 excerpt: 大きな市場で稼げそうという軽い気持ちで参加したYouTubeオフ会で、多くの人が「運営の方向性」に迷っていると知りました。自分の姿勢を反省し、悩みに優劣はないと学んだ経緯と、方向性を整理する自作アプリの構想、既存ツール3種の比較、今日試せる3行メモをまとめました。
-featured_image: articles/images/youtube-direction-app/01-light-start.jpg
+featured_image: articles/images/youtube-direction-app/optimized/01-light-start.jpg
 featured_image_alt: 大きな円グラフから切り出した小さな欠片とお金の丸を前に、動画アイコン付きのパソコンのそばで楽観的に考える大人のイラスト
 slug: youtube-direction-app
 status: publish
@@ -11,34 +11,33 @@ tags:
 - YouTube運営
 - 個人開発
 - アプリ開発
-- 運営方針
-title: YouTubeの悩みを聞いてる内に、真剣に運営の方向性を定まるアプリを作りたくなった
-wordpress_featured_media_id: 182
+title: YouTube運営の方向性に迷ったら？整理法と自作アプリの構想
+wordpress_featured_media_id: 288
 wordpress_inline_media:
   01-light-start.jpg:
     alt: 大きな円グラフから切り出した小さな欠片とお金の丸を前に、動画アイコン付きのパソコンのそばで楽観的に考える大人のイラスト
-    id: 182
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-light-start.jpg
+    id: 288
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-light-start-1.jpg
   02-meetup-direction.jpg:
     alt: 木のテーブルを囲んで真剣に話し合う4人の大人と、頭上に浮かぶ羅針盤や分かれ道の道標のイラスト
-    id: 183
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-meetup-direction.jpg
+    id: 289
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-meetup-direction-1.jpg
   03-reflection.jpg:
     alt: 午後の窓辺で、羅針盤の線画が入った開いたノートを見つめながら静かに振り返る大人のイラスト
-    id: 184
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-reflection.jpg
+    id: 290
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-reflection-1.jpg
   04-existing-tools.jpg:
     alt: 動画分析画面、表計算シート、メモとタグの画面という3つの既存道具を同じ大きさで並べて比べるイラスト
-    id: 185
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-existing-tools.jpg
+    id: 291
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-existing-tools-2.jpg
   05-app-vision.jpg:
     alt: 羅針盤のカード、棒グラフとメモのカード、道標と進む道のカードの3枚が矢印でつながる構想イラスト
-    id: 186
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-app-vision.jpg
+    id: 292
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-app-vision-1.jpg
   06-next-step.jpg:
     alt: 朝の机の上で3つの枠に分かれた白いノートを両手で開き、そばにマグカップとペンと羅針盤が置かれたイラスト
-    id: 187
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/06-next-step.jpg
+    id: 293
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/06-next-step-2.jpg
 wordpress_post_id: 188
 wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/24/youtube-direction-app/
 ---
@@ -63,7 +62,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/24/youtube-direction-
 
 <!-- wp:tab-panels -->
 <div class="wp-block-tab-panels"><!-- wp:tab-panel {"label":"日本語","metadata":{"name":"日本語本文"}} -->
-<section role="tabpanel" tabindex="0" class="wp-block-tab-panel"><!-- wp:group {"metadata":{"name":"ja: 導入"},"className":"ytdir-panel","layout":{"type":"default"}} -->
+<section role="tabpanel" tabindex="0" class="wp-block-tab-panel" lang="ja"><!-- wp:group {"metadata":{"name":"ja: 導入"},"className":"ytdir-panel","layout":{"type":"default"}} -->
 <div class="wp-block-group ytdir-panel"><!-- wp:paragraph -->
 <p>最初は「YouTubeは大きな市場だから、小さな隙間に絞ってアプリを作れば儲かりそう」という軽い気持ちで、所属しているオンラインコミュニティのYouTubeオフ会に参加しました。</p>
 <!-- /wp:paragraph -->
@@ -82,8 +81,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/24/youtube-direction-
 <h2 class="wp-block-heading">1. 「大きな市場でニッチを狙えば儲かる」という軽い気持ちで始めた最初の一歩</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":182} -->
-<figure class="wp-block-image size-full is-resized"><img class="wp-image-182" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-light-start.jpg" alt="大きな円グラフから切り出した小さな欠片とお金の丸を前に、動画アイコン付きのパソコンのそばで楽観的に考える大人のイラスト" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":288} -->
+<figure class="wp-block-image size-full is-resized"><img class="wp-image-288" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-light-start-1.jpg" alt="大きな円グラフから切り出した小さな欠片とお金の丸を前に、動画アイコン付きのパソコンのそばで楽観的に考える大人のイラスト" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -108,8 +107,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/24/youtube-direction-
 <h2 class="wp-block-heading">2. オフ会で色々な人に聞いて分かった共通の悩みは「運営の方向性」</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":183} -->
-<figure class="wp-block-image size-full is-resized"><img class="wp-image-183" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-meetup-direction.jpg" alt="木のテーブルを囲んで真剣に話し合う4人の大人と、頭上に浮かぶ羅針盤や分かれ道の道標のイラスト" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":289} -->
+<figure class="wp-block-image size-full is-resized"><img class="wp-image-289" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-meetup-direction-1.jpg" alt="木のテーブルを囲んで真剣に話し合う4人の大人と、頭上に浮かぶ羅針盤や分かれ道の道標のイラスト" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -168,8 +167,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/24/youtube-direction-
 <h2 class="wp-block-heading">3. 悩みを「開発のネタ」として聞いていた自分が卑しく見えて反省した話</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":184} -->
-<figure class="wp-block-image size-full is-resized"><img class="wp-image-184" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-reflection.jpg" alt="午後の窓辺で、羅針盤の線画が入った開いたノートを見つめながら静かに振り返る大人のイラスト" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":290} -->
+<figure class="wp-block-image size-full is-resized"><img class="wp-image-290" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-reflection-1.jpg" alt="午後の窓辺で、羅針盤の線画が入った開いたノートを見つめながら静かに振り返る大人のイラスト" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -189,7 +188,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/24/youtube-direction-
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>一人の困り事を起点にアプリを考える手順そのものは、<a href="https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-problem-with-an-app/" style="color: #0000ff; text-decoration: underline;">1人の困り事を自作アプリで解決する方法｜アイデア出しから提供まで</a>でも整理しています。けれど今回の体験で学んだのは、作り方以上に「相手の悩みにどう向き合うか」が大切だという点でした。</p>
+<p>一人の困り事を起点にアプリを考える手順そのものは、<a href="https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-problem-with-an-app/" style="color: #0000ff; text-decoration: underline;">作りたいアプリがない人へ｜1人の困り事から自作アプリを作る方法</a>でも整理しています。けれど今回の体験で学んだのは、作り方以上に「相手の悩みにどう向き合うか」が大切だという点でした。</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -198,8 +197,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/24/youtube-direction-
 <h2 class="wp-block-heading">4. 既存の道具で「運営の方向性」はどこまで整理できるか</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":185} -->
-<figure class="wp-block-image size-full is-resized"><img class="wp-image-185" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-existing-tools.jpg" alt="動画分析画面、表計算シート、メモとタグの画面という3つの既存道具を同じ大きさで並べて比べるイラスト" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":291} -->
+<figure class="wp-block-image size-full is-resized"><img class="wp-image-291" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-existing-tools-2.jpg" alt="動画分析画面、表計算シート、メモとタグの画面という3つの既存道具を同じ大きさで並べて比べるイラスト" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -248,8 +247,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/24/youtube-direction-
 <h2 class="wp-block-heading">5. これから真剣に作りたい「運営の方向性を定めるアプリ」の構想</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":186} -->
-<figure class="wp-block-image size-full is-resized"><img class="wp-image-186" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-app-vision.jpg" alt="羅針盤のカード、棒グラフとメモのカード、道標と進む道のカードの3枚が矢印でつながる構想イラスト" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":292} -->
+<figure class="wp-block-image size-full is-resized"><img class="wp-image-292" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-app-vision-1.jpg" alt="羅針盤のカード、棒グラフとメモのカード、道標と進む道のカードの3枚が矢印でつながる構想イラスト" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -275,7 +274,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/24/youtube-direction-
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>実は、以前に書いた<a href="https://www.nanasinogonbei.com/blog/2026/11/22/youtask-youtube-task-management/" style="color: #0000ff; text-decoration: underline;">YouTube動画制作のタスク管理を見える化するアプリ「YouTask」の構想｜公開前から継続判断まで</a>でも、公開前・公開中・公開後の3段階で作業と継続判断を残す案を整理しました。今回のオフ会での気づきを経て、単なる作業チェックだけでなく「運営の方向性を迷わず見直せること」に重心を置いて、あらためて形を練り直したいと思っています。</p>
+<p>実は、以前に書いた<a href="https://www.nanasinogonbei.com/blog/2026/11/22/youtask-youtube-task-management/" style="color: #0000ff; text-decoration: underline;">YouTube動画制作のタスク管理法｜3段階で振り返る自作アプリ構想</a>でも、公開前・公開中・公開後の3段階で作業と継続判断を残す案を整理しました。今回のオフ会での気づきを経て、単なる作業チェックだけでなく「運営の方向性を迷わず見直せること」に重心を置いて、あらためて形を練り直したいと思っています。</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -298,8 +297,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/24/youtube-direction-
 <h2 class="wp-block-heading">6. 今後の進め方と、運営の方向性に迷ったとき今日から試せる一歩</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":187} -->
-<figure class="wp-block-image size-full is-resized"><img class="wp-image-187" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/06-next-step.jpg" alt="朝の机の上で3つの枠に分かれた白いノートを両手で開き、そばにマグカップとペンと羅針盤が置かれたイラスト" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":293} -->
+<figure class="wp-block-image size-full is-resized"><img class="wp-image-293" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/06-next-step-2.jpg" alt="朝の机の上で3つの枠に分かれた白いノートを両手で開き、そばにマグカップとペンと羅針盤が置かれたイラスト" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -343,14 +342,36 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/24/youtube-direction-
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>身近な困り事を言語化して小さな試作につなげる進め方は、<a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color: #0000ff; text-decoration: underline;">自分の悩み・困り事を自作アプリにする方法｜題材の見つけ方から小さな試作まで</a>にもまとめています。これから先、試作できる形ができたら公開URLとあわせて、うまくいった点もつまずいた点もこのブログで正直に共有していきます。</p>
+<p>身近な困り事を言語化して小さな試作につなげる進め方は、<a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color: #0000ff; text-decoration: underline;">自分の悩みから自作アプリを作る方法｜題材選びから小さな試作まで</a>にもまとめています。これから先、試作できる形ができたら公開URLとあわせて、うまくいった点もつまずいた点もこのブログで正直に共有していきます。</p>
 <!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"ja: 関連記事"},"className":"ytdir-panel","layout":{"type":"default"}} -->
+<div class="wp-block-group ytdir-panel"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">関連記事</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/11/22/youtask-youtube-task-management/" style="color: #0000ff; text-decoration: underline;">YouTube動画制作のタスク管理法｜3段階で振り返る自作アプリ構想</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color: #0000ff; text-decoration: underline;">自分の悩みから自作アプリを作る方法｜題材選びから小さな試作まで</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-problem-with-an-app/" style="color: #0000ff; text-decoration: underline;">作りたいアプリがない人へ｜1人の困り事から自作アプリを作る方法</a></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
 <!-- /wp:group --></section>
 <!-- /wp:tab-panel -->
 
 <!-- wp:tab-panel {"label":"English","metadata":{"name":"English article"}} -->
-<section role="tabpanel" tabindex="0" class="wp-block-tab-panel"><!-- wp:group {"metadata":{"name":"en: Introduction"},"className":"ytdir-panel","layout":{"type":"default"}} -->
+<section role="tabpanel" tabindex="0" class="wp-block-tab-panel" lang="en"><!-- wp:group {"metadata":{"name":"en: Introduction"},"className":"ytdir-panel","layout":{"type":"default"}} -->
 <div class="wp-block-group ytdir-panel"><!-- wp:paragraph -->
+<p><strong>Unsure About Your YouTube Channel Direction? How to Clarify It and Our App Concept</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
 <p>At first, I joined an online community’s YouTube meetup with a fairly casual thought: YouTube is a huge market, so picking a small corner and building an app for it looked like an easy way to earn money.</p>
 <!-- /wp:paragraph -->
 
@@ -368,8 +389,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/24/youtube-direction-
 <h2 class="wp-block-heading">1. Starting Lightly with the Idea of Targeting a Niche in a Huge Market</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":182} -->
-<figure class="wp-block-image size-full is-resized"><img class="wp-image-182" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-light-start.jpg" alt="An adult sitting casually beside a laptop with a generic play icon while looking at a large pie chart with one small separated slice and plain coin circles" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":288} -->
+<figure class="wp-block-image size-full is-resized"><img class="wp-image-288" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-light-start-1.jpg" alt="An adult sitting casually beside a laptop with a generic play icon while looking at a large pie chart with one small separated slice and plain coin circles" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -394,8 +415,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/24/youtube-direction-
 <h2 class="wp-block-heading">2. What Listening at the Meetup Revealed: Most Creators Struggle with Channel Direction</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":183} -->
-<figure class="wp-block-image size-full is-resized"><img class="wp-image-183" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-meetup-direction.jpg" alt="Four adults talking earnestly around a wooden café table with a floating compass and branching signpost icons above them" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":289} -->
+<figure class="wp-block-image size-full is-resized"><img class="wp-image-289" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-meetup-direction-1.jpg" alt="Four adults talking earnestly around a wooden café table with a floating compass and branching signpost icons above them" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -454,8 +475,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/24/youtube-direction-
 <h2 class="wp-block-heading">3. Why Treating Real Worries as “Dev Material” Made Me Ashamed and Reflect</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":184} -->
-<figure class="wp-block-image size-full is-resized"><img class="wp-image-184" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-reflection.jpg" alt="An adult sitting quietly beside a sunlit window looking down thoughtfully at an open notebook containing a hand-drawn compass sketch" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":290} -->
+<figure class="wp-block-image size-full is-resized"><img class="wp-image-290" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-reflection-1.jpg" alt="An adult sitting quietly beside a sunlit window looking down thoughtfully at an open notebook containing a hand-drawn compass sketch" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -475,7 +496,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/24/youtube-direction-
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Starting from one person’s real problem is still a sound way to design software, as I wrote in <a href="https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-problem-with-an-app/" style="color: #0000ff; text-decoration: underline;">How to Solve One Person’s Problem With a Homemade App: From Idea to Sharing</a>. What this meetup taught me, however, is that how you face someone’s struggle matters far more than any method.</p>
+<p>Starting from one person’s real problem is still a sound way to design software, as I wrote in <a href="https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-problem-with-an-app/" style="color: #0000ff; text-decoration: underline;">No App Idea Yet? How to Build a Homemade App From One Person’s Problem</a>. What this meetup taught me, however, is that how you face someone’s struggle matters far more than any method.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -484,8 +505,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/24/youtube-direction-
 <h2 class="wp-block-heading">4. How Far Existing Tools Can Clarify Channel Direction</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":185} -->
-<figure class="wp-block-image size-full is-resized"><img class="wp-image-185" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-existing-tools.jpg" alt="Three equal-sized cards arranged side by side showing a video analytics chart, a spreadsheet grid, and a notes-and-tags layout" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":291} -->
+<figure class="wp-block-image size-full is-resized"><img class="wp-image-291" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-existing-tools-2.jpg" alt="Three equal-sized cards arranged side by side showing a video analytics chart, a spreadsheet grid, and a notes-and-tags layout" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -534,8 +555,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/24/youtube-direction-
 <h2 class="wp-block-heading">5. The Concept for an App That Helps Set Channel Direction Seriously</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":186} -->
-<figure class="wp-block-image size-full is-resized"><img class="wp-image-186" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-app-vision.jpg" alt="Three rounded interface cards connected left to right on a wooden desk, depicting a compass, a bar chart with memo lines, and a signpost pointing along a path" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":292} -->
+<figure class="wp-block-image size-full is-resized"><img class="wp-image-292" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-app-vision-1.jpg" alt="Three rounded interface cards connected left to right on a wooden desk, depicting a compass, a bar chart with memo lines, and a signpost pointing along a path" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -561,7 +582,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/24/youtube-direction-
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>In an earlier post, <a href="https://www.nanasinogonbei.com/blog/2026/11/22/youtask-youtube-task-management/" style="color: #0000ff; text-decoration: underline;">Concept for “YouTask,” an App Visualizing YouTube Production Tasks</a>, I outlined a three-stage workflow covering before, during, and after publishing. Carrying forward what I learned at the meetup, I want to reshape that direction around helping creators step back and decide where their channel should head—not just checking off tasks.</p>
+<p>In an earlier post, <a href="https://www.nanasinogonbei.com/blog/2026/11/22/youtask-youtube-task-management/" style="color: #0000ff; text-decoration: underline;">YouTube Video Task Management: A 3-Stage Tracking Guide and YouTask Concept</a>, I outlined a three-stage workflow covering before, during, and after publishing. Carrying forward what I learned at the meetup, I want to reshape that direction around helping creators step back and decide where their channel should head—not just checking off tasks.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -584,8 +605,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/24/youtube-direction-
 <h2 class="wp-block-heading">6. Next Steps for Development and One Practical Step to Try Today</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":187} -->
-<figure class="wp-block-image size-full is-resized"><img class="wp-image-187" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/06-next-step.jpg" alt="Morning sunlight over a wooden desk as two hands hold open a blank notebook divided into three sections beside a mug, pen, and small compass" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":293} -->
+<figure class="wp-block-image size-full is-resized"><img class="wp-image-293" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/06-next-step-2.jpg" alt="Morning sunlight over a wooden desk as two hands hold open a blank notebook divided into three sections beside a mug, pen, and small compass" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -631,6 +652,24 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/24/youtube-direction-
 <!-- wp:paragraph -->
 <p>For more on turning a concrete everyday struggle into a small working prototype, see <a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color: #0000ff; text-decoration: underline;">How to Turn a Personal Problem into a Homemade App: From Finding an Idea to a Small Prototype</a>. Once a testable version is ready, I will share both its live link and honest lessons—successes and setbacks alike—here on the blog.</p>
 <!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"en: Related articles"},"className":"ytdir-panel","layout":{"type":"default"}} -->
+<div class="wp-block-group ytdir-panel"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Related articles</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/11/22/youtask-youtube-task-management/" style="color: #0000ff; text-decoration: underline;">YouTube Video Task Management: A 3-Stage Tracking Guide and YouTask Concept</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color: #0000ff; text-decoration: underline;">How to Turn a Personal Problem into a Homemade App: From Finding an Idea to a Small Prototype</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-problem-with-an-app/" style="color: #0000ff; text-decoration: underline;">No App Idea Yet? How to Build a Homemade App From One Person’s Problem</a></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
 <!-- /wp:group --></section>
 <!-- /wp:tab-panel --></div>
 <!-- /wp:tab-panels --></div>

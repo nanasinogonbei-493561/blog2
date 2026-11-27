@@ -2,37 +2,36 @@
 categories:
 - 課題と解決
 excerpt: 壊れた冷蔵庫の処分方法を調べたいのに通販サイトばかり出てくる。そんな迷いを減らすGoogle検索のコツを、質問の言語化、キーワード調整、マイナス除外やPDF検索などの演算子、公的機関など一次情報での確認手順まで具体例で整理しました。
-featured_image: articles/images/search-keywords-for-kids/01-question-v2.png
+featured_image: articles/images/search-keywords-for-kids/optimized/01-question-v2.jpg
 featured_image_alt: 奥の冷蔵庫を見ながら、ノートとパソコンを前に処分方法の疑問を整理する大人のイラスト
 slug: search-keywords-guide
 status: publish
 tags:
-- Google検索
-- 情報収集
-- 検索スキル
+- プログラミング学習
+- 初心者向け
 title: Google検索のコツ｜欲しい情報にたどり着くキーワード選びと絞り込み
-wordpress_featured_media_id: 139
+wordpress_featured_media_id: 231
 wordpress_inline_media:
-  01-question-v2.png:
+  01-question-v2.jpg:
     alt: 奥の冷蔵庫を見ながら、ノートとパソコンを前に処分方法の疑問を整理する大人のイラスト
-    id: 139
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-question-v2.png
-  02-keywords-v2.png:
+    id: 231
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-question-v2.jpg
+  02-keywords-v2.jpg:
     alt: 冷蔵庫・リサイクル・チェックリストの絵カードをパソコンの横に並べる大人の手元のイラスト
-    id: 140
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-keywords-v2.png
-  03-adjust-v2.png:
+    id: 232
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-keywords-v2.jpg
+  03-adjust-v2.jpg:
     alt: 通販結果の列にキーワードカードを足して公式案内に絞る様子と、絞り込みを外す様子を比べるイラスト
-    id: 158
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-adjust-v2.png
-  04-check-v2.png:
+    id: 233
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-adjust-v2.jpg
+  04-check-v2.jpg:
     alt: パソコンとタブレットに並んだ2つの公式案内を虫眼鏡とメモで見比べる大人のイラスト
-    id: 159
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-check-v2.png
-  05-practice-v2.png:
+    id: 234
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-check-v2.jpg
+  05-practice-v2.jpg:
     alt: ノートに要点の1文と参照元の印を書き留めて検索手順を振り返る大人のイラスト
-    id: 160
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-practice-v2.png
+    id: 235
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-practice-v2.jpg
 wordpress_post_id: 116
 wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/18/search-keywords-guide/
 ---
@@ -71,8 +70,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/18/search-keywords-gu
 <h2 class="wp-block-heading">1. 知りたいことを1文にする</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":139,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-question-v2.png" alt="奥の冷蔵庫を見ながら、ノートとパソコンを前に処分方法の疑問を整理する大人のイラスト" class="wp-image-139" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":231,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-question-v2.jpg" alt="奥の冷蔵庫を見ながら、ノートとパソコンを前に処分方法の疑問を整理する大人のイラスト" class="wp-image-231" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -89,8 +88,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/18/search-keywords-gu
 <h2 class="wp-block-heading">2. 検索キーワードを選ぶ</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":140,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-keywords-v2.png" alt="冷蔵庫・リサイクル・チェックリストの絵カードをパソコンの横に並べる大人の手元のイラスト" class="wp-image-140" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":232,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-keywords-v2.jpg" alt="冷蔵庫・リサイクル・チェックリストの絵カードをパソコンの横に並べる大人の手元のイラスト" class="wp-image-232" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -123,8 +122,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/18/search-keywords-gu
 <h2 class="wp-block-heading">3. 検索結果に合わせて言葉を1つ変える</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":158,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-adjust-v2.png" alt="通販結果の列にキーワードカードを足して公式案内に絞る様子と、絞り込みを外す様子を比べるイラスト" class="wp-image-158" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":233,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-adjust-v2.jpg" alt="通販結果の列にキーワードカードを足して公式案内に絞る様子と、絞り込みを外す様子を比べるイラスト" class="wp-image-233" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -167,8 +166,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/18/search-keywords-gu
 <h2 class="wp-block-heading">4. 見つけた答えを、別の資料でも確かめる</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":159,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-check-v2.png" alt="パソコンとタブレットに並んだ2つの公式案内を虫眼鏡とメモで見比べる大人のイラスト" class="wp-image-159" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":234,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-check-v2.jpg" alt="パソコンとタブレットに並んだ2つの公式案内を虫眼鏡とメモで見比べる大人のイラスト" class="wp-image-234" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -225,8 +224,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/18/search-keywords-gu
 <h2 class="wp-block-heading">5. 自分の疑問で1回やってみる</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":160,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-practice-v2.png" alt="ノートに要点の1文と参照元の印を書き留めて検索手順を振り返る大人のイラスト" class="wp-image-160" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":235,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-practice-v2.jpg" alt="ノートに要点の1文と参照元の印を書き留めて検索手順を振り返る大人のイラスト" class="wp-image-235" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -234,7 +233,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/18/search-keywords-gu
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>休日に行ける地域や日程を手がかりに舞台やイベントを探すのも、言葉や条件を入れ替えながら検索する身近な例です。 <a href="https://www.nanasinogonbei.com/blog/2026/09/20/theater-ticket-search/" style="color: #0000ff; text-decoration: underline;">小劇場の公演をチケット販売サイトから探す方法｜予約フォームとの違いも紹介</a></p>
+<p>休日に行ける地域や日程を手がかりに舞台やイベントを探すのも、言葉や条件を入れ替えながら検索する身近な例です。 <a href="https://www.nanasinogonbei.com/blog/2026/09/20/theater-ticket-search/" style="color: #0000ff; text-decoration: underline;">小劇場の公演をチケットサイトで探す方法｜予約フォームとの違い</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -269,7 +268,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/18/search-keywords-gu
 
 <!-- wp:list -->
 <ul class="wp-block-list"><!-- wp:list-item -->
-<li><a href="https://www.nanasinogonbei.com/blog/2026/09/20/theater-ticket-search/" style="color: #0000ff; text-decoration: underline;">小劇場の公演をチケット販売サイトから探す方法｜予約フォームとの違いも紹介</a></li>
+<li><a href="https://www.nanasinogonbei.com/blog/2026/09/20/theater-ticket-search/" style="color: #0000ff; text-decoration: underline;">小劇場の公演をチケットサイトで探す方法｜予約フォームとの違い</a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
 <li><a href="https://www.nanasinogonbei.com/blog/2026/09/13/small-theater-performance-info/" style="color: #0000ff; text-decoration: underline;">小劇場の公演情報はどこで探す？まだ知らない劇団の舞台を見つける方法</a></li>
@@ -298,8 +297,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/18/search-keywords-gu
 <h2 class="wp-block-heading">1. Put your question into one sentence</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":139,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-question-v2.png" alt="An adult sits at a table with a notebook and laptop, looking toward a refrigerator and framing a disposal question" class="wp-image-139" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":231,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-question-v2.jpg" alt="An adult sits at a table with a notebook and laptop, looking toward a refrigerator and framing a disposal question" class="wp-image-231" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -316,8 +315,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/18/search-keywords-gu
 <h2 class="wp-block-heading">2. Choose your search keywords</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":140,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-keywords-v2.png" alt="Overhead view of hands arranging three icon cards for refrigerator, disposal, and checklist beside a laptop" class="wp-image-140" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":232,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-keywords-v2.jpg" alt="Overhead view of hands arranging three icon cards for refrigerator, disposal, and checklist beside a laptop" class="wp-image-232" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -350,8 +349,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/18/search-keywords-gu
 <h2 class="wp-block-heading">3. Look at the results and change one word</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":158,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-adjust-v2.png" alt="An adult comparing two search paths from a laptop: adding a keyword card to narrow retail clutter and removing an excess filter card" class="wp-image-158" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":233,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-adjust-v2.jpg" alt="An adult comparing two search paths from a laptop: adding a keyword card to narrow retail clutter and removing an excess filter card" class="wp-image-233" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -394,8 +393,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/18/search-keywords-gu
 <h2 class="wp-block-heading">4. Check the answer with another source</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":159,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-check-v2.png" alt="An adult uses a magnifying glass and notebook to compare two official guides side by side on a laptop and tablet" class="wp-image-159" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":234,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-check-v2.jpg" alt="An adult uses a magnifying glass and notebook to compare two official guides side by side on a laptop and tablet" class="wp-image-234" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -452,8 +451,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/18/search-keywords-gu
 <h2 class="wp-block-heading">5. Try it with a question of your own</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":160,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-practice-v2.png" alt="An adult writes a one-sentence summary and source checkmarks in a notebook beside a laptop" class="wp-image-160" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":235,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-practice-v2.jpg" alt="An adult writes a one-sentence summary and source checkmarks in a notebook beside a laptop" class="wp-image-235" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->

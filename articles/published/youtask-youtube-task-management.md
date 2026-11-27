@@ -3,42 +3,41 @@ categories:
 - Build in Public
 - 開発の裏側
 excerpt: YouTube動画の企画・数値記録・継続判断を手書きで管理する大変さを減らすため、タスク管理アプリ「YouTask」を構想中です。公開前・公開中・公開後の3段階で何を記録して見える化するか、既存ツール3つとの比較や作らない機能、今後の開発方針を整理しました。
-featured_image: articles/images/youtask-youtube-task-management/01-problem-handwritten.jpg
+featured_image: articles/images/youtask-youtube-task-management/optimized/01-problem-handwritten.jpg
 featured_image_alt: ノートや付箋が散らばった机の上で、YouTube動画制作の管理方法を見直す大人のイラスト
 slug: youtask-youtube-task-management
 status: publish
 tags:
 - YouTube運営
-- タスク管理
-- YouTask
 - 個人開発
-title: YouTube動画制作のタスク管理を見える化するアプリ「YouTask」の構想｜公開前から継続判断まで
-wordpress_featured_media_id: 175
+- アプリ設計
+title: YouTube動画制作のタスク管理法｜3段階で振り返る自作アプリ構想
+wordpress_featured_media_id: 281
 wordpress_inline_media:
   01-problem-handwritten.jpg:
     alt: ノートや付箋が散らばった机の上で、YouTube動画制作の管理方法を見直す大人のイラスト
-    id: 175
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-problem-handwritten.jpg
+    id: 281
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-problem-handwritten-1.jpg
   02-three-phases.jpg:
     alt: 公開前・公開中・公開後の3つの段階が左から右へ矢印でつながるカード構成のイラスト
-    id: 176
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-three-phases.jpg
+    id: 282
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-three-phases-1.jpg
   03-input-and-tags.jpg:
     alt: 棒グラフのカード、短いメモのカード、色分けされたタグを両手で整然と並べる手元のイラスト
-    id: 177
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-input-and-tags.jpg
+    id: 283
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-input-and-tags-1.jpg
   04-compare-tools.jpg:
     alt: 表計算シート、メモとタグの画面、3列のボード型画面という3種類の既存ツールを同じ大きさで並べて比べるイラスト
-    id: 178
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-compare-tools.jpg
+    id: 284
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-compare-tools-1.jpg
   05-who-it-fits.jpg:
     alt: 左側で1人用の落ち着いた画面を見る制作者と、右側で複数人が共有ボードを囲んで相談する様子を並べたイラスト
-    id: 179
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-who-it-fits.jpg
+    id: 285
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-who-it-fits-1.jpg
   06-next-steps.jpg:
     alt: 朝の机の上で3つの枠に分かれた新しいノートを開き、パソコンとマグカップのそばで最初の一歩を書き出す大人のイラスト
-    id: 180
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/06-next-steps.jpg
+    id: 286
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/06-next-steps-1.jpg
 wordpress_post_id: 173
 wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/22/youtask-youtube-task-management/
 ---
@@ -63,7 +62,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/22/youtask-youtube-ta
 
 <!-- wp:tab-panels -->
 <div class="wp-block-tab-panels"><!-- wp:tab-panel {"label":"日本語","metadata":{"name":"日本語本文"}} -->
-<section role="tabpanel" tabindex="0" class="wp-block-tab-panel"><!-- wp:group {"metadata":{"name":"ja: 導入"},"className":"youtask-panel","layout":{"type":"default"}} -->
+<section role="tabpanel" tabindex="0" class="wp-block-tab-panel" lang="ja"><!-- wp:group {"metadata":{"name":"ja: 導入"},"className":"youtask-panel","layout":{"type":"default"}} -->
 <div class="wp-block-group youtask-panel"><!-- wp:paragraph -->
 <p>YouTubeに動画を出し続けていると、「次はどの企画を撮ろう」「前の動画はどれくらい見られたかな」「このままチャンネルを続けていいのか」と、頭の中やノートが散らかりやすくなります。</p>
 <!-- /wp:paragraph -->
@@ -73,7 +72,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/22/youtask-youtube-ta
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>この記事を書いている時点で、YouTaskはまだ構想段階にあり、公開URLはありません。ここでは「なぜ自分で作ろうと考えたのか」「どんな仕組みなら手間が減りそうか」「既存のツールでも代用できるのか」を、開発前の整理としてまとめました。なお、表に出てくる動画タイトルや数値は、イメージをつかむための架空の例です。日常の困り事から自作アプリを考える流れ自体は、<a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color: #0000ff; text-decoration: underline;">自分の悩み・困り事を自作アプリにする方法｜題材の見つけ方から小さな試作まで</a>でも整理しています。</p>
+<p>この記事を書いている時点で、YouTaskはまだ構想段階にあり、公開URLはありません。ここでは「なぜ自分で作ろうと考えたのか」「どんな仕組みなら手間が減りそうか」「既存のツールでも代用できるのか」を、開発前の整理としてまとめました。なお、表に出てくる動画タイトルや数値は、イメージをつかむための架空の例です。日常の困り事から自作アプリを考える流れ自体は、<a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color: #0000ff; text-decoration: underline;">自分の悩みから自作アプリを作る方法｜題材選びから小さな試作まで</a>でも整理しています。</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -82,8 +81,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/22/youtask-youtube-ta
 <h2 class="wp-block-heading">1. YouTube運営のタスク管理はなぜ手書きだと続かないのか</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":175} -->
-<figure class="wp-block-image size-full is-resized"><img class="wp-image-175" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-problem-handwritten.jpg" alt="ノートや付箋が散らばった机の上で、YouTube動画制作の管理方法を見直す大人のイラスト" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":281} -->
+<figure class="wp-block-image size-full is-resized"><img class="wp-image-281" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-problem-handwritten-1.jpg" alt="ノートや付箋が散らばった机の上で、YouTube動画制作の管理方法を見直す大人のイラスト" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -114,8 +113,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/22/youtask-youtube-ta
 <h2 class="wp-block-heading">2. 構想中のアプリ「YouTask」で整理する3つの段階</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":176} -->
-<figure class="wp-block-image size-full is-resized"><img class="wp-image-176" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-three-phases.jpg" alt="公開前・公開中・公開後の3つの段階が左から右へ矢印でつながるカード構成のイラスト" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":282} -->
+<figure class="wp-block-image size-full is-resized"><img class="wp-image-282" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-three-phases-1.jpg" alt="公開前・公開中・公開後の3つの段階が左から右へ矢印でつながるカード構成のイラスト" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -174,8 +173,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/22/youtask-youtube-ta
 <h2 class="wp-block-heading">3. 数値入力・文字入力・タグ付けで見える化する設計方針</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":177} -->
-<figure class="wp-block-image size-full is-resized"><img class="wp-image-177" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-input-and-tags.jpg" alt="棒グラフのカード、短いメモのカード、色分けされたタグを両手で整然と並べる手元のイラスト" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":283} -->
+<figure class="wp-block-image size-full is-resized"><img class="wp-image-283" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-input-and-tags-1.jpg" alt="棒グラフのカード、短いメモのカード、色分けされたタグを両手で整然と並べる手元のイラスト" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -238,8 +237,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/22/youtask-youtube-ta
 <h2 class="wp-block-heading">4. 既存のツール3つでも同じ悩みは解決できるか</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":178} -->
-<figure class="wp-block-image size-full is-resized"><img class="wp-image-178" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-compare-tools.jpg" alt="表計算シート、メモとタグの画面、3列のボード型画面という3種類の既存ツールを同じ大きさで並べて比べるイラスト" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":284} -->
+<figure class="wp-block-image size-full is-resized"><img class="wp-image-284" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-compare-tools-1.jpg" alt="表計算シート、メモとタグの画面、3列のボード型画面という3種類の既存ツールを同じ大きさで並べて比べるイラスト" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -278,8 +277,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/22/youtask-youtube-ta
 <h2 class="wp-block-heading">5. YouTaskが向いている人・既存ツールの方が向いている人</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":179} -->
-<figure class="wp-block-image size-full is-resized"><img class="wp-image-179" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-who-it-fits.jpg" alt="左側で1人用の落ち着いた画面を見る制作者と、右側で複数人が共有ボードを囲んで相談する様子を並べたイラスト" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":285} -->
+<figure class="wp-block-image size-full is-resized"><img class="wp-image-285" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-who-it-fits-1.jpg" alt="左側で1人用の落ち着いた画面を見る制作者と、右側で複数人が共有ボードを囲んで相談する様子を並べたイラスト" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -300,8 +299,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/22/youtask-youtube-ta
 <h2 class="wp-block-heading">6. 今後の開発ステップと、今日から試せる小さな一歩</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":180} -->
-<figure class="wp-block-image size-full is-resized"><img class="wp-image-180" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/06-next-steps.jpg" alt="朝の机の上で3つの枠に分かれた新しいノートを開き、パソコンとマグカップのそばで最初の一歩を書き出す大人のイラスト" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":286} -->
+<figure class="wp-block-image size-full is-resized"><img class="wp-image-286" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/06-next-steps-1.jpg" alt="朝の机の上で3つの枠に分かれた新しいノートを開き、パソコンとマグカップのそばで最初の一歩を書き出す大人のイラスト" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -327,14 +326,39 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/22/youtask-youtube-ta
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>1人の具体的な困り事を出発点に、小さく形にして確かめていく考え方については、<a href="https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-problem-with-an-app/" style="color: #0000ff; text-decoration: underline;">1人の困り事を自作アプリで解決する方法｜アイデア出しから提供まで</a>でも紹介しています。YouTaskの開発が進み、試作画面や検証結果が出たら、うまくいった点も失敗した点もまた記事で共有していきます。</p>
+<p>1人の具体的な困り事を出発点に、小さく形にして確かめていく考え方については、<a href="https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-problem-with-an-app/" style="color: #0000ff; text-decoration: underline;">作りたいアプリがない人へ｜1人の困り事から自作アプリを作る方法</a>でも紹介しています。なお、本記事は動画1本ごとの制作・数値タスク管理に焦点を当てており、チャンネル全体の運営方針・方向性の整理は続編の<a href="https://www.nanasinogonbei.com/blog/2026/11/24/youtube-direction-app/" style="color: #0000ff; text-decoration: underline;">YouTube運営の方向性に迷ったら？整理法と自作アプリの構想</a>で扱っています。YouTaskの開発が進み、試作画面や検証結果が出たら、うまくいった点も失敗した点もまた記事で共有していきます。</p>
 <!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"ja: 関連記事"},"className":"youtask-panel","layout":{"type":"default"}} -->
+<div class="wp-block-group youtask-panel"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">関連記事</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/11/24/youtube-direction-app/" style="color: #0000ff; text-decoration: underline;">YouTube運営の方向性に迷ったら？整理法と自作アプリの構想</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color: #0000ff; text-decoration: underline;">自分の悩みから自作アプリを作る方法｜題材選びから小さな試作まで</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-problem-with-an-app/" style="color: #0000ff; text-decoration: underline;">作りたいアプリがない人へ｜1人の困り事から自作アプリを作る方法</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-products/" style="color: #0000ff; text-decoration: underline;">アプリ設計はシンプルが正解？使いやすさと安全を両立する機能の絞り方</a></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
 <!-- /wp:group --></section>
 <!-- /wp:tab-panel -->
 
 <!-- wp:tab-panel {"label":"English","metadata":{"name":"English article"}} -->
-<section role="tabpanel" tabindex="0" class="wp-block-tab-panel"><!-- wp:group {"metadata":{"name":"en: Introduction"},"className":"youtask-panel","layout":{"type":"default"}} -->
+<section role="tabpanel" tabindex="0" class="wp-block-tab-panel" lang="en"><!-- wp:group {"metadata":{"name":"en: Introduction"},"className":"youtask-panel","layout":{"type":"default"}} -->
 <div class="wp-block-group youtask-panel"><!-- wp:paragraph -->
+<p><strong>YouTube Video Task Management: A 3-Stage Tracking Guide and YouTask Concept</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
 <p>When you keep making YouTube videos, ideas, viewer targets, performance numbers, and doubts about whether to keep going easily scatter across notebooks and sticky notes.</p>
 <!-- /wp:paragraph -->
 
@@ -343,7 +367,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/22/youtask-youtube-ta
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>At the time of writing, YouTask is still in the concept stage and does not have a public URL yet. This article shares why I am thinking of building it, how the structure reduces manual friction, and whether existing tools already solve the problem. The sample titles and numbers in the tables below are fictional examples for explanation. You can also read about turning everyday inconveniences into small app ideas in <a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color: #0000ff; text-decoration: underline;">How to Turn Your Own Problem into a Custom App: From Finding a Topic to a Small Prototype</a>.</p>
+<p>At the time of writing, YouTask is still in the concept stage and does not have a public URL yet. This article shares why I am thinking of building it, how the structure reduces manual friction, and whether existing tools already solve the problem. The sample titles and numbers in the tables below are fictional examples for explanation. You can also read about turning everyday inconveniences into small app ideas in <a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color: #0000ff; text-decoration: underline;">How to Turn a Personal Problem into a Homemade App: From Finding an Idea to a Small Prototype</a>.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -352,8 +376,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/22/youtask-youtube-ta
 <h2 class="wp-block-heading">1. Why Handwritten YouTube Task Tracking Often Breaks Down</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":175} -->
-<figure class="wp-block-image size-full is-resized"><img class="wp-image-175" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-problem-handwritten.jpg" alt="An adult at a desk surrounded by scattered handwritten notebooks and sticky notes while rethinking YouTube production tracking" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":281} -->
+<figure class="wp-block-image size-full is-resized"><img class="wp-image-281" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-problem-handwritten-1.jpg" alt="An adult at a desk surrounded by scattered handwritten notebooks and sticky notes while rethinking YouTube production tracking" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -384,8 +408,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/22/youtask-youtube-ta
 <h2 class="wp-block-heading">2. Three Stages Planned for YouTask</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":176} -->
-<figure class="wp-block-image size-full is-resized"><img class="wp-image-176" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-three-phases.jpg" alt="Three rounded workflow cards connected from left to right representing before publishing, while published, and after publishing" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":282} -->
+<figure class="wp-block-image size-full is-resized"><img class="wp-image-282" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-three-phases-1.jpg" alt="Three rounded workflow cards connected from left to right representing before publishing, while published, and after publishing" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -444,8 +468,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/22/youtask-youtube-ta
 <h2 class="wp-block-heading">3. Visualizing Data with Numbers, Text, and Tags</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":177} -->
-<figure class="wp-block-image size-full is-resized"><img class="wp-image-177" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-input-and-tags.jpg" alt="Overhead view of two hands neatly arranging numeric chart tiles, short memo tiles, and colored tag badges beside a laptop" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":283} -->
+<figure class="wp-block-image size-full is-resized"><img class="wp-image-283" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-input-and-tags-1.jpg" alt="Overhead view of two hands neatly arranging numeric chart tiles, short memo tiles, and colored tag badges beside a laptop" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -508,8 +532,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/22/youtask-youtube-ta
 <h2 class="wp-block-heading">4. Can Three Existing Tools Already Solve This Problem?</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":178} -->
-<figure class="wp-block-image size-full is-resized"><img class="wp-image-178" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-compare-tools.jpg" alt="Three equal-sized interface cards representing a spreadsheet grid, an all-in-one notes-and-tags layout, and a three-column kanban board" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":284} -->
+<figure class="wp-block-image size-full is-resized"><img class="wp-image-284" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-compare-tools-1.jpg" alt="Three equal-sized interface cards representing a spreadsheet grid, an all-in-one notes-and-tags layout, and a three-column kanban board" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -548,8 +572,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/22/youtask-youtube-ta
 <h2 class="wp-block-heading">5. Who YouTask Fits—and Who Is Better Off with Existing Tools</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":179} -->
-<figure class="wp-block-image size-full is-resized"><img class="wp-image-179" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-who-it-fits.jpg" alt="Split scene showing a solo creator reviewing a calm simplified screen on the left and a three-person team collaborating over boards on the right" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":285} -->
+<figure class="wp-block-image size-full is-resized"><img class="wp-image-285" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-who-it-fits-1.jpg" alt="Split scene showing a solo creator reviewing a calm simplified screen on the left and a three-person team collaborating over boards on the right" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -570,8 +594,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/22/youtask-youtube-ta
 <h2 class="wp-block-heading">6. Next Steps for YouTask and One Small Step to Try Today</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":180} -->
-<figure class="wp-block-image size-full is-resized"><img class="wp-image-180" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/06-next-steps.jpg" alt="A creator at a morning desk opening a fresh notebook divided into three neat sections next to a laptop and a warm mug" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none","id":286} -->
+<figure class="wp-block-image size-full is-resized"><img class="wp-image-286" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/06-next-steps-1.jpg" alt="A creator at a morning desk opening a fresh notebook divided into three neat sections next to a laptop and a warm mug" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -597,8 +621,29 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/22/youtask-youtube-ta
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>You can read more about designing around one concrete person’s problem before expanding in <a href="https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-problem-with-an-app/" style="color: #0000ff; text-decoration: underline;">How to Solve One Person’s Problem with a Custom App: From Idea to Release</a>. As YouTask moves from concept to prototype, I plan to share both what worked and what failed in future posts.</p>
+<p>You can read more about designing around one concrete person’s problem before expanding in <a href="https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-problem-with-an-app/" style="color: #0000ff; text-decoration: underline;">No App Idea Yet? How to Build a Homemade App From One Person’s Problem</a>. While this article focuses on task and metric tracking per video, clarifying overall channel direction is covered in the follow-up post, <a href="https://www.nanasinogonbei.com/blog/2026/11/24/youtube-direction-app/" style="color: #0000ff; text-decoration: underline;">Unsure About Your YouTube Channel Direction? How to Clarify It and Our App Concept</a>. As YouTask moves from concept to prototype, I plan to share both what worked and what failed in future posts.</p>
 <!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"en: Related articles"},"className":"youtask-panel","layout":{"type":"default"}} -->
+<div class="wp-block-group youtask-panel"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Related articles</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/11/24/youtube-direction-app/" style="color: #0000ff; text-decoration: underline;">Unsure About Your YouTube Channel Direction? How to Clarify It and Our App Concept</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color: #0000ff; text-decoration: underline;">How to Turn a Personal Problem into a Homemade App: From Finding an Idea to a Small Prototype</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/06/solve-one-persons-problem-with-an-app/" style="color: #0000ff; text-decoration: underline;">No App Idea Yet? How to Build a Homemade App From One Person’s Problem</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-products/" style="color: #0000ff; text-decoration: underline;">Should App Design Always Be Simple? Balancing Usability, Safety, and Feature Scope</a></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
 <!-- /wp:group --></section>
 <!-- /wp:tab-panel --></div>
 <!-- /wp:tab-panels --></div>

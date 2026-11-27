@@ -2,49 +2,49 @@
 categories:
 - Build in Public
 excerpt: 本に載っているコードは読めるのに、いざ自分で作ろうとすると書けない。40歳・ITスキルゼロから独学でWebアプリやAIアプリ開発を続ける私が、タイピングやJavaでのつまずき、生成AIや仕事の課題から掴んだ手順の組み立て方、同じ壁を越える具体策をまとめました。
-featured_image: articles/images/self-introduction-learning-roadmap/01-ai-ambition.png
+featured_image: articles/images/self-introduction-learning-roadmap/optimized/01-ai-ambition.jpg
 featured_image_alt: 明るい机でパソコンの画面と設計図を見つめ、アプリ開発を進める40代の人物のイラスト
 slug: self-introduction-learning-roadmap
 status: publish
 tags:
 - プログラミング学習
-- 独学
+- 個人開発
 - アプリ開発
-title: プログラミング独学ロードマップ｜40歳未経験から3年間でつまずいた壁と対処法
-wordpress_featured_media_id: 129
+title: プログラミング独学ロードマップ｜未経験40歳・3年間の壁と対処法
+wordpress_featured_media_id: 244
 wordpress_inline_media:
-  01-ai-ambition.png:
+  01-ai-ambition.jpg:
     alt: 明るい机でパソコンの画面と設計図を見つめ、アプリ開発を進める40代の人物のイラスト
-    id: 129
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-ai-ambition.png
-  02-learning-roadmap.png:
+    id: 244
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-ai-ambition-2.jpg
+  02-learning-roadmap.jpg:
     alt: タイピングから入門書、小さな部品づくり、アプリ画面へと続く学習の道のりを表したイラスト
-    id: 130
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-learning-roadmap.png
-  03-typing-and-java.png:
+    id: 245
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-learning-roadmap-2.jpg
+  03-typing-and-java.jpg:
     alt: キーボードと図解入りの入門書を前に、プログラムの組み立てを学ぶ大人のイラスト
-    id: 131
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-typing-and-java.png
-  04-read-vs-write.png:
+    id: 246
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-typing-and-java-1.jpg
+  04-read-vs-write.jpg:
     alt: 技術書を開きつつ、白紙のノートとパソコンの前で考え込む人物のイラスト
-    id: 154
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-read-vs-write.png
-  05-different-approaches.png:
+    id: 247
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-read-vs-write-1.jpg
+  05-different-approaches.jpg:
     alt: 別々の進め方をノートに描きながら語り合う2人の大人のイラスト
-    id: 161
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-different-approaches.png
-  06-ai-and-work.png:
+    id: 248
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-different-approaches-1.jpg
+  06-ai-and-work.jpg:
     alt: パソコン画面のAIとのやり取りと業務メモの付箋を見比べる大人のイラスト
-    id: 162
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/06-ai-and-work.png
-  07-step-by-step-logic.png:
+    id: 249
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/06-ai-and-work.jpg
+  07-step-by-step-logic.jpg:
     alt: 入力・確認・通知・一覧の4枚の絵カードを順番に並べる大人の手元のイラスト
-    id: 163
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/07-step-by-step-logic.png
-  08-build-in-public.png:
+    id: 250
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/07-step-by-step-logic.jpg
+  08-build-in-public.jpg:
     alt: 開発ノートとパソコンを広げ、試行錯誤を記録しながら制作を続ける大人のイラスト
-    id: 164
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/08-build-in-public.png
+    id: 251
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/08-build-in-public.jpg
 wordpress_post_id: 15
 wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-learning-roadmap/
 ---
@@ -93,8 +93,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-
 <h2 class="wp-block-heading">40歳、世界一のAI開発を目指してアプリを作っています</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":129,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-ai-ambition.png" alt="明るい机でパソコンの画面と設計図を見つめ、アプリ開発を進める40代の人物のイラスト" class="wp-image-129" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":244,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-ai-ambition-2.jpg" alt="明るい机でパソコンの画面と設計図を見つめ、アプリ開発を進める40代の人物のイラスト" class="wp-image-244" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -133,8 +133,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-
 <h2 class="wp-block-heading">独学3年間の学習ロードマップ</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":130,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-learning-roadmap.png" alt="タイピングから入門書、小さな部品づくり、アプリ画面へと続く学習の道のりを表したイラスト" class="wp-image-130" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":245,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-learning-roadmap-2.jpg" alt="タイピングから入門書、小さな部品づくり、アプリ画面へと続く学習の道のりを表したイラスト" class="wp-image-245" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -153,8 +153,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-
 <h2 class="wp-block-heading">タイピング練習から始め、Javaで最初の壁にぶつかる</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":131,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-typing-and-java.png" alt="キーボードと図解入りの入門書を前に、プログラムの組み立てを学ぶ大人のイラスト" class="wp-image-131" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":246,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-typing-and-java-1.jpg" alt="キーボードと図解入りの入門書を前に、プログラムの組み立てを学ぶ大人のイラスト" class="wp-image-246" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -177,8 +177,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-
 <h2 class="wp-block-heading">本のコードは読めるのに、自分では書けない</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":154,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-read-vs-write.png" alt="技術書を開きつつ、白紙のノートとパソコンの前で考え込む人物のイラスト" class="wp-image-154" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":247,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-read-vs-write-1.jpg" alt="技術書を開きつつ、白紙のノートとパソコンの前で考え込む人物のイラスト" class="wp-image-247" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -213,8 +213,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-
 <h2 class="wp-block-heading">人によってプログラミングの進め方が違うと知る</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":161,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-different-approaches.png" alt="別々の進め方をノートに描きながら語り合う2人の大人のイラスト" class="wp-image-161" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":248,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-different-approaches-1.jpg" alt="別々の進め方をノートに描きながら語り合う2人の大人のイラスト" class="wp-image-248" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -237,8 +237,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-
 <h2 class="wp-block-heading">生成AIと会社の課題から、組み立て方のヒントを得る</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":162,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/06-ai-and-work.png" alt="パソコン画面のAIとのやり取りと業務メモの付箋を見比べる大人のイラスト" class="wp-image-162" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":249,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/06-ai-and-work.jpg" alt="パソコン画面のAIとのやり取りと業務メモの付箋を見比べる大人のイラスト" class="wp-image-249" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -283,8 +283,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-
 <h2 class="wp-block-heading">プログラムを組み立てる順番と、論理的思考の関係</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":163,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/07-step-by-step-logic.png" alt="入力・確認・通知・一覧の4枚の絵カードを順番に並べる大人の手元のイラスト" class="wp-image-163" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":250,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/07-step-by-step-logic.jpg" alt="入力・確認・通知・一覧の4枚の絵カードを順番に並べる大人の手元のイラスト" class="wp-image-250" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -325,7 +325,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>手順の分け方を日常の例で確かめたいときは、<a href="https://www.nanasinogonbei.com/blog/2026/10/27/programming-logical-thinking/" style="color: #0000ff; text-decoration: underline;">プログラミングに論理的思考力は必要？日常の例と紙でできる練習法を解説</a>もあわせて読めます。また、身近な不便から小さなアプリを作る流れは、<a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color: #0000ff; text-decoration: underline;">自分の悩み・困り事を自作アプリにする方法｜題材の見つけ方から小さな試作まで</a>にまとめています。</p>
+<p>手順の分け方を日常の例で確かめたいときは、<a href="https://www.nanasinogonbei.com/blog/2026/10/27/programming-logical-thinking/" style="color: #0000ff; text-decoration: underline;">プログラミングに論理的思考力は必要？日常の例と紙でできる練習法を解説</a>もあわせて読めます。また、身近な不便から小さなアプリを作る流れは、<a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color: #0000ff; text-decoration: underline;">自分の悩みから自作アプリを作る方法｜題材選びから小さな試作まで</a>にまとめています。</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -336,8 +336,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-
 <h2 class="wp-block-heading">このブログでは、完成までの試行錯誤も発信します</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":164,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/08-build-in-public.png" alt="開発ノートとパソコンを広げ、試行錯誤を記録しながら制作を続ける大人のイラスト" class="wp-image-164" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":251,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/08-build-in-public.jpg" alt="開発ノートとパソコンを広げ、試行錯誤を記録しながら制作を続ける大人のイラスト" class="wp-image-251" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -369,10 +369,10 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-
 <li><a href="https://www.nanasinogonbei.com/blog/2026/11/18/search-keywords-guide/" style="color: #0000ff; text-decoration: underline;">Google検索のコツ｜欲しい情報にたどり着くキーワード選びと絞り込み</a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li><a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color: #0000ff; text-decoration: underline;">自分の悩み・困り事を自作アプリにする方法｜題材の見つけ方から小さな試作まで</a></li>
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color: #0000ff; text-decoration: underline;">自分の悩みから自作アプリを作る方法｜題材選びから小さな試作まで</a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li><a href="https://www.nanasinogonbei.com/blog/2026/11/24/youtube-direction-app/" style="color: #0000ff; text-decoration: underline;">YouTubeの悩みを聞いてる内に、真剣に運営の方向性を定まるアプリを作りたくなった</a></li>
+<li><a href="https://www.nanasinogonbei.com/blog/2026/11/24/youtube-direction-app/" style="color: #0000ff; text-decoration: underline;">YouTube運営の方向性に迷ったら？整理法と自作アプリの構想</a></li>
 <!-- /wp:list-item -->
 </ul>
 <!-- /wp:list -->
@@ -409,8 +409,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-
 <h2 class="wp-block-heading">At 40, I am building apps with the ambition of developing world-leading AI</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":129,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-ai-ambition.png" alt="A developer in their forties at a bright desk looking at a laptop and system diagram while building apps" class="wp-image-129" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":244,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-ai-ambition-2.jpg" alt="A developer in their forties at a bright desk looking at a laptop and system diagram while building apps" class="wp-image-244" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -449,8 +449,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-
 <h2 class="wp-block-heading">My roadmap through three years of self-study</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":130,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-learning-roadmap.png" alt="A stepping-stone learning path moving from typing to an introductory book, building blocks, and an app screen" class="wp-image-130" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":245,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-learning-roadmap-2.jpg" alt="A stepping-stone learning path moving from typing to an introductory book, building blocks, and an app screen" class="wp-image-245" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -524,8 +524,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-
 <h2 class="wp-block-heading">Starting with typing and encountering my first obstacle in Java</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":131,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-typing-and-java.png" alt="An adult learner practicing typing beside a diagrammed beginner book and building blocks" class="wp-image-131" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":246,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-typing-and-java-1.jpg" alt="An adult learner practicing typing beside a diagrammed beginner book and building blocks" class="wp-image-246" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -548,8 +548,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-
 <h2 class="wp-block-heading">I could read code in a book, but could not write my own</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":154,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-read-vs-write.png" alt="An adult thinking deeply over a blank notebook and laptop beside an open technical book" class="wp-image-154" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":247,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-read-vs-write-1.jpg" alt="An adult thinking deeply over a blank notebook and laptop beside an open technical book" class="wp-image-247" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -584,8 +584,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-
 <h2 class="wp-block-heading">Learning that people approach programming differently</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":161,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-different-approaches.png" alt="Two adults sketching two different paths toward the same goal on notebooks across a table" class="wp-image-161" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":248,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-different-approaches-1.jpg" alt="Two adults sketching two different paths toward the same goal on notebooks across a table" class="wp-image-248" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -608,8 +608,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-
 <h2 class="wp-block-heading">Finding clues in generative AI and workplace assignments</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":162,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/06-ai-and-work.png" alt="An adult comparing an abstract AI conversation on a laptop with arranged task sticky notes on a desk" class="wp-image-162" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":249,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/06-ai-and-work.jpg" alt="An adult comparing an abstract AI conversation on a laptop with arranged task sticky notes on a desk" class="wp-image-249" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -654,8 +654,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-
 <h2 class="wp-block-heading">How the order of a program’s steps connects to logical thinking</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":163,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/07-step-by-step-logic.png" alt="Hands arranging four pictorial cards in order for input, verification, reminder, and list" class="wp-image-163" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":250,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/07-step-by-step-logic.jpg" alt="Hands arranging four pictorial cards in order for input, verification, reminder, and list" class="wp-image-250" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -707,8 +707,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-
 <h2 class="wp-block-heading">This blog will also document the trial and error before completion</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":164,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/08-build-in-public.png" alt="An adult developer writing notes in a development journal beside a laptop at a bright workspace" class="wp-image-164" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":251,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/08-build-in-public.jpg" alt="An adult developer writing notes in a development journal beside a laptop at a bright workspace" class="wp-image-251" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -743,7 +743,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-
 <li><a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color: #0000ff; text-decoration: underline;">How to Turn a Personal Problem into a Homemade App: From Finding an Idea to a Small Prototype</a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li><a href="https://www.nanasinogonbei.com/blog/2026/11/24/youtube-direction-app/" style="color: #0000ff; text-decoration: underline;">Why Listening to Creators Made Me Want to Build a YouTube Channel Direction App</a></li>
+<li><a href="https://www.nanasinogonbei.com/blog/2026/11/24/youtube-direction-app/" style="color: #0000ff; text-decoration: underline;">Unsure About Your YouTube Channel Direction? How to Clarify It and Our App Concept</a></li>
 <!-- /wp:list-item -->
 </ul>
 <!-- /wp:list -->

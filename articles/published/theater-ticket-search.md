@@ -2,27 +2,29 @@
 categories:
 - 課題と解決
 excerpt: 知らない劇団の舞台を探すなら、チケット販売サイトも入口になります。イープラス、カンフェティ、teketで候補を見つける方法と、小劇場の予約フォームとの違いを紹介。見つからないときの探し直し方や、予約前の確認項目もまとめます。
-featured_image: articles/images/theater-ticket-search/search-v2.png
+featured_image: articles/images/theater-ticket-search/optimized/search-v2.jpg
 featured_image_alt: 一枚のチケットから複数の舞台へ道が分かれる、公演の逆引きを表すイラスト
 slug: theater-ticket-search
 status: publish
 tags:
 - 演劇
 - 小劇場
-- チケット
 - 公演情報
-title: 小劇場の公演をチケット販売サイトから探す方法｜予約フォームとの違いも紹介
-wordpress_featured_media_id: 31
+title: 小劇場の公演をチケットサイトで探す方法｜予約フォームとの違い
+wordpress_featured_media_id: 275
 wordpress_inline_media:
-  check-v2.png:
-    id: 33
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/check-v2.png
-  reservation-v2.png:
-    id: 32
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/reservation-v2.png
-  search-v2.png:
-    id: 31
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/search-v2.png
+  check-v2.jpg:
+    alt: 地域を選びチケットと予約を確認して劇場へ向かう流れを表すイラスト
+    id: 273
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/check-v2.jpg
+  reservation-v2.jpg:
+    alt: 公演ポスターの一覧から1つの予約窓口へ進む流れを表すイラスト
+    id: 274
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/reservation-v2.jpg
+  search-v2.jpg:
+    alt: 1枚のチケットから複数の舞台へ道が分かれる、公演の逆引きを表すイラスト
+    id: 275
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/search-v2.jpg
 wordpress_post_id: 34
 wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/20/theater-ticket-search/
 ---
@@ -48,7 +50,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/20/theater-ticket-sea
 <!-- wp:tab-panels -->
 <div class="wp-block-tab-panels">
 <!-- wp:tab-panel {"label":"日本語","metadata":{"name":"日本語本文"}} -->
-<section role="tabpanel" tabindex="0" class="wp-block-tab-panel">
+<section role="tabpanel" tabindex="0" class="wp-block-tab-panel" lang="ja">
 <!-- wp:group {"metadata":{"name":"ja: 導入"},"className":"theater-ticket-panel","layout":{"type":"default"}} -->
 <div class="wp-block-group theater-ticket-panel">
 <!-- wp:paragraph -->
@@ -71,8 +73,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/20/theater-ticket-sea
 <h2 class="wp-block-heading">公演を探す入口に、3つのチケット販売サイトを加える</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":31,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/search-v2.png" alt="1枚のチケットから複数の舞台へ道が分かれる、公演の逆引きを表すイラスト" class="wp-image-31" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":275,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/search-v2.jpg" alt="1枚のチケットから複数の舞台へ道が分かれる、公演の逆引きを表すイラスト" class="wp-image-275" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -168,8 +170,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/20/theater-ticket-sea
 <h2 class="wp-block-heading">小劇場の予約フォームは、劇団の告知からたどる</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":32,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/reservation-v2.png" alt="公演ポスターの一覧から1つの予約窓口へ進む流れを表すイラスト" class="wp-image-32" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":274,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/reservation-v2.jpg" alt="公演ポスターの一覧から1つの予約窓口へ進む流れを表すイラスト" class="wp-image-274" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -232,8 +234,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/20/theater-ticket-sea
 <h2 class="wp-block-heading">「来月、近くで観たい」なら、この順番で探す</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":33,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/check-v2.png" alt="地域を選びチケットと予約を確認して劇場へ向かう流れを表すイラスト" class="wp-image-33" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":273,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/check-v2.jpg" alt="地域を選びチケットと予約を確認して劇場へ向かう流れを表すイラスト" class="wp-image-273" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -336,7 +338,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/20/theater-ticket-sea
 <!-- wp:list -->
 <ul class="wp-block-list">
 <!-- wp:list-item -->
-<li><a href="https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-learning-roadmap/" style="color: #0000ff; text-decoration: underline;">プログラミング独学ロードマップ｜40歳未経験から3年間でつまずいた壁と対処法</a></li>
+<li><a href="https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-learning-roadmap/" style="color: #0000ff; text-decoration: underline;">プログラミング独学ロードマップ｜未経験40歳・3年間の壁と対処法</a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
 <li><a href="https://www.nanasinogonbei.com/blog/2026/09/13/small-theater-performance-info/" style="color: #0000ff; text-decoration: underline;">小劇場の公演情報はどこで探す？まだ知らない劇団の舞台を見つける方法</a></li>
@@ -349,7 +351,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/20/theater-ticket-sea
 <!-- /wp:tab-panel -->
 
 <!-- wp:tab-panel {"label":"English","metadata":{"name":"English body"}} -->
-<section role="tabpanel" tabindex="0" class="wp-block-tab-panel">
+<section role="tabpanel" tabindex="0" class="wp-block-tab-panel" lang="en">
 <!-- wp:group {"metadata":{"name":"en: Introduction"},"className":"theater-ticket-panel","layout":{"type":"default"}} -->
 <div class="wp-block-group theater-ticket-panel">
 <!-- wp:paragraph -->
@@ -376,8 +378,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/20/theater-ticket-sea
 <h2 class="wp-block-heading">Add three ticket websites to your search</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":31,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/search-v2.png" alt="A ticket leading along branching paths to several stages" class="wp-image-31" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":275,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/search-v2.jpg" alt="A ticket leading along branching paths to several stages" class="wp-image-275" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -473,8 +475,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/20/theater-ticket-sea
 <h2 class="wp-block-heading">Follow the company’s announcement to its reservation form</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":32,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/reservation-v2.png" alt="A path leading from a board of performance posters to one booking window" class="wp-image-32" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":274,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/reservation-v2.jpg" alt="A path leading from a board of performance posters to one booking window" class="wp-image-274" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -537,8 +539,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/20/theater-ticket-sea
 <h2 class="wp-block-heading">How to search when you want to see something nearby next month</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":33,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/09/check-v2.png" alt="A route through a city linking a location pin, ticket, confirmation mark, and theater" class="wp-image-33" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":273,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/check-v2.jpg" alt="A route through a city linking a location pin, ticket, confirmation mark, and theater" class="wp-image-273" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->

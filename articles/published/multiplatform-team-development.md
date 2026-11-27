@@ -2,41 +2,40 @@
 categories:
 - 開発の裏側
 excerpt: 家のパソコンで保存した記録を、外出先のスマホでも見るにはどう作ればよいのか。図書館の窓口と裏方のたとえで、バックエンド・Web・スマホアプリの役割分担やAPIの約束、段階的な更新方法まで初心者向けに分かりやすく整理しました。
-featured_image: articles/images/multiplatform-team-development/01-three-roles-v2.png
+featured_image: articles/images/multiplatform-team-development/optimized/01-three-roles-v2.jpg
 featured_image_alt: 1つの台帳を管理する図書館の司書と、パソコン・スマートフォンで同じ本の記録を見る2人の大人のイラスト
 slug: multiplatform-team-development
 status: publish
 tags:
-- マルチプラットフォーム開発
 - アプリ設計
-- チーム開発
+- アプリ開発
 title: Webとスマホアプリはどうつながる？バックエンド・画面の役割分担を図解
-wordpress_featured_media_id: 137
+wordpress_featured_media_id: 211
 wordpress_inline_media:
-  01-three-roles-v2.png:
+  01-three-roles-v2.jpg:
     alt: 1つの台帳を管理する図書館の司書と、パソコン・スマートフォンで同じ本の記録を見る2人の大人のイラスト
-    id: 137
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-three-roles-v2.png
-  02-message-cards-v2.png:
+    id: 211
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-three-roles-v2.jpg
+  02-message-cards-v2.jpg:
     alt: スマートフォンを持つ大人が窓口越しに司書へ本とカレンダーのカードを渡し、別の大人がパソコンで同じ記録を見るイラスト
-    id: 138
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-message-cards-v2.png
-  03-team-workbench.png:
+    id: 212
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-message-cards-v2.jpg
+  03-team-workbench.jpg:
     alt: 台帳・パソコン・スマホを担当する3人が、共通の絵カードを囲んで作業を進めるイラスト
-    id: 105
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/multiplatform-team-development-03-team-workbench.png
-  04-test-and-update.png:
+    id: 213
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-team-workbench.jpg
+  04-test-and-update.jpg:
     alt: パソコン・古いスマホ・新しいスマホの表示を、台帳とチェック用の紙で確かめるイラスト
-    id: 106
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/multiplatform-team-development-04-test-and-update.png
-  05-choose-small-v2.png:
+    id: 214
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-test-and-update.jpg
+  05-choose-small-v2.jpg:
     alt: Webだけの小さな構成と、裏方・Web・モバイルが連携する構成を見比べる大人開発者のイラスト
-    id: 152
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-choose-small-v2.png
-  06-paper-first-step-v2.png:
+    id: 215
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-choose-small-v2.jpg
+  06-paper-first-step-v2.jpg:
     alt: パソコン・台帳・スマホを描いた3枚の紙を机に並べてカードを渡す2人の大人のイラスト
-    id: 153
-    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/06-paper-first-step-v2.png
+    id: 216
+    url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/06-paper-first-step-v2.jpg
 wordpress_post_id: 109
 wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team-development/
 ---
@@ -82,8 +81,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <h2 class="wp-block-heading">バックエンド・Webフロントエンド・モバイルの役割を図書館で考える</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":137,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-three-roles-v2.png" alt="1つの台帳を管理する図書館の司書と、パソコン・スマートフォンで同じ本の記録を見る2人の大人のイラスト" class="wp-image-137" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":211,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-three-roles-v2.jpg" alt="1つの台帳を管理する図書館の司書と、パソコン・スマートフォンで同じ本の記録を見る2人の大人のイラスト" class="wp-image-211" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -122,8 +121,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <h2 class="wp-block-heading">Webとモバイルは、APIという共通の窓口で裏方とつながる</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":138,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-message-cards-v2.png" alt="スマートフォンを持つ大人が窓口越しに司書へ本とカレンダーのカードを渡し、別の大人がパソコンで同じ記録を見るイラスト" class="wp-image-138" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":212,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-message-cards-v2.jpg" alt="スマートフォンを持つ大人が窓口越しに司書へ本とカレンダーのカードを渡し、別の大人がパソコンで同じ記録を見るイラスト" class="wp-image-212" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -199,8 +198,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <h2 class="wp-block-heading">チーム開発では、役割とやり取りの約束を先に決める</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"sizeSlug":"full","linkDestination":"none","id":105} -->
-<figure class="wp-block-image size-full"><img class="wp-image-105" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/multiplatform-team-development-03-team-workbench.png" alt="台帳・パソコン・スマホを担当する3人が、共通の絵カードを囲んで作業を進めるイラスト"/></figure>
+<!-- wp:image {"sizeSlug":"full","linkDestination":"none","id":213} -->
+<figure class="wp-block-image size-full"><img class="wp-image-213" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-team-workbench.jpg" alt="台帳・パソコン・スマホを担当する3人が、共通の絵カードを囲んで作業を進めるイラスト"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -278,8 +277,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <h2 class="wp-block-heading">「保存して別の端末で見る」まで試し、更新で壊れないようにする</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"sizeSlug":"full","linkDestination":"none","id":106} -->
-<figure class="wp-block-image size-full"><img class="wp-image-106" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/multiplatform-team-development-04-test-and-update.png" alt="パソコン・古いスマホ・新しいスマホの表示を、台帳とチェック用の紙で確かめるイラスト"/></figure>
+<!-- wp:image {"sizeSlug":"full","linkDestination":"none","id":214} -->
+<figure class="wp-block-image size-full"><img class="wp-image-214" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-test-and-update.jpg" alt="パソコン・古いスマホ・新しいスマホの表示を、台帳とチェック用の紙で確かめるイラスト"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -346,8 +345,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <h2 class="wp-block-heading">最初から3つに分けるかは、使う場面と増える手間で決める</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":152,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-choose-small-v2.png" alt="Webだけの小さな構成と、裏方・Web・モバイルが連携する構成を見比べる大人開発者のイラスト" class="wp-image-152" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":215,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-choose-small-v2.jpg" alt="Webだけの小さな構成と、裏方・Web・モバイルが連携する構成を見比べる大人開発者のイラスト" class="wp-image-215" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -402,8 +401,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <h2 class="wp-block-heading">まず紙に3つの役割を描き、1つの操作を通してみる</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":153,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/06-paper-first-step-v2.png" alt="パソコン・台帳・スマホを描いた3枚の紙を机に並べてカードを渡す2人の大人のイラスト" class="wp-image-153" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":216,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/06-paper-first-step-v2.jpg" alt="パソコン・台帳・スマホを描いた3枚の紙を机に並べてカードを渡す2人の大人のイラスト" class="wp-image-216" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -439,7 +438,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>題材がまだ決まっていなければ、<a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color:#0000ff;text-decoration:underline;">自分の悩み・困り事を自作アプリにする方法｜題材の見つけ方から小さな試作まで</a>から、日常の1つの不便を選んでみてください。<strong>まずは「誰が、どの窓口で、何を1つできればよいか」を書くことが、次の一歩です。</strong></p>
+<p>題材がまだ決まっていなければ、<a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color:#0000ff;text-decoration:underline;">自分の悩みから自作アプリを作る方法｜題材選びから小さな試作まで</a>から、日常の1つの不便を選んでみてください。<strong>まずは「誰が、どの窓口で、何を1つできればよいか」を書くことが、次の一歩です。</strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"metadata":{"name":"ja: 出典と、もう少し詳しく知るための資料"},"className":"mpt-subsection","layout":{"type":"default"}} -->
@@ -494,7 +493,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <li><a href="https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-products/" style="color:#0000ff;text-decoration:underline;">アプリ設計はシンプルが正解？使いやすさと安全を両立する機能の絞り方</a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li><a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color:#0000ff;text-decoration:underline;">自分の悩み・困り事を自作アプリにする方法｜題材の見つけ方から小さな試作まで</a></li>
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color:#0000ff;text-decoration:underline;">自分の悩みから自作アプリを作る方法｜題材選びから小さな試作まで</a></li>
 <!-- /wp:list-item -->
 </ul>
 <!-- /wp:list -->
@@ -527,8 +526,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <h2 class="wp-block-heading">Backend, web frontend, and mobile: three roles in a library example</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":137,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-three-roles-v2.png" alt="An adult librarian maintains one ledger while two adults view matching book and calendar information on a computer and a smartphone" class="wp-image-137" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":211,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/01-three-roles-v2.jpg" alt="An adult librarian maintains one ledger while two adults view matching book and calendar information on a computer and a smartphone" class="wp-image-211" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -567,8 +566,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <h2 class="wp-block-heading">Web and mobile communicate with the backend through an API</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":138,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-message-cards-v2.png" alt="An adult holding a smartphone passes a book-and-calendar card through a library window to a librarian while another adult checks the same record on a laptop" class="wp-image-138" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":212,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/02-message-cards-v2.jpg" alt="An adult holding a smartphone passes a book-and-calendar card through a library window to a librarian while another adult checks the same record on a laptop" class="wp-image-212" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -644,8 +643,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <h2 class="wp-block-heading">In team development, agree on responsibilities and communication first</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"sizeSlug":"full","linkDestination":"none","id":105} -->
-<figure class="wp-block-image size-full"><img class="wp-image-105" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/multiplatform-team-development-03-team-workbench.png" alt="Three makers responsible for a ledger, a computer, and a phone coordinate around one shared reference card"/></figure>
+<!-- wp:image {"sizeSlug":"full","linkDestination":"none","id":213} -->
+<figure class="wp-block-image size-full"><img class="wp-image-213" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/03-team-workbench.jpg" alt="Three makers responsible for a ledger, a computer, and a phone coordinate around one shared reference card"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -723,8 +722,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <h2 class="wp-block-heading">Test saving on one device and reading on another, then protect that flow during updates</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"sizeSlug":"full","linkDestination":"none","id":106} -->
-<figure class="wp-block-image size-full"><img class="wp-image-106" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/multiplatform-team-development-04-test-and-update.png" alt="Makers check a computer, an older phone, and a newer phone against a ledger and a paper checklist"/></figure>
+<!-- wp:image {"sizeSlug":"full","linkDestination":"none","id":214} -->
+<figure class="wp-block-image size-full"><img class="wp-image-214" src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/04-test-and-update.jpg" alt="Makers check a computer, an older phone, and a newer phone against a ledger and a paper checklist"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -791,8 +790,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <h2 class="wp-block-heading">Decide how far to separate things by the use case and the extra work</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":152,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-choose-small-v2.png" alt="An adult developer compares a small web-only setup with a coordinated backend, web, and mobile setup" class="wp-image-152" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":215,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-choose-small-v2.jpg" alt="An adult developer compares a small web-only setup with a coordinated backend, web, and mobile setup" class="wp-image-215" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -847,8 +846,8 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <h2 class="wp-block-heading">Start with three paper roles and walk one action through them</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":153,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/06-paper-first-step-v2.png" alt="Two adults pass a book-and-calendar card across three paper sheets for computer, ledger, and phone roles" class="wp-image-153" style="width:100%;height:auto"/></figure>
+<!-- wp:image {"id":216,"width":"100%","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/06-paper-first-step-v2.jpg" alt="Two adults pass a book-and-calendar card across three paper sheets for computer, ledger, and phone roles" class="wp-image-216" style="width:100%;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
