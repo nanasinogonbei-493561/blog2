@@ -1,16 +1,16 @@
 ---
 categories:
 - 開発の裏側
-excerpt: プログラミングに論理的思考力が役立つ理由を、外出時の傘の判断や日用品の在庫チェックを例に説明します。手順の分け方、条件の考え方、うまく動かないときの切り分け方を整理しました。コードを書く前に紙とペンで試せる練習を通して、何から考えればよいかが分かります。
+excerpt: プログラミングに論理的思考力は本当に必要？ 外出時の傘の判断や日用品の在庫チェックなど身近な例で、手順の分け方・条件の考え方・バグの切り分け方を整理しました。コードを書く前に紙とペンで試せる練習法を通して、初心者でも考え方を身につけられます。
 featured_image: articles/images/programming-logical-thinking-kids/01-umbrella-decision-v2.png
 featured_image_alt: 玄関の窓から外の雨を見て、通勤バッグのそばの折りたたみ傘を手に取る大人のイラスト
-slug: programming-logical-thinking-kids
+slug: programming-logical-thinking
 status: publish
 tags:
 - プログラミング学習
 - 論理的思考
 - 初心者向け
-title: プログラミングと論理的思考力の関係性について
+title: プログラミングに論理的思考力は必要？日常の例と紙でできる練習法を解説
 wordpress_featured_media_id: 132
 wordpress_inline_media:
   01-umbrella-decision-v2.png:
@@ -34,7 +34,7 @@ wordpress_inline_media:
     id: 149
     url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-paper-rule-v2.png
 wordpress_post_id: 93
-wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logical-thinking-kids/
+wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logical-thinking/
 ---
 
 <!-- wp:html {"metadata":{"name":"本文・画像・表・青色リンクの表示スタイル"}} -->
@@ -56,17 +56,13 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 
 <!-- wp:tab-panels -->
 <div class="wp-block-tab-panels"><!-- wp:tab-panel {"label":"日本語","metadata":{"name":"日本語本文"}} -->
-<section role="tabpanel" tabindex="0" class="wp-block-tab-panel"><!-- wp:group {"metadata":{"name":"ja: 導入"},"className":"logical-thinking-panel","layout":{"type":"default"}} -->
+<section role="tabpanel" tabindex="0" class="wp-block-tab-panel" lang="ja"><!-- wp:group {"metadata":{"name":"ja: 導入"},"className":"logical-thinking-panel","layout":{"type":"default"}} -->
 <div class="wp-block-group logical-thinking-panel"><!-- wp:paragraph -->
 <p>雨が降っているから、かさを持っていく。プログラミングでも、<strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">何をしたいのかを決め、理由のある順番で手順を組む</mark></strong>ところに、論理的に考える力が役立ちます。コンピュータに伝わる書き方を覚え、動かして確かめるのも、その先の仕事です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>かさの次は、外出前の持ち物チェックや日用品の在庫管理です。コードが分からなくても、紙とペンがあれば、手順を考えるところから始められます。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>以前書いた<a href="https://zenn.dev/nanashinogonbei/articles/programming-and-logical-thinking" style="color: #0000ff; text-decoration: underline;">Zennの記事「プログラミングと論理的思考力の関係性について」</a>をもとに、専門的なコードの説明を身近な日常の例へ置き換えて整理しました。</p>
+<p>この記事では、外出前の持ち物チェックや日用品の在庫管理といった身近な例をもとに、手順の分け方から紙とペンでできる練習法までを順番に整理しました。コードが分からなくても、考え方の土台から試せます。</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -145,6 +141,10 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <!-- /wp:list-item --></ol>
 <!-- /wp:list -->
 
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">順次処理・条件分岐・繰り返しの3つの基本</h3>
+<!-- /wp:heading -->
+
 <!-- wp:paragraph -->
 <p>順番に1つずつ進めるのが「順次処理」、条件によって行動を変えるのが「条件分岐」、同じ確認を繰り返すのが「繰り返し」です。最初は難しい言葉にとらわれず、処理の流れを追えれば十分です。</p>
 <!-- /wp:paragraph -->
@@ -220,8 +220,12 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>私自身も、本のコードは読めるのに、自分で作ろうとすると手が止まった経験があります。その流れは、<a href="https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-learning-roadmap/" style="color: #0000ff; text-decoration: underline;">自己紹介とプログラミング学習ロードマップ｜未経験から独学で歩んだ3年間</a>にまとめています。</p>
+<p>私自身も、本のコードは読めるのに、自分で作ろうとすると手が止まった経験があります。その流れは、<a href="https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-learning-roadmap/" style="color: #0000ff; text-decoration: underline;">プログラミング独学ロードマップ｜40歳未経験から3年間でつまずいた壁と対処法</a>にまとめています。</p>
 <!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">止まっている段階ごとの切り分け表</h3>
+<!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 <p>今どこで止まっているかを、次のように切り分けてみてください。</p>
@@ -275,6 +279,10 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <p>0個なら知らせ、1個以上なら知らせないルールができました。ところが、予備を含めて常に2個キープしたいとしたらどうでしょう。1個しか残っていないのに、今のルールでは何も知らせてくれません。</p>
 <!-- /wp:paragraph -->
 
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">「より少ない」と「以下」の境目を確かめる</h3>
+<!-- /wp:heading -->
+
 <!-- wp:paragraph -->
 <p>ルールを「2個より少なければ、足りない分を買うように知らせる」に変えて、同じ4つの場合を確かめます。結果は次のとおりです。</p>
 <!-- /wp:paragraph -->
@@ -294,13 +302,31 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <!-- wp:paragraph -->
 <p>参考：本記事のもとになった<a href="https://zenn.dev/nanashinogonbei/articles/programming-and-logical-thinking" style="color: #0000ff; text-decoration: underline;">Zennの元記事</a>と、コードで「場合分け」「繰り返し」がどう書かれるかを確認できる<a href="https://docs.python.org/ja/3/tutorial/controlflow.html" style="color: #0000ff; text-decoration: underline;">Python公式チュートリアル</a>。公式資料は発展学習向けなので、今すべて読む必要はありません。</p>
 <!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"ja: 関連記事"},"className":"logical-thinking-panel","layout":{"type":"default"}} -->
+<div class="wp-block-group logical-thinking-panel"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">関連記事</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-learning-roadmap/" style="color: #0000ff; text-decoration: underline;">プログラミング独学ロードマップ｜40歳未経験から3年間でつまずいた壁と対処法</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-products/" style="color: #0000ff; text-decoration: underline;">アプリ設計はシンプルが正解？使いやすさと安全を両立する機能の絞り方</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color: #0000ff; text-decoration: underline;">自分の悩み・困り事を自作アプリにする方法｜題材の見つけ方から小さな試作まで</a></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
 <!-- /wp:group --></section>
 <!-- /wp:tab-panel -->
 
 <!-- wp:tab-panel {"label":"English","metadata":{"name":"English body"}} -->
-<section role="tabpanel" tabindex="0" class="wp-block-tab-panel"><!-- wp:group {"metadata":{"name":"en: Introduction"},"className":"logical-thinking-panel","layout":{"type":"default"}} -->
+<section role="tabpanel" tabindex="0" class="wp-block-tab-panel" lang="en"><!-- wp:group {"metadata":{"name":"en: Introduction"},"className":"logical-thinking-panel","layout":{"type":"default"}} -->
 <div class="wp-block-group logical-thinking-panel"><!-- wp:paragraph -->
-<p><strong>How Programming Connects to Logical Thinking</strong></p>
+<p><strong>Why Logical Thinking Matters in Programming: Everyday Examples and Paper Practice</strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -308,11 +334,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>After the umbrella example, we’ll walk through a pre-commute packing checklist and household inventory tracking. Paper and a pen are enough to start working out the steps, even if you’ve never written code.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>This article builds on my <a href="https://zenn.dev/nanashinogonbei/articles/programming-and-logical-thinking" style="color: #0000ff; text-decoration: underline;">Zenn article on programming and logical thinking (in Japanese)</a>, replacing technical code explanations with familiar everyday examples.</p>
+<p>Using everyday examples such as a pre-commute packing checklist and household inventory tracking, this guide walks through how to break down steps and practice on paper with a pen—even if you have never written code.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -391,6 +413,10 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <!-- /wp:list-item --></ol>
 <!-- /wp:list -->
 
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Three basic patterns: sequence, branching, and repetition</h3>
+<!-- /wp:heading -->
+
 <!-- wp:paragraph -->
 <p>Doing steps one after another is sequential processing, acting differently depending on a check is branching, and doing the same check across items is repetition. You don’t need to memorize labels first—following the flow is enough.</p>
 <!-- /wp:paragraph -->
@@ -466,8 +492,12 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>I have also struggled to build something myself even when I could read code in a book. I describe that path in <a href="https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-learning-roadmap/" style="color: #0000ff; text-decoration: underline;">About Me and My Programming Learning Roadmap: Three Years of Self-Study</a>.</p>
+<p>I have also struggled to build something myself even when I could read code in a book. I describe that path in <a href="https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-learning-roadmap/" style="color: #0000ff; text-decoration: underline;">Self-Taught Programming Roadmap: Three Years of Roadblocks and Lessons Starting at 40</a>.</p>
 <!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">How to isolate where you got stuck</h3>
+<!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 <p>Try isolating where you get stuck:</p>
@@ -521,6 +551,10 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <p>That works when one item is enough. But suppose you want to keep a spare and always maintain two in stock: when one remains, the old rule stays silent.</p>
 <!-- /wp:paragraph -->
 
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Check the boundary between “fewer than” and “or fewer”</h3>
+<!-- /wp:heading -->
+
 <!-- wp:paragraph -->
 <p>Update the rule to: “If stock is fewer than two, send a reminder to buy the missing amount.” Test the same four cases again:</p>
 <!-- /wp:paragraph -->
@@ -540,6 +574,24 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/10/27/programming-logica
 <!-- wp:paragraph -->
 <p>References: the <a href="https://zenn.dev/nanashinogonbei/articles/programming-and-logical-thinking" style="color: #0000ff; text-decoration: underline;">original Zenn article (in Japanese)</a> behind this explanation, and the <a href="https://docs.python.org/3/tutorial/controlflow.html" style="color: #0000ff; text-decoration: underline;">official Python tutorial</a> showing how conditionals and loops appear in code. The official tutorial is further reading; you do not need to learn all of it right now.</p>
 <!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"en: Related articles"},"className":"logical-thinking-panel","layout":{"type":"default"}} -->
+<div class="wp-block-group logical-thinking-panel"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Related articles</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-learning-roadmap/" style="color: #0000ff; text-decoration: underline;">Self-Taught Programming Roadmap: Three Years of Roadblocks and Lessons Starting at 40</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-products/" style="color: #0000ff; text-decoration: underline;">Should App Design Always Be Simple? Balancing Usability, Safety, and Feature Scope</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color: #0000ff; text-decoration: underline;">How to Turn a Personal Problem into a Homemade App: From Finding an Idea to a Small Prototype</a></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
 <!-- /wp:group --></section>
 <!-- /wp:tab-panel --></div>
 <!-- /wp:tab-panels --></div>
