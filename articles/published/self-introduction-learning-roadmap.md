@@ -1,7 +1,7 @@
 ---
 categories:
 - Build in Public
-excerpt: 本に載っているコードは読めるのに、いざ自分で作ろうとすると書けない。ITスキル0から独学を始めた私が、タイピングやJavaでのつまずき、人との出会い、生成AIや仕事の課題を振り返ります。小さな機能をどう組み立てるかが、少しずつ見えてきた3年間の記録です。
+excerpt: 本に載っているコードは読めるのに、いざ自分で作ろうとすると書けない。40歳・ITスキルゼロから独学でWebアプリやAIアプリ開発を続ける私が、タイピングやJavaでのつまずき、生成AIや仕事の課題から掴んだ手順の組み立て方、同じ壁を越える具体策をまとめました。
 featured_image: articles/images/self-introduction-learning-roadmap/01-ai-ambition.png
 featured_image_alt: 明るい机でパソコンの画面と設計図を見つめ、アプリ開発を進める40代の人物のイラスト
 slug: self-introduction-learning-roadmap
@@ -10,7 +10,7 @@ tags:
 - プログラミング学習
 - 独学
 - アプリ開発
-title: 自己紹介とプログラミング学習ロードマップ｜未経験から独学で歩んだ3年間
+title: プログラミング独学ロードマップ｜40歳未経験から3年間でつまずいた壁と対処法
 wordpress_featured_media_id: 129
 wordpress_inline_media:
   01-ai-ambition.png:
@@ -70,7 +70,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-
 <!-- wp:tab-panels -->
 <div class="wp-block-tab-panels">
 <!-- wp:tab-panel {"label":"日本語","metadata":{"name":"日本語本文"}} -->
-<section role="tabpanel" tabindex="0" class="wp-block-tab-panel">
+<section role="tabpanel" tabindex="0" class="wp-block-tab-panel" lang="ja">
 <!-- wp:group {"metadata":{"name":"ja: 導入"},"className":"self-intro-panel","layout":{"type":"default"}} -->
 <div class="wp-block-group self-intro-panel">
 <!-- wp:paragraph -->
@@ -158,11 +158,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>最初にやったのは、e-Typingでキーボードに慣れることでした。そのあと、ProgateでJavaを学び始めました。</p>
+<p>最初にやったのは、<a href="https://www.e-typing.ne.jp/" style="color: #0000ff; text-decoration: underline;">e-Typing</a>でキーボードに慣れることでした。そのあと、<a href="https://prog-8.com/" style="color: #0000ff; text-decoration: underline;">Progate</a>でJavaを学び始めました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Javaで最初に分からなくなったのは「オブジェクト指向」でした。扱う情報と、それに関わる処理をひとまとまりにして考える方法です。当時は、言葉で説明を聞いてもなかなか腑に落ちませんでした。</p>
+<p>Javaで最初に分からなくなったのは「オブジェクト指向」でした。扱う情報と、それに関わる処理をひとまとまりにして考える方法です。当時は、言葉で説明を聞いてもなかなか腑に落ちませんでした。<mark style="background-color:#fef08a;color:#422006" class="has-inline-color">用語の定義を丸暗記しようとして止まるときは、身近な物や作業の例に置き換えて読み直す</mark>と、意味の輪郭がつかみやすくなります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -192,6 +192,18 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-
 <!-- wp:paragraph -->
 <p>振り返ると、完成したコードを読むときは、すでに誰かが手順を決めてくれています。自分で作るときは、<mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">必要な処理を考えて、どんな順番で動かすか決める</mark>ところから始めなければなりません。苦手だったのは、その間にある作業だったのだと思います。</p>
 <!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">「読めるのに書けない」を切り分ける3つの確認</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>同じところで手が止まったときは、自分が次の3つのどこで迷っているかを分けて確かめると、次の一歩を決めやすくなります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div class="table-scroll"><table><thead><tr><th>確認したいこと</th><th>つまずいているサイン</th><th>次の一歩</th></tr></thead><tbody><tr><td>1. 何を作りたいか1文で言えるか</td><td>「便利なツールを作りたい」と漠然としている</td><td>入力する内容と、画面に出したい結果を1つに決める</td></tr><tr><td>2. 動かす順番を普通の言葉で並べられるか</td><td>何から処理を始めるべきか白紙の前で止まる</td><td>コードを書く前に、日本語で1〜4の手順を書き出す</td></tr><tr><td>3. 書き方だけが分からないのか</td><td>手順は言えるのに、文法や道具の書き方が浮かばない</td><td>使いたい機能だけを小さな例で調べ、動かして確かめる</td></tr></tbody></table></div>
+<!-- /wp:html -->
 </div>
 <!-- /wp:group -->
 
@@ -240,6 +252,28 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-
 <!-- wp:paragraph -->
 <p>会社で実際の課題に取り組むうちに、手順をどう組めば動くかも、少しずつ見えてきました。本の説明を読むだけでは見えなかった部分でした。</p>
 <!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">独学で生成AIをヒントとして使うときの工夫</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>独学で生成AIを使うときは、完成したコードだけをそのまま受け取るより、自分の言葉で質問して考え方を確認するほうが身につきやすくなります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list">
+<!-- wp:list-item -->
+<li><strong>「何を作りたいか」と「どこで止まったか」を添える：</strong>「動かない」だけでなく、自分が考えた手順を先に書いてから質問します。</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>理由や分け方を聞き返す：</strong><mark style="background-color:#fee2e2;color:#991b1b" class="has-inline-color">中身を確かめないまま長いコードを丸ごと貼り付ける</mark>と、直したいときに手が止まります。「どの順番で動いているか」を短く説明してもらいます。</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>小さな単位で動かして確かめる：</strong>一度に全部を作らず、1つの入力と1つの結果が動くかを手元で試しながら進めます。</li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
 </div>
 <!-- /wp:group -->
 
@@ -289,6 +323,10 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-
 <!-- wp:paragraph -->
 <p>自分と同じように書くところで手が止まるなら、<mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">小さな機能を一つ選び、動く順番を日本語で書き出す</mark>ところから始めてみてください。順番を考えるところで止まるのか、コードにするときに止まるのか。迷っている場所が少し見えやすくなります。</p>
 <!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>手順の分け方を日常の例で確かめたいときは、<a href="https://www.nanasinogonbei.com/blog/2026/10/27/programming-logical-thinking/" style="color: #0000ff; text-decoration: underline;">プログラミングに論理的思考力は必要？日常の例と紙でできる練習法を解説</a>もあわせて読めます。また、身近な不便から小さなアプリを作る流れは、<a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color: #0000ff; text-decoration: underline;">自分の悩み・困り事を自作アプリにする方法｜題材の見つけ方から小さな試作まで</a>にまとめています。</p>
+<!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
 
@@ -325,13 +363,16 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-
 <!-- wp:list -->
 <ul class="wp-block-list">
 <!-- wp:list-item -->
-<li><a href="https://www.nanasinogonbei.com/blog/2026/09/13/small-theater-performance-info/" style="color: #0000ff; text-decoration: underline;">小劇場の公演情報はどこで探す？まだ知らない劇団の舞台を見つける方法</a></li>
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/27/programming-logical-thinking/" style="color: #0000ff; text-decoration: underline;">プログラミングに論理的思考力は必要？日常の例と紙でできる練習法を解説</a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li><a href="https://www.nanasinogonbei.com/blog/2026/09/20/theater-ticket-search/" style="color: #0000ff; text-decoration: underline;">小劇場の公演をチケット販売サイトから探す方法｜予約フォームとの違いも紹介</a></li>
+<li><a href="https://www.nanasinogonbei.com/blog/2026/11/18/search-keywords-guide/" style="color: #0000ff; text-decoration: underline;">Google検索のコツ｜欲しい情報にたどり着くキーワード選びと絞り込み</a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li><a href="https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-problems-to-app-ideas/" style="color: #0000ff; text-decoration: underline;">クラウドソーシングからアプリのアイデアを見つける方法｜困り事の収集・集計・検証</a></li>
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color: #0000ff; text-decoration: underline;">自分の悩み・困り事を自作アプリにする方法｜題材の見つけ方から小さな試作まで</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/11/24/youtube-direction-app/" style="color: #0000ff; text-decoration: underline;">YouTubeの悩みを聞いてる内に、真剣に運営の方向性を定まるアプリを作りたくなった</a></li>
 <!-- /wp:list-item -->
 </ul>
 <!-- /wp:list -->
@@ -341,11 +382,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-
 <!-- /wp:tab-panel -->
 
 <!-- wp:tab-panel {"label":"English","metadata":{"name":"English body"}} -->
-<section role="tabpanel" tabindex="0" class="wp-block-tab-panel">
+<section role="tabpanel" tabindex="0" class="wp-block-tab-panel" lang="en">
 <!-- wp:group {"metadata":{"name":"en: Introduction"},"className":"self-intro-panel","layout":{"type":"default"}} -->
 <div class="wp-block-group self-intro-panel">
 <!-- wp:paragraph -->
-<p><strong>About Me and My Programming Learning Roadmap: Three Years of Self-Study</strong></p>
+<p><strong>Self-Taught Programming Roadmap: Three Years of Roadblocks and Lessons Starting at 40</strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -488,11 +529,11 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>I started with e-Typing to get comfortable at the keyboard. After that I began learning Java on Progate.</p>
+<p>I started with <a href="https://www.e-typing.ne.jp/" style="color: #0000ff; text-decoration: underline;">e-Typing</a> (in Japanese) to get comfortable at the keyboard. After that I began learning Java on <a href="https://prog-8.com/" style="color: #0000ff; text-decoration: underline;">Progate</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Object-oriented programming was the first thing in Java that threw me. Broadly, it’s a way to group information with the operations that go with it. Back then, hearing the explanation didn’t make it click.</p>
+<p>Object-oriented programming was the first thing in Java that threw me. Broadly, it’s a way to group information with the operations that go with it. Back then, hearing the explanation didn’t make it click. <mark style="background-color:#fef08a;color:#422006" class="has-inline-color">When memorizing definitions stalls you, replacing abstract terms with an everyday object or routine</mark> makes the idea much easier to grasp.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -522,6 +563,18 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-
 <!-- wp:paragraph -->
 <p>Looking back, someone has already chosen the steps in a program you read. When you’re writing your own, you have to <mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">work out what needs to happen and in what order</mark>. I think that was the part I hadn’t yet learned to do.</p>
 <!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Three checks when you can read code but cannot write it</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>If you stall at the same point, checking which of these three gaps is holding you back makes the next step clearer.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div class="table-scroll"><table><thead><tr><th>What to check</th><th>Sign you are stuck here</th><th>Next step</th></tr></thead><tbody><tr><td>1. Can you state what you want to build in one sentence?</td><td>The goal stays vague, like “build a helpful tool”</td><td>Pick one input and one output to show on the screen</td></tr><tr><td>2. Can you list the order of steps in plain words?</td><td>You stare at a blank screen unsure where to begin</td><td>Write steps 1–4 in everyday language before coding</td></tr><tr><td>3. Is only the syntax unfamiliar?</td><td>You know the steps, yet cannot express them in code</td><td>Look up one small example for that feature and test it</td></tr></tbody></table></div>
+<!-- /wp:html -->
 </div>
 <!-- /wp:group -->
 
@@ -570,6 +623,28 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-
 <!-- wp:paragraph -->
 <p>Working on actual assignments at my company also helped me see, bit by bit, how to put the steps together. That part hadn’t been clear from reading explanations alone.</p>
 <!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Tips for using generative AI as a learning hint</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>When studying on your own with generative AI, asking questions in your own words helps you build understanding more than copying finished code as-is.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list">
+<!-- wp:list-item -->
+<li><strong>Share what you want to build and where you stopped:</strong> Instead of only saying “it doesn’t work,” write out the order of steps you had in mind first.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>Ask why and how the pieces divide:</strong> <mark style="background-color:#fee2e2;color:#991b1b" class="has-inline-color">Pasting long code blocks without checking what they do</mark> leaves you stuck when you need a change. Ask for a short plain-language walkthrough of the order of execution.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>Test one small piece at a time:</strong> Verify one input and one expected result before adding more parts.</li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
 </div>
 <!-- /wp:group -->
 
@@ -619,6 +694,10 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-
 <!-- wp:paragraph -->
 <p>If you get stuck when you sit down to code, <mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">pick one small feature and write out its steps in plain language</mark>. Is it hard to work out the order, or do you get stuck turning the steps into code? That gives you a better idea of what to work on next.</p>
 <!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>To practice breaking steps down with everyday examples, see <a href="https://www.nanasinogonbei.com/blog/2026/10/27/programming-logical-thinking/" style="color: #0000ff; text-decoration: underline;">Why Logical Thinking Matters in Programming: Everyday Examples and Paper Practice</a>. When you are ready to turn a familiar annoyance into a tiny app, <a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color: #0000ff; text-decoration: underline;">How to Turn a Personal Problem into a Homemade App: From Finding an Idea to a Small Prototype</a> walks through the full flow.</p>
+<!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
 
@@ -655,13 +734,16 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-
 <!-- wp:list -->
 <ul class="wp-block-list">
 <!-- wp:list-item -->
-<li><a href="https://www.nanasinogonbei.com/blog/2026/09/13/small-theater-performance-info/" style="color: #0000ff; text-decoration: underline;">Where to Find Small-Theater Performances and Discover Unfamiliar Companies</a></li>
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/27/programming-logical-thinking/" style="color: #0000ff; text-decoration: underline;">Why Logical Thinking Matters in Programming: Everyday Examples and Paper Practice</a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li><a href="https://www.nanasinogonbei.com/blog/2026/09/20/theater-ticket-search/" style="color: #0000ff; text-decoration: underline;">How to Find Small-Theater Productions on Ticket Websites: Listings and Reservation Forms Explained</a></li>
+<li><a href="https://www.nanasinogonbei.com/blog/2026/11/18/search-keywords-guide/" style="color: #0000ff; text-decoration: underline;">Google Search Tips: Choosing Keywords and Narrowing Results to Reliable Sources</a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li><a href="https://www.nanasinogonbei.com/blog/2026/09/28/crowdsourcing-problems-to-app-ideas/" style="color: #0000ff; text-decoration: underline;">How to Find App Ideas on Crowdsourcing Sites: Collect, Group, and Validate Real Problems</a></li>
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color: #0000ff; text-decoration: underline;">How to Turn a Personal Problem into a Homemade App: From Finding an Idea to a Small Prototype</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/11/24/youtube-direction-app/" style="color: #0000ff; text-decoration: underline;">Why Listening to Creators Made Me Want to Build a YouTube Channel Direction App</a></li>
 <!-- /wp:list-item -->
 </ul>
 <!-- /wp:list -->

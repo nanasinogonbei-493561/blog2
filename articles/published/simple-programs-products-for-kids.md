@@ -1,16 +1,16 @@
 ---
 categories:
 - 開発の裏側
-excerpt: プログラムは短ければよく、アプリは機能が少なければよいのでしょうか。仕事用デスクの引き出し整理や図書館で借りた本の返却メモを例に、作る人と使う人、それぞれの分かりやすさを説明します。必要な働きや安全を守りながら、余計な手間を減らす考え方を紙で確かめられます。
+excerpt: アプリやプログラムは機能が少ないほどよいのでしょうか。机の引き出し整理や本の返却メモを例に、使う人の迷いを減らしつつ安全や取り消し機能を守る設計の基準を整理しました。削ってよい項目と残すべき仕組みを、紙の画面と確認表で見分けられます。
 featured_image: articles/images/simple-programs-products-for-kids/01-desk-bag-v2.jpg
 featured_image_alt: 必要な道具が取り出しやすい整理された引き出しと、物が詰め込まれた引き出しを比べるイラスト
-slug: simple-programs-products-for-kids
+slug: simple-programs-products
 status: publish
 tags:
 - 個人開発
 - アプリ設計
 - 初心者向け
-title: プログラム・プロダクトは、できればシンプルであるべきか？
+title: アプリ設計はシンプルが正解？使いやすさと安全を両立する機能の絞り方
 wordpress_featured_media_id: 134
 wordpress_inline_media:
   01-desk-bag-v2.jpg:
@@ -34,7 +34,7 @@ wordpress_inline_media:
     id: 151
     url: https://www.nanasinogonbei.com/blog/wp-content/uploads/2026/11/05-paper-test-v2.png
 wordpress_post_id: 100
-wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-products-for-kids/
+wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-products/
 ---
 
 <!-- wp:html {"metadata":{"name":"画像・表・青色リンクの表示スタイル"}} -->
@@ -56,17 +56,13 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 
 <!-- wp:tab-panels -->
 <div class="wp-block-tab-panels"><!-- wp:tab-panel {"label":"日本語","metadata":{"name":"日本語本文"}} -->
-<section role="tabpanel" tabindex="0" class="wp-block-tab-panel"><!-- wp:group {"metadata":{"name":"ja: 導入"},"className":"simple-product-panel","layout":{"type":"default"}} -->
+<section role="tabpanel" tabindex="0" class="wp-block-tab-panel" lang="ja"><!-- wp:group {"metadata":{"name":"ja: 導入"},"className":"simple-product-panel","layout":{"type":"default"}} -->
 <div class="wp-block-group simple-product-panel"><!-- wp:paragraph -->
 <p>引き出しを軽くしたくて、仕事で使うノートやペンまで出してしまったら作業が進みません。プログラムやアプリも同じです。<strong><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">必要な働きや安全を残し、迷うところや余計な手間を減らす。</mark></strong> そのほうが、使う人にも作る人にも扱いやすくなります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>「プログラム」はコンピュータを動かす指示、「プロダクト」は人が使うために作ったものです。ここでは、普段使うスマホやパソコンのアプリを例に考えます。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>もとになったのは、<a href="https://zenn.dev/nanashinogonbei/articles/should-programs-and-products-be-simple" style="color:#0000ff;text-decoration:underline;">Zennの記事「プログラム・プロダクトは、出来ればシンプルであるべきか？」</a>です。このブログの別記事でも取り上げた「借りた本の返却メモ」を題材に、作る側と使う側それぞれのシンプルさを整理します。</p>
+<p>「プログラム」はコンピュータを動かす指示、「プロダクト」は人が使うために作ったものです。この記事では、普段使うアプリを題材に「削ってよい項目」と「残すべき安全の仕組み」の境目を整理します。</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -140,7 +136,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>手順を順番に考える練習は、<a href="https://www.nanasinogonbei.com/blog/2026/10/27/programming-logical-thinking-kids/" style="color:#0000ff;text-decoration:underline;">プログラミングと論理的思考力の関係性について</a>でも、日常の例を使って説明しています。</p>
+<p>手順を順番に考える練習は、<a href="https://www.nanasinogonbei.com/blog/2026/10/27/programming-logical-thinking/" style="color:#0000ff;text-decoration:underline;">プログラミングに論理的思考力は必要？日常の例と紙でできる練習法を解説</a>でも、日常の例を使って説明しています。</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -160,6 +156,10 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- wp:paragraph -->
 <p>記録するたびに、本の名前、返す日、出版社、ISBNコード、表紙の写真、星評価、読書メモまで毎回必須で入力するとしたらどうでしょう。返却日を控えたいだけなのに、書評を書き始めるような手間がかかります。</p>
 <!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">最初に必須にする項目と後回しにする項目</h3>
+<!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 <p>本の名前と返す日を保存して、一覧で見られれば目的は果たせます。お知らせを出すなら「返却済み」の印も用意します。読書メモは書きたい人があとから足せる形にすれば、毎回入力せずに済みます。</p>
@@ -223,7 +223,15 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 
 <!-- wp:paragraph -->
 <p>シンプルにすれば、間違いが絶対になくなるわけでもありません。必要な働きが残っているか、実際に動かして確かめることが必要です。</p>
-<!-- /wp:paragraph --></div>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">削ってよい工夫と、残すべき安全の仕組み</h3>
+<!-- /wp:heading -->
+
+<!-- wp:table {"hasFixedLayout":false} -->
+<figure class="wp-block-table"><table><thead><tr><th scope="col">見直す場所</th><th scope="col">最初に削ってよい例</th><th scope="col">残すべき働き・安全の仕組み</th></tr></thead><tbody><tr><td>入力項目</td><td>出版社や星評価など、なくても目的を果たせる項目</td><td>本の名前・返す日と、空欄や「2月30日」を防ぐ入力チェック</td></tr><tr><td>画面の見た目</td><td>飾りや細かい色分け設定、凝ったグラフ</td><td>保存失敗を伝える表示と、誤削除のやり直し・確認</td></tr><tr><td>裏側の処理</td><td>最初から大量の連携や複雑な自動化</td><td>他の人に記録を見られないようにするアクセス制御</td></tr></tbody></table></figure>
+<!-- /wp:table --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"ja: シンプルにできたかは、紙の画面と実際の動きで確かめます"},"className":"simple-product-panel","layout":{"type":"default"}} -->
@@ -272,13 +280,49 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- wp:paragraph -->
 <p>普段使っている道具を1つ思い浮かべて、「どこで迷ったか」「なくなると何が困るか」を書き出すところから始めてみてください。<strong>用事が済むこと、安全が守られること、あとから仕組みを追えること</strong>が、整理できたかを判断する基準になります。</p>
 <!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"ja: 参考・出典"},"className":"simple-product-panel","layout":{"type":"default"}} -->
+<div class="wp-block-group simple-product-panel"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">参考・出典</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li><a href="https://zenn.dev/nanashinogonbei/articles/should-programs-and-products-be-simple" style="color:#0000ff;text-decoration:underline;">もとになった記事「プログラム・プロダクトは、出来ればシンプルであるべきか？」（Zenn）</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://developer.mozilla.org/ja/docs/Learn_web_development/Extensions/Forms/Form_validation" style="color:#0000ff;text-decoration:underline;">MDN：クライアント側フォーム検証（入力内容の確認）</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html" style="color:#0000ff;text-decoration:underline;">OWASP：利用者のアクセス権限を確認するガイド</a></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"ja: 関連記事"},"className":"simple-product-panel","layout":{"type":"default"}} -->
+<div class="wp-block-group simple-product-panel"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">関連記事</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/27/programming-logical-thinking/" style="color:#0000ff;text-decoration:underline;">プログラミングに論理的思考力は必要？日常の例と紙でできる練習法を解説</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team-development/" style="color:#0000ff;text-decoration:underline;">Webとスマホアプリはどうつながる？バックエンド・画面の役割分担を図解</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color:#0000ff;text-decoration:underline;">自分の悩み・困り事を自作アプリにする方法｜題材の見つけ方から小さな試作まで</a></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
 <!-- /wp:group --></section>
 <!-- /wp:tab-panel -->
 
 <!-- wp:tab-panel {"label":"English","metadata":{"name":"English body"}} -->
-<section role="tabpanel" tabindex="0" class="wp-block-tab-panel"><!-- wp:group {"metadata":{"name":"en: Introduction"},"className":"simple-product-panel","layout":{"type":"default"}} -->
+<section role="tabpanel" tabindex="0" class="wp-block-tab-panel" lang="en"><!-- wp:group {"metadata":{"name":"en: Introduction"},"className":"simple-product-panel","layout":{"type":"default"}} -->
 <div class="wp-block-group simple-product-panel"><!-- wp:paragraph -->
-<p><strong>Should Programs and Products Be Simple When Possible?</strong></p>
+<p><strong>Should App Design Always Be Simple? Balancing Usability, Safety, and Feature Scope</strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -286,11 +330,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>A “program” is a set of instructions for a computer. A “product” is something made for people to use. Here we look at the phone and computer apps people use every day.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>This article builds on <a href="https://zenn.dev/nanashinogonbei/articles/should-programs-and-products-be-simple" style="color:#0000ff;text-decoration:underline;">the Zenn article “Should Programs and Products Be Simple When Possible?” (in Japanese)</a>. Using the borrowed-book return memo explored elsewhere on this blog, it explains simplicity from both the maker’s and the user’s side.</p>
+<p>A “program” is a set of instructions for a computer. A “product” is something made for people to use. Using everyday apps as examples, this guide draws the line between items you can cut and safeguards you need to keep.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -364,7 +404,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>For more practice planning steps, <a href="https://www.nanasinogonbei.com/blog/2026/10/27/programming-logical-thinking-kids/" style="color:#0000ff;text-decoration:underline;">How Programming Connects to Logical Thinking</a> uses everyday examples too.</p>
+<p>For more practice planning steps, <a href="https://www.nanasinogonbei.com/blog/2026/10/27/programming-logical-thinking/" style="color:#0000ff;text-decoration:underline;">Why Logical Thinking Matters in Programming: Everyday Examples and Paper Practice</a> uses everyday examples too.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -384,6 +424,10 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- wp:paragraph -->
 <p>What if every entry required the title, return date, publisher, ISBN, cover photo, star rating, and reading notes? You only wanted to track the due date, yet adding a book would feel like writing a full review.</p>
 <!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">What to require first vs. what to make optional</h3>
+<!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 <p>Save the title and return date and show them in a list. If reminders exist, let people mark a book as returned. Anyone who wants to jot down reading notes can add them optionally later, without making it a required step every time.</p>
@@ -447,7 +491,15 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 
 <!-- wp:paragraph -->
 <p>Simplicity does not guarantee zero mistakes. You still need to run the app and verify that its required protections and features work.</p>
-<!-- /wp:paragraph --></div>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">What you can simplify vs. protections you should keep</h3>
+<!-- /wp:heading -->
+
+<!-- wp:table {"hasFixedLayout":false} -->
+<figure class="wp-block-table"><table><thead><tr><th scope="col">Area to review</th><th scope="col">Safe to leave out at first</th><th scope="col">Behaviors and protections to keep</th></tr></thead><tbody><tr><td>Input fields</td><td>Publisher, star ratings, or fields unnecessary for the task</td><td>Title, return date, and checks blocking blank entries or “February 30”</td></tr><tr><td>Screen layout</td><td>Decorative styling, custom color themes, or extra charts</td><td>Clear save-failure errors and confirmation or Undo before deletion</td></tr><tr><td>Behind the scenes</td><td>Large integrations or complex automation on day one</td><td>Access checks preventing other users from viewing your records</td></tr></tbody></table></figure>
+<!-- /wp:table --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"en: Check simplicity with paper screens and the working app"},"className":"simple-product-panel","layout":{"type":"default"}} -->
@@ -496,6 +548,42 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-pr
 <!-- wp:paragraph -->
 <p>Pick a tool you use regularly and write down where you hesitate and what you’d miss if it disappeared. <strong>Can you finish the task? Are you protected? Could the person maintaining it follow what happens?</strong> Those questions help you judge whether you’ve simplified well.</p>
 <!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"en: Sources and references"},"className":"simple-product-panel","layout":{"type":"default"}} -->
+<div class="wp-block-group simple-product-panel"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Sources and references</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li><a href="https://zenn.dev/nanashinogonbei/articles/should-programs-and-products-be-simple" style="color:#0000ff;text-decoration:underline;">Original Zenn article: “Should Programs and Products Be Simple When Possible?” (in Japanese)</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation" style="color:#0000ff;text-decoration:underline;">MDN: Client-side form validation</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html" style="color:#0000ff;text-decoration:underline;">OWASP Authorization Cheat Sheet</a></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"en: Related articles"},"className":"simple-product-panel","layout":{"type":"default"}} -->
+<div class="wp-block-group simple-product-panel"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Related articles</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/27/programming-logical-thinking/" style="color:#0000ff;text-decoration:underline;">Why Logical Thinking Matters in Programming: Everyday Examples and Paper Practice</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team-development/" style="color:#0000ff;text-decoration:underline;">How Web and Mobile Apps Work Together: Separating Backend and Frontend Roles</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color:#0000ff;text-decoration:underline;">How to Turn a Personal Problem into a Homemade App: From Finding an Idea to a Small Prototype</a></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
 <!-- /wp:group --></section>
 <!-- /wp:tab-panel --></div>
 <!-- /wp:tab-panels --></div>

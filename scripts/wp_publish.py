@@ -21,6 +21,13 @@ from wp_media import upload_media
 
 ROOT = Path(__file__).resolve().parent.parent
 
+SEO_DESCRIPTION_META_KEYS = {
+    "seo_simple_pack": "ssp_meta_description",
+    "yoast": "_yoast_wpseo_metadesc",
+    "aioseo": "_aioseo_description",
+    "rank_math": "rank_math_description",
+}
+
 
 def load_config() -> dict[str, Any]:
     with (ROOT / "config" / "blog.yaml").open("r", encoding="utf-8") as f:
@@ -93,6 +100,41 @@ def as_string_list(value: Any) -> list[str]:
 def resolve_featured_image(article_path: Path, value: str) -> Path | None:
     if not value.strip():
         return None
+
+
+def build_seo_meta(
+    meta: dict[str, Any],
+    config: dict[str, Any],
+    excerpt: str,
+) -> dict[str, Any]:
+    """SEOプラグイン向けmeta descriptionと将来のhreflang用メタ値を組み立てる。"""
+    seo_cfg = config.get("seo", {}) or {}
+    custom_meta: dict[str, Any] = {}
+
+    plugin = str(seo_cfg.get("plugin", "none")).strip().lower()
+    if plugin and plugin != "none":
+        desc_key = (
+            str(seo_cfg.get("meta_description_key", "")).strip()
+            if plugin == "custom"
+            else SEO_DESCRIPTION_META_KEYS.get(plugin, "")
+        )
+        if not desc_key:
+            raise ValueError(f"未対応の seo.plugin です: {plugin}")
+        desc = str(meta.get("meta_description") or excerpt or "").strip()
+        if desc:
+            custom_meta[desc_key] = desc
+
+    if bool(seo_cfg.get("enable_hreflang_meta", False)):
+        ja_url = str(meta.get("hreflang_ja_url", "")).strip()
+        en_url = str(meta.get("hreflang_en_url", "")).strip()
+        ja_key = str(seo_cfg.get("hreflang_ja_meta_key", "_blog_hreflang_ja_url")).strip()
+        en_key = str(seo_cfg.get("hreflang_en_meta_key", "_blog_hreflang_en_url")).strip()
+        if ja_url and ja_key:
+            custom_meta[ja_key] = ja_url
+        if en_url and en_key:
+            custom_meta[en_key] = en_url
+
+    return custom_meta
     p = Path(value)
     candidates = []
     if p.is_absolute():
@@ -172,6 +214,9 @@ def article_to_payload(
         payload["slug"] = slug
     if excerpt:
         payload["excerpt"] = excerpt
+    seo_meta = build_seo_meta(meta, config, excerpt)
+    if seo_meta:
+        payload["meta"] = seo_meta
     if category_ids:
         payload["categories"] = category_ids
     if tag_ids:

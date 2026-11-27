@@ -1,7 +1,7 @@
 ---
 categories:
 - 開発の裏側
-excerpt: 家のパソコンで保存した本の返却日を、外でスマホから見るには？ 図書館の窓口と裏方にたとえると、Webとスマホで何を分け、どこを共通にするかが見えてきます。チームで先に決めることや、古いアプリを使い続けられるように更新する方法も扱います。
+excerpt: 家のパソコンで保存した記録を、外出先のスマホでも見るにはどう作ればよいのか。図書館の窓口と裏方のたとえで、バックエンド・Web・スマホアプリの役割分担やAPIの約束、段階的な更新方法まで初心者向けに分かりやすく整理しました。
 featured_image: articles/images/multiplatform-team-development/01-three-roles-v2.png
 featured_image_alt: 1つの台帳を管理する図書館の司書と、パソコン・スマートフォンで同じ本の記録を見る2人の大人のイラスト
 slug: multiplatform-team-development
@@ -10,7 +10,7 @@ tags:
 - マルチプラットフォーム開発
 - アプリ設計
 - チーム開発
-title: バックエンド・フロントエンド・モバイルを分けるマルチプラットフォーム開発
+title: Webとスマホアプリはどうつながる？バックエンド・画面の役割分担を図解
 wordpress_featured_media_id: 137
 wordpress_inline_media:
   01-three-roles-v2.png:
@@ -63,7 +63,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- wp:tab-panels -->
 <div class="wp-block-tab-panels">
 <!-- wp:tab-panel {"label":"日本語","metadata":{"name":"日本語本文"}} -->
-<section role="tabpanel" tabindex="0" class="wp-block-tab-panel">
+<section role="tabpanel" tabindex="0" class="wp-block-tab-panel" lang="ja">
 <!-- wp:group {"metadata":{"name":"ja: 導入"},"className":"mpt-panel","layout":{"type":"default"}} -->
 <div class="wp-block-group mpt-panel">
 <!-- wp:paragraph -->
@@ -71,11 +71,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>図書館なら、窓口と裏方にどんな仕事を任せるでしょうか。役割の決め方から、チームでつないで試すところまで、紙でもたどれる例を使います。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><a href="https://zenn.dev/nanashinogonbei/articles/multiplatform-team-development" style="color:#0000ff;text-decoration:underline;">Zennのマルチプラットフォーム開発の記事</a>で扱う役割分担や連携の考え方を、別の記事でも使ってきた「本の返却メモ」を架空のアプリ例として説明し直します。</p>
+<p>図書館なら、窓口と裏方にどんな仕事を任せるでしょうか。役割の決め方から、チームでつないで試すところまで、「本の返却メモ」を架空の例にして紙でもたどれる形で整理します。</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -375,7 +371,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>どこまで減らしてよいか迷うときは、<a href="https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-products-for-kids/" style="color:#0000ff;text-decoration:underline;">プログラム・プロダクトは、できればシンプルであるべきか？</a>でも、必要な働きと安全を残して整理する考え方を説明しています。</p>
+<p>どこまで減らしてよいか迷うときは、<a href="https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-products/" style="color:#0000ff;text-decoration:underline;">アプリ設計はシンプルが正解？使いやすさと安全を両立する機能の絞り方</a>でも、必要な働きと安全を残して整理する考え方を説明しています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"metadata":{"name":"ja: 裏方を共通にしても、安全や通信の問題は残る"},"className":"mpt-subsection","layout":{"type":"default"}} -->
@@ -485,15 +481,34 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:group -->
 </div>
 <!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"ja: 関連記事"},"className":"mpt-panel","layout":{"type":"default"}} -->
+<div class="wp-block-group mpt-panel">
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">関連記事</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list">
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-products/" style="color:#0000ff;text-decoration:underline;">アプリ設計はシンプルが正解？使いやすさと安全を両立する機能の絞り方</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color:#0000ff;text-decoration:underline;">自分の悩み・困り事を自作アプリにする方法｜題材の見つけ方から小さな試作まで</a></li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+</div>
+<!-- /wp:group -->
 </section>
 <!-- /wp:tab-panel -->
 
 <!-- wp:tab-panel {"label":"English","metadata":{"name":"English article"}} -->
-<section role="tabpanel" tabindex="0" class="wp-block-tab-panel">
+<section role="tabpanel" tabindex="0" class="wp-block-tab-panel" lang="en">
 <!-- wp:group {"metadata":{"name":"en: Introduction"},"className":"mpt-panel","layout":{"type":"default"}} -->
 <div class="wp-block-group mpt-panel">
 <!-- wp:paragraph -->
-<p><strong>Multiplatform Development: Separating Backend, Web Frontend, and Mobile</strong></p>
+<p><strong>How Web and Mobile Apps Work Together: Separating Backend and Frontend Roles</strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -501,11 +516,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>What would you put at the counter of a public library, and what would you leave to the staff behind it? We’ll use that example to work out who does what and test it on paper.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>This article builds on <a href="https://zenn.dev/nanashinogonbei/articles/multiplatform-team-development" style="color:#0000ff;text-decoration:underline;">the original Zenn article on multiplatform development (in Japanese)</a>, walking through responsibilities and coordination using the fictional book-return memo explored elsewhere on this blog.</p>
+<p>What would you put at the counter of a public library, and what would you leave to the staff behind it? Using a fictional book-return memo, this guide walks through how to divide roles, coordinate as a team, and trace the flow on paper.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -805,7 +816,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>For another perspective on keeping necessary behavior and safety while reducing complexity, see <a href="https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-products-for-kids/" style="color:#0000ff;text-decoration:underline;">Should Programs and Products Be Simple When Possible?</a>.</p>
+<p>For another perspective on keeping necessary behavior and safety while reducing complexity, see <a href="https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-products/" style="color:#0000ff;text-decoration:underline;">Should App Design Always Be Simple? Balancing Usability, Safety, and Feature Scope</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"metadata":{"name":"en: A shared backend still needs access controls and a plan for lost connections"},"className":"mpt-subsection","layout":{"type":"default"}} -->
@@ -913,6 +924,25 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/11/multiplatform-team
 <!-- /wp:list -->
 </div>
 <!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"en: Related articles"},"className":"mpt-panel","layout":{"type":"default"}} -->
+<div class="wp-block-group mpt-panel">
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Related articles</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list">
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-products/" style="color:#0000ff;text-decoration:underline;">Should App Design Always Be Simple? Balancing Usability, Safety, and Feature Scope</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.nanasinogonbei.com/blog/2026/10/21/personal-problem-to-app/" style="color:#0000ff;text-decoration:underline;">How to Turn a Personal Problem into a Homemade App: From Finding an Idea to a Small Prototype</a></li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
 </div>
 <!-- /wp:group -->
 </section>

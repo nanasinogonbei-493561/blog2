@@ -80,3 +80,13 @@ article:
     - APIやDBなどの説明を前面に出すこと
     - 専門用語だけで説明すること
     - 技術者しか分からない略語の多用
+seo:
+  plugin: "none" # none | seo_simple_pack | yoast | aioseo | rank_math | custom
+  meta_description_key: ""
+  enable_hreflang_meta: false
+  hreflang_ja_meta_key: "_blog_hreflang_ja_url"
+  hreflang_en_meta_key: "_blog_hreflang_en_url"
+bilingual:
+  mode: "tabs" # tabs | separate_urls
+  default_locale: "ja"
+  en_path_prefix: "/blog/en/"

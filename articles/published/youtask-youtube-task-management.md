@@ -197,7 +197,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/22/youtask-youtube-ta
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">あらかじめ「数字・短い文字・タグ」の箱を用意しておくと、記録する手間が減り、あとから条件を絞って見える化しやすくなります。</mark> 入力項目を最初から絞り込んで使いやすくする考え方は、<a href="https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-products-for-kids/" style="color: #0000ff; text-decoration: underline;">プログラム・プロダクトは、出来ればシンプルであるべきか？</a>にもつながる設計方針です。</p>
+<p><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">あらかじめ「数字・短い文字・タグ」の箱を用意しておくと、記録する手間が減り、あとから条件を絞って見える化しやすくなります。</mark> 入力項目を最初から絞り込んで使いやすくする考え方は、<a href="https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-products/" style="color: #0000ff; text-decoration: underline;">アプリ設計はシンプルが正解？使いやすさと安全を両立する機能の絞り方</a>にもつながる設計方針です。</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -467,7 +467,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/11/22/youtask-youtube-ta
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">Providing fixed boxes for numbers, brief text, and tags lowers daily entry effort while making patterns easy to filter and see later.</mark> Keeping input fields simple and focused follows the same principle discussed in <a href="https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-products-for-kids/" style="color: #0000ff; text-decoration: underline;">Should Programs and Products Be Simple When Possible?</a>.</p>
+<p><mark style="background-color:#dbeafe;color:#1e3a8a" class="has-inline-color">Providing fixed boxes for numbers, brief text, and tags lowers daily entry effort while making patterns easy to filter and see later.</mark> Keeping input fields simple and focused follows the same principle discussed in <a href="https://www.nanasinogonbei.com/blog/2026/11/02/simple-programs-products/" style="color: #0000ff; text-decoration: underline;">Should App Design Always Be Simple? Balancing Usability, Safety, and Feature Scope</a>.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

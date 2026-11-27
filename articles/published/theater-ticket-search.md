@@ -336,7 +336,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/20/theater-ticket-sea
 <!-- wp:list -->
 <ul class="wp-block-list">
 <!-- wp:list-item -->
-<li><a href="https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-learning-roadmap/" style="color: #0000ff; text-decoration: underline;">自己紹介とプログラミング学習ロードマップ｜未経験から独学で歩んだ3年間</a></li>
+<li><a href="https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-learning-roadmap/" style="color: #0000ff; text-decoration: underline;">プログラミング独学ロードマップ｜40歳未経験から3年間でつまずいた壁と対処法</a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
 <li><a href="https://www.nanasinogonbei.com/blog/2026/09/13/small-theater-performance-info/" style="color: #0000ff; text-decoration: underline;">小劇場の公演情報はどこで探す？まだ知らない劇団の舞台を見つける方法</a></li>
@@ -641,7 +641,7 @@ wordpress_url: https://www.nanasinogonbei.com/blog/2026/09/20/theater-ticket-sea
 <!-- wp:list -->
 <ul class="wp-block-list">
 <!-- wp:list-item -->
-<li><a href="https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-learning-roadmap/" style="color: #0000ff; text-decoration: underline;">About Me and My Programming Learning Roadmap: Three Years of Self-Study</a></li>
+<li><a href="https://www.nanasinogonbei.com/blog/2026/09/07/self-introduction-learning-roadmap/" style="color: #0000ff; text-decoration: underline;">Self-Taught Programming Roadmap: Three Years of Roadblocks and Lessons Starting at 40</a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
 <li><a href="https://www.nanasinogonbei.com/blog/2026/09/13/small-theater-performance-info/" style="color: #0000ff; text-decoration: underline;">Where to Find Small-Theater Performances and Discover Unfamiliar Companies</a></li>
